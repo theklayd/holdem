@@ -394,29 +394,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
 /* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/sales/head-office-list/head-office-list.component */ "./src/app/components/sales/head-office-list/head-office-list.component.ts");
-/* harmony import */ var _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/sales/member-list/member-list.component */ "./src/app/components/sales/member-list/member-list.component.ts");
-/* harmony import */ var _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/calculate/calculate-manage/calculate-manage.component */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.ts");
-/* harmony import */ var _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/calculate/user-profit/user-profit.component */ "./src/app/components/calculate/user-profit/user-profit.component.ts");
-/* harmony import */ var _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/user/connecting-user/connecting-user.component */ "./src/app/components/user/connecting-user/connecting-user.component.ts");
-/* harmony import */ var _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/user/black-list/black-list.component */ "./src/app/components/user/black-list/black-list.component.ts");
-/* harmony import */ var _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/user/ipinquire/ipinquire.component */ "./src/app/components/user/ipinquire/ipinquire.component.ts");
-/* harmony import */ var _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/deposit_withdraw/deposit-management/deposit-management.component */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.ts");
-/* harmony import */ var _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/deposit_withdraw/withdraw-management/withdraw-management.component */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.ts");
-/* harmony import */ var _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/notice/lobby-notice/lobby-notice.component */ "./src/app/components/notice/lobby-notice/lobby-notice.component.ts");
-/* harmony import */ var _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/notice/in-gaming-table/in-gaming-table.component */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.ts");
-/* harmony import */ var _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/notice/one-on-one-support/one-on-one-support.component */ "./src/app/components/notice/one-on-one-support/one-on-one-support.component.ts");
-/* harmony import */ var _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/log/game-log/game-log.component */ "./src/app/components/log/game-log/game-log.component.ts");
-/* harmony import */ var _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/log/jackpot-log/jackpot-log.component */ "./src/app/components/log/jackpot-log/jackpot-log.component.ts");
-/* harmony import */ var _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/log/transfer-log/transfer-log.component */ "./src/app/components/log/transfer-log/transfer-log.component.ts");
-/* harmony import */ var _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/log/point-log/point-log.component */ "./src/app/components/log/point-log/point-log.component.ts");
-/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
-/* harmony import */ var _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/pending/add-user/add-user.component */ "./src/app/components/pending/add-user/add-user.component.ts");
-/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
-/* harmony import */ var _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/master-page/master-page.component */ "./src/app/components/master-page/master-page.component.ts");
-/* harmony import */ var _directives_translate_directive__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./directives/translate.directive */ "./src/app/directives/translate.directive.ts");
-/* harmony import */ var _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../app/services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../app/services/UserAuth/user-auth.guard */ "./src/app/services/UserAuth/user-auth.guard.ts");
+/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/slider */ "./node_modules/@angular/material/esm5/slider.es5.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm5/progress-spinner.es5.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/sales/head-office-list/head-office-list.component */ "./src/app/components/sales/head-office-list/head-office-list.component.ts");
+/* harmony import */ var _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/sales/member-list/member-list.component */ "./src/app/components/sales/member-list/member-list.component.ts");
+/* harmony import */ var _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/calculate/calculate-manage/calculate-manage.component */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.ts");
+/* harmony import */ var _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/calculate/user-profit/user-profit.component */ "./src/app/components/calculate/user-profit/user-profit.component.ts");
+/* harmony import */ var _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/user/connecting-user/connecting-user.component */ "./src/app/components/user/connecting-user/connecting-user.component.ts");
+/* harmony import */ var _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/user/black-list/black-list.component */ "./src/app/components/user/black-list/black-list.component.ts");
+/* harmony import */ var _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/user/ipinquire/ipinquire.component */ "./src/app/components/user/ipinquire/ipinquire.component.ts");
+/* harmony import */ var _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/deposit_withdraw/deposit-management/deposit-management.component */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.ts");
+/* harmony import */ var _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/deposit_withdraw/withdraw-management/withdraw-management.component */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.ts");
+/* harmony import */ var _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/notice/lobby-notice/lobby-notice.component */ "./src/app/components/notice/lobby-notice/lobby-notice.component.ts");
+/* harmony import */ var _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/notice/in-gaming-table/in-gaming-table.component */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.ts");
+/* harmony import */ var _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/notice/one-on-one-support/one-on-one-support.component */ "./src/app/components/notice/one-on-one-support/one-on-one-support.component.ts");
+/* harmony import */ var _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/log/game-log/game-log.component */ "./src/app/components/log/game-log/game-log.component.ts");
+/* harmony import */ var _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/log/jackpot-log/jackpot-log.component */ "./src/app/components/log/jackpot-log/jackpot-log.component.ts");
+/* harmony import */ var _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/log/transfer-log/transfer-log.component */ "./src/app/components/log/transfer-log/transfer-log.component.ts");
+/* harmony import */ var _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/log/point-log/point-log.component */ "./src/app/components/log/point-log/point-log.component.ts");
+/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
+/* harmony import */ var _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/pending/add-user/add-user.component */ "./src/app/components/pending/add-user/add-user.component.ts");
+/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
+/* harmony import */ var _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/master-page/master-page.component */ "./src/app/components/master-page/master-page.component.ts");
+/* harmony import */ var _directives_translate_directive__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./directives/translate.directive */ "./src/app/directives/translate.directive.ts");
+/* harmony import */ var _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../app/services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../app/services/UserAuth/user-auth.guard */ "./src/app/services/UserAuth/user-auth.guard.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -428,6 +431,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 //modules
+
+
+
 
 
 
@@ -471,38 +477,38 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var routes = [
     { path: 'admin',
-        component: _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_27__["MasterPageComponent"],
-        canActivate: [_app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_30__["UserAuthGuard"]],
+        component: _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__["MasterPageComponent"],
+        canActivate: [_app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__["UserAuthGuard"]],
         children: [
             //sales
-            { path: 'headOfficeList', component: _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_8__["HeadOfficeListComponent"] },
-            { path: 'memberList', component: _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_9__["MemberListComponent"] },
+            { path: 'headOfficeList', component: _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__["HeadOfficeListComponent"] },
+            { path: 'memberList', component: _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__["MemberListComponent"] },
             //calculate
-            { path: 'calculateManage', component: _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_10__["CalculateManageComponent"] },
-            { path: 'userProfit', component: _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_11__["UserProfitComponent"] },
+            { path: 'calculateManage', component: _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__["CalculateManageComponent"] },
+            { path: 'userProfit', component: _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__["UserProfitComponent"] },
             //user
-            { path: 'connectingUser', component: _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_12__["ConnectingUserComponent"] },
-            { path: 'blackList', component: _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_13__["BlackListComponent"] },
-            { path: 'IPinquire', component: _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_14__["IPinquireComponent"] },
+            { path: 'connectingUser', component: _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__["ConnectingUserComponent"] },
+            { path: 'blackList', component: _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__["BlackListComponent"] },
+            { path: 'IPinquire', component: _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__["IPinquireComponent"] },
             //deposit_withdraw
-            { path: 'depositManagement', component: _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_15__["DepositManagementComponent"] },
-            { path: 'withdrawManagement', component: _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_16__["WithdrawManagementComponent"] },
+            { path: 'depositManagement', component: _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__["DepositManagementComponent"] },
+            { path: 'withdrawManagement', component: _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__["WithdrawManagementComponent"] },
             //notice
-            { path: 'lobbyNotice', component: _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_17__["LobbyNoticeComponent"] },
-            { path: 'inGamingTable', component: _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_18__["InGamingTableComponent"] },
-            { path: '1on1support', component: _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_19__["OneOnOneSupportComponent"] },
+            { path: 'lobbyNotice', component: _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__["LobbyNoticeComponent"] },
+            { path: 'inGamingTable', component: _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__["InGamingTableComponent"] },
+            { path: '1on1support', component: _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__["OneOnOneSupportComponent"] },
             //log
-            { path: 'gameLog', component: _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_20__["GameLogComponent"] },
-            { path: 'jackpotLog', component: _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_21__["JackpotLogComponent"] },
-            { path: 'transferLog', component: _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_22__["TransferLogComponent"] },
-            { path: 'pointLog', component: _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_23__["PointLogComponent"] },
+            { path: 'gameLog', component: _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__["GameLogComponent"] },
+            { path: 'jackpotLog', component: _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__["JackpotLogComponent"] },
+            { path: 'transferLog', component: _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__["TransferLogComponent"] },
+            { path: 'pointLog', component: _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__["PointLogComponent"] },
             //pending
-            { path: 'addUser', component: _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_25__["AddUserComponent"] },
-            { path: "dashboard", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__["DashboardComponent"] },
-            { path: "**", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__["DashboardComponent"] }
+            { path: 'addUser', component: _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__["AddUserComponent"] },
+            { path: "dashboard", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"] },
+            { path: "**", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"] }
         ]
     },
-    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_26__["LoginComponent"] },
+    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__["LoginComponent"] },
     { path: '', redirectTo: 'admin', pathMatch: 'full' }
 ];
 Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
@@ -513,27 +519,27 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_8__["HeadOfficeListComponent"],
-                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_9__["MemberListComponent"],
-                _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_10__["CalculateManageComponent"],
-                _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_11__["UserProfitComponent"],
-                _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_12__["ConnectingUserComponent"],
-                _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_13__["BlackListComponent"],
-                _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_14__["IPinquireComponent"],
-                _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_15__["DepositManagementComponent"],
-                _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_16__["WithdrawManagementComponent"],
-                _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_17__["LobbyNoticeComponent"],
-                _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_18__["InGamingTableComponent"],
-                _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_19__["OneOnOneSupportComponent"],
-                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_20__["GameLogComponent"],
-                _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_21__["JackpotLogComponent"],
-                _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_22__["TransferLogComponent"],
-                _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_25__["AddUserComponent"],
-                _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__["DashboardComponent"],
-                _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_23__["PointLogComponent"],
-                _components_login_login_component__WEBPACK_IMPORTED_MODULE_26__["LoginComponent"],
-                _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_27__["MasterPageComponent"],
-                _directives_translate_directive__WEBPACK_IMPORTED_MODULE_28__["TranslateDirective"]
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__["HeadOfficeListComponent"],
+                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__["MemberListComponent"],
+                _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__["CalculateManageComponent"],
+                _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__["UserProfitComponent"],
+                _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__["ConnectingUserComponent"],
+                _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__["BlackListComponent"],
+                _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__["IPinquireComponent"],
+                _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__["DepositManagementComponent"],
+                _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__["WithdrawManagementComponent"],
+                _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__["LobbyNoticeComponent"],
+                _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__["InGamingTableComponent"],
+                _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__["OneOnOneSupportComponent"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__["GameLogComponent"],
+                _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__["JackpotLogComponent"],
+                _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__["TransferLogComponent"],
+                _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__["AddUserComponent"],
+                _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"],
+                _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__["PointLogComponent"],
+                _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__["LoginComponent"],
+                _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__["MasterPageComponent"],
+                _directives_translate_directive__WEBPACK_IMPORTED_MODULE_31__["TranslateDirective"]
             ],
             imports: [
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
@@ -541,12 +547,15 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 angular_font_awesome__WEBPACK_IMPORTED_MODULE_4__["AngularFontAwesomeModule"],
                 _angular_http__WEBPACK_IMPORTED_MODULE_6__["HttpModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot(routes)
+                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot(routes),
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["BrowserAnimationsModule"],
+                _angular_material_slider__WEBPACK_IMPORTED_MODULE_8__["MatSliderModule"],
+                _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"]
             ],
             // exports:[RouterModule],
             providers: [
-                _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_29__["CommonService"],
-                _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_30__["UserAuthGuard"]
+                _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_32__["CommonService"],
+                _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__["UserAuthGuard"]
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
         })
@@ -576,7 +585,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">calculate management</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n    <!-- dropdowns -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <button class=\"w3-mobile w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px;\">search</button>\n      </div>\n      <!-- from to date dropdowns -->\n        <!-- to -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- from end -->\n\n     <!-- from to date dropdowns end --> \n    </div>\n    <!-- dropdowns end -->\n\n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>commission</th>\n                <th>deposit</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw</th>\n                <th>withdraw(transfer)</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>user holding money</th>\n                <th>Operating Head office profit</th>\n                <th>head office money</th>\n                <th>money of low rank</th>\n                <th>low rank</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">low rank</button>\n                  </div>\n\n                </td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">calculate management</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- search form -->\n  <form (submit)=\"searchList($event)\">\n    <!-- from to date dropdowns -->  \n    <div class=\"w3-row\">\n      <!-- button -->\n        <div class=\"w3-left\">\n          <button *ngIf=\"maxUpstep != pageIndex\" class=\"w3-btn w3-round w3-text-gray w3-animate-right\" (click)=\"uprank()\"  style=\"background-color: #7dd2ec;  margin-left: 15px\"><fa name=\"arrow-left\" size=\"lg\"></fa></button>\n        </div>\n\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n        </div>\n      <!-- button end -->\n      <!-- to -->\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n            <p>시</p>\n        </div>\n        <!-- time text end -->\n      \n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"00:00:00\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                <option value=\"2018-\" selected>2018</option>\n            </select>\n          </div>\n        <!-- year end -->\n\n      <!-- to end -->\n      \n      <!-- from -->\n\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>시~</p>\n        </div>\n        <!-- time text end -->\n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"23:59:59\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                <option value=\"2018-\" selected>2018</option>\n            </select>\n          </div>\n        <!-- year end -->\n      <!-- from end -->\n    </div>\n    <!-- from to date dropdowns end --> \n  </form>\n  <!-- search form end -->\n\n  <!-- table head offices -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">HO</span> \n                  <span *ngIf=\"pageIndex == 1\">Distributor</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span>  \n                  ID\n                </th>\n                <th>commission</th>\n                <th>deposit</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw</th>\n                <th>withdraw(transfer)</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>user holding money</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">Operating Head office</span> \n                  <span *ngIf=\"pageIndex == 1\">HO office</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span> \n                  profit\n                </th>\n                <!-- can be seen by operating head office only  -->\n                <th *ngIf=\"pageIndex == 2\">head office money</th>\n                <th *ngIf=\"pageIndex == 2\">money of low rank</th>\n                <!-- head office' view  -->\n                <th *ngIf=\"pageIndex == 1\">low rank profit</th>\n\n\n                <th *ngIf=\"pageIndex >= 1\">low rank</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr *ngFor=\"let cm of CalculateManageList;\">\n                <td>{{cm.row_number}}</td>\n                <td>{{cm.UserName}}</td>\n                <td><strong class=\"w3-text-blue\">{{cm.Commission}}%</strong></td>\n                <td>{{cm.deposit | number}}</td>\n                <td>{{cm.depositTransfer | number}}</td>\n                <td>{{cm.withdraw | number}}</td>\n                <td>{{cm.withdrawTransfer | number}}</td>\n                <td>{{cm.bettingAmount | number}}</td>\n                <td>{{cm.rake | number}}</td>\n                <td>{{cm.userHoldingMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2 || pageIndex == 1\">{{cm.parentProfit | number}}&nbsp;(<strong class=\"w3-text-blue\">{{cm.ohoPercent}}%</strong>)</td>\n                <td *ngIf=\"pageIndex == 1 || pageIndex == 0\">{{cm.storesProfit | number}}</td>\n                <td *ngIf=\"pageIndex == 2\">{{cm.hoMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2\" >{{cm.distributorsMoney | number}}</td>\n                \n                <td *ngIf=\"pageIndex >= 1\">\n                  <div style=\"margin: 3px\">\n                    <button type=\"button\" (click)=\"lowrank(cm.UserAccountID)\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">low rank</button>\n                  </div>\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"100%\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table head offices end -->\n\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <!-- <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button> -->\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
 
 /***/ }),
 
@@ -591,6 +600,11 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CalculateManageComponent", function() { return CalculateManageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/calculate/lowrank/lowrank.service */ "./src/app/services/calculate/lowrank/lowrank.service.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -601,10 +615,299 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+
+
+
 var CalculateManageComponent = /** @class */ (function () {
-    function CalculateManageComponent() {
+    function CalculateManageComponent(commonSrvc, lowrankSrvc, userCredentialsSrvc) {
+        this.commonSrvc = commonSrvc;
+        this.lowrankSrvc = lowrankSrvc;
+        this.userCredentialsSrvc = userCredentialsSrvc;
+        //key to html elements
+        this.key = [
+            false,
+            false,
+            false //operating
+        ];
+        this.parentIDHistory = [];
+        //service variables
+        this.pageIndex = 1;
+        this.CalculateManageList = [];
+        this.currentLowRank = 1;
+        //pagination variables
+        this.currentPage = 0;
+        //this involved in paginate function
+        this.currentPaginationButton = 1;
+        this.pages = [];
+        this.paginationValues = [];
+        this.offset = 0;
+        //pagination variables end
+        //search variables
+        this.searchResult = false;
+        this.backLoading = true;
+        this.hidePagination = false;
+        //answer variables
+        this.answer = false;
+        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
+        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
     }
+    //lifecycle hooks
     CalculateManageComponent.prototype.ngOnInit = function () {
+        if (!this.userCredentials) {
+            console.log('requested... ');
+            this.getUserCredentials();
+        }
+        this.onComponent = true;
+        this.activateGetListAndPageCount();
+    };
+    CalculateManageComponent.prototype.ngOnDestroy = function () {
+        this.onComponent = false;
+        console.log('you leave 1on1 support');
+    };
+    //lifecycle hooks end
+    // get user credentials for validation
+    CalculateManageComponent.prototype.getUserCredentials = function () {
+        var _this = this;
+        this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey))
+            .subscribe(function (res) {
+            console.log(res);
+            _this.userCredentials = res;
+            _this.currentCommission = res.Commission;
+            _this.currentParentID = res.UserAccountID;
+            _this.parentIDHistory.push(res.UserAccountID);
+            var level;
+            if (res.AccountType == "OperatingHeadOffice") {
+                level = 3;
+                _this.maxUpstep = 2;
+                _this.pageIndex = 2;
+            }
+            else if (res.AccountType == "HeadOffice") {
+                level = 2;
+                _this.maxUpstep = 1;
+                _this.pageIndex = 1;
+            }
+            else if (res.AccountType == "Distributor") {
+                level = 1;
+                _this.maxUpstep = 0;
+                _this.pageIndex = 0;
+            }
+            else {
+                // should be logged out because shop or edited account type is not allowed here
+            }
+            for (var i = 0; i < level; i++) {
+                _this.key[i] = true;
+                console.log('i : ' + i);
+            }
+            console.log(_this.key);
+        });
+    };
+    // end get user credentials for validation
+    //activate/deactivate
+    CalculateManageComponent.prototype.activateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription = this.update.subscribe(function () {
+            if (_this.onComponent) {
+                if (!_this.searchBack && !_this.searchResult) {
+                    if (_this.commonSrvc.userActive) {
+                        _this.getListAndPageCount();
+                        //hide back loading UI
+                        _this.backLoading = false;
+                        //show pagination again
+                        _this.hidePagination = false;
+                    }
+                    else {
+                        _this.deactivateGetListAndPageCount();
+                    }
+                }
+            }
+        });
+    };
+    CalculateManageComponent.prototype.deactivateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription.unsubscribe();
+        console.log('deactivated');
+        //start listening if user is active again while deactivated
+        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
+            if (_this.commonSrvc.userActive) {
+                _this.activateGetListAndPageCount();
+                //stop listening if user is active again
+                _this.checkIfActiveSubscription.unsubscribe();
+            }
+        });
+    };
+    //activate/deactivate end
+    CalculateManageComponent.prototype.getListAndPageCount = function () {
+        Promise.all([this.getLowrankList(), this.getPageCount()]).then(function () {
+            console.log('get list and page count successful');
+        }, function () {
+            console.log('something went wrong');
+        });
+    };
+    // getPrivileges(){
+    //   console.log(localStorage.getItem(environment.tokenStorageKey))
+    //     this.lowrankSrvc.getPrivileges()
+    //       .subscribe(
+    //         (res) =>{
+    //           // console.log('privileges ' + JSON.stringify(res))
+    //           console.log(res)
+    //         }
+    //       )
+    // }
+    CalculateManageComponent.prototype.getLowrankList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.lowrankSrvc.getLowrank(_this.offset, _this.currentParentID, _this.pageIndex)
+                .subscribe(function (result) {
+                if (result.length == 0) {
+                    //result = new LowRank
+                    _this.searchResult = true;
+                }
+                else {
+                    //set artificial index
+                    var row_number_new = _this.offset;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    //set artificial index end
+                    _this.CalculateManageList = result;
+                    _this.searchResult = false;
+                    _this.searchBack = false;
+                }
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    CalculateManageComponent.prototype.getPageCount = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getPageCount(_this.pageIndex)
+                .subscribe(function (result) {
+                //clear values first
+                _this.pages = [];
+                _this.paginationValues = [];
+                //p = pages
+                var p = Math.ceil(result[0]['ID'] / 20);
+                //set number and value of pages
+                var i;
+                var x = 0;
+                for (i = 1; i <= p; i++) {
+                    _this.pages.push(i);
+                    _this.paginationValues.push(x);
+                    x += 20;
+                }
+                _this.lastPage = _this.pages[_this.pages.length - 1];
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    CalculateManageComponent.prototype.paginate = function (i) {
+        this.offset = this.paginationValues[i - 1];
+        this.currentPaginationButton = i;
+    };
+    //unused
+    CalculateManageComponent.prototype.searchList = function (event) {
+        var _this = this;
+        event.preventDefault();
+        var target = event.target;
+        //hide pagination
+        this.hidePagination = true;
+        var column = target.querySelector('#column').value;
+        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].ifSearchVariableEmpty;
+        this.commonSrvc.searchList(this.pageIndex, column, value)
+            .subscribe(function (result) {
+            _this.CalculateManageList = result;
+            console.log(result);
+            //if there's result
+            if (result.length > 0) {
+                //stopping getting list for awhile
+                _this.getListSubscription.unsubscribe();
+                //show results found UI
+                _this.searchBack = true;
+                //hide no results found UI
+                _this.searchResult = false;
+                console.log('results found');
+            }
+        }, function (error) {
+            if (error['statusText'] == 'Not Found') {
+                //stopping getting list for awhile
+                _this.getListSubscription.unsubscribe();
+                //show no results found UI
+                _this.searchResult = true;
+                //hide results found UI
+                _this.searchBack = false;
+                //empty list
+                _this.CalculateManageList = [];
+            }
+        });
+    };
+    CalculateManageComponent.prototype.back = function () {
+        this.backLoading = true;
+        //hide back UIs
+        this.searchBack = false;
+        this.searchResult = false;
+        this.activateGetListAndPageCount();
+    };
+    //pagination functions
+    CalculateManageComponent.prototype.next = function () {
+        this.currentPaginationButton += 1;
+        if ((this.pages.length - 5) > this.currentPage) {
+            this.currentPage += 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    CalculateManageComponent.prototype.previous = function () {
+        this.currentPaginationButton -= 1;
+        if (this.currentPage >= 1) {
+            this.currentPage -= 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    CalculateManageComponent.prototype.first = function () {
+        this.currentPage = 0;
+        this.offset = 0;
+        this.currentPaginationButton = 1;
+    };
+    CalculateManageComponent.prototype.last = function () {
+        this.currentPage = this.pages.length - 5;
+        this.currentPaginationButton = this.pages[this.pages.length - 1];
+        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    };
+    //pagination functions end
+    CalculateManageComponent.prototype.lowrank = function (office) {
+        // in case user force altered the pageIndex, the set it to 0 
+        console.log('pageindex : ' + this.pageIndex);
+        if (this.pageIndex != 0) {
+            this.parentIDHistory.push(this.currentParentID);
+            this.pageIndex -= 1;
+            this.currentParentID = office;
+            this.CalculateManageList = [];
+            this.backLoading = true;
+        }
+        else {
+            this.pageIndex = 0;
+        }
+    };
+    CalculateManageComponent.prototype.uprank = function () {
+        // this will keep pageindex to not step up to its limit.
+        if (this.maxUpstep != this.pageIndex) {
+            // if(this.pageIndex == ){
+            // }
+            this.pageIndex += 1;
+            this.currentParentID = this.parentIDHistory.pop();
+            this.CalculateManageList = [];
+            this.backLoading = true;
+        }
     };
     CalculateManageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -612,7 +915,7 @@ var CalculateManageComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./calculate-manage.component.html */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.html"),
             styles: [__webpack_require__(/*! ./calculate-manage.component.css */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"], _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_4__["LowrankService"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_5__["UserCredentialsService"]])
     ], CalculateManageComponent);
     return CalculateManageComponent;
 }());
@@ -639,7 +942,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">user profit</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n    <!-- dropdowns -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right\">\n\n        <!-- 'from and to' row -->\n       \n          <!-- from -->\n          <div class=\"w3-half\">\n            <div class=\"w3-row\">\n              <!-- year -->\n              <div class=\"w3-col w3-mobile\" style=\"width:22.5%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width:200px; width: 100%; text-align-last: center\" >\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\">Option 1</option>\n                  <option value=\"2\">Option 2</option>\n                  <option value=\"3\">Option 3</option>\n                </select>\n\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>년</p>\n              </div>\n              \n              <!-- year end -->\n  \n              <!-- month -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\">Option 1</option>\n                  <option value=\"2\">Option 2</option>\n                  <option value=\"3\">Option 3</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>월</p>\n              </div>\n              <!-- month end -->\n  \n              <!-- day -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\"> 2</option>\n                    <option value=\"2\"> 3</option>\n                    <option value=\"3\"> 4</option>\n                    <option value=\"3\"> 5</option>\n                    <option value=\"3\"> 6</option>\n                    <option value=\"3\"> 7</option>\n                    <option value=\"3\"> 8</option>\n                    <option value=\"3\"> 9</option>\n                    <option value=\"3\"> 10</option>\n                    <option value=\"3\"> 11</option>\n                    <option value=\"3\"> 12</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>일</p>\n              </div>\n              <!-- day end -->\n  \n              <!-- time -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\"> 2</option>\n                    <option value=\"2\"> 3</option>\n                    <option value=\"3\"> 4</option>\n                    <option value=\"3\"> 5</option>\n                    <option value=\"3\"> 6</option>\n                    <option value=\"3\"> 7</option>\n                    <option value=\"3\"> 8</option>\n                    <option value=\"3\"> 9</option>\n                    <option value=\"3\"> 10</option>\n                    <option value=\"3\"> 11</option>\n                    <option value=\"3\"> 12</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:11.5%;\">\n                  <p>시 ~</p>\n              </div>\n              <!-- time end -->\n\n            </div>\n          </div>\n          <!-- from end -->\n\n          <!-- to -->\n          <div class=\"w3-half\">\n            <div class=\"w3-row\">\n                <!-- year -->\n                <div class=\"w3-col w3-mobile\" style=\"width:22.5%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width:200px; width: 100%;\" >\n                    <option value=\"\" selected>2018</option>\n                    <option value=\"1\">Option 1</option>\n                    <option value=\"2\">Option 2</option>\n                    <option value=\"3\">Option 3</option>\n                  </select>\n\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>년</p>\n                </div>\n                \n                <!-- year end -->\n    \n                <!-- month -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\">Option 1</option>\n                    <option value=\"2\">Option 2</option>\n                    <option value=\"3\">Option 3</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>월</p>\n                </div>\n                <!-- month end -->\n    \n                <!-- day -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                      <option value=\"\" selected>1</option>\n                      <option value=\"1\"> 2</option>\n                      <option value=\"2\"> 3</option>\n                      <option value=\"3\"> 4</option>\n                      <option value=\"3\"> 5</option>\n                      <option value=\"3\"> 6</option>\n                      <option value=\"3\"> 7</option>\n                      <option value=\"3\"> 8</option>\n                      <option value=\"3\"> 9</option>\n                      <option value=\"3\"> 10</option>\n                      <option value=\"3\"> 11</option>\n                      <option value=\"3\"> 12</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>일</p>\n                </div>\n                <!-- day end -->\n    \n                <!-- time -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                      <option value=\"\" selected>1</option>\n                      <option value=\"1\"> 2</option>\n                      <option value=\"2\"> 3</option>\n                      <option value=\"3\"> 4</option>\n                      <option value=\"3\"> 5</option>\n                      <option value=\"3\"> 6</option>\n                      <option value=\"3\"> 7</option>\n                      <option value=\"3\"> 8</option>\n                      <option value=\"3\"> 9</option>\n                      <option value=\"3\"> 10</option>\n                      <option value=\"3\"> 11</option>\n                      <option value=\"3\"> 12</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:11.5%;\">\n                    <p>시</p>\n                </div>\n                <!-- time end -->\n\n            </div>\n          </div>\n          <!-- to end -->\n        \n        <!-- 'from and to' row end-->\n\n\n\n      </div>\n\n    </div>\n    <!-- dropdowns end -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\"w3-mobile w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px;\">search</button>\n      </div>\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n          <label for=\"gender\">&nbsp;&nbsp;real</label> \n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n        <label for=\"gender\">&nbsp;&nbsp;all</label>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <select class=\"w3-select\" style=\"height: 40px; max-width: 100px;\" >\n              <option value=\"\" selected>user id</option>\n              <option value=\"1\">sample</option>\n              <option value=\"2\">sample</option>\n              <option value=\"3\">sample</option>\n            </select>\n      </div>\n    </div>\n    <!--  screen name, radio btn, and search end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>deposit amount</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw amount</th>\n                <th>withdraw(transfer)</th>\n                <th>profit</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>holding money</th>\n                <th>profit-rake</th>\n              </tr>\n            </thead>\n            <tbody >\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">user profit</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- search form -->\n  <form (submit)=\"searchList($event)\">\n    <!-- from to date dropdowns -->  \n    <div class=\"w3-row\">\n      <!-- to -->\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n            <p>시</p>\n        </div>\n        <!-- time text end -->\n      \n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"00:00:00\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                <option value=\"2018-\" >2018</option>\n                <option value=\"2019-\" selected>2019</option>\n            </select>\n          </div>\n        <!-- year end -->\n\n      <!-- to end -->\n      \n      <!-- from -->\n\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>시~</p>\n        </div>\n        <!-- time text end -->\n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"23:59:59\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                <option value=\"2018-\" selected>2018</option>\n                <option value=\"2019-\" >2019</option>\n            </select>\n          </div>\n        <!-- year end -->\n      <!-- from end -->\n    </div>\n    <!-- from to date dropdowns end --> \n\n    <!-- textbox, checkbox, label, and buttons -->\n    <div class=\"w3-row\">\n        <!-- button -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n        </div>\n        <!-- button end -->\n\n        <!-- real checkbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n          <label for=\"gender\">&nbsp;&nbsp;real</label> \n        </div>\n        <!-- real checkbox end -->\n\n        <!-- all checkbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n          <label for=\"gender\">&nbsp;&nbsp;all</label>\n        </div>\n        <!-- all checkbox end -->\n\n        <!-- textbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n        </div>\n        <!-- textbox end-->\n\n        <!-- screen name label -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <a class=\"w3-center searchText\">screen name</a>\n        </div>\n        <!-- screen name label end -->\n      </div>\n    <!-- textbox, checkbox, label, and buttons end --> \n    </form>\n<!-- search form end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>deposit amount</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw amount</th>\n                <th>withdraw(transfer)</th>\n                <th>profit</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>holding money</th>\n                <th>profit-rake</th>\n              </tr>\n            </thead>\n            <tbody >\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let up of UserProfitList; let i = index\">\n                <td>{{up.row_number | number}}</td>\n                <td>{{up.HeadOfficeID}}</td>\n                <td>{{up.DistributorID}}</td>\n                <td>{{up.shopID}}</td>\n                <td>{{up.useracct}}</td>\n                <td>{{up.ScreenName }}</td>\n                <td>{{up.deposit | number}}</td>\n                <td>{{up.depositTransfer | number}}</td>\n                <td>{{up.withdraw | number}}</td>\n                <td>{{up.withdrawTransfer | number}}</td>\n                <td>{{up.profit | number}}</td>\n                <td>{{up.BettingAmount | number}}</td>\n                <td>{{up.TotalRake | number}}</td>\n                <td>{{up.money | number}}</td>\n                <td class=\"w3-text-red\">{{up.profitMinusRake | number}}</td>\n              </tr>\n              <tr [hidden]=\"!searchResult\">\n                <td colspan=\"15\">NO RESULTS FOUND\n                  <br>\n                  <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  <br>\n                  \n                  \n                </td>\n              </tr>\n\n              <tr [hidden]=\"!searchBack\">\n                <td colspan=\"15\">RESULT FOUND\n                  <br>\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"15\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n    \n            <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n              <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n            </button>\n            <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n              <fa name=\"angle-left\"  size=\"lg\"></fa>\n            </button>\n\n            <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n\n            <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n            <fa name=\"angle-right\"  size=\"lg\"></fa>\n            </button>\n            <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n            </button >\n\n        </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
 
 /***/ }),
 
@@ -654,6 +957,10 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!--
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserProfitComponent", function() { return UserProfitComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_calculate_user_profit_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/calculate/user-profit.service */ "./src/app/services/calculate/user-profit.service.ts");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -664,10 +971,226 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+
+
 var UserProfitComponent = /** @class */ (function () {
-    function UserProfitComponent() {
+    function UserProfitComponent(UserProfitSrvc, commonSrvc) {
+        this.UserProfitSrvc = UserProfitSrvc;
+        this.commonSrvc = commonSrvc;
+        //table variables
+        this.UserProfitList = [];
+        //service variables
+        this.pageIndex = 7;
+        //pagination variables
+        this.currentPage = 0;
+        //this involved in paginate function
+        this.currentPaginationButton = 1;
+        this.pages = [];
+        this.paginationValues = [];
+        this.offset = 0;
+        //pagination variables end
+        //search variables
+        this.searchResult = false;
+        this.backLoading = true;
+        this.hidePagination = false;
+        //answer variables
+        this.answer = false;
+        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTime);
+        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
     }
+    //lifecycle hooks
     UserProfitComponent.prototype.ngOnInit = function () {
+        this.onComponent = true;
+        this.activateGetListAndPageCount();
+    };
+    UserProfitComponent.prototype.ngOnDestroy = function () {
+        this.onComponent = false;
+        console.log('you leave 1on1 support');
+    };
+    //lifecycle hooks end
+    //activate/deactivate
+    UserProfitComponent.prototype.activateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription = this.update.subscribe(function () {
+            if (_this.onComponent) {
+                if (!_this.searchBack && !_this.searchResult) {
+                    if (_this.commonSrvc.userActive) {
+                        _this.getListAndPageCount();
+                        //hide back loading UI
+                        _this.backLoading = false;
+                        //show pagination again
+                        _this.hidePagination = false;
+                    }
+                    else {
+                        _this.deactivateGetListAndPageCount();
+                    }
+                }
+            }
+        });
+    };
+    UserProfitComponent.prototype.deactivateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription.unsubscribe();
+        console.log('deactivated');
+        //start listening if user is active again while deactivated
+        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
+            if (_this.commonSrvc.userActive) {
+                _this.activateGetListAndPageCount();
+                //stop listening if user is active again
+                _this.checkIfActiveSubscription.unsubscribe();
+            }
+        });
+    };
+    //activate/deactivate end
+    UserProfitComponent.prototype.getListAndPageCount = function () {
+        Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
+            console.log('get list and page count successful');
+        }, function () {
+            console.log('something went wrong');
+        });
+    };
+    UserProfitComponent.prototype.getSupportList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+                .subscribe(function (result) {
+                console.log(result);
+                //show No results found if 0 result else dont show
+                if (result.length == 0) {
+                    _this.searchResult = true;
+                }
+                else {
+                    //set artificial index
+                    var row_number_new = _this.offset;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                        result[i].profit = result[i].deposit - result[i].withdraw;
+                        result[i].profitMinusRake = result[i].profit - result[i].TotalRake;
+                    }
+                    //set artificial index end
+                    _this.UserProfitList = result;
+                    _this.searchResult = false;
+                    _this.searchBack = false;
+                }
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    UserProfitComponent.prototype.getPageCount = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getPageCount(_this.pageIndex)
+                .subscribe(function (result) {
+                //clear values first
+                _this.pages = [];
+                _this.paginationValues = [];
+                //p = pages
+                var p = Math.ceil(result[0]['ID'] / 20);
+                //set number and value of pages
+                var i;
+                var x = 0;
+                for (i = 1; i <= p; i++) {
+                    _this.pages.push(i);
+                    _this.paginationValues.push(x);
+                    x += 20;
+                }
+                _this.lastPage = _this.pages[_this.pages.length - 1];
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    UserProfitComponent.prototype.paginate = function (i) {
+        this.offset = this.paginationValues[i - 1];
+        console.log(this.offset);
+        this.currentPaginationButton = i;
+    };
+    UserProfitComponent.prototype.searchList = function (event) {
+        var _this = this;
+        event.preventDefault();
+        var target = event.target;
+        var timeStart = target.querySelector('#timeStart').value;
+        var dayStart = target.querySelector('#dayStart').value;
+        var monthStart = target.querySelector('#monthStart').value;
+        var yearStart = target.querySelector('#yearStart').value;
+        //concatenate datetime start
+        var datetimeStart = yearStart + monthStart + dayStart + timeStart;
+        var timeEnd = target.querySelector('#timeEnd').value;
+        var dayEnd = target.querySelector('#dayEnd').value;
+        var monthEnd = target.querySelector('#monthEnd').value;
+        var yearEnd = target.querySelector('#yearEnd').value;
+        //concatenate datetime end
+        var datetimeEnd = yearEnd + monthEnd + dayEnd + timeEnd;
+        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
+        this.UserProfitSrvc.searchUserProfit(datetimeStart, datetimeEnd, value)
+            .subscribe(function (result) {
+            _this.UserProfitList = result;
+            console.log(result);
+            //if there's result
+            if (result.length > 0) {
+                //stopping getting list for awhile
+                _this.getListSubscription.unsubscribe();
+                //show results found UI
+                _this.searchBack = true;
+                //hide no results found UI
+                _this.searchResult = false;
+                console.log('results found');
+            }
+        }, function (error) {
+            if (error['statusText'] == 'Not Found') {
+                //stopping getting list for awhile
+                _this.getListSubscription.unsubscribe();
+                //show no results found UI
+                _this.searchResult = true;
+                //hide results found UI
+                _this.searchBack = false;
+                //empty list
+                _this.UserProfitList = [];
+            }
+        });
+    };
+    //pagination functions
+    UserProfitComponent.prototype.next = function () {
+        this.currentPaginationButton += 1;
+        if ((this.pages.length - 5) > this.currentPage) {
+            this.currentPage += 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    UserProfitComponent.prototype.previous = function () {
+        this.currentPaginationButton -= 1;
+        if (this.currentPage >= 1) {
+            this.currentPage -= 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    UserProfitComponent.prototype.first = function () {
+        this.currentPage = 0;
+        this.offset = 0;
+        this.currentPaginationButton = 1;
+    };
+    UserProfitComponent.prototype.last = function () {
+        this.currentPage = this.pages.length - 5;
+        this.currentPaginationButton = this.pages[this.pages.length - 1];
+        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    };
+    //pagination functions end
+    UserProfitComponent.prototype.back = function () {
+        this.backLoading = true;
+        //hide back UIs
+        this.searchBack = false;
+        this.searchResult = false;
+        this.activateGetListAndPageCount();
     };
     UserProfitComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -675,7 +1198,7 @@ var UserProfitComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./user-profit.component.html */ "./src/app/components/calculate/user-profit/user-profit.component.html"),
             styles: [__webpack_require__(/*! ./user-profit.component.css */ "./src/app/components/calculate/user-profit/user-profit.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_calculate_user_profit_service__WEBPACK_IMPORTED_MODULE_1__["UserProfitService"], _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"]])
     ], UserProfitComponent);
     return UserProfitComponent;
 }());
@@ -702,7 +1225,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- color:#1ecead -->\n<!-- dashboard container start -->\n<div class=\"w3-container\">\n  <!-- top dashboard -->\n  <div class=\"w3-row\" style=\"margin-top:5px;\">\n\n    <!-- total members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n            \n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              total members(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              total members(all)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n              <p>{{totalRegisteredUser}}</p>\n          </div>\n\n        </div>\n      </div>\n    </div>\n    <!-- total members end -->\n\n    <!-- today joined members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                today joined members(real)\n              </p>\n              <strong style=\"color:#1ecead\">\n                today joined members(all)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalRegisteredUserToday}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!-- today joined members end -->\n\n    <!--  connecting members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                connecting members(real) \n              </p>\n              <strong style=\"color:#1ecead\">\n                connecting members(real)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalConnectingMembers}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!--  connecting members end -->\n\n    <!-- deposit of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              deposit of today(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              deposit of today(real) \n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalDepositToday}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- deposit of today end -->\n\n    <!-- withdraw of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              withdraw of today (real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              withdraw of today (real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalWithdrawToday}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- withdraw of today end -->\n\n    <!-- holding money -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              holding money(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              holding money(real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>818</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- holding money end -->\n\n  </div>\n  <!-- top dashboard end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n    <!-- betting ranking by head office (daily) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office daily</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!dailyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': daily.Percentage + '%'}\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n    <!-- betting ranking by head office (weekly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office weekly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        \n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;width:20%\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (weekly) -->\n\n    <!-- betting ranking by head office (monthly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office monthly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!monthlyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        \n        <!-- card content -->\n        <div *ngFor=\"let monthly of bettingRankingHOMonthly\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{monthly.TotalMonthlyBettingByHeadOffice}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;width:20%\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{monthly.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n  </div>\n  <!-- progress bars row 1 end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n      <!-- betting ranking by head office (daily) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">deposit ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!depositRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let deposit of depositRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{deposit.Amount}}\n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                    <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': deposit.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                  {{deposit.HeadOfficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (daily) -->\n  \n      <!-- betting ranking by head office (weekly) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">withdraw ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!withdrawRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let withdraw of withdrawRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.ExitingAmount}}\n                    \n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                      <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': withdraw.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.HeadofficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (weekly) -->\n  \n      <!-- betting ranking by head office (monthly) -->\n      <div class=\"w3-third w3-container\">\n          <div class=\"w3-card w3-white\">\n            <!-- card header -->\n            <div class=\"w3-container\">\n              <h4 class=\"w3-left\">holding money by head office</h4>\n              <div class=\"w3-right\">\n                <div class=\"w3-row\">\n                  <h4 class=\"w3-text-sand0\">\n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                  </h4>\n                </div>\n              </div>\n            </div>\n            <hr class=\"tableTitleHr\">\n            <!-- card header end -->\n            \n            <!-- card content -->\n            <div class=\"w3-padding\">\n              <div style=\"display: block\">\n                <canvas baseChart [data]=\"pieChartData\" [labels]=\"pieChartLabels\" [chartType]=\"pieChartType\"></canvas>\n              </div>\n            </div>\n            <!-- card content end -->\n            \n          </div>\n      </div>\n      <!-- betting ranking by head office end (monthly) -->\n  \n  </div>\n  <!-- progress bars row 1 end -->\n\n</div>\n<!-- dashboard container end  -->"
+module.exports = "<!-- color:#1ecead -->\n<!-- dashboard container start -->\n<div class=\"w3-container\">\n  <!-- top dashboard -->\n  <div class=\"w3-row\" style=\"margin-top:5px;\">\n\n    <!-- total members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n            \n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              total members(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              total members(all)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n              <p>{{totalRegisteredUser | number}}</p>\n          </div>\n\n        </div>\n      </div>\n    </div>\n    <!-- total members end -->\n\n    <!-- today joined members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                today joined members(real)\n              </p>\n              <strong style=\"color:#1ecead\">\n                today joined members(all)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalRegisteredUserToday | number}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!-- today joined members end -->\n\n    <!--  connecting members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                connecting members(real) \n              </p>\n              <strong style=\"color:#1ecead\">\n                connecting members(real)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalConnectingMembers | number}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!--  connecting members end -->\n\n    <!-- deposit of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              deposit of today(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              deposit of today(real) \n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalDepositToday | number}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- deposit of today end -->\n\n    <!-- withdraw of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              withdraw of today (real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              withdraw of today (real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalWithdrawToday | number}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- withdraw of today end -->\n\n    <!-- holding money -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              holding money(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              holding money(real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>818</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- holding money end -->\n\n  </div>\n  <!-- top dashboard end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n    <!-- betting ranking by head office (daily) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office daily</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!dailyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': daily.Percentage + '%'}\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n    <!-- betting ranking by head office (weekly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office weekly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        \n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;width:20%\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (weekly) -->\n\n    <!-- betting ranking by head office (monthly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office monthly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!monthlyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        \n        <!-- card content -->\n        <div *ngFor=\"let monthly of bettingRankingHOMonthly\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{monthly.TotalMonthlyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\"  style=\"height:24px;\" [ngStyle]=\"{'width': monthly.Percentage + '%'}\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{monthly.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n  </div>\n  <!-- progress bars row 1 end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n      <!-- betting ranking by head office (daily) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">deposit ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!depositRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let deposit of depositRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{deposit.Amount | number}}\n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                    <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': deposit.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                  {{deposit.HeadOfficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (daily) -->\n  \n      <!-- betting ranking by head office (weekly) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">withdraw ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!withdrawRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let withdraw of withdrawRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.ExitingAmount | number}}\n                    \n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                      <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': withdraw.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.HeadofficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (weekly) -->\n  \n      <!-- betting ranking by head office (monthly) -->\n      <div class=\"w3-third w3-container\">\n          <div class=\"w3-card w3-white\">\n            <!-- card header -->\n            <div class=\"w3-container\">\n              <h4 class=\"w3-left\">holding money by head office</h4>\n              <div class=\"w3-right\">\n                <div class=\"w3-row\">\n                  <h4 class=\"w3-text-sand0\">\n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                  </h4>\n                </div>\n              </div>\n            </div>\n            <hr class=\"tableTitleHr\">\n            <!-- card header end -->\n            \n            <!-- card content -->\n            <div class=\"w3-padding\">\n              <div style=\"display: block\">\n                <canvas baseChart [data]=\"pieChartData\" [labels]=\"pieChartLabels\" [chartType]=\"pieChartType\"></canvas>\n              </div>\n            </div>\n            <!-- card content end -->\n            \n          </div>\n      </div>\n      <!-- betting ranking by head office end (monthly) -->\n  \n  </div>\n  <!-- progress bars row 1 end -->\n\n</div>\n<!-- dashboard container end  -->"
 
 /***/ }),
 
@@ -795,25 +1318,27 @@ var DashboardComponent = /** @class */ (function () {
         var _this = this;
         this.dashboardSrvc.getBettingRankingDaily()
             .subscribe(function (res) {
-            //sort result
-            res.sort(function (a, b) { return b.TotalDailyBettingByHeadOffice - a.TotalDailyBettingByHeadOffice; });
-            //getting the percentage variables
-            var max = res[0].TotalDailyBettingByHeadOffice;
-            var min = 0;
-            for (var i = 0; i <= res.length - 1; i++) {
-                res[i].Percentage = ((res[i].TotalDailyBettingByHeadOffice - min) / (max - min)) * 100;
+            if (res.length > 0) {
+                //sort result
+                res.sort(function (a, b) { return b.TotalDailyBettingByHeadOffice - a.TotalDailyBettingByHeadOffice; });
+                //getting the percentage variables
+                var max = res[0].TotalDailyBettingByHeadOffice;
+                var min = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].TotalDailyBettingByHeadOffice - min) / (max - min)) * 100;
+                }
+                _this.bettingRankingHODaily = res;
+                _this.dailyLoading = false;
             }
-            _this.bettingRankingHODaily = res;
-            _this.dailyLoading = false;
         }, function (error) {
             if (error['status'] == '403') {
                 _this.getListSubscription.unsubscribe();
                 _this.commonSrvc.logout();
             }
             else {
+                _this.dailyLoading = true;
             }
             // console.log(' this is error ' + error)
-            _this.dailyLoading = true;
         });
     };
     DashboardComponent.prototype.getBettingRankingWeekly = function () {
@@ -822,8 +1347,18 @@ var DashboardComponent = /** @class */ (function () {
         var _this = this;
         this.dashboardSrvc.getBettingRankingMonthly()
             .subscribe(function (res) {
-            _this.bettingRankingHOMonthly = res;
-            _this.monthlyLoading = false;
+            if (res.length > 0) {
+                //sort result
+                res.sort(function (a, b) { return b.TotalMonthlyBettingByHeadOffice - a.TotalMonthlyBettingByHeadOffice; });
+                //getting the percentage variables
+                var max = res[0].TotalMonthlyBettingByHeadOffice;
+                var min = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].TotalMonthlyBettingByHeadOffice - min) / (max - min)) * 100;
+                }
+                _this.bettingRankingHOMonthly = res;
+                _this.monthlyLoading = false;
+            }
         }, function (error) {
             // console.log('error' + error)
             _this.monthlyLoading = true;
@@ -929,7 +1464,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "  <br>\n  <div class=\"w3-container w3-border w3-card w3-white\">\n\n    <!-- table title -->\n      <p class=\"tableTitle\">deposit list</p>\n      <hr class=\"tableTitleHr\">\n\n      <br>\n    <!-- table title end -->\n\n  <!-- search form -->\n    <form (submit)=\"searchList($event)\">\n      <!-- from to date dropdowns -->  \n      <div class=\"w3-row\">\n        <!-- to -->\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n        \n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"00:00:00\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"23:59:59\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n        <!-- from end -->\n      </div>\n      <!-- from to date dropdowns end --> \n\n      <!-- textbox, checkbox, label, and buttons -->\n      <div class=\"w3-row\">\n          <!-- button -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n          </div>\n          <!-- button end -->\n\n          <!-- real checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n            <label for=\"gender\">&nbsp;&nbsp;real</label> \n          </div>\n          <!-- real checkbox end -->\n\n          <!-- all checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n            <label for=\"gender\">&nbsp;&nbsp;all</label>\n          </div>\n          <!-- all checkbox end -->\n\n          <!-- textbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n          </div>\n          <!-- textbox end-->\n\n          <!-- screen name label -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <a class=\"w3-center searchText\">screen name</a>\n          </div>\n          <!-- screen name label end -->\n        </div>\n      <!-- textbox, checkbox, label, and buttons end --> \n      </form>\n  <!-- search form end -->\n            \n            \n            <!-- table -->\n            <div class=\"w3-responsive w3-container\">\n              <table class=\"w3-table w3-striped w3-centered w3-border\">\n                <thead>\n                  <tr class=\"holdemBlue\">\n                    <th>No.</th>\n                    <th>HO ID</th>\n                    <th>Distributor ID</th>\n                    <th>store ID</th>\n                    <th>user ID</th>\n                    <th>screen name</th>\n                    <th>name</th>\n                    <th>contact no.</th>\n                    <th>deposit amount</th>\n                    <th>status</th>\n                    <th class=\"w3-center\">manage</th>\n                    <th>application date</th>\n                    <th>date of approval</th>\n                  </tr>\n                </thead>\n                <!-- <tbody *ngFor=\"let deposit of depositList | slice:0:3 ; let i = index \"> -->\n              <tbody>\n                <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                  <div>\n                    {{dh.UserAccountID}}\n                  </div>\n                </div> -->\n                <tr *ngFor=\"let d of depositList; let i = index\">\n                  <!-- <td>{{i}}</td> -->\n                  <td>{{d.ID}}</td>\n                  <td>{{d.HeadOfficeID}}</td>\n                  <td>{{d.DistributorID}}</td>\n                  <td>{{d.ShopID}}</td>\n                  <td>{{d.UserAccountID}}</td>\n                  <td>{{d.ScreenName}}</td>\n                  <td>{{d.Name}}</td>\n                  <td>{{d.PhoneNumber}}</td>\n                  <td>{{d.Amount}}</td>\n                  <td>{{d.TransactionStatus}}</td>\n                  \n                  <td>\n                    <fa *ngIf=\"i + 1 == currentManageButton && !hideManageButton\" name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    <div >\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" *ngIf=\"d.TransactionStatus == 'pending' \" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"approveDeposit(d.UserTransactionID, d.UserAccountID); currentManageButton = i + 1\" style=\"background-color: #efad4d;\">approval</button>\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">cancel</button>\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"updateDeposit(d.UserTransactionID); currentManageButton = i + 1\" style=\"background-color: #d9544f;\">delete</button>\n                      </div>\n                    </div>\n                  </td>\n\n                  <td>{{d.RequestedDateTime | date : \"short\"}}</td>\n                  <td>{{d.ApprovedDateTime | date : \"short\"}}</td>\n\n                </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                    <td colspan=\"13\">NO RESULTS FOUND\n                      <br>\n                      <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                      <br>\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!searchBack\">\n                    <td colspan=\"13\">RESULT FOUND\n                      <br>\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!backLoading\">\n                    <td colspan=\"13\">\n                      <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    </td>\n                  </tr>\n\n              </tbody>\n              \n            </table>\n            <br>\n\n      </div>\n    <!-- table end -->\n      <!-- bottom of table pagination and number of entries -->\n      <div class=\"w3-row-padding\">\n        <!-- number of entries -->\n        <div class=\"w3-third\">\n            <i>Showing 1 to 20 of 20 entries</i>\n        </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n        </div>\n        <!-- intended to leave it empty -->\n        <div class=\"w3-third\">\n          <p></p>\n        </div>\n      </div>\n      <!-- bottom of table pagination and number of entries end -->\n      <br>\n\n\n  </div>\n\n\n  <br>\n"
+module.exports = "  <br>\n  <div class=\"w3-container w3-border w3-card w3-white\">\n\n    <!-- table title -->\n      <p class=\"tableTitle\">deposit list</p>\n      <hr class=\"tableTitleHr\">\n\n      <br>\n    <!-- table title end -->\n\n  <!-- search form -->\n    <form (submit)=\"searchList($event)\">\n      <!-- from to date dropdowns -->  \n      <div class=\"w3-row\">\n        <!-- to -->\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n        \n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"00:00:00\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"23:59:59\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n        <!-- from end -->\n      </div>\n      <!-- from to date dropdowns end --> \n\n      <!-- textbox, checkbox, label, and buttons -->\n      <div class=\"w3-row\">\n          <!-- button -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n          </div>\n          <!-- button end -->\n\n          <!-- real checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n            <label for=\"gender\">&nbsp;&nbsp;real</label> \n          </div>\n          <!-- real checkbox end -->\n\n          <!-- all checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n            <label for=\"gender\">&nbsp;&nbsp;all</label>\n          </div>\n          <!-- all checkbox end -->\n\n          <!-- textbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n          </div>\n          <!-- textbox end-->\n\n          <!-- screen name label -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <a class=\"w3-center searchText\">screen name</a>\n          </div>\n          <!-- screen name label end -->\n        </div>\n      <!-- textbox, checkbox, label, and buttons end --> \n      </form>\n  <!-- search form end -->\n            \n            <!-- table -->\n            <div class=\"w3-responsive w3-container\">\n              <table class=\"w3-table w3-striped w3-centered w3-border\">\n                <thead>\n                  <tr class=\"holdemBlue\">\n                    <th>No.</th>\n                    <th>HO ID</th>\n                    <th>Distributor ID</th>\n                    <th>store ID</th>\n                    <th>user ID</th>\n                    <th>screen name</th>\n                    <th>name</th>\n                    <th>contact no.</th>\n                    <th>deposit amount</th>\n                    <th>status</th>\n                    <th class=\"w3-center\">manage</th>\n                    <th>application date</th>\n                    <th>date of approval</th>\n                  </tr>\n                </thead>\n                <!-- <tbody *ngFor=\"let deposit of depositList | slice:0:3 ; let i = index \"> -->\n              <tbody>\n                <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                  <div>\n                    {{dh.UserAccountID}}\n                  </div>\n                </div> -->\n                <tr *ngFor=\"let d of depositList; let i = index\">\n                  <!-- <td>{{i}}</td> -->\n                  <td>{{d.ID}}</td>\n                  <td>{{d.HeadOfficeID}}</td>\n                  <td>{{d.DistributorID}}</td>\n                  <td>{{d.ShopID}}</td>\n                  <td>{{d.UserName}}</td>\n                  <td>{{d.ScreenName}}</td>\n                  <td>{{d.Name}}</td>\n                  <td>{{d.PhoneNumber}}</td>\n                  <td>{{d.Amount}}</td>\n                  <td>{{d.TransactionStatus}}</td>\n                  \n                  <td>\n                    <fa *ngIf=\"i + 1 == currentManageButton && !hideManageButton\" name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    <div *ngIf=\"d.TransactionStatus == 'pending' \">\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\"  class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"approveDeposit(d.UserTransactionID, d.UserAccountID, d.Amount); currentManageButton = i + 1\" style=\"background-color: #efad4d;\">approval</button>\n                        <!-- <button [disabled]=\"!hideManageButton\" *ngIf=\"d.TransactionStatus == 'pending' \" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"approveDeposit(d.UserTransactionID, d.UserAccountID); AcceptDepositWebSocket(d.UserAccountID, d.Amount, d.UserTransactionID); currentManageButton = i + 1;\" style=\"background-color: #efad4d;\">approval</button> -->\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">cancel</button>\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"updateDeposit(d.UserTransactionID); currentManageButton = i + 1\" style=\"background-color: #d9544f;\">delete</button>\n                      </div>\n                    </div>\n                  </td>\n\n                  <td>{{d.RequestedDateTime | date : \"short\"}}</td>\n                  <td>{{d.ApprovedDateTime | date : \"short\"}}</td>\n\n                </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                    <td colspan=\"13\">NO RESULTS FOUND\n                      <br>\n                      <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                      <br>\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!searchBack\">\n                    <td colspan=\"13\">RESULT FOUND\n                      <br>\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!backLoading\">\n                    <td colspan=\"13\">\n                      <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    </td>\n                  </tr>\n\n              </tbody>\n              \n            </table>\n            <br>\n\n      </div>\n    <!-- table end -->\n      <!-- bottom of table pagination and number of entries -->\n      <div class=\"w3-row-padding\">\n        <!-- number of entries -->\n        <div class=\"w3-third\">\n            <i>Showing 1 to 20 of 20 entries</i>\n        </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n        </div>\n        <!-- intended to leave it empty -->\n        <div class=\"w3-third\">\n          <p></p>\n        </div>\n      </div>\n      <!-- bottom of table pagination and number of entries end -->\n      <br>\n\n\n  </div>\n\n\n  <br>\n"
 
 /***/ }),
 
@@ -966,6 +1501,8 @@ var DepositManagementComponent = /** @class */ (function () {
     function DepositManagementComponent(commonSrvc, depositSrvc) {
         this.commonSrvc = commonSrvc;
         this.depositSrvc = depositSrvc;
+        this.ws = new WebSocket('ws://192.168.254.100:8080/?UserAccountID=cdf61833-66e1-4a92-a46c-0782ed77c203');
+        // websocket variables
         //service variables
         this.pageIndex = 0;
         //pagination variables
@@ -985,6 +1522,14 @@ var DepositManagementComponent = /** @class */ (function () {
         this.hideManageButton = true;
         this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
         this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
+        this.ws.onopen = function (openSocket) {
+            console.log(openSocket.type);
+        };
+        // this.ws.onmessage = function(message){
+        // console.log(message)
+        // var UserAccountID = JSON.parse(message.data)['UserAccountID'];
+        // console.log( JSON.parse(message.data))
+        // }
     }
     //lifecycle hooks
     DepositManagementComponent.prototype.ngOnInit = function () {
@@ -996,6 +1541,18 @@ var DepositManagementComponent = /** @class */ (function () {
         console.log('you leave 1on1 support');
     };
     //lifecycle hooks end
+    DepositManagementComponent.prototype.AcceptDepositWebSocket = function (receiver, amount, depositID) {
+        // this.ws.o
+        if ("WebSocket" in window) {
+            var DepositNotice = "Deposit Approved Amount " + amount;
+            var message = "{\"Type\":\"NotifyPlayerDeposit\",\"MessageReceiver\" :\"" + receiver +
+                "\",\"DepositNotice\":\"" + DepositNotice + "\",\"DepositUUID\":\"" + depositID + "\"}";
+            this.ws.send(message);
+        }
+        else {
+            alert('your web browser doesnt support websocket');
+        }
+    };
     //activate/deactivate
     DepositManagementComponent.prototype.activateGetListAndPageCount = function () {
         var _this = this;
@@ -1042,12 +1599,10 @@ var DepositManagementComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getList(_this.pageIndex, _this.offset)
                 .subscribe(function (result) {
+                console.log(result);
                 _this.depositList = result;
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
-                }
-                else {
+                if (result.length > 0) {
                     //set artificial index
                     var row_number_new = _this.offset;
                     for (var i = 0; i <= _this.depositList.length - 1; i++) {
@@ -1057,6 +1612,9 @@ var DepositManagementComponent = /** @class */ (function () {
                     //set artificial index end
                     _this.searchResult = false;
                     _this.searchBack = false;
+                }
+                else {
+                    _this.searchResult = true;
                 }
                 resolve();
             }, function (error) {
@@ -1168,13 +1726,14 @@ var DepositManagementComponent = /** @class */ (function () {
             });
         }
     };
-    DepositManagementComponent.prototype.approveDeposit = function (UserTransactionID, UserAccountID) {
+    DepositManagementComponent.prototype.approveDeposit = function (UserTransactionID, UserAccountID, Amount) {
         var _this = this;
         this.hideManageButton = false;
         this.depositSrvc.approve(UserTransactionID, UserAccountID)
             .subscribe(function (result) {
             console.log(result);
             if (result.toString() == 'true') {
+                _this.AcceptDepositWebSocket(UserAccountID, Amount, UserTransactionID);
                 alert('approved successfully');
             }
             if (result['AlreadyApproved'] == true) {
@@ -1214,6 +1773,30 @@ var DepositManagementComponent = /** @class */ (function () {
         this.currentPage = this.pages.length - 5;
         this.currentPaginationButton = this.pages[this.pages.length - 1];
         this.offset = this.paginationValues[this.paginationValues.length - 1];
+    };
+    //pagination functions end
+    DepositManagementComponent.prototype.WebSocketTest = function () {
+        if ("WebSocket" in window) {
+            // alert("WebSocket is supported by your Browser!");
+            // Let us open a web socket
+            this.ws.onopen = function () {
+                // Web Socket is connected, send data using send()
+                // ws.send("Message to send");
+                //  alert("Message is sent...");
+            };
+            this.ws.onmessage = function (evt) {
+                var received_msg = evt.data;
+                console.log(received_msg);
+            };
+            this.ws.onclose = function () {
+                // websocket is closed.
+                // alert("Connection is closed...");
+            };
+        }
+        else {
+            // The browser doesn't support WebSocket
+            alert("WebSocket NOT supported by your Browser!");
+        }
     };
     DepositManagementComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2003,8 +2586,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2020,19 +2603,19 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var LoginComponent = /** @class */ (function () {
-    function LoginComponent(userAuthSrvc, router, commonSrvc) {
+    function LoginComponent(userAuthSrvc, router, userCredentialSrvc) {
         this.userAuthSrvc = userAuthSrvc;
         this.router = router;
-        this.commonSrvc = commonSrvc;
+        this.userCredentialSrvc = userCredentialSrvc;
     }
     LoginComponent.prototype.ngOnInit = function () {
-        if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].koreanStartUp) {
+        if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].koreanStartUp) {
             localStorage.setItem('language', 'korean');
         }
         else {
             localStorage.setItem('language', 'english');
         }
-        console.log(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
+        console.log('this should be empty/null : ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
     };
     LoginComponent.prototype.login = function (event) {
         var _this = this;
@@ -2042,6 +2625,7 @@ var LoginComponent = /** @class */ (function () {
         var password = target.querySelector('#password').value;
         this.userAuthSrvc.login(username, password)
             .subscribe(function (res) {
+            console.log('login return : ' + JSON.stringify(res));
             _this.userAuthSrvc.storeToken(res['token']);
             _this.router.navigate(['/admin']);
         }, function (error) {
@@ -2051,7 +2635,7 @@ var LoginComponent = /** @class */ (function () {
         });
     };
     LoginComponent.prototype.printUserToken = function () {
-        console.log(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
+        console.log(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
     };
     LoginComponent.prototype.clearToken = function () {
         localStorage.clear();
@@ -2062,7 +2646,7 @@ var LoginComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./login.component.html */ "./src/app/components/login/login.component.html"),
             styles: [__webpack_require__(/*! ./login.component.css */ "./src/app/components/login/login.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__["UserAuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_common_common_service__WEBPACK_IMPORTED_MODULE_3__["CommonService"]])
+        __metadata("design:paramtypes", [_services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__["UserAuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__["UserCredentialsService"]])
     ], LoginComponent);
     return LoginComponent;
 }());
@@ -2089,7 +2673,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- sidepanel for medium and large screen -->\n<div class=\"w3-sidebar w3-bar-block w3-card-2\" style=\" background-color: #2a3f54; width: 15%\" id=\"mySidebar\">\n  <br>\n  <div class=\"w3-row\">\n      <a href=\"#\" [routerLink]=\"['/admin']\" class=\"w3-text-white\" style=\"text-decoration: none\">\n        <fa class=\"w3-text-white\" name=\"paw\" size=\"3x\"  style=\"margin: 10px\"></fa>\n        Operating HEAD OFFICE\n      </a>\n  </div>\n\n  <div class=\"w3-row\">\n    <div class=\"w3-quarter\">\n      <img src=\"../assets/avatar.png\" class=\"w3-circle w3-border w3-responsive\" alt=\"Alps\" style=\"width:70px; height:70px; margin: 12px\">\n    </div>\n    <div class=\"w3-threequarter w3-padding-large\">\n      <p class=\"w3-text-white\" >head office</p>\n      <p class=\"w3-text-white\" >holding money :</p>\n      <p class=\"w3-text-white\" >589,766,407</p>\n    </div>\n  </div>\n\n  <br>\n\n  <!-- menu dropdowns -->\n  <div >\n    <!-- sales dropdown -->\n    <div>\n      <!-- <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[0]}\" (click)=\"sidepanelMenuToggle(0)\"> -->\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 0}\" (click)=\"sidepanelMenuToggle(0)\">\n        <fa name=\"home\"></fa>&nbsp;\n        <span appTranslate>Sales</span> &nbsp;&nbsp;&nbsp;\n        <!-- <fa *ngIf=\"!sidepanelMenuArray[0]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa> -->\n        <fa *ngIf=\"currentSidePanel != 0\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 0\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 0\" class=\"w3-animate-left\">\n        \n        <button  [routerLink]=\"['/admin/headOfficeList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n          <strong style=\"font-size:16px\" appTranslate>head office list</strong>\n        </button>\n        \n        <button [routerLink]=\"['/admin/memberList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa> &nbsp;\n          <strong style=\"font-size:16px\" appTranslate>member list</strong>\n        </button>\n        \n      </div>\n    </div>\n    <!-- sales dropdown end -->\n  \n    <!-- calculate dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 1}\" (click)=\"sidepanelMenuToggle(1)\">\n        <fa name=\"cc-visa\"></fa>&nbsp;\n        <span appTranslate>Calculate</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 1\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 1\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 1\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/calculateManage']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>calculate manage</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/userProfit']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>user profit</strong>\n            </button>\n  \n        </div>\n    </div>\n    <!-- calculate dropdown end -->\n    \n    <!-- user dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 2}\" (click)=\"sidepanelMenuToggle(2)\">\n        <fa name=\"android\"></fa>&nbsp;\n        <span appTranslate>User</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 2\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 2\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 2\" class=\"w3-animate-left\">\n        \n            <button [routerLink]=\"['/admin/connectingUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>connecting user</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/blackList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>black list</strong> <fa name=\"check\" class=\"w3-text-red\"></fa> \n            </button>\n    \n            \n            <button [routerLink]=\"['/admin/IPinquire']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px\" appTranslate>IP inquire</strong> <fa name=\"check\" class=\"w3-text-red\"></fa>\n              </button>\n          </div>\n    </div>\n    <!-- user dropdown end -->\n  \n    <!-- deposit and withdraw dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 3}\" (click)=\"sidepanelMenuToggle(3)\">\n        <fa name=\"table\"></fa>&nbsp;\n        <span appTranslate>Deposit &amp; Withdraw</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 3\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 3\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 3\" class=\"w3-animate-left\">\n          <button [routerLink]=\"['/admin/depositManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>deposit management</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/withdrawManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>withdraw management</strong>\n            </button>\n          \n        </div>\n    </div>\n    <!-- deposit and withdraw end -->\n  \n    <!-- notice dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 4}\" (click)=\"sidepanelMenuToggle(4)\">\n          <fa name=\"bell\"></fa>&nbsp;\n          <span appTranslate>Notice</span>&nbsp;&nbsp;&nbsp;\n          <fa *ngIf=\"currentSidePanel != 4\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n          <fa *ngIf=\"currentSidePanel == 4\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n        </button>\n          <div *ngIf=\"currentSidePanel == 4\" class=\"w3-animate-left\">\n            \n            <button [routerLink]=\"['/admin/lobbyNotice']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp; \n                <strong style=\"font-size:16px\" appTranslate>lobby notice</strong>\n            </button>\n            \n            <button [routerLink]=\"['/admin/inGamingTable']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>in gaming table</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/1on1support']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px;\" appTranslate>1:1 support</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n            </button>\n\n          </div>\n    </div>\n    <!-- notice dropdown end -->\n  \n    <!-- log dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 5}\" (click)=\"sidepanelMenuToggle(5)\">\n        <fa name=\"clone\"></fa>&nbsp;\n        <span appTranslate>Log</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 5\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 5\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 5\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/gameLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>game log</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n          </button>\n          \n          <button [routerLink]=\"['/admin/jackpotLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>jackpot log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/transferLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>transfer log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/pointLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>point log</strong>\n          </button>\n  \n        </div>\n    </div>\n    <!-- log dropdown end -->\n\n    <!-- pending dropdown -->\n    <!-- <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[6]}\" (click)=\"sidepanelMenuToggle(6)\">\n        <fa name=\"question\"></fa>\n         &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"!sidepanelMenuArray[6]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"sidepanelMenuArray[6]\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"sidepanelMenuArray[6]\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/addUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa> \n              <strong style=\"font-size:16px;\">&nbsp;add user</strong>\n          </button>\n          \n        </div>\n    </div> -->\n    <!-- pending dropdown end -->\n    <h6 class=\"w3-center w3-text-white\" style=\"font-size:14px\">date</h6>\n    <div class=\"w3-text-white\" style=\"margin-left:20px;\">\n\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>deposit application</span>&nbsp;:&nbsp;<strong>705</strong>건</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>total member</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUser}}</strong>명</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>today joined members</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUserToday}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"twitter\"></fa>&nbsp;<span>connecting members</span>&nbsp;:&nbsp;<strong>{{totalConnectingMembers.OnlineStatusCount}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>deposit</span>&nbsp;:&nbsp;<strong>{{totalDepositToday}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>withdraw</span>&nbsp;:&nbsp;<strong>{{totalWithdrawToday}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>profit and loss</span>&nbsp;:&nbsp;<strong>{{profitAndLoss}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>members</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>sales</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n    </div>\n\n  </div>\n  <br>\n  <br>\n  <br>\n  <!-- menu dropdowns end -->\n  <div class=\"w3-bottom\" style=\"width:15%\">\n    <div class=\"w3-row\">\n      <button type=\"button\" onclick=\"document.getElementById('id01').style.display='block'\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"cog\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"toggleFullScreen()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"expand\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"playNotif()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"eye-slash\"></fa>\n      </button>\n      <button type=\"button\"  class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"power-off\"></fa>\n      </button>\n    </div>\n  </div>\n</div>\n<!-- sidepanel for medium and large screen end -->\n\n\n<div id=\"main\" [ngStyle]=\"{'margin-left': margin}\">\n  <!-- topbar -->\n  <div class=\"w3-bar w3-large w3-border w3-light-grey\" >\n\n    <!-- sidepanel toggle -->\n\n      <div id=\"open\">\n        <button class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54;\">\n          <fa name=\"bars\"></fa>\n        </button>\n      </div>\n      <!-- *ngIf=\"!mobileAccordion\" -->\n      <div id=\"close\">\n        <button  class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54\">\n          <fa name=\"times\"></fa>  \n        </button>\n      </div>\n      <button (click)=\"printUserToken()\" >get token</button>\n      <button (click)=\"clearToken()\" >clear token</button>\n \n    <!-- sidepanel toggle end -->\n\n\n    <button type=\"button\" (click)=\"logout()\" class=\"w3-button w3-bar-item w3-right\">\n      <fa name=\"sign-out\"></fa>\n    </button>\n\n    <a class=\" w3-bar-item w3-right\">Clyde A. Santos</a>\n\n  </div>\n  <!-- topbar end -->\n\n  <div class=\"w3-container\" id=\"main\">\n    <router-outlet></router-outlet>\n  </div>\n\n</div>\n<!-- settings modal -->\n  <div id=\"id01\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-card-2\" style=\"margin-top:70px; height:230px; width: 400px;\">\n      \n      <header class=\"w3-container\" style=\"background-color: #2a3f54;\"> \n        <span onclick=\"document.getElementById('id01').style.display='none'\" \n        class=\"w3-button w3-display-topright w3-xxlarge w3-text-white\"><fa name=\"times\"></fa></span>\n        <h2 class=\"w3-text-white\"><fa name=\"cogs\"></fa>&nbsp;Settings</h2>\n      </header>\n\n      <div class=\"w3-container\">\n        <br>\n        <form class=\"w3-row\">\n          <div class=\"w3-half\">\n            <label class=\"w3-right\" style=\"font-size: 20px; margin-top: 3px; margin-right: 15px\">LANGUAGE: </label>\n            <br>\n            <br>\n            <br>\n            <br>\n            <label class=\"w3-right\" for=\"audio\" style=\"font-size: 20px; margin-right: 15px; user-select: none\">AUDIO: </label>\n            \n          </div>\n          <div class=\"w3-half\">\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"korean\" (click)=\"toKorean()\" [checked]=\"korean\">\n              <label for=\"korean\">&nbsp;KOREAN</label>\n            \n              <br>\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"english\" (click)=\"toEnglish()\" [checked]=\"english\">\n              <label for=\"english\">&nbsp;ENGLISH</label>\n\n              <br>\n              <br>\n              <input class=\"w3-check\" type=\"checkbox\" id=\"audio\" (change)=\"audioToggle(audioModel)\" [(ngModel)]=\"audioModel\" [ngModelOptions]=\"{standalone: true}\" style=\"margin-top:3px\" checked=\"true\">\n              <!-- <input class=\"w3-check\" type=\"checkbox\"  checked> -->\n          </div>\n\n\n        </form>\n\n      \n      </div>\n\n    </div>\n  </div>\n\n<script>\n</script>"
+module.exports = "<!-- sidepanel for medium and large screen -->\n<div class=\"w3-sidebar w3-bar-block w3-card-2\" style=\" background-color: #2a3f54; width: 15%\" id=\"mySidebar\">\n  <br>\n  <div class=\"w3-row\">\n      <a href=\"#\" [routerLink]=\"['/admin']\" class=\"w3-text-white\" style=\"text-decoration: none\">\n        <fa class=\"w3-text-white\" name=\"paw\" size=\"3x\"  style=\"margin: 10px\"></fa>\n        Operating HEAD OFFICE\n      </a>\n  </div>\n\n  <div class=\"w3-row\">\n    <div class=\"w3-quarter\">\n      <img src=\"../assets/avatar.png\" class=\"w3-circle w3-border w3-responsive\" alt=\"Alps\" style=\"width:70px; height:70px; margin: 12px\">\n    </div>\n    <div class=\"w3-threequarter w3-padding-large\">\n      <p class=\"w3-text-white\" >head office</p>\n      <p class=\"w3-text-white\" >holding money :</p>\n      <p class=\"w3-text-white\" >589,766,407</p>\n    </div>\n  </div>\n\n  <br>\n\n  <!-- menu dropdowns -->\n  <div >\n    <!-- sales dropdown -->\n    <div>\n      <!-- <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[0]}\" (click)=\"sidepanelMenuToggle(0)\"> -->\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 0}\" (click)=\"sidepanelMenuToggle(0)\">\n        <fa name=\"home\"></fa>&nbsp;\n        <span appTranslate>Sales</span> &nbsp;&nbsp;&nbsp;\n        <!-- <fa *ngIf=\"!sidepanelMenuArray[0]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa> -->\n        <fa *ngIf=\"currentSidePanel != 0\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 0\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 0\" class=\"w3-animate-left\">\n        \n        <button  [routerLink]=\"['/admin/headOfficeList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n          <strong style=\"font-size:16px\" appTranslate>head office list</strong>\n        </button>\n        \n        <button [routerLink]=\"['/admin/memberList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa> &nbsp;\n          <strong style=\"font-size:16px\" appTranslate>member list</strong>\n        </button>\n        \n      </div>\n    </div>\n    <!-- sales dropdown end -->\n  \n    <!-- calculate dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 1}\" (click)=\"sidepanelMenuToggle(1)\">\n        <fa name=\"cc-visa\"></fa>&nbsp;\n        <span appTranslate>Calculate</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 1\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 1\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 1\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/calculateManage']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>calculate manage</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/userProfit']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>user profit</strong>\n            </button>\n  \n        </div>\n    </div>\n    <!-- calculate dropdown end -->\n    \n    <!-- user dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 2}\" (click)=\"sidepanelMenuToggle(2)\">\n        <fa name=\"android\"></fa>&nbsp;\n        <span appTranslate>User</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 2\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 2\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 2\" class=\"w3-animate-left\">\n        \n            <button [routerLink]=\"['/admin/connectingUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>connecting user</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/blackList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>black list</strong> <fa name=\"check\" class=\"w3-text-red\"></fa> \n            </button>\n    \n            \n            <button [routerLink]=\"['/admin/IPinquire']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px\" appTranslate>IP inquire</strong> <fa name=\"check\" class=\"w3-text-red\"></fa>\n              </button>\n          </div>\n    </div>\n    <!-- user dropdown end -->\n  \n    <!-- deposit and withdraw dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 3}\" (click)=\"sidepanelMenuToggle(3)\">\n        <fa name=\"table\"></fa>&nbsp;\n        <span appTranslate>Deposit &amp; Withdraw</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 3\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 3\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 3\" class=\"w3-animate-left\">\n          <button [routerLink]=\"['/admin/depositManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>deposit management</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/withdrawManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>withdraw management</strong>\n            </button>\n          \n        </div>\n    </div>\n    <!-- deposit and withdraw end -->\n  \n    <!-- notice dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 4}\" (click)=\"sidepanelMenuToggle(4)\">\n          <fa name=\"bell\"></fa>&nbsp;\n          <span appTranslate>Notice</span>&nbsp;&nbsp;&nbsp;\n          <fa *ngIf=\"currentSidePanel != 4\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n          <fa *ngIf=\"currentSidePanel == 4\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n        </button>\n          <div *ngIf=\"currentSidePanel == 4\" class=\"w3-animate-left\">\n            \n            <button [routerLink]=\"['/admin/lobbyNotice']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp; \n                <strong style=\"font-size:16px\" appTranslate>lobby notice</strong>\n            </button>\n            \n            <button [routerLink]=\"['/admin/inGamingTable']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>in gaming table</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/1on1support']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px;\" appTranslate>1:1 support</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n            </button>\n\n          </div>\n    </div>\n    <!-- notice dropdown end -->\n  \n    <!-- log dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 5}\" (click)=\"sidepanelMenuToggle(5)\">\n        <fa name=\"clone\"></fa>&nbsp;\n        <span appTranslate>Log</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 5\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 5\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 5\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/gameLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>game log</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n          </button>\n          \n          <button [routerLink]=\"['/admin/jackpotLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>jackpot log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/transferLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>transfer log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/pointLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>point log</strong>\n          </button>\n  \n        </div>\n    </div>\n    <!-- log dropdown end -->\n\n    <!-- pending dropdown -->\n    <!-- <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[6]}\" (click)=\"sidepanelMenuToggle(6)\">\n        <fa name=\"question\"></fa>\n         &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"!sidepanelMenuArray[6]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"sidepanelMenuArray[6]\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"sidepanelMenuArray[6]\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/addUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa> \n              <strong style=\"font-size:16px;\">&nbsp;add user</strong>\n          </button>\n          \n        </div>\n    </div> -->\n    <!-- pending dropdown end -->\n    <h6 class=\"w3-center w3-text-white\" style=\"font-size:14px\">date</h6>\n    <div class=\"w3-text-white\" style=\"margin-left:20px;\">\n\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>deposit application</span>&nbsp;:&nbsp;<strong>705</strong>건</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>total member</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUser | number}}</strong>명</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>today joined members</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUserToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"twitter\"></fa>&nbsp;<span>connecting members</span>&nbsp;:&nbsp;<strong>{{totalConnectingMembers.OnlineStatusCount | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>deposit</span>&nbsp;:&nbsp;<strong>{{totalDepositToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>withdraw</span>&nbsp;:&nbsp;<strong>{{totalWithdrawToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>profit and loss</span>&nbsp;:&nbsp;<strong>{{profitAndLoss | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>members</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>sales</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n    </div>\n\n  </div>\n  <br>\n  <br>\n  <br>\n  <!-- menu dropdowns end -->\n  <div class=\"w3-bottom\" style=\"width:15%\">\n    <div class=\"w3-row\">\n      <button type=\"button\" onclick=\"document.getElementById('id01').style.display='block'\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"cog\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"toggleFullScreen()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"expand\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"playNotif()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"eye-slash\"></fa>\n      </button>\n      <button type=\"button\"  class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"power-off\"></fa>\n      </button>\n    </div>\n  </div>\n</div>\n<!-- sidepanel for medium and large screen end -->\n\n\n<div id=\"main\" [ngStyle]=\"{'margin-left': margin}\">\n  <!-- topbar -->\n  <div class=\"w3-bar w3-large w3-border w3-light-grey\" >\n\n    <!-- sidepanel toggle -->\n\n      <div id=\"open\">\n        <button class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54;\">\n          <fa name=\"bars\"></fa>\n        </button>\n      </div>\n      <!-- *ngIf=\"!mobileAccordion\" -->\n      <div id=\"close\">\n        <button  class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54\">\n          <fa name=\"times\"></fa>  \n        </button>\n      </div>\n      <button (click)=\"printUserToken()\" >get token</button>\n      <button (click)=\"clearToken()\" >clear token</button>\n \n    <!-- sidepanel toggle end -->\n\n\n    <button type=\"button\" (click)=\"logout()\" class=\"w3-button w3-bar-item w3-right\">\n      <fa name=\"sign-out\"></fa>\n    </button>\n\n    <a class=\" w3-bar-item w3-right\">{{user?.UserName}}</a>\n\n  </div>\n  <!-- topbar end -->\n\n  <div class=\"w3-container\" id=\"main\">\n    <router-outlet></router-outlet>\n  </div>\n\n</div>\n<!-- settings modal -->\n  <div id=\"id01\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-card-2\" style=\"margin-top:70px; height:230px; width: 400px;\">\n      \n      <header class=\"w3-container\" style=\"background-color: #2a3f54;\"> \n        <span onclick=\"document.getElementById('id01').style.display='none'\" \n        class=\"w3-button w3-display-topright w3-xxlarge w3-text-white\"><fa name=\"times\"></fa></span>\n        <h2 class=\"w3-text-white\"><fa name=\"cogs\"></fa>&nbsp;Settings</h2>\n      </header>\n\n      <div class=\"w3-container\">\n        <br>\n        <form class=\"w3-row\">\n          <div class=\"w3-half\">\n            <label class=\"w3-right\" style=\"font-size: 20px; margin-top: 3px; margin-right: 15px\">LANGUAGE: </label>\n            <br>\n            <br>\n            <br>\n            <br>\n            <label class=\"w3-right\" for=\"audio\" style=\"font-size: 20px; margin-right: 15px; user-select: none\">AUDIO: </label>\n            \n          </div>\n          <div class=\"w3-half\">\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"korean\" (click)=\"toKorean()\" [checked]=\"korean\">\n              <label for=\"korean\">&nbsp;KOREAN</label>\n            \n              <br>\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"english\" (click)=\"toEnglish()\" [checked]=\"english\">\n              <label for=\"english\">&nbsp;ENGLISH</label>\n\n              <br>\n              <br>\n              <input class=\"w3-check\" type=\"checkbox\" id=\"audio\" (change)=\"audioToggle(audioModel)\" [(ngModel)]=\"audioModel\" [ngModelOptions]=\"{standalone: true}\" style=\"margin-top:3px\" checked=\"true\">\n              <!-- <input class=\"w3-check\" type=\"checkbox\"  checked> -->\n          </div>\n\n\n        </form>\n\n      \n      </div>\n\n    </div>\n  </div>\n\n<script>\n</script>"
 
 /***/ }),
 
@@ -2109,8 +2693,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/settings/settings.service */ "./src/app/services/settings/settings.service.ts");
 /* harmony import */ var _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/dashboard/dashboard.service */ "./src/app/services/dashboard/dashboard.service.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2128,12 +2713,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var MasterPageComponent = /** @class */ (function () {
-    function MasterPageComponent(commonSrvc, settingsSrvc, dashboardSrvc, location, router) {
+    function MasterPageComponent(commonSrvc, settingsSrvc, dashboardSrvc, location, router, userCredentialsSrvc) {
         var _this = this;
         this.commonSrvc = commonSrvc;
         this.settingsSrvc = settingsSrvc;
         this.dashboardSrvc = dashboardSrvc;
+        this.userCredentialsSrvc = userCredentialsSrvc;
         this.httpUpdate = Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTimeDashboard);
         this.audioModel = true;
         this.totalConnectingMembers = {};
@@ -2228,19 +2815,15 @@ var MasterPageComponent = /** @class */ (function () {
         this.sidebarIsOn();
         this.activateSidePanelStats();
         if (localStorage.getItem('language') == 'korean') {
-            console.log('korean');
             this.korean = true;
-            // this.english = false
         }
         else if (localStorage.getItem('language') == 'english') {
-            console.log('english');
-            // this.korean = false
             this.english = true;
         }
         else {
             this.korean = true;
-            // this.english = false
         }
+        this.decryptToken();
     };
     MasterPageComponent.prototype.OnDestroy = function () {
         // localStorage.clear()
@@ -2291,6 +2874,7 @@ var MasterPageComponent = /** @class */ (function () {
     };
     MasterPageComponent.prototype.logout = function () {
         this.commonSrvc.logout();
+        this.userCredentialsSrvc.emitUserCredentials(null);
     };
     MasterPageComponent.prototype.toggleFullScreen = function () {
         var elem = document.body;
@@ -2314,7 +2898,6 @@ var MasterPageComponent = /** @class */ (function () {
     MasterPageComponent.prototype.audioToggle = function (value) {
         this.settingsSrvc.toggleMute(value);
         this.audioModel = value;
-        console.log(value);
     };
     MasterPageComponent.prototype.toKorean = function () {
         localStorage.setItem('language', 'korean');
@@ -2327,7 +2910,7 @@ var MasterPageComponent = /** @class */ (function () {
     //sidepanel stats
     MasterPageComponent.prototype.activateSidePanelStats = function () {
         var _this = this;
-        console.log('on screen');
+        // console.log('on screen')
         this.httpRequestSubscription = this.httpUpdate.subscribe(function () {
             if (_this.userIsOnScreen) {
                 _this.getTotalRegisteredUser();
@@ -2369,23 +2952,25 @@ var MasterPageComponent = /** @class */ (function () {
         var _this = this;
         this.dashboardSrvc.getWithdrawRankingDaily()
             .subscribe(function (res) {
-            //sort values
-            res.sort(function (a, b) { return b.ExitingAmount - a.ExitingAmount; });
-            //total withdraw variable
-            var totalwithdraw = 0;
-            //getting the percentage variables
-            var max = res[0].ExitingAmount;
-            var min = 0;
-            for (var i = 0; i <= res.length - 1; i++) {
-                res[i].Percentage = ((res[i].ExitingAmount - min) / (max - min)) * 100;
-                totalwithdraw += Number(res[i].ExitingAmount);
+            if (res.length > 0) {
+                //sort values
+                res.sort(function (a, b) { return b.ExitingAmount - a.ExitingAmount; });
+                //total withdraw variable
+                var totalwithdraw = 0;
+                //getting the percentage variables
+                var max = res[0].ExitingAmount;
+                var min = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].ExitingAmount - min) / (max - min)) * 100;
+                    totalwithdraw += Number(res[i].ExitingAmount);
+                }
+                //assign result to WithdrawRankingDaily
+                _this.dashboardSrvc.emitWithrawToday(res);
+                _this.withdrawRankingDaily = res;
+                _this.totalWithdrawToday = totalwithdraw;
+                // console.log(res)
+                _this.withdrawRankingLoading = false;
             }
-            //assign result to WithdrawRankingDaily
-            _this.dashboardSrvc.emitWithrawToday(res);
-            _this.withdrawRankingDaily = res;
-            _this.totalWithdrawToday = totalwithdraw;
-            // console.log(res)
-            _this.withdrawRankingLoading = false;
         }, function (error) {
             console.log('error' + error);
             _this.withdrawRankingLoading = true;
@@ -2395,22 +2980,24 @@ var MasterPageComponent = /** @class */ (function () {
         var _this = this;
         this.dashboardSrvc.getDepositRankingDaily()
             .subscribe(function (res) {
-            //sort values
-            res.sort(function (a, b) { return b.Amount - a.Amount; });
-            //total withdraw variable
-            var totalDeposit = 0;
-            //getting the percentage variables
-            var max = res[0].Amount;
-            var min = 0;
-            for (var i = 0; i <= res.length - 1; i++) {
-                res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
-                totalDeposit += Number(res[i].Amount);
+            if (res.length > 0) {
+                //sort values
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
+                //total withdraw variable
+                var totalDeposit = 0;
+                //getting the percentage variables
+                var max = res[0].Amount;
+                var min = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    totalDeposit += Number(res[i].Amount);
+                }
+                //assign result to depositRankingDaily
+                _this.dashboardSrvc.emitDepositToday(res);
+                _this.depositRankingDaily = res;
+                _this.totalDepositToday = totalDeposit;
+                _this.depositRankingLoading = false;
             }
-            //assign result to depositRankingDaily
-            _this.dashboardSrvc.emitDepositToday(res);
-            _this.depositRankingDaily = res;
-            _this.totalDepositToday = totalDeposit;
-            _this.depositRankingLoading = false;
         }, function (error) {
             console.log(error['status']);
             _this.depositRankingLoading = true;
@@ -2422,6 +3009,15 @@ var MasterPageComponent = /** @class */ (function () {
     };
     MasterPageComponent.prototype.clearToken = function () {
         localStorage.clear();
+    };
+    MasterPageComponent.prototype.decryptToken = function () {
+        var _this = this;
+        this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey))
+            .subscribe(function (res) {
+            _this.user = res;
+            console.log('user credentials' + JSON.stringify(res));
+            _this.userCredentialsSrvc.emitUserCredentials(res);
+        });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"])('mouseleave', ['$event']),
@@ -2441,7 +3037,12 @@ var MasterPageComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./master-page.component.html */ "./src/app/components/master-page/master-page.component.html"),
             styles: [__webpack_require__(/*! ./master-page.component.css */ "./src/app/components/master-page/master-page.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"], _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__["SettingsService"], _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_5__["DashboardService"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["Router"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__["SettingsService"],
+            _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_5__["DashboardService"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_7__["Location"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_8__["Router"],
+            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_6__["UserCredentialsService"]])
     ], MasterPageComponent);
     return MasterPageComponent;
 }());
@@ -2982,7 +3583,7 @@ var AddUserComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "/* .inputMargin{\r\n    margin-left: 15%; margin-right: 15%;\r\n} */\r\n\r\nhr{\r\n    margin: 0;\r\n    margin-top: 5px;\r\n}\r\n\r\n/* input[type=text],[type=password] {\r\n    height: 35px;\r\n} */\r\n"
 
 /***/ }),
 
@@ -2993,7 +3594,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">head office list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n      \n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\">search</button>\n      </div>\n\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"2\" selected>HO ID</option>\n          <option value=\"2\">title</option>\n          <option value=\"2\">contents</option>\n        </select>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>HO PW</th>\n                <th>name of HO</th>\n                <th>registration date</th>\n                <th>contact no.</th>\n                <th>Commission</th>\n                <th>holding money</th>\n                <th>total holding money</th>\n                <th>members money</th>\n                <th>total money</th>\n                <th>distributor</th>\n                <th>store</th>\n                <th>members</th>\n                <th>distributor list</th>\n                <th>status</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n\n                <td>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f;\">details</button>\n                  </div>\n                </td>\n\n                <td>\n                  <div class=\"w3-row\">\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">hold</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">accept</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">delete</button>\n                  </div>\n                </td>\n\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!--pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty for spacing -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!--pagination and number of entries end -->\n\n    <br>\n    <!-- add head office button -->\n    <button class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add head office</button>\n    <br>\n\n\n</div>\n\n<br>\n\n<!-- edit head office -->\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">add head office</p>\n    <hr class=\"tableTitleHr\">\n\n    <!-- name of HO -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">name of HO</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">sample name</p>\n        </div>\n      </div>\n    <!-- name of HO end -->\n      <hr style=\"margin: 0\">\n\n    <!-- ID -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">ID</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">sample ID</p>\n        </div>\n      </div>\n    <!-- ID end -->\n      <hr style=\"margin: 0\">\n    \n    <!-- password -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">password&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n        </div>\n    </div>\n    <!-- password end -->\n      <hr style=\"margin: 0\">\n\n    <!-- confirm password -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">confirm password&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n        </div>\n    </div>\n    <!-- confirm password end -->\n      <hr style=\"margin: 0\">\n\n    <!-- commission -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">commission</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">3%</p>\n        </div>\n      </div>\n    <!-- commission end -->\n      <hr style=\"margin: 0\">\n\n    <!-- money -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">money</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">0</p>\n        </div>\n      </div>\n    <!-- money end -->\n      <hr style=\"margin: 0\">\n      \n    <!-- registration date -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">registration date</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">2018-06-06 3:26:00</p>\n        </div>\n      </div>\n    <!-- registration date end -->\n      <hr style=\"margin: 0\">\n\n    <!-- buttons -->\n    <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">confirm</button>\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n \n    <br>\n\n</div>\n<!-- edit head office end-->\n<br>\n<!-- edit head office -->\n<div class=\"w3-container w3-border w3-card\">\n\n    <!-- table title -->\n      <p class=\"tableTitle\">edit head office</p>\n      <hr class=\"tableTitleHr\">\n  \n      <!-- name of HO -->\n        <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">name of HO</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">sample name</p>\n          </div>\n        </div>\n      <!-- name of HO end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- ID -->\n        <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">ID</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">sample ID</p>\n          </div>\n        </div>\n      <!-- ID end -->\n        <hr style=\"margin: 0\">\n      \n      <!-- password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- password end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- confirm password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">confirm password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- confirm password end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- commission -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">commission</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">3%</p>\n          </div>\n        </div>\n      <!-- commission end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- money -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">money</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">0</p>\n          </div>\n        </div>\n      <!-- money end -->\n        <hr style=\"margin: 0\">\n        \n      <!-- registration date -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">registration date</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">2018-06-06 3:26:00</p>\n          </div>\n        </div>\n      <!-- registration date end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- buttons -->\n      <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n          <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">confirm</button>\n          <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n        </div>\n      </div>\n      <!-- buttons end -->\n   \n      <br>\n  \n  </div>\n  <!-- edit head office end-->\n<br>\n"
+module.exports = "<div *ngIf=\"!enableAllUI\" class=\"w3-overlay\" style=\"display: flex; cursor: wait; align-items: center; justify-content: center; \">\n    <mat-progress-spinner color=\"accent\" mode=\"indeterminate\"></mat-progress-spinner>\n</div>\n\n<br>\n\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 2\">head office list</p>\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 1\">distributor list</p>\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 0\">shop list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n      <div class=\"w3-left\">\n        <button *ngIf=\"maxUpstep != pageIndex\" class=\"w3-btn w3-round w3-text-gray w3-animate-right\" (click)=\"uprank()\"  style=\"background-color: #7dd2ec;  margin-left: 15px\"><fa name=\"arrow-left\" size=\"lg\"></fa></button>\n      </div>\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\">search</button>\n      </div>\n\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"2\" selected>HO ID</option>\n          <option value=\"2\">title</option>\n          <option value=\"2\">contents</option>\n        </select>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">HO</span> \n                  <span *ngIf=\"pageIndex == 1\">Distributor</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span> \n                  ID\n                </th>\n                <th>PW</th>\n                <th>name</th>\n                <th>registration date</th>\n                <th>contact no.</th>\n                <th>Commission</th>\n                <th>holding money</th>\n                <th>total holding money</th>\n                <th>members money</th>\n                <th>total money</th>\n                <th *ngIf=\"pageIndex == 2\">distributor</th>\n                <th *ngIf=\"pageIndex > 0\">store</th>\n                <th>members</th>\n                <th *ngIf=\"pageIndex > 0\">\n                    <span *ngIf=\"pageIndex == 2\">distributor</span> \n                    <span *ngIf=\"pageIndex == 1\">store</span>&nbsp;list</th>\n                <th>status</th>\n              </tr>\n            </thead>\n            <tbody>\n\n              <tr *ngFor=\"let office of officeList\">\n                <td>{{office.row_number}}</td>\n                <td>{{office.OfficeID}}</td>\n                <td>{{office.Password}}</td>\n                <td>{{office.Name}}</td>\n                <td>{{office.RegisteredDateTime | date : \"shortDate\"}}</td>\n                <td>{{office.PhoneNumber}}</td>\n                <td>{{office.Commission | number}}%</td>\n                <td>{{office.holdingMoney | number}}</td>\n                <td>{{office.TotalHoldingMoney | number}}</td>\n                <td>{{office.MembersMoney | number}}</td>\n                <td>{{office.TotalMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2\">{{office.distributorsCount | number}}</td>\n                <td *ngIf=\"pageIndex > 0\">{{office.shopsCount | number}}</td>\n                <td>{{office.playersCount | number}}</td>\n\n                <td *ngIf=\"pageIndex > 0\">\n                  <div style=\"margin: 3px\">\n                    <button type=\"button\" (click)=\"lowrank(office.UserAccountID, office.Commission)\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f;\">details</button>\n                  </div>\n                </td>\n\n                <td>\n                  <div class=\"w3-row\">\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">hold</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">accept</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">delete</button>\n                  </div>\n                </td>\n\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"18\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!--pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty for spacing -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!--pagination and number of entries end -->\n\n    <br>\n    <!-- add head office button -->\n    <button *ngIf=\"pageIndex == 2\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add head office</button>\n    <button *ngIf=\"pageIndex == 1\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add distributor</button>\n    <button *ngIf=\"pageIndex == 0\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add shop</button>\n    <br>\n\n\n</div>\n\n<br>\n\n  <div class=\"w3-whole w3-container\">\n    <div class=\"w3-half\">\n      <!-- add head office -->\n      <form class=\"w3-container w3-border w3-card w3-white \" style=\"width:99%\">\n        <!-- table title -->\n          <p class=\"tableTitle\">\n            <span >\n              add \n              <span *ngIf=\"pageIndex == 2\">head office </span>\n              <span *ngIf=\"pageIndex == 1\">distributor </span>\n              <span *ngIf=\"pageIndex == 0\">shop</span>\n            </span>\n\n            <span class=\"w3-right\"><a href=\"\"><fa name=\"times\"></fa></a></span>\n          </p>\n\n\n          <hr class=\"tableTitleHr\">\n          <br>\n          <!-- HO ID -->\n      \n          <label for=\"officeID\">\n            <span *ngIf=\"pageIndex == 2\">head office </span>\n            <span *ngIf=\"pageIndex == 1\">distributor </span>\n            <span *ngIf=\"pageIndex == 0\">shop</span>\n            ID</label>\n          <div class=\"w3-bar\">\n            <input type=\"text\" [(ngModel)]=\"addOfficeUserName\" [ngModelOptions]=\"{standalone: true}\" id=\"officeID\" class=\"w3-input w3-bar-item w3-border\" style=\"width: 65%\">\n            <button type=\"button\" (click)=\"officeIDCheck()\" class=\"w3-btn w3-round w3-text-white w3-bar-item\"  style=\"background-color: #4ca5df; width: 35%; height: 100%; height: 40px\">inquire</button>\n          </div>\n      \n          <hr>\n      \n          <label for=\"officeName\">Name</label>\n          <input type=\"text\" [(ngModel)]=\"addOfficeName\" [ngModelOptions]=\"{standalone: true}\" id=\"officeName\" class=\"w3-input w3-border\">\n          \n          <hr>\n          \n          <label for=\"contactno\">Contact No.</label>\n          <input type=\"text\" [(ngModel)]=\"addOfficePhoneNumber\" [ngModelOptions]=\"{standalone: true}\" id=\"contactno\" class=\"w3-input w3-border\">\n      \n          <hr>\n      \n          <label for=\"password\">Password</label>\n          <input type=\"password\" [(ngModel)]=\"addOfficePassword\" [ngModelOptions]=\"{standalone: true}\" id=\"password\" class=\"w3-input w3-border\">\n      \n          <label for=\"confirmPassword\">Confrim Password</label>\n          <input type=\"password\" id=\"confirmPassword\" class=\"w3-input w3-border\">\n      \n          <hr>\n      \n          <!-- commission -->\n          <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n              <div class=\"w3-col\" style=\"width: 10%\">\n                <p class=\"w3-right\">commission <strong class=\"w3-center\">{{addOfficeCommisionValue}}%</strong></p>\n              </div>\n              <div class=\"w3-rest\" style=\"margin-top: 10px; margin-bottom: 10px\">\n                <br>\n                <mat-slider [(ngModel)]=\"addOfficeCommisionValue\" [ngModelOptions]=\"{standalone: true}\" style=\"width:98%; padding-right: 10px;\" min=\"0\" [max]=\"currentCommission\" step=\"0.1\" value=\"currentCommission\" thumbLabel=\"true\"></mat-slider>\n              </div>\n            </div>\n          <!-- commission end -->\n            <hr>\n      \n          <!-- buttons -->\n          <div class=\"w3-row inputMargin\" >\n            <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n              <button type=\"button\" *ngIf=\"pageIndex == 2\" (click)=\"addHeadOffice()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register head office</button>\n              <button type=\"button\" *ngIf=\"pageIndex == 1\" (click)=\"addDistributor()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register distributor</button>\n              <button type=\"button\" *ngIf=\"pageIndex == 0\" (click)=\"addShop()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register shop</button>\n              <!-- <button type=\"button \" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button> -->\n            </div>\n          </div>\n          <!-- buttons end -->\n       \n          <br>\n      \n        </form>\n      <!-- add head office end-->\n\n    </div>  \n    <div class=\"w3-half\">\n      <!-- edit head office -->\n      <div class=\"w3-container w3-border w3-card w3-white\">\n      \n          <!-- table title -->\n            <p class=\"tableTitle\">edit head office</p>\n            <hr class=\"tableTitleHr\">\n        \n            <!-- HO ID -->\n        \n            <label for=\"officeID\">HO ID</label>\n            <div class=\"w3-bar\">\n              <input type=\"text\" class=\"w3-input w3-bar-item w3-border\" style=\"width: 65%\">\n              <button class=\"w3-btn w3-round w3-text-white w3-bar-item\"  style=\"background-color: #4ca5df; width: 35%; height: 100%\">inquire</button>\n            </div>\n        \n            <hr>\n        \n            <label for=\"officeName\">Name</label>\n            <input type=\"text\" class=\"w3-input w3-border\">\n            \n            <hr>\n            \n            <label for=\"contactno\">Contact No.</label>\n            <input type=\"text\" class=\"w3-input w3-border\">\n        \n            <hr>\n        \n            <label for=\"password\">Password</label>\n            <input type=\"password\" class=\"w3-input w3-border\">\n        \n            <label for=\"confirmPassword\">Confrim Password</label>\n            <input type=\"password\" class=\"w3-input w3-border\">\n        \n            <hr>\n        \n        \n            <!-- buttons -->\n            <div class=\"w3-row inputMargin\" >\n              <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n                <button class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n                <button class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n              </div>\n            </div>\n            <!-- buttons end -->\n         \n            <br>\n        \n        </div>\n        <!-- edit head office end-->\n    </div>  \n    \n    <br>\n    <br>\n  </div>\n\n  <br>\n  <br>\n\n\n\n"
 
 /***/ }),
 
@@ -3008,6 +3609,11 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeadOfficeListComponent", function() { return HeadOfficeListComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_sales_office_list_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/sales/office-list.service */ "./src/app/services/sales/office-list.service.ts");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3018,10 +3624,413 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+
+
+
 var HeadOfficeListComponent = /** @class */ (function () {
-    function HeadOfficeListComponent() {
+    function HeadOfficeListComponent(commonSrvc, officeListSrvc, userCredentialsSrvc) {
+        this.commonSrvc = commonSrvc;
+        this.officeListSrvc = officeListSrvc;
+        this.userCredentialsSrvc = userCredentialsSrvc;
+        //service variables
+        // unlike the other components... pageIndex will depend on who the user is operatingheadoffice/headoffice/distributor/shop and it is editable through here
+        this.pageIndex = 0;
+        //table variables
+        this.officeList = [];
+        //key to html elements
+        this.key = [
+            false,
+            false,
+            false //operating
+        ];
+        this.parentIDHistory = [];
+        this.addOfficeCommisionValue = 0;
+        //pagination variables
+        this.currentPage = 0;
+        //this involved in paginate function
+        this.currentPaginationButton = 1;
+        this.pages = [];
+        this.paginationValues = [];
+        this.offset = 0;
+        //search variables
+        this.searchResult = false;
+        this.backLoading = true;
+        this.hidePagination = false;
+        //answer variables
+        this.answer = false;
+        this.enableAllUI = true;
+        this.disabeOfficeRegistrationForm = false;
+        this.disabeOfficeEditForm = false;
+        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].updateTime);
+        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
     }
+    //lifecycle hooks
     HeadOfficeListComponent.prototype.ngOnInit = function () {
+        if (!this.userCredentials) {
+            console.log('requested... ');
+            this.getUserCredentials();
+        }
+        this.onComponent = true;
+        this.activateGetListAndPageCount();
+    };
+    HeadOfficeListComponent.prototype.ngOnDestroy = function () {
+        this.onComponent = false;
+        console.log('you leave office lists');
+    };
+    //lifecycle hooks end
+    //activate/deactivate
+    HeadOfficeListComponent.prototype.activateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription = this.update.subscribe(function () {
+            if (_this.onComponent) {
+                if (!_this.searchBack && !_this.searchResult) {
+                    if (_this.commonSrvc.userActive) {
+                        _this.getListAndPageCount();
+                        //hide back loading UI
+                        _this.backLoading = false;
+                        //show pagination again
+                        _this.hidePagination = false;
+                        // console.log('user credentials : ' + JSON.stringify(this.userCredentials))
+                        // if(!this.userCredentials){
+                        //   console.log('user credentials requested...')
+                        //   this.getUserCredentials()
+                        // }
+                    }
+                    else {
+                        _this.deactivateGetListAndPageCount();
+                    }
+                }
+            }
+        });
+    };
+    HeadOfficeListComponent.prototype.deactivateGetListAndPageCount = function () {
+        var _this = this;
+        this.getListSubscription.unsubscribe();
+        console.log('deactivated');
+        //start listening if user is active again while deactivated
+        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
+            if (_this.commonSrvc.userActive) {
+                _this.activateGetListAndPageCount();
+                //stop listening if user is active again
+                _this.checkIfActiveSubscription.unsubscribe();
+            }
+        });
+    };
+    //activate/deactivate end
+    HeadOfficeListComponent.prototype.getListAndPageCount = function () {
+        Promise.all([this.getOfficeList(), this.getPageCount()]).then(function () {
+            // console.log('get list and page count successful');
+        }, function () {
+            // console.log('something went wrong')
+        });
+    };
+    HeadOfficeListComponent.prototype.getOfficeList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.officeListSrvc.getList(_this.pageIndex, _this.offset, _this.currentParentID)
+                .subscribe(function (result) {
+                //show No results found if 0 result else dont show
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = _this.offset;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                        result[i].TotalMoney = result[i].TotalHoldingMoney + result[i].MembersMoney;
+                    }
+                    //set artificial index end
+                    _this.officeList = result;
+                    _this.searchResult = false;
+                    _this.searchBack = false;
+                    resolve();
+                }
+                else {
+                    _this.searchResult = true;
+                }
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    HeadOfficeListComponent.prototype.getPageCount = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.officeListSrvc.getPageCount(_this.pageIndex)
+                .subscribe(function (result) {
+                //clear values first
+                _this.pages = [];
+                _this.paginationValues = [];
+                //p = pages
+                var p = Math.ceil(result[0]['ID'] / 20);
+                //set number and value of pages
+                var i;
+                var x = 0;
+                for (i = 1; i <= p; i++) {
+                    _this.pages.push(i);
+                    _this.paginationValues.push(x);
+                    x += 20;
+                }
+                _this.lastPage = _this.pages[_this.pages.length - 1];
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    HeadOfficeListComponent.prototype.paginate = function (i) {
+        this.offset = this.paginationValues[i - 1];
+        console.log(this.offset);
+        this.currentPaginationButton = i;
+    };
+    // searchList(event){
+    //   event.preventDefault();
+    //   let target = event.target;
+    //   //hide pagination
+    //   this.hidePagination = true
+    //   let column = target.querySelector('#column').value
+    //   let value = (target.querySelector('#value').value) ? target.querySelector('#value').value : environment.ifSearchVariableEmpty
+    //     this.commonSrvc.searchList(this.pageIndex,column,value)
+    //     .subscribe(
+    //       (result:ipListModel[]) => {
+    //         this.ipList = result
+    //         console.log(result)
+    //         //if there's result
+    //         if(result.length > 0){
+    //           //stopping getting list for awhile
+    //           this.getListSubscription.unsubscribe()
+    //           //show results found UI
+    //           this.searchBack = true
+    //           //hide no results found UI
+    //           this.searchResult = false
+    //           console.log('results found')
+    //         }
+    //       },
+    //       error => {
+    //         if(error['statusText'] == 'Not Found'){
+    //           //stopping getting list for awhile
+    //           this.getListSubscription.unsubscribe()
+    //           //show no results found UI
+    //           this.searchResult = true
+    //           //hide results found UI
+    //           this.searchBack = false
+    //           //empty list
+    //           this.ipList = []
+    //         }
+    //       }
+    //     )
+    // }
+    HeadOfficeListComponent.prototype.back = function () {
+        this.backLoading = true;
+        //hide back UIs
+        this.searchBack = false;
+        this.searchResult = false;
+        this.activateGetListAndPageCount();
+    };
+    //pagination functions
+    HeadOfficeListComponent.prototype.next = function () {
+        this.currentPaginationButton += 1;
+        if ((this.pages.length - 5) > this.currentPage) {
+            this.currentPage += 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    HeadOfficeListComponent.prototype.previous = function () {
+        this.currentPaginationButton -= 1;
+        if (this.currentPage >= 1) {
+            this.currentPage -= 1;
+            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+        }
+    };
+    HeadOfficeListComponent.prototype.first = function () {
+        this.currentPage = 0;
+        this.offset = 0;
+        this.currentPaginationButton = 1;
+    };
+    HeadOfficeListComponent.prototype.last = function () {
+        this.currentPage = this.pages.length - 5;
+        this.currentPaginationButton = this.pages[this.pages.length - 1];
+        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    };
+    //pagination functions end
+    HeadOfficeListComponent.prototype.getUserCredentials = function () {
+        var _this = this;
+        this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].tokenStorageKey))
+            .subscribe(function (res) {
+            console.log(res);
+            _this.userCredentials = res;
+            _this.currentCommission = res.Commission;
+            _this.currentParentID = res.UserAccountID;
+            _this.parentIDHistory.push(res.UserAccountID);
+            var level;
+            if (res.AccountType == "OperatingHeadOffice") {
+                level = 3;
+                _this.maxUpstep = 2;
+                _this.pageIndex = 2;
+            }
+            else if (res.AccountType == "HeadOffice") {
+                level = 2;
+                _this.maxUpstep = 1;
+                _this.pageIndex = 1;
+            }
+            else if (res.AccountType == "Distributor") {
+                level = 1;
+                _this.maxUpstep = 0;
+                _this.pageIndex = 0;
+            }
+            else {
+                // should be logged out because shop or edited account type is not allowed here
+            }
+            for (var i = 0; i < level; i++) {
+                _this.key[i] = true;
+                console.log('i : ' + i);
+            }
+            console.log(_this.key);
+        });
+    };
+    HeadOfficeListComponent.prototype.lowrank = function (office, lowrankCommission) {
+        // in case user force altered the pageIndex, the set it to 0 
+        if (this.pageIndex != 0) {
+            this.parentIDHistory.push(this.currentParentID);
+            this.pageIndex -= 1;
+            this.currentParentID = office;
+            this.currentCommission = lowrankCommission;
+            this.addOfficeCommisionValue = 0;
+            this.officeList = [];
+            this.backLoading = true;
+        }
+        else {
+            this.pageIndex = 0;
+        }
+    };
+    HeadOfficeListComponent.prototype.uprank = function () {
+        // this will keep pageindex to not step up to its limit.
+        if (this.maxUpstep != this.pageIndex) {
+            // if(this.pageIndex == ){
+            // }
+            this.pageIndex += 1;
+            this.currentParentID = this.parentIDHistory.pop();
+            this.officeList = [];
+            this.backLoading = true;
+        }
+    };
+    // check to all of user accounts
+    HeadOfficeListComponent.prototype.officeIDCheck = function () {
+        console.log(this.addOfficeUserName);
+        this.commonSrvc.checkIfUserNameExist(this.addOfficeUserName)
+            .subscribe(function (res) {
+            console.log('check username if exists ' + res);
+            if (res) {
+                alert('already exist');
+            }
+            else {
+                alert('available');
+            }
+        });
+    };
+    HeadOfficeListComponent.prototype.addHeadOffice = function () {
+        var _this = this;
+        this.enableAllUI = false;
+        var addOfficeVariables = {
+            Name: this.addOfficeName,
+            PhoneNumber: this.addOfficePhoneNumber,
+            UserName: this.addOfficeUserName,
+            Password: this.addOfficePassword,
+            Commission: this.addOfficeCommisionValue,
+            OperatingHeadOfficeUserAccountID: this.currentParentID
+        };
+        this.officeListSrvc.addHeadOffice(addOfficeVariables)
+            .subscribe(function (res) {
+            console.log('add head office result 2 : ' + res);
+            if (res['status']) {
+                alert('add head office succesful');
+                _this.enableAllUI = true;
+            }
+            else {
+                alert('adding head office fail');
+            }
+        }, function (err) {
+            if (err['status'] == 409) {
+                alert('username already exist');
+                _this.enableAllUI = true;
+            }
+            else if (err['status'] == 400) {
+                alert('please fill up all fields....');
+                _this.enableAllUI = true;
+            }
+            console.log('add head office error : ' + err);
+        });
+    };
+    HeadOfficeListComponent.prototype.addDistributor = function () {
+        var _this = this;
+        this.enableAllUI = false;
+        var addOfficeVariables = {
+            Name: this.addOfficeName,
+            PhoneNumber: this.addOfficePhoneNumber,
+            UserName: this.addOfficeUserName,
+            Password: this.addOfficePassword,
+            Commission: this.addOfficeCommisionValue,
+            HeadOfficeUserAccountID: this.currentParentID
+        };
+        this.officeListSrvc.addDistributor(addOfficeVariables)
+            .subscribe(function (res) {
+            console.log('add distributor result : ' + JSON.stringify(res));
+            if (res['status'] == 200) {
+                alert('add distributor succesful');
+                _this.enableAllUI = true;
+            }
+            else {
+                alert('adding distributor fail');
+            }
+        }, function (err) {
+            if (err['status'] == 409) {
+                alert('username already exist');
+                _this.enableAllUI = true;
+            }
+            else if (err['status'] == 400) {
+                alert('please fill up all fields....');
+                _this.enableAllUI = true;
+            }
+            console.log('add distributor error : ' + err);
+        });
+    };
+    HeadOfficeListComponent.prototype.addShop = function () {
+        var _this = this;
+        this.enableAllUI = false;
+        var addOfficeVariables = {
+            Name: this.addOfficeName,
+            PhoneNumber: this.addOfficePhoneNumber,
+            UserName: this.addOfficeUserName,
+            Password: this.addOfficePassword,
+            Commission: this.addOfficeCommisionValue,
+            DistributorUserAccountID: this.currentParentID
+        };
+        this.officeListSrvc.addShop(addOfficeVariables)
+            .subscribe(function (res) {
+            console.log('add shop result : ' + JSON.stringify(res));
+            if (res['status'] == 200) {
+                alert('add shop succesful');
+                _this.enableAllUI = true;
+            }
+            else {
+                alert('adding shop fail');
+            }
+        }, function (err) {
+            if (err['status'] == 409) {
+                alert('username already exist');
+                _this.enableAllUI = true;
+            }
+            else if (err['status'] == 400) {
+                alert('please fill up all fields....');
+                _this.enableAllUI = true;
+            }
+            console.log('add shop error : ' + err);
+        });
     };
     HeadOfficeListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3029,7 +4038,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./head-office-list.component.html */ "./src/app/components/sales/head-office-list/head-office-list.component.html"),
             styles: [__webpack_require__(/*! ./head-office-list.component.css */ "./src/app/components/sales/head-office-list/head-office-list.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"], _services_sales_office_list_service__WEBPACK_IMPORTED_MODULE_1__["OfficeListService"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__["UserCredentialsService"]])
     ], HeadOfficeListComponent);
     return HeadOfficeListComponent;
 }());
@@ -3560,7 +4569,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">IP list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <form (submit)=\"searchList($event)\" class=\"w3-row\">\n      \n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input type=\"submit\" class=\"w3-mobile w3-btn w3-round w3-text-white\" style=\"background-color: #7dd2ec; margin-right: 11px;\" value=\"search\" >\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" style=\"height: 40px; max-width: 100px;\" id=\"column\">\n          <option value=\"PlayerUserAccountID\" selected>user ID</option>\n          <option value=\"ScreenName\">screen name</option>\n          <option value=\"IP\">IP</option>\n      </select>\n      </div>\n\n    </form>\n    <!--  screen name, radio btn, and search end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>IP</th>\n                <th>connected date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div  *ngFor=\"let ip of ipList\">\n                <div>\n                  {{ip.PlayerUserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let ip of ipList\">\n                <td>{{ip.row_number}}</td>\n                <td>{{ip.HeadOfficeID}}</td>\n                <td>{{ip.DistributorID}}</td>\n                <td>{{ip.ShopID}}</td>\n                <td>{{ip.PlayerUserAccountID}}</td>\n                <td>{{ip.ScreenName}}</td>\n                <td>{{ip.IP}}</td>\n                <td>{{ip.RegisteredDateTime | date:'yyyy-MM-dd HH:mm:ss'}}</td>\n              </tr>\n\n              <tr [hidden]=\"!searchResult\">\n                  <td colspan=\"8\">NO RESULTS FOUND\n                    <br>\n                    <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    <br>\n                    \n                    \n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!searchBack\">\n                  <td colspan=\"8\">RESULT FOUND\n                    <br>\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!backLoading\">\n                  <td colspan=\"8\">\n                    <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                  </td>\n                </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">IP list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <form (submit)=\"searchList($event)\" class=\"w3-row\">\n      \n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input type=\"submit\" class=\"w3-mobile w3-btn w3-round w3-text-white\" style=\"background-color: #7dd2ec; margin-right: 11px;\" value=\"search\" >\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" style=\"height: 40px; max-width: 100px;\" id=\"column\">\n          <option value=\"PlayerUserAccountID\" selected>user ID</option>\n          <option value=\"ScreenName\">screen name</option>\n          <option value=\"IP\">IP</option>\n      </select>\n      </div>\n\n    </form>\n    <!--  screen name, radio btn, and search end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>IP</th>\n                <th>connected date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div  *ngFor=\"let ip of ipList\">\n                <div>\n                  {{ip.PlayerUserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let ip of ipList\">\n                <td>{{ip.row_number}}</td>\n                <td>{{ip.HeadOfficeID}}</td>\n                <td>{{ip.DistributorID}}</td>\n                <td>{{ip.ShopID}}</td>\n                <td>{{ip.PlayerUserAccountID}}</td>\n                <td>{{ip.ScreenName}}</td>\n                <td>{{ip.IP}}</td>\n                <td>{{ip.RegisteredDateTime | date:'yyyy-MM-dd HH:mm:ss'}}</td>\n              </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                  <td colspan=\"8\">NO RESULTS FOUND\n                    <br>\n                    <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    <br>\n                    \n                    \n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!searchBack\">\n                  <td colspan=\"8\">RESULT FOUND\n                    <br>\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!backLoading\">\n                  <td colspan=\"8\">\n                    <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                  </td>\n                </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
 
 /***/ }),
 
@@ -3996,6 +5005,12 @@ var UserAuthService = /** @class */ (function () {
     function UserAuthService(http) {
         this.http = http;
         this.authenticated = false;
+        this.httpOptions = {
+            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
+                'Content-Type': 'application/json',
+                'Authorization': "Bearer " + this.getToken
+            })
+        };
     }
     Object.defineProperty(UserAuthService.prototype, "isAuthenticated", {
         get: function () {
@@ -4017,15 +5032,21 @@ var UserAuthService = /** @class */ (function () {
     UserAuthService.prototype.login = function (UserName, Password) {
         //post these details to API return token if correct credentials
         console.log('sent');
-        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Admin/Login/', {
+        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Admin/Login', {
             UserName: UserName,
             Password: Password
         })
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
-            console.log(res);
             return res.json();
         }));
     };
+    Object.defineProperty(UserAuthService.prototype, "getToken", {
+        get: function () {
+            return localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey);
+        },
+        enumerable: true,
+        configurable: true
+    });
     UserAuthService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
@@ -4033,6 +5054,132 @@ var UserAuthService = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
     ], UserAuthService);
     return UserAuthService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/calculate/lowrank/lowrank.service.ts":
+/*!***************************************************************!*\
+  !*** ./src/app/services/calculate/lowrank/lowrank.service.ts ***!
+  \***************************************************************/
+/*! exports provided: LowrankService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LowrankService", function() { return LowrankService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var LowrankService = /** @class */ (function () {
+    function LowrankService(http) {
+        this.http = http;
+        this.httpOptions = {
+            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
+                'Content-Type': 'application/json',
+                'Authorization': "Bearer " + this.getToken
+            })
+        };
+        //http request variables
+        this.page = [
+            '3',
+            '2',
+            '1' //2
+        ];
+    }
+    LowrankService.prototype.getLowrank = function (offset, office, pageindex) {
+        try {
+            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/CalculateManage/LowRank/' + this.page[pageindex] + '/Office/' + office + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.httpOptions)
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+        }
+        catch (error) {
+            console.log('http' + error);
+        }
+    };
+    Object.defineProperty(LowrankService.prototype, "getToken", {
+        get: function () {
+            return localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    LowrankService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+    ], LowrankService);
+    return LowrankService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/calculate/user-profit.service.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/services/calculate/user-profit.service.ts ***!
+  \***********************************************************/
+/*! exports provided: UserProfitService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserProfitService", function() { return UserProfitService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var UserProfitService = /** @class */ (function () {
+    function UserProfitService(http) {
+        this.http = http;
+        this.httpOptions = {
+            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
+                'Content-Type': 'application/json',
+                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
+            })
+        };
+    }
+    UserProfitService.prototype.searchUserProfit = function (datetimeStart, datetimeEnd, value) {
+        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserProfit/Search/UserAccountID/' + value + '/StartDate/' + datetimeStart + '/EndDate/' + datetimeEnd)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    };
+    UserProfitService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+    ], UserProfitService);
+    return UserProfitService;
 }());
 
 
@@ -4092,7 +5239,8 @@ var CommonService = /** @class */ (function () {
             'IPList',
             'OneOnOne',
             'MembersList',
-            'WithdrawHistoryList' //6
+            'WithdrawHistoryList',
+            'UserProfit' //7
         ];
     }
     CommonService.prototype.logout = function () {
@@ -4114,7 +5262,7 @@ var CommonService = /** @class */ (function () {
     CommonService.prototype.getList = function (pageIndex, offset) {
         try {
             return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.httpOptions)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
         }
         catch (error) {
             console.log('http' + error);
@@ -4123,10 +5271,14 @@ var CommonService = /** @class */ (function () {
     CommonService.prototype.getPageCount = function (pageIndex) {
         console.log('page count request...');
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Pagination/' + pageIndex, this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     CommonService.prototype.searchList = function (pageIndex, column, value) {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/' + this.page[pageIndex] + '/Search/Column/' + column + '/Value/' + value, this.httpOptions)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    };
+    CommonService.prototype.checkIfUserNameExist = function (username) {
+        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserNameCheck/' + username)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     CommonService = __decorate([
@@ -4156,8 +5308,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/Rx */ "./node_modules/rxjs-compat/_esm5/Rx.js");
+/* harmony import */ var rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/Rx */ "./node_modules/rxjs-compat/_esm5/Rx.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4172,19 +5323,17 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var DashboardService = /** @class */ (function () {
     function DashboardService(http) {
         this.http = http;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
         //observables
-        this.withdrawToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.depositToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.totalMemberObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.totalRegisteredTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.connectingMembersObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.totalWithdrawTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-        this.totalDepositTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
+        this.withdrawToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.depositToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.totalMemberObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.totalRegisteredTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.connectingMembersObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.totalWithdrawTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+        this.totalDepositTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
         this.httpOptions = {
             headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
                 'Content-Type': 'application/json',
@@ -4209,52 +5358,38 @@ var DashboardService = /** @class */ (function () {
     };
     DashboardService.prototype.getTotalRegisteredUser = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalRegisteredUser', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getTotalRegisteredUserToday = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalRegisteredUsersToday', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getDepositWithdrawToday = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalTransactionRecent/', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getConnectingMembers = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/OnlineStatuses/', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     //charts
     DashboardService.prototype.getBettingRankingDaily = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Betting/Daily', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getBettingRankingMonthly = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Betting/Monthly', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getDepositRankingDaily = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Deposit/Daily/', this.httpOptions)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
+            return res.arrayBuffer().byteLength > 0 ? res.json() : {};
         }));
     };
     DashboardService.prototype.getWithdrawRankingDaily = function () {
         return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Withdraw/Daily/', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
-            return res.json();
-        }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -4504,6 +5639,89 @@ var AddUserService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/services/sales/office-list.service.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/services/sales/office-list.service.ts ***!
+  \*******************************************************/
+/*! exports provided: OfficeListService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OfficeListService", function() { return OfficeListService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var OfficeListService = /** @class */ (function () {
+    function OfficeListService(http) {
+        this.http = http;
+        this.httpOptions = {
+            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
+                'Content-Type': 'application/json',
+                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
+            })
+        };
+        //http request variables
+        this.page = [
+            'ShopList',
+            'DistributorList',
+            'HeadOfficeList' //2
+        ];
+    }
+    OfficeListService.prototype.getList = function (pageIndex, offset, ParentID) {
+        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Sales/' + this.page[pageIndex] + '/ParentID/' + ParentID + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    OfficeListService.prototype.getPageCount = function (pageIndex) {
+        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Sales/Pagination/Page/' + pageIndex, this.httpOptions)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    // check to all of user accounts
+    OfficeListService.prototype.checkIfHeadOfficeExist = function (username) {
+        try {
+            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserNameCheck/' + username)
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+        }
+        catch (error) {
+            console.log('http' + error);
+        }
+    };
+    OfficeListService.prototype.addHeadOffice = function (addHeadOfficeVariables) {
+        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/HeadOffice/Add/', addHeadOfficeVariables);
+    };
+    OfficeListService.prototype.addDistributor = function (addHeadOfficeVariables) {
+        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Distributor/Add', addHeadOfficeVariables);
+    };
+    OfficeListService.prototype.addShop = function (addHeadOfficeVariables) {
+        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Shop/Add/', addHeadOfficeVariables);
+    };
+    OfficeListService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+    ], OfficeListService);
+    return OfficeListService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/services/settings/settings.service.ts":
 /*!*******************************************************!*\
   !*** ./src/app/services/settings/settings.service.ts ***!
@@ -4550,6 +5768,79 @@ var SettingsService = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], SettingsService);
     return SettingsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/user-credentials.service.ts":
+/*!******************************************************!*\
+  !*** ./src/app/services/user-credentials.service.ts ***!
+  \******************************************************/
+/*! exports provided: UserCredentialsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserCredentialsService", function() { return UserCredentialsService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/Rx */ "./node_modules/rxjs-compat/_esm5/Rx.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var UserCredentialsService = /** @class */ (function () {
+    function UserCredentialsService(http) {
+        this.http = http;
+        this.key = [
+            false,
+            false,
+            false //operating
+        ];
+        this.user = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
+    }
+    UserCredentialsService.prototype.emitUserCredentials = function (newValue) {
+        this.user.next(newValue);
+    };
+    UserCredentialsService.prototype.getPrivileges = function (token) {
+        return this.http.get(src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].apiUrl + '/Api/v1/Admin/Login/Token', {
+            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_2__["Headers"]({
+                'Content-Type': 'application/json',
+                'Authorization': "Bearer " + token
+            })
+        })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.json(); }));
+    };
+    UserCredentialsService.prototype.defineKeys = function (level) {
+        console.log('assigned level + ' + level);
+        for (var i = 0; i < level; i++) {
+            this.key[i] = true;
+            console.log('i : ' + i);
+        }
+        //  console.log(this.key)
+        return this.key;
+    };
+    UserCredentialsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"]])
+    ], UserCredentialsService);
+    return UserCredentialsService;
 }());
 
 
@@ -4633,10 +5924,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 var environment = {
     production: true,
-    apiUrl: 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com',
-    // apiUrl : 'http://192.168.254.104:8080',
+    // apiUrl : 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com',
+    apiUrl: 'http://192.168.254.100:8080',
     resultLimit: 20,
-    updateTime: 5000,
+    updateTime: 3000,
     updateTimeDashboard: 3000,
     consoleToggle: true,
     httpRequestTimeout: 20,
@@ -4685,18 +5976,21 @@ var environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hammerjs */ "./node_modules/hammerjs/hammer.js");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
 
 
 
-if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
 }
-Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"])
     .catch(function (err) { return console.log(err); });
 
 
@@ -4709,7 +6003,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Mpotech-Echo\Desktop\Projects\holdem\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! c:\Users\Mpotech-Echo\Desktop\Projects\holdem\src\main.ts */"./src/main.ts");
 
 
 /***/ })
