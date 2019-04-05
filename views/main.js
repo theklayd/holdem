@@ -721,13 +721,13 @@ var CalculateManageComponent = /** @class */ (function () {
     //lifecycle hooks
     CalculateManageComponent.prototype.ngOnInit = function () {
         if (!this.userCredentials) {
-            console.log('requested... ');
+            // // console.log deleted('requested... ')
             this.getUserCredentials();
         }
         this.timeopts = this.formsSrvc.timeOptions;
     };
     CalculateManageComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave calculate manage');
+        // // console.log deleted('you leave calculate manage')
     };
     //lifecycle hooks end
     // get user credentials for validation
@@ -735,7 +735,7 @@ var CalculateManageComponent = /** @class */ (function () {
         var _this = this;
         this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey))
             .subscribe(function (res) {
-            console.log(res);
+            // // console.log deleted(res)
             _this.userCredentials = res;
             _this.currentCommission = res.Commission;
             _this.currentParentID = res.UserAccountID;
@@ -761,18 +761,18 @@ var CalculateManageComponent = /** @class */ (function () {
             }
             for (var i = 0; i < level; i++) {
                 _this.key[i] = true;
-                console.log('i : ' + i);
+                // // console.log deleted('i : ' + i)
             }
             _this.getListAndPageCount();
-            console.log(_this.key);
+            // // console.log deleted(this.key)
         });
     };
     // end get user credentials for validation
     CalculateManageComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getLowrankList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // // console.log deleted('something went wrong')
         });
     };
     // pageindex:number, offset:number, limit:number, order:string, direction:string, office:string 
@@ -801,7 +801,7 @@ var CalculateManageComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // // console.log deleted(error)
                 reject();
             });
         });
@@ -815,8 +815,8 @@ var CalculateManageComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // // console.log deleted(error);
                 reject();
             });
         });
@@ -826,14 +826,14 @@ var CalculateManageComponent = /** @class */ (function () {
         var _this = this;
         this.lowrankSrvc.search(this.pageIndex, this.currentParentID, this.startDate + this.startTime, this.endDate + this.endTime)
             .subscribe(function (result) {
-            console.log(result);
+            // // console.log deleted(result)
             //if there's result
             if (result.length > 0) {
                 _this.CalculateManageList = result;
-                console.log('results found');
+                // // console.log deleted('results found')
             }
             else {
-                console.log('no result found');
+                // // console.log deleted('no result found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -848,7 +848,7 @@ var CalculateManageComponent = /** @class */ (function () {
     };
     CalculateManageComponent.prototype.lowrank = function (office) {
         // in case user force altered the pageIndex, the set it to 0 
-        console.log('pageindex : ' + this.pageIndex);
+        // // console.log deleted('pageindex : '+this.pageIndex)
         if (this.pageIndex != 0) {
             this.parentIDHistory.push(this.currentParentID);
             this.pageIndex -= 1;
@@ -870,7 +870,7 @@ var CalculateManageComponent = /** @class */ (function () {
             this.reload();
         }
         else {
-            console.log('invalid uprank');
+            // // console.log deleted('invalid uprank')
         }
     };
     //we call this function when the user interact with paginator or clicked the refresh button
@@ -892,14 +892,14 @@ var CalculateManageComponent = /** @class */ (function () {
             this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
         }
         else {
-            console.log('invalid target ID');
+            // // console.log deleted('invalid target ID')
         }
     };
     CalculateManageComponent.prototype.test = function () {
-        console.log('date start : ' + this.startDate);
-        console.log('time start : ' + this.startTime);
-        console.log('date end : ' + this.endDate);
-        console.log('time end : ' + this.endTime);
+        // // console.log deleted('date start : ' +  this.startDate)
+        // // console.log deleted('time start : ' +  this.startTime)
+        // // console.log deleted('date end : ' + this.endDate)
+        // // console.log deleted('time end : ' + this.endTime)
     };
     CalculateManageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1032,14 +1032,14 @@ var UserProfitComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     UserProfitComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave 1on1 support');
+        // // console.log deleted('you leave 1on1 support')
     };
     //lifecycle hooks end
     UserProfitComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // // console.log deleted('something went wrong')
         });
     };
     UserProfitComponent.prototype.getSupportList = function () {
@@ -1050,7 +1050,7 @@ var UserProfitComponent = /** @class */ (function () {
             _this.tableSort.active, // order by
             _this.tableSort.direction)
                 .subscribe(function (result) {
-                console.log(result);
+                // // console.log deleted(result)
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
@@ -1066,11 +1066,11 @@ var UserProfitComponent = /** @class */ (function () {
                     _this.backLoading = false;
                 }
                 else {
-                    console.log('user profit no result');
+                    // // console.log deleted('user profit no result')
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // // console.log deleted(error)
                 reject();
             });
         });
@@ -1084,8 +1084,8 @@ var UserProfitComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
-                console.log(error);
+                // // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // // console.log deleted(error);
                 reject();
             });
         });
@@ -1099,15 +1099,15 @@ var UserProfitComponent = /** @class */ (function () {
             .subscribe(function (result) {
             //if there's result
             if (result.length > 0) {
-                console.log(result);
+                // // console.log deleted(result)
                 result[0].profit = result[0].deposit - result[0].withdraw;
                 result[0].profitMinusRake = result[0].profit - result[0].TotalRake;
                 _this.UserProfitList = result;
                 _this.backLoading = false;
-                console.log('results found');
+                // // console.log deleted('results found')
             }
             else {
-                console.log('search result not found');
+                // // console.log deleted('search result not found')
             }
             // this.UserProfitList = result
         }, function (error) {
@@ -1126,7 +1126,7 @@ var UserProfitComponent = /** @class */ (function () {
     };
     UserProfitComponent.prototype.sortData = function (sort) {
         this.tableSort = { active: sort.active, direction: sort.direction };
-        console.log(this.tableSort.direction);
+        // // console.log deleted(this.tableSort.direction)
         if (this.tableSort.direction) {
             this.reload();
         }
@@ -1139,7 +1139,7 @@ var UserProfitComponent = /** @class */ (function () {
             this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_7__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
         }
         else {
-            console.log('invalid target ID');
+            // // console.log deleted('invalid target ID')
         }
     };
     UserProfitComponent.prototype.openSearchNoResultFound = function () {
@@ -1154,7 +1154,7 @@ var UserProfitComponent = /** @class */ (function () {
             }
         })
             .afterDismissed().subscribe(function () {
-            console.log('dismissed');
+            // // console.log deleted('dismissed');
             _this.reload();
             _this.searchValue = null;
         });
@@ -1283,7 +1283,7 @@ var DashboardComponent = /** @class */ (function () {
         this.getEmittedConnectingMembers();
     };
     DashboardComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave dashboard');
+        // // console.log deleted('you leave dashboard')
     };
     //charts
     DashboardComponent.prototype.getBettingRankingDaily = function () {
@@ -1314,7 +1314,7 @@ var DashboardComponent = /** @class */ (function () {
             else {
                 _this.AverageRanking[0].IsReady = true;
             }
-            // console.log(' this is error ' + error)
+            // // console.log deleted(' this is error ' + error)
         });
     };
     DashboardComponent.prototype.getBettingRankingWeekly = function () {
@@ -1345,7 +1345,7 @@ var DashboardComponent = /** @class */ (function () {
             else {
                 // this.dailyLoading = true
             }
-            // console.log(' this is error ' + error)
+            // // console.log deleted(' this is error ' + error)
         });
     };
     DashboardComponent.prototype.getBettingRankingMonthly = function () {
@@ -1367,19 +1367,19 @@ var DashboardComponent = /** @class */ (function () {
                 // this.monthlyLoading = false
             }
         }, function (error) {
-            // console.log('error' + error)
+            // // console.log deleted('error' + error)
             _this.AverageRanking[2].IsReady = false;
             // this.monthlyLoading = true
         });
     };
     DashboardComponent.prototype.getDepositRankingDaily = function () {
         var _this = this;
-        console.log('sent');
+        // // console.log deleted('sent')
         this.dashboardSrvc.depositToday
             .subscribe(function (res) {
-            console.log('sent');
+            // // console.log deleted('sent')
             //total withdraw variable
-            console.log(res);
+            // // console.log deleted(res)
             if (res.length > 0) {
                 //sort result
                 res.sort(function (a, b) { return b.Amount - a.Amount; });
@@ -1392,7 +1392,7 @@ var DashboardComponent = /** @class */ (function () {
                     totalDeposit += Number(res[i].Amount);
                     _this.AverageRanking[3].Values[i] = res[i];
                 }
-                console.log(res);
+                // // console.log deleted(res)
                 _this.AverageRanking[3].IsReady = true;
                 _this.Stats[3].Value2 = totalDeposit.toString();
             }
@@ -1400,7 +1400,7 @@ var DashboardComponent = /** @class */ (function () {
             // this.AverageRanking[3].Values = res
             _this.depositRankingDaily = res;
         }, function (error) {
-            console.log(error['status']);
+            // // console.log deleted(error['status'])
         });
     };
     DashboardComponent.prototype.getWithdrawRankingDaily = function () {
@@ -1421,7 +1421,7 @@ var DashboardComponent = /** @class */ (function () {
             _this.withdrawRankingDaily = res;
             _this.withdrawRankingLoading = false;
         }, function (error) {
-            console.log('error' + error);
+            // // console.log deleted('error' + error)
             _this.withdrawRankingLoading = true;
         });
     };
@@ -1434,7 +1434,7 @@ var DashboardComponent = /** @class */ (function () {
                 _this.Stats[4].Value2 = res[0]['TotalWithdrawToday'] ? res[0]['TotalWithdrawToday'] : 0;
             }
         }, function (error) {
-            console.log('error' + error);
+            // // console.log deleted('error' + error)
         });
     };
     //charts end
@@ -1597,17 +1597,17 @@ var DepositManagementComponent = /** @class */ (function () {
         this.timeopts = this.formSrvc.timeOptions;
         // this.ws.on()
         this.ws.onopen = function (openSocket) {
-            console.log(openSocket.type);
+            // // console.log deleted(openSocket.type)
         };
         this.ws.onmessage = function (event) {
             var received_msg = event.data;
-            console.log(JSON.parse(received_msg));
+            // // console.log deleted(JSON.parse(received_msg));
         };
         this.getListAndPageCount();
     };
     DepositManagementComponent.prototype.ngOnDestroy = function () {
         this.ws.close();
-        console.log('you leave deposit list');
+        // // console.log deleted('you leave deposit list')
     };
     //lifecycle hooks end
     DepositManagementComponent.prototype.AcceptDepositWebSocket = function (receiver, amount, depositID) {
@@ -1618,7 +1618,7 @@ var DepositManagementComponent = /** @class */ (function () {
             var DepositNotice = "Deposit Approved Amount " + amount;
             var message = "{\"Type\":\"NotifyPlayerDeposit\",\"MessageReceiver\" :\"" + MessageReceiver +
                 "\",\"DepositNotice\":\"" + DepositNotice + "\",\"DepositUUID\":\"" + DepositUUID + "\"}";
-            console.log("Notify Player");
+            // // console.log deleted("Notify Player");
             this.ws.send(message);
         }
         else {
@@ -1637,9 +1637,9 @@ var DepositManagementComponent = /** @class */ (function () {
     DepositManagementComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getDepositList()]).then(function () {
             // Promise.all([this.getDepositList(),this.getPageCount()]).then(function() {
-            console.log('get list and page count successful');
+            // // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // // console.log deleted('something went wrong')
         });
     };
     DepositManagementComponent.prototype.getDepositList = function () {
@@ -1650,7 +1650,7 @@ var DepositManagementComponent = /** @class */ (function () {
             _this.tableSort.active, // order by
             _this.tableSort.direction)
                 .subscribe(function (result) {
-                console.log(result);
+                // // console.log deleted(result)
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
@@ -1666,8 +1666,8 @@ var DepositManagementComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log('deposit error ' + error);
-                console.log('get support list error');
+                // // console.log deleted('deposit error ' + error)
+                // // console.log deleted('get support list error')
                 reject();
             });
         });
@@ -1681,8 +1681,8 @@ var DepositManagementComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // // console.log deleted(error);
                 reject();
             });
         });
@@ -1694,17 +1694,17 @@ var DepositManagementComponent = /** @class */ (function () {
         this.depositList = [];
         this.moneyTransactionsSrvc.searchDeposit(this.startDate + this.startTime, this.endDate + this.endTime, this.searchValue)
             .subscribe(function (result) {
-            console.log(result);
+            // // console.log deleted(result)
             if (result.length > 0) {
                 _this.depositList = result;
-                console.log('results found');
+                // // console.log deleted('results found')
             }
             else {
-                console.log('no results found');
+                // // console.log deleted('no results found')
             }
         }, function (error) {
-            console.log('this is the error --> ' + error['status']);
-            // console.log()
+            // // console.log deleted('this is the error --> '+ error['status'])
+            // // console.log deleted()
             if (error['status'] == 404) {
                 //empty list
                 _this.depositList = [];
@@ -1721,7 +1721,7 @@ var DepositManagementComponent = /** @class */ (function () {
         if (UserTransactionID) {
             this.moneyTransactionsSrvc.archivedDeposit(UserTransactionID)
                 .subscribe(function (result) {
-                console.log(result);
+                // // console.log deleted(result)
                 _this.hideManageButton = true;
                 alert('delete successful');
             });
@@ -1743,7 +1743,7 @@ var DepositManagementComponent = /** @class */ (function () {
             }
             _this.hideManageButton = true;
         }, function (error) {
-            console.log(error);
+            // // console.log deleted(error)
             alert('something went wrong');
         });
     };
@@ -1761,7 +1761,7 @@ var DepositManagementComponent = /** @class */ (function () {
             this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
         }
         else {
-            console.log('invalid target ID');
+            // // console.log deleted('invalid target ID')
         }
     };
     DepositManagementComponent.prototype.WebSocketTest = function () {
@@ -1775,7 +1775,7 @@ var DepositManagementComponent = /** @class */ (function () {
             };
             this.ws.onmessage = function (evt) {
                 var received_msg = evt.data;
-                console.log(received_msg);
+                // // console.log deleted(received_msg);
             };
             this.ws.onclose = function () {
                 // websocket is closed.
@@ -1917,14 +1917,14 @@ var WithdrawManagementComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     WithdrawManagementComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave withdraw list');
+        // // console.log deleted('you leave withdraw list')
     };
     //lifecycle hooks end
     WithdrawManagementComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // // console.log deleted('something went wrong')
         });
     };
     WithdrawManagementComponent.prototype.getSupportList = function () {
@@ -1935,7 +1935,7 @@ var WithdrawManagementComponent = /** @class */ (function () {
             _this.tableSort.active, // order by
             _this.tableSort.direction)
                 .subscribe(function (result) {
-                console.log(result);
+                // // console.log deleted(result)
                 if (result.length > 0) {
                     //set artificial index
                     var row_number_new = 0;
@@ -1947,11 +1947,11 @@ var WithdrawManagementComponent = /** @class */ (function () {
                     _this.backLoading = false;
                 }
                 else {
-                    console.log('no result');
+                    // // console.log deleted('no result')
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // // console.log deleted(error)
                 reject();
             });
         });
@@ -1965,8 +1965,8 @@ var WithdrawManagementComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -1982,7 +1982,7 @@ var WithdrawManagementComponent = /** @class */ (function () {
             .subscribe(function (result) {
             if (result.length > 0) {
                 _this.withdrawList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -1996,7 +1996,7 @@ var WithdrawManagementComponent = /** @class */ (function () {
         this.hideManageButton = false;
         this.moneyTransactionsSrvc.approveWithdraw(UserTransactionID, UserAccountID)
             .subscribe(function (res) {
-            console.log(res);
+            // console.log deleted(res)
             _this.hideManageButton = true;
             _this.reload();
         });
@@ -2019,7 +2019,7 @@ var WithdrawManagementComponent = /** @class */ (function () {
             this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
         }
         else {
-            console.log('invalid target ID');
+            // console.log deleted('invalid target ID')
         }
     };
     WithdrawManagementComponent = __decorate([
@@ -2133,14 +2133,14 @@ var GameLogComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     GameLogComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave game log');
+        // console.log deleted('you leave game log')
     };
     //lifecycle hooks end
     GameLogComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getGameLogList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     GameLogComponent.prototype.getGameLogList = function () {
@@ -2164,7 +2164,7 @@ var GameLogComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -2178,8 +2178,8 @@ var GameLogComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -2196,11 +2196,11 @@ var GameLogComponent = /** @class */ (function () {
                 data: result
             });
             handHistoryDialog.afterClosed().subscribe(function () {
-                console.log('handhistory closed');
+                // console.log deleted('handhistory closed')
             });
             _this.currenHandHistory = result;
         }, function (error) {
-            console.log(error['status']);
+            // console.log deleted(error['status'])
         });
     };
     GameLogComponent.prototype.searchList = function () {
@@ -2210,10 +2210,10 @@ var GameLogComponent = /** @class */ (function () {
             //if there's result
             if (result.length > 0) {
                 _this.gameLogList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
             else {
-                console.log('no results found');
+                // console.log deleted('no results found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -2543,14 +2543,14 @@ var TransferLogComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     TransferLogComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave transfer log');
+        // console.log deleted('you leave transfer log')
     };
     //lifecycle hooks end
     TransferLogComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     TransferLogComponent.prototype.getSupportList = function () {
@@ -2574,7 +2574,7 @@ var TransferLogComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -2588,8 +2588,8 @@ var TransferLogComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -2599,14 +2599,14 @@ var TransferLogComponent = /** @class */ (function () {
         var _this = this;
         this.commonSrvc.searchListWithDate(this.pageIndex, this.columnValue, this.searchValue, this.fromDateValue + this.fromTimeValue, this.toDateValue + this.toTimeValue)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             //if there's result
             if (result.length > 0) {
                 _this.transferHistoryList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
             else {
-                console.log('no results found');
+                // console.log deleted('no results found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -2629,16 +2629,16 @@ var TransferLogComponent = /** @class */ (function () {
     };
     TransferLogComponent.prototype.dateValue = function (event) {
         if (event.targetElement.id == 'from') {
-            // console.log(formatDate(event.value,'yyyy-MM-dd', this.locale))
+            // // console.log deleted(formatDate(event.value,'yyyy-MM-dd', this.locale))
             this.fromDateValue = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale);
-            console.log('​TransferLogComponent -> dateValue -> fromDateValue', this.fromDateValue);
+            // console.log deleted('​TransferLogComponent -> dateValue -> fromDateValue', this.fromDateValue)
         }
         else if (event.targetElement.id == 'to') {
             this.toDateValue = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale);
-            console.log('​TransferLogComponent -> dateValue -> toDateValue', this.toDateValue);
+            // console.log deleted('​TransferLogComponent -> dateValue -> toDateValue', this.toDateValue)
         }
         else {
-            console.log('invalid target ID');
+            // console.log deleted('invalid target ID')
         }
     };
     TransferLogComponent.prototype.openSearchNoResultFound = function () {
@@ -2653,7 +2653,7 @@ var TransferLogComponent = /** @class */ (function () {
             }
         })
             .afterDismissed().subscribe(function () {
-            console.log('dismissed');
+            // console.log deleted('dismissed');
             _this.reload();
             _this.searchValue = null;
         });
@@ -2758,25 +2758,25 @@ var LoginComponent = /** @class */ (function () {
         else {
             localStorage.setItem('language', 'english');
         }
-        console.log('this should be empty/null : ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
+        // console.log deleted('this should be empty/null : ' + localStorage.getItem(environment.tokenStorageKey))
     };
     LoginComponent.prototype.login = function () {
         var _this = this;
         this.userAuthSrvc.server = this.server;
         this.userAuthSrvc.login(this.username, this.password)
             .subscribe(function (res) {
-            console.log('login return : ' + JSON.stringify(res));
+            // // console.log deleted('login return : ' + JSON.stringify(res))
             _this.userAuthSrvc.storeToken(res['token']);
             _this.router.navigate(['/admin']);
         }, function (error) {
-            console.log('error' + error);
+            // console.log deleted('error' + error)
             _this.isCredentialsvalid = false;
             _this.userAuthSrvc.setLoggedIn(false);
             localStorage.clear();
         });
     };
     LoginComponent.prototype.printUserToken = function () {
-        console.log(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
+        // console.log deleted(localStorage.getItem(environment.tokenStorageKey))
     };
     LoginComponent.prototype.clearToken = function () {
         localStorage.clear();
@@ -2937,7 +2937,7 @@ var MasterPageComponent = /** @class */ (function () {
     MasterPageComponent.prototype.restartTimer = function () {
         var _this = this;
         if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].consoleToggle) {
-            console.log('timer restart');
+            // console.log deleted('timer restart')
         }
         this.updateSubscription = this.update.subscribe(function (count) {
             if (_this.userIsOnScreen) {
@@ -2946,7 +2946,7 @@ var MasterPageComponent = /** @class */ (function () {
             else {
                 if (count == _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].httpRequestTimeout) {
                     if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].consoleToggle) {
-                        console.log('time out');
+                        // console.log deleted('time out')
                     }
                     //set user active to false in common service after 3 mins and 14 seconds of inactiveness
                     _this.commonSrvc.setUserActive(false);
@@ -3011,7 +3011,7 @@ var MasterPageComponent = /** @class */ (function () {
     //sidepanel stats
     MasterPageComponent.prototype.activateSidePanelStats = function () {
         var _this = this;
-        // console.log('on screen')
+        // // console.log deleted('on screen')
         this.httpRequestSubscription = this.httpUpdate.subscribe(function () {
             if (_this.userIsOnScreen) {
                 _this.getTotalRegisteredUser();
@@ -3028,7 +3028,7 @@ var MasterPageComponent = /** @class */ (function () {
         this.dashboardSrvc.getTotalRegisteredUser()
             .subscribe(function (res) {
             _this.totalRegisteredUser = res['TotalRegistered'];
-            // console.log('result'+res['TotalRegistered'])
+            // // console.log deleted('result'+res['TotalRegistered'])
             _this.dashboardSrvc.emitTotalMember(res['TotalRegistered']);
             // this.emitTotalMember(res['TotalRegistered'])
         }, function (error) { console.log('error' + error); });
@@ -3069,11 +3069,11 @@ var MasterPageComponent = /** @class */ (function () {
                 _this.dashboardSrvc.emitWithrawToday(res);
                 _this.withdrawRankingDaily = res;
                 _this.totalWithdrawToday = totalwithdraw;
-                // console.log(res)
+                // // console.log deleted(res)
                 _this.withdrawRankingLoading = false;
             }
         }, function (error) {
-            console.log('error' + error);
+            // console.log deleted('error' + error)
             _this.withdrawRankingLoading = true;
         });
     };
@@ -3100,13 +3100,13 @@ var MasterPageComponent = /** @class */ (function () {
                 _this.depositRankingLoading = false;
             }
         }, function (error) {
-            console.log(error['status']);
+            // console.log deleted(error['status'])
             _this.depositRankingLoading = true;
         });
     };
     //sidepanel stats end
     MasterPageComponent.prototype.printUserToken = function () {
-        console.log(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
+        // console.log deleted(localStorage.getItem(environment.tokenStorageKey))
     };
     MasterPageComponent.prototype.clearToken = function () {
         localStorage.clear();
@@ -3119,7 +3119,7 @@ var MasterPageComponent = /** @class */ (function () {
         this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey))
             .subscribe(function (res) {
             _this.user = res;
-            // console.log('user credentials' + JSON.stringify(res))
+            // // console.log deleted('user credentials' + JSON.stringify(res))
             _this.userCredentialsSrvc.emitUserCredentials(res);
         });
     };
@@ -3131,7 +3131,7 @@ var MasterPageComponent = /** @class */ (function () {
             data: { blacklistmode: [true, false, false] }
         });
         settingsDialog.afterClosed().subscribe(function () {
-            console.log('settings closed');
+            // console.log deleted('settings closed')
         });
     };
     __decorate([
@@ -3427,14 +3427,14 @@ var OneOnOneSupportComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     OneOnOneSupportComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave 1on1 support');
+        // console.log deleted('you leave 1on1 support')
     };
     //lifecycle hooks end
     OneOnOneSupportComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     OneOnOneSupportComponent.prototype.getSupportList = function () {
@@ -3454,7 +3454,7 @@ var OneOnOneSupportComponent = /** @class */ (function () {
                     _this.backLoading = false;
                 }
                 else {
-                    console.log('result not found');
+                    // console.log deleted('result not found')
                 }
                 resolve();
             }, function (error) {
@@ -3474,8 +3474,8 @@ var OneOnOneSupportComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -3490,21 +3490,21 @@ var OneOnOneSupportComponent = /** @class */ (function () {
                 _this.AnswerSupport(result[0]);
             }
         }, function (error) {
-            console.log(error);
+            // console.log deleted(error)
         });
     };
     OneOnOneSupportComponent.prototype.searchList = function () {
         var _this = this;
         this.commonSrvc.searchList(this.pageIndex, this.optionValue, this.searchValue)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             //if there's result
             if (result.length > 0) {
                 _this.supportList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
             else {
-                console.log('no results found');
+                // console.log deleted('no results found')
             }
             _this.showBackButton = true;
         }, function (error) {
@@ -3703,19 +3703,19 @@ var HeadOfficeListComponent = /** @class */ (function () {
     //lifecycle hooks
     HeadOfficeListComponent.prototype.ngOnInit = function () {
         if (!this.userCredentials) {
-            console.log('requested... ');
+            // // console.log deleted('requested... ')
             this.getUserCredentials();
         }
     };
     HeadOfficeListComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave office lists');
+        // // console.log deleted('you leave office lists')
     };
     //lifecycle hooks end
     HeadOfficeListComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getOfficeList(), this.getPageCount()]).then(function () {
-            // console.log('get list and page count successful');
+            // // console.log deleted('get list and page count successful');
         }, function () {
-            // console.log('something went wrong')
+            // // console.log deleted('something went wrong')
         });
     };
     HeadOfficeListComponent.prototype.getOfficeList = function () {
@@ -3723,7 +3723,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.officeListSrvc.getList(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.currentParentID)
                 .subscribe(function (result) {
-                console.log('​HeadOfficeListComponent -> getOfficeList -> result', result);
+                // console.log deleted('​HeadOfficeListComponent -> getOfficeList -> result', result)
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
@@ -3741,7 +3741,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
                 else {
                 }
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -3755,8 +3755,8 @@ var HeadOfficeListComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -3766,8 +3766,8 @@ var HeadOfficeListComponent = /** @class */ (function () {
         var _this = this;
         this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey))
             .subscribe(function (res) {
-            console.log("​HeadOfficeListComponent -> getUserCredentials -> res", res);
-            //  console.log(res)
+            // console.log deleted("​HeadOfficeListComponent -> getUserCredentials -> res", res)
+            //  // console.log deleted(res)
             _this.userCredentials = res;
             _this.currentCommission = res.Commission;
             _this.currentParentID = res.UserAccountID;
@@ -3792,11 +3792,11 @@ var HeadOfficeListComponent = /** @class */ (function () {
             else {
                 // should be logged out because shop or edited account type is not allowed here
             }
-            console.log('pageindex: ' + _this.pageIndex);
+            // console.log deleted('pageindex: ' + this.pageIndex)
             for (var i = 0; i < level; i++) {
                 _this.key[i] = true;
             }
-            console.log(_this.key);
+            // console.log deleted(this.key)
             _this.getListAndPageCount();
         });
     };
@@ -3827,13 +3827,13 @@ var HeadOfficeListComponent = /** @class */ (function () {
             }
         }
         else {
-            console.log('pagindex overlapped');
+            // console.log deleted('pagindex overlapped')
         }
     };
     // check to all of user accounts
     HeadOfficeListComponent.prototype.officeIDCheck = function () {
         var _this = this;
-        console.log(this.addForm.value.UserName);
+        // console.log deleted(this.addForm.value.UserName)
         this.commonSrvc.checkIfUserNameExist(this.addForm.value.UserName)
             .subscribe(function (res) {
             if (res) {
@@ -3847,9 +3847,9 @@ var HeadOfficeListComponent = /** @class */ (function () {
     };
     HeadOfficeListComponent.prototype.samplecheck = function () {
         // this.addForm.status
-        console.log('​HeadOfficeListComponent -> samplecheck -> this.addForm.status', this.addForm.status);
-        console.log('this.addOfficeCommisionValue', this.addOfficeCommisionValue);
-        console.log('this.currentParentID', this.currentParentID);
+        // console.log deleted('​HeadOfficeListComponent -> samplecheck -> this.addForm.status', this.addForm.status)
+        // console.log deleted('this.addOfficeCommisionValue', this.addOfficeCommisionValue)
+        // console.log deleted('this.currentParentID', this.currentParentID)
     };
     HeadOfficeListComponent.prototype.addHeadOffice = function () {
         var _this = this;
@@ -3857,7 +3857,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
         if (this.addForm.status == 'VALID') {
             this.officeListSrvc.addOffice(this.addForm.value, this.pageIndex)
                 .subscribe(function (res) {
-                console.log('add office result 2 : ' + res);
+                // console.log deleted('add office result 2 : '+ res )
                 if (res['status']) {
                     alert('add office succesful');
                     _this.reload();
@@ -3872,11 +3872,11 @@ var HeadOfficeListComponent = /** @class */ (function () {
                 else if (err['status'] == 400) {
                     alert('please fill up all fields....');
                 }
-                console.log('add office error : ' + err);
+                // console.log deleted('add office error : ' + err)
             });
         }
         else {
-            console.log('addform status : ' + this.addForm.status);
+            // console.log deleted('addform status : '+this.addForm.status)
             alert('please fill up the boxes correctly...');
         }
     };
@@ -3890,7 +3890,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
                 id: officeID }
         });
         handHistoryDialog.afterClosed().subscribe(function () {
-            console.log('handhistory closed');
+            // console.log deleted('handhistory closed')
         });
     };
     //we call this function when the user interact with paginator 
@@ -3903,7 +3903,7 @@ var HeadOfficeListComponent = /** @class */ (function () {
     HeadOfficeListComponent.prototype.openSearchNoResultFound = function () {
         this.bottomsheet.open(UserNameCheckSalesBottomSheet)
             .afterDismissed().subscribe(function () {
-            console.log('dismissed');
+            // console.log deleted('dismissed');
         });
     };
     HeadOfficeListComponent = __decorate([
@@ -4093,14 +4093,14 @@ var MemberListComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     MemberListComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave member list');
+        // console.log deleted('you leave member list')
     };
     //lifecycle hooks end
     MemberListComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     MemberListComponent.prototype.getSupportList = function () {
@@ -4123,7 +4123,7 @@ var MemberListComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -4137,8 +4137,8 @@ var MemberListComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -4148,14 +4148,14 @@ var MemberListComponent = /** @class */ (function () {
         var _this = this;
         this.commonSrvc.searchList(this.pageIndex, this.searchForm.value.column, this.searchForm.value.searchValue)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             //if there's result
             if (result.length > 0) {
                 _this.memberList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
             else {
-                console.log('member list search no result');
+                // console.log deleted('member list search no result')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -4180,7 +4180,7 @@ var MemberListComponent = /** @class */ (function () {
             }
         });
         handHistoryDialog.afterClosed().subscribe(function () {
-            console.log('handhistory closed');
+            // console.log deleted('handhistory closed')
         });
     };
     MemberListComponent.prototype.openBlacklist = function (value) {
@@ -4332,15 +4332,15 @@ var BlackListComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     BlackListComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave blacklist');
+        // console.log deleted('you leave blacklist')
     };
     //lifecycle hooks end
     BlackListComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
             // this.backLoading = false
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     BlackListComponent.prototype.getSupportList = function () {
@@ -4365,7 +4365,7 @@ var BlackListComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -4379,8 +4379,8 @@ var BlackListComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -4396,7 +4396,7 @@ var BlackListComponent = /** @class */ (function () {
                 _this.showBackButton = true;
             }
             else {
-                console.log('no results found');
+                // console.log deleted('no results found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -4417,7 +4417,7 @@ var BlackListComponent = /** @class */ (function () {
         this.blackListSrvc.releaseUser(UserAccountID)
             .subscribe(function (result) {
             _this.getListAndPageCount();
-            console.log(result);
+            // console.log deleted(result)
             if (result) {
                 alert('user released');
             }
@@ -4578,15 +4578,15 @@ var ConnectingUserComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     ConnectingUserComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave connecting user');
+        // console.log deleted('you leave connecting user')
     };
     //lifecycle hooks end
     ConnectingUserComponent.prototype.getListAndPageCount = function () {
         // Promise.all([this.getSupportList(),this.getPageCount()]).then(function() {
         Promise.all([this.getSupportList()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     ConnectingUserComponent.prototype.getSupportList = function () {
@@ -4594,7 +4594,7 @@ var ConnectingUserComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.connectingUserSrvc.getConnectingUsers()
                 .subscribe(function (result) {
-                console.log(result);
+                // console.log deleted(result)
                 if (result.length > 0) {
                     //set artificial index
                     for (var i = 0; i <= result.length - 1; i++) {
@@ -4609,7 +4609,7 @@ var ConnectingUserComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -4624,8 +4624,8 @@ var ConnectingUserComponent = /** @class */ (function () {
     //         resolve()
     //       },
     //         error => {
-    //           console.log('key ' + localStorage.getItem(environment.tokenStorageKey));
-    //           console.log(error);
+    //           // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+    //           // console.log deleted(error);
     //           reject()
     //         }
     //     )
@@ -4640,11 +4640,11 @@ var ConnectingUserComponent = /** @class */ (function () {
         var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
         this.commonSrvc.searchList(this.pageIndex, column, value)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             //if there's result
             if (result.length > 0) {
                 _this.connectingUserList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -4765,14 +4765,14 @@ var IPinquireComponent = /** @class */ (function () {
         this.getListAndPageCount();
     };
     IPinquireComponent.prototype.ngOnDestroy = function () {
-        console.log('you leave ip inquire');
+        // console.log deleted('you leave ip inquire')
     };
     //lifecycle hooks end
     IPinquireComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
-            console.log('get list and page count successful');
+            // console.log deleted('get list and page count successful');
         }, function () {
-            console.log('something went wrong');
+            // console.log deleted('something went wrong')
         });
     };
     IPinquireComponent.prototype.getSupportList = function () {
@@ -4780,7 +4780,7 @@ var IPinquireComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
                 .subscribe(function (result) {
-                console.log(result);
+                // console.log deleted(result)
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
@@ -4796,7 +4796,7 @@ var IPinquireComponent = /** @class */ (function () {
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                // console.log deleted(error)
                 reject();
             });
         });
@@ -4810,8 +4810,8 @@ var IPinquireComponent = /** @class */ (function () {
                 _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
-                console.log(error);
+                // console.log deleted('key ' + localStorage.getItem(environment.tokenStorageKey));
+                // console.log deleted(error);
                 reject();
             });
         });
@@ -4821,13 +4821,13 @@ var IPinquireComponent = /** @class */ (function () {
         var _this = this;
         this.commonSrvc.searchList(this.pageIndex, this.optionValue, this.searchValue)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             if (result.length > 0) {
                 _this.ipList = result;
-                console.log('results found');
+                // console.log deleted('results found')
             }
             else {
-                console.log('ip search no result');
+                // console.log deleted('ip search no result')
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
@@ -5084,7 +5084,7 @@ var UserAuthService = /** @class */ (function () {
     };
     UserAuthService.prototype.login = function (UserName, Password) {
         //post these details to API return token if correct credentials
-        console.log('sent');
+        // // console.log deleted('sent')
         return this.http.post(this.server + '/Api/v1/Admin/Login', {
             UserName: UserName,
             Password: Password
@@ -5340,7 +5340,7 @@ var CommonService = /** @class */ (function () {
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     CommonService.prototype.getPageCount = function (pageIndex) {
-        console.log('page count request...');
+        // console.log deleted('page count request...')
         return this.http.get(this.userAuthSrvc.server + '/Api/v1/Pagination/' + pageIndex, this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
@@ -5799,7 +5799,7 @@ var OfficeListService = /** @class */ (function () {
                 .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
         }
         catch (error) {
-            console.log('http' + error);
+            // console.log deleted('http' + error)
         }
     };
     OfficeListService.prototype.addOffice = function (addHeadOfficeVariables, pageIndex) {
@@ -5930,12 +5930,12 @@ var UserCredentialsService = /** @class */ (function () {
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.json(); }));
     };
     UserCredentialsService.prototype.defineKeys = function (level) {
-        console.log('assigned level + ' + level);
+        // console.log deleted('assigned level + ' + level)
         for (var i = 0; i < level; i++) {
             this.key[i] = true;
-            console.log('i : ' + i);
+            // console.log deleted('i : ' + i)
         }
-        //  console.log(this.key)
+        //  // console.log deleted(this.key)
         return this.key;
     };
     UserCredentialsService = __decorate([
@@ -6172,9 +6172,9 @@ var AnswerSupportDialog = /** @class */ (function () {
         this.supportSrvc.answerSupport(this.data.SupportTicketID, this.data.UserAccountID, this.answer)
             .subscribe(function (result) {
             alert('answered successful');
-            // console.log(result)
+            // // console.log deleted(result)
         }, function (error) {
-            console.log(error);
+            // console.log deleted(error)
         });
     };
     AnswerSupportDialog.prototype.close = function () {
@@ -6183,7 +6183,7 @@ var AnswerSupportDialog = /** @class */ (function () {
     AnswerSupportDialog.prototype.cancel = function () {
         this.dialogRef.close();
         this.dialogRef.afterClosed().subscribe(function () {
-            console.log('cancelled');
+            // console.log deleted('cancelled')
         });
     };
     AnswerSupportDialog = __decorate([
@@ -6279,11 +6279,11 @@ var BlackListDialog = /** @class */ (function () {
                 this.userInquire();
             }
             else {
-                console.log('blacklistmode is empty');
+                // console.log deleted('blacklistmode is empty')
             }
         }
         else {
-            console.log('blacklistmode is empty');
+            // console.log deleted('blacklistmode is empty')
         }
     }
     BlackListDialog.prototype.close = function () {
@@ -6299,7 +6299,7 @@ var BlackListDialog = /** @class */ (function () {
                     _this.inquireResult[0].newStatus = 'Blocked';
                 }
             }, function (error) {
-                console.log(error['status']);
+                // console.log deleted(error['status'])
                 if (error['status'] == '404') {
                     _this.isAlreadyBlocked = true;
                     alert('not registered user or already in black list ');
@@ -6307,7 +6307,7 @@ var BlackListDialog = /** @class */ (function () {
             });
         }
         else {
-            console.log('invalid credentials');
+            // console.log deleted('invalid credentials')
         }
     };
     BlackListDialog.prototype.userInquire = function () {
@@ -6322,11 +6322,11 @@ var BlackListDialog = /** @class */ (function () {
             }
             else {
                 _this.playerDoesNotExist = true;
-                console.log(result);
+                // console.log deleted(result)
             }
         }, function (error) {
-            console.log(error['status']);
-            console.log(error);
+            // console.log deleted(error['status'])
+            // console.log deleted(error)
             alert('something went wrong');
         });
     };
@@ -6334,7 +6334,7 @@ var BlackListDialog = /** @class */ (function () {
         var _this = this;
         this.blacklist.releaseUser(this.inquireResult[0].UserName)
             .subscribe(function (result) {
-            console.log(result);
+            // console.log deleted(result)
             if (result) {
                 _this.blacklistmode = [false, false, true];
                 _this.inquireResult[0].newStatus = 'Released';
@@ -6363,7 +6363,7 @@ var BlackListDialog = /** @class */ (function () {
         });
     };
     BlackListDialog.prototype.test = function () {
-        console.log(this.reason);
+        // console.log deleted(this.reason)
     };
     BlackListDialog = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
