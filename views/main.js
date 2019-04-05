@@ -336,7 +336,6 @@ module.exports = "<router-outlet></router-outlet>"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services/common/common.service */ "./src/app/services/common/common.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -347,18 +346,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
 var AppComponent = /** @class */ (function () {
-    function AppComponent(commonSrvc) {
-        this.commonSrvc = commonSrvc;
+    function AppComponent() {
         this.title = 'holdem';
     }
     AppComponent.prototype.ngOnInit = function () {
-        // if(confirm('Korean? cancel if english')){
-        //   this.commonSrvc.setTranslation(true)
-        // }else{
-        //   this.commonSrvc.setTranslation(false)
-        // }
     };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -366,7 +358,7 @@ var AppComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"]])
+        __metadata("design:paramtypes", [])
     ], AppComponent);
     return AppComponent;
 }());
@@ -389,37 +381,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var angular_font_awesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular-font-awesome */ "./node_modules/angular-font-awesome/dist/angular-font-awesome.es5.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/slider */ "./node_modules/@angular/material/esm5/slider.es5.js");
-/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm5/progress-spinner.es5.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/sales/head-office-list/head-office-list.component */ "./src/app/components/sales/head-office-list/head-office-list.component.ts");
-/* harmony import */ var _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/sales/member-list/member-list.component */ "./src/app/components/sales/member-list/member-list.component.ts");
-/* harmony import */ var _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/calculate/calculate-manage/calculate-manage.component */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.ts");
-/* harmony import */ var _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/calculate/user-profit/user-profit.component */ "./src/app/components/calculate/user-profit/user-profit.component.ts");
-/* harmony import */ var _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/user/connecting-user/connecting-user.component */ "./src/app/components/user/connecting-user/connecting-user.component.ts");
-/* harmony import */ var _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/user/black-list/black-list.component */ "./src/app/components/user/black-list/black-list.component.ts");
-/* harmony import */ var _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/user/ipinquire/ipinquire.component */ "./src/app/components/user/ipinquire/ipinquire.component.ts");
-/* harmony import */ var _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/deposit_withdraw/deposit-management/deposit-management.component */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.ts");
-/* harmony import */ var _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/deposit_withdraw/withdraw-management/withdraw-management.component */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.ts");
-/* harmony import */ var _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/notice/lobby-notice/lobby-notice.component */ "./src/app/components/notice/lobby-notice/lobby-notice.component.ts");
-/* harmony import */ var _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/notice/in-gaming-table/in-gaming-table.component */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.ts");
-/* harmony import */ var _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/notice/one-on-one-support/one-on-one-support.component */ "./src/app/components/notice/one-on-one-support/one-on-one-support.component.ts");
-/* harmony import */ var _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/log/game-log/game-log.component */ "./src/app/components/log/game-log/game-log.component.ts");
-/* harmony import */ var _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/log/jackpot-log/jackpot-log.component */ "./src/app/components/log/jackpot-log/jackpot-log.component.ts");
-/* harmony import */ var _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/log/transfer-log/transfer-log.component */ "./src/app/components/log/transfer-log/transfer-log.component.ts");
-/* harmony import */ var _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/log/point-log/point-log.component */ "./src/app/components/log/point-log/point-log.component.ts");
-/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
-/* harmony import */ var _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/pending/add-user/add-user.component */ "./src/app/components/pending/add-user/add-user.component.ts");
-/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
-/* harmony import */ var _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/master-page/master-page.component */ "./src/app/components/master-page/master-page.component.ts");
-/* harmony import */ var _directives_translate_directive__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./directives/translate.directive */ "./src/app/directives/translate.directive.ts");
-/* harmony import */ var _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../app/services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../app/services/UserAuth/user-auth.guard */ "./src/app/services/UserAuth/user-auth.guard.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm5/sidenav.es5.js");
+/* harmony import */ var _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/sales/head-office-list/head-office-list.component */ "./src/app/components/sales/head-office-list/head-office-list.component.ts");
+/* harmony import */ var _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/sales/member-list/member-list.component */ "./src/app/components/sales/member-list/member-list.component.ts");
+/* harmony import */ var _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/calculate/calculate-manage/calculate-manage.component */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.ts");
+/* harmony import */ var _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/calculate/user-profit/user-profit.component */ "./src/app/components/calculate/user-profit/user-profit.component.ts");
+/* harmony import */ var _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/user/connecting-user/connecting-user.component */ "./src/app/components/user/connecting-user/connecting-user.component.ts");
+/* harmony import */ var _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/user/black-list/black-list.component */ "./src/app/components/user/black-list/black-list.component.ts");
+/* harmony import */ var _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/user/ipinquire/ipinquire.component */ "./src/app/components/user/ipinquire/ipinquire.component.ts");
+/* harmony import */ var _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/deposit_withdraw/deposit-management/deposit-management.component */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.ts");
+/* harmony import */ var _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/deposit_withdraw/withdraw-management/withdraw-management.component */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.ts");
+/* harmony import */ var _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/notice/lobby-notice/lobby-notice.component */ "./src/app/components/notice/lobby-notice/lobby-notice.component.ts");
+/* harmony import */ var _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/notice/in-gaming-table/in-gaming-table.component */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.ts");
+/* harmony import */ var _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/notice/one-on-one-support/one-on-one-support.component */ "./src/app/components/notice/one-on-one-support/one-on-one-support.component.ts");
+/* harmony import */ var _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/log/game-log/game-log.component */ "./src/app/components/log/game-log/game-log.component.ts");
+/* harmony import */ var _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/log/jackpot-log/jackpot-log.component */ "./src/app/components/log/jackpot-log/jackpot-log.component.ts");
+/* harmony import */ var _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/log/transfer-log/transfer-log.component */ "./src/app/components/log/transfer-log/transfer-log.component.ts");
+/* harmony import */ var _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/log/point-log/point-log.component */ "./src/app/components/log/point-log/point-log.component.ts");
+/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
+/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/login/login.component */ "./src/app/components/login/login.component.ts");
+/* harmony import */ var _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/master-page/master-page.component */ "./src/app/components/master-page/master-page.component.ts");
+/* harmony import */ var _directives_translate_directive__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./directives/translate.directive */ "./src/app/directives/translate.directive.ts");
+/* harmony import */ var _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../app/services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../app/services/UserAuth/user-auth.guard */ "./src/app/services/UserAuth/user-auth.guard.ts");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
+/* harmony import */ var _utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./utilities/BlackListDialog/BlackListDialog */ "./src/app/utilities/BlackListDialog/BlackListDialog.ts");
+/* harmony import */ var _utilities_AnswerSupportDialog_AnswerSupportDialog__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./utilities/AnswerSupportDialog/AnswerSupportDialog */ "./src/app/utilities/AnswerSupportDialog/AnswerSupportDialog.ts");
+/* harmony import */ var _utilities_SettingsDialog_SettingsDialog__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./utilities/SettingsDialog/SettingsDialog */ "./src/app/utilities/SettingsDialog/SettingsDialog.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -435,7 +429,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
+// angular material
 
 
 
@@ -464,8 +458,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 //dashboard
 
-//pending
-
 //login
 
 //master page
@@ -475,40 +467,44 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 //services
 
 
+//utility all over components and it is independent...
+
+
+
+
 var routes = [
     { path: 'admin',
-        component: _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__["MasterPageComponent"],
-        canActivate: [_app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__["UserAuthGuard"]],
+        component: _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_28__["MasterPageComponent"],
+        canActivate: [_app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_31__["UserAuthGuard"]],
         children: [
             //sales
-            { path: 'headOfficeList', component: _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__["HeadOfficeListComponent"] },
-            { path: 'memberList', component: _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__["MemberListComponent"] },
+            { path: 'headOfficeList', component: _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["HeadOfficeListComponent"] },
+            { path: 'memberList', component: _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_11__["MemberListComponent"] },
             //calculate
-            { path: 'calculateManage', component: _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__["CalculateManageComponent"] },
-            { path: 'userProfit', component: _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__["UserProfitComponent"] },
+            { path: 'calculateManage', component: _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_12__["CalculateManageComponent"] },
+            { path: 'userProfit', component: _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_13__["UserProfitComponent"] },
             //user
-            { path: 'connectingUser', component: _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__["ConnectingUserComponent"] },
-            { path: 'blackList', component: _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__["BlackListComponent"] },
-            { path: 'IPinquire', component: _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__["IPinquireComponent"] },
+            { path: 'connectingUser', component: _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_14__["ConnectingUserComponent"] },
+            { path: 'blackList', component: _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_15__["BlackListComponent"] },
+            { path: 'IPinquire', component: _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_16__["IPinquireComponent"] },
             //deposit_withdraw
-            { path: 'depositManagement', component: _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__["DepositManagementComponent"] },
-            { path: 'withdrawManagement', component: _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__["WithdrawManagementComponent"] },
+            { path: 'depositManagement', component: _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_17__["DepositManagementComponent"] },
+            { path: 'withdrawManagement', component: _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_18__["WithdrawManagementComponent"] },
             //notice
-            { path: 'lobbyNotice', component: _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__["LobbyNoticeComponent"] },
-            { path: 'inGamingTable', component: _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__["InGamingTableComponent"] },
-            { path: '1on1support', component: _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__["OneOnOneSupportComponent"] },
+            { path: 'lobbyNotice', component: _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_19__["LobbyNoticeComponent"] },
+            { path: 'inGamingTable', component: _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_20__["InGamingTableComponent"] },
+            { path: '1on1support', component: _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_21__["OneOnOneSupportComponent"] },
             //log
-            { path: 'gameLog', component: _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__["GameLogComponent"] },
-            { path: 'jackpotLog', component: _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__["JackpotLogComponent"] },
-            { path: 'transferLog', component: _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__["TransferLogComponent"] },
-            { path: 'pointLog', component: _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__["PointLogComponent"] },
+            { path: 'gameLog', component: _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["GameLogComponent"] },
+            { path: 'jackpotLog', component: _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_23__["JackpotLogComponent"] },
+            { path: 'transferLog', component: _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_24__["TransferLogComponent"] },
+            { path: 'pointLog', component: _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_25__["PointLogComponent"] },
             //pending
-            { path: 'addUser', component: _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__["AddUserComponent"] },
-            { path: "dashboard", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"] },
-            { path: "**", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"] }
+            { path: "dashboard", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_26__["DashboardComponent"] },
+            { path: "**", component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_26__["DashboardComponent"] }
         ]
     },
-    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__["LoginComponent"] },
+    { path: 'login', component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_27__["LoginComponent"] },
     { path: '', redirectTo: 'admin', pathMatch: 'full' }
 ];
 Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
@@ -519,43 +515,95 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_11__["HeadOfficeListComponent"],
-                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_12__["MemberListComponent"],
-                _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_13__["CalculateManageComponent"],
-                _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_14__["UserProfitComponent"],
-                _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_15__["ConnectingUserComponent"],
-                _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_16__["BlackListComponent"],
-                _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_17__["IPinquireComponent"],
-                _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_18__["DepositManagementComponent"],
-                _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_19__["WithdrawManagementComponent"],
-                _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_20__["LobbyNoticeComponent"],
-                _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_21__["InGamingTableComponent"],
-                _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_22__["OneOnOneSupportComponent"],
-                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_23__["GameLogComponent"],
-                _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_24__["JackpotLogComponent"],
-                _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_25__["TransferLogComponent"],
-                _components_pending_add_user_add_user_component__WEBPACK_IMPORTED_MODULE_28__["AddUserComponent"],
-                _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_27__["DashboardComponent"],
-                _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_26__["PointLogComponent"],
-                _components_login_login_component__WEBPACK_IMPORTED_MODULE_29__["LoginComponent"],
-                _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_30__["MasterPageComponent"],
-                _directives_translate_directive__WEBPACK_IMPORTED_MODULE_31__["TranslateDirective"]
+                // sales
+                //office list  
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["HeadOfficeListComponent"],
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["OfficeInfoDialog"],
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["UserNameCheckSalesBottomSheet"],
+                // members list
+                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_11__["MemberListComponent"],
+                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_11__["MemberInfoDialog"],
+                _components_calculate_calculate_manage_calculate_manage_component__WEBPACK_IMPORTED_MODULE_12__["CalculateManageComponent"],
+                _components_calculate_user_profit_user_profit_component__WEBPACK_IMPORTED_MODULE_13__["UserProfitComponent"],
+                _components_user_connecting_user_connecting_user_component__WEBPACK_IMPORTED_MODULE_14__["ConnectingUserComponent"],
+                _components_user_black_list_black_list_component__WEBPACK_IMPORTED_MODULE_15__["BlackListComponent"],
+                _components_user_ipinquire_ipinquire_component__WEBPACK_IMPORTED_MODULE_16__["IPinquireComponent"],
+                _components_deposit_withdraw_deposit_management_deposit_management_component__WEBPACK_IMPORTED_MODULE_17__["DepositManagementComponent"],
+                _components_deposit_withdraw_withdraw_management_withdraw_management_component__WEBPACK_IMPORTED_MODULE_18__["WithdrawManagementComponent"],
+                _components_notice_lobby_notice_lobby_notice_component__WEBPACK_IMPORTED_MODULE_19__["LobbyNoticeComponent"],
+                _components_notice_in_gaming_table_in_gaming_table_component__WEBPACK_IMPORTED_MODULE_20__["InGamingTableComponent"],
+                _components_notice_one_on_one_support_one_on_one_support_component__WEBPACK_IMPORTED_MODULE_21__["OneOnOneSupportComponent"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["GameLogComponent"],
+                _components_log_jackpot_log_jackpot_log_component__WEBPACK_IMPORTED_MODULE_23__["JackpotLogComponent"],
+                _components_log_transfer_log_transfer_log_component__WEBPACK_IMPORTED_MODULE_24__["TransferLogComponent"],
+                _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_26__["DashboardComponent"],
+                _components_log_point_log_point_log_component__WEBPACK_IMPORTED_MODULE_25__["PointLogComponent"],
+                _components_login_login_component__WEBPACK_IMPORTED_MODULE_27__["LoginComponent"],
+                _components_master_page_master_page_component__WEBPACK_IMPORTED_MODULE_28__["MasterPageComponent"],
+                _directives_translate_directive__WEBPACK_IMPORTED_MODULE_29__["TranslateDirective"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["NoResultBottomSheet"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["HandHistoryDialog"],
+                // independent classes
+                _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_32__["NoResultBottomSheet2"],
+                _utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_33__["BlackListDialog"],
+                _utilities_AnswerSupportDialog_AnswerSupportDialog__WEBPACK_IMPORTED_MODULE_34__["AnswerSupportDialog"],
+                _utilities_SettingsDialog_SettingsDialog__WEBPACK_IMPORTED_MODULE_35__["SettingsDialog"]
             ],
             imports: [
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
-                ng2_charts__WEBPACK_IMPORTED_MODULE_7__["ChartsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
+                ng2_charts__WEBPACK_IMPORTED_MODULE_6__["ChartsModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                angular_font_awesome__WEBPACK_IMPORTED_MODULE_4__["AngularFontAwesomeModule"],
-                _angular_http__WEBPACK_IMPORTED_MODULE_6__["HttpModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot(routes),
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["BrowserAnimationsModule"],
-                _angular_material_slider__WEBPACK_IMPORTED_MODULE_8__["MatSliderModule"],
-                _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"]
+                _angular_http__WEBPACK_IMPORTED_MODULE_5__["HttpModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(routes),
+                // angular material
+                _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_9__["MatSidenavModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatTooltipModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatFormFieldModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatBottomSheetModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatBadgeModule"]
             ],
             // exports:[RouterModule],
+            entryComponents: [
+                //independent classes
+                _utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_33__["BlackListDialog"],
+                _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_32__["NoResultBottomSheet2"],
+                _utilities_AnswerSupportDialog_AnswerSupportDialog__WEBPACK_IMPORTED_MODULE_34__["AnswerSupportDialog"],
+                _utilities_SettingsDialog_SettingsDialog__WEBPACK_IMPORTED_MODULE_35__["SettingsDialog"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["NoResultBottomSheet"],
+                _components_log_game_log_game_log_component__WEBPACK_IMPORTED_MODULE_22__["HandHistoryDialog"],
+                // sales
+                //office
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["OfficeInfoDialog"],
+                _components_sales_head_office_list_head_office_list_component__WEBPACK_IMPORTED_MODULE_10__["UserNameCheckSalesBottomSheet"],
+                //members list
+                _components_sales_member_list_member_list_component__WEBPACK_IMPORTED_MODULE_11__["MemberInfoDialog"]
+            ],
             providers: [
-                _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_32__["CommonService"],
-                _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_33__["UserAuthGuard"]
+                _app_services_common_common_service__WEBPACK_IMPORTED_MODULE_30__["CommonService"],
+                _app_services_UserAuth_user_auth_guard__WEBPACK_IMPORTED_MODULE_31__["UserAuthGuard"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatDatepickerModule"]
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
         })
@@ -585,7 +633,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">calculate management</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- search form -->\n  <form (submit)=\"searchList($event)\">\n    <!-- from to date dropdowns -->  \n    <div class=\"w3-row\">\n      <!-- button -->\n        <div class=\"w3-left\">\n          <button *ngIf=\"maxUpstep != pageIndex\" class=\"w3-btn w3-round w3-text-gray w3-animate-right\" (click)=\"uprank()\"  style=\"background-color: #7dd2ec;  margin-left: 15px\"><fa name=\"arrow-left\" size=\"lg\"></fa></button>\n        </div>\n\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n        </div>\n      <!-- button end -->\n      <!-- to -->\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n            <p>시</p>\n        </div>\n        <!-- time text end -->\n      \n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"00:00:00\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                <option value=\"2018-\" selected>2018</option>\n            </select>\n          </div>\n        <!-- year end -->\n\n      <!-- to end -->\n      \n      <!-- from -->\n\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>시~</p>\n        </div>\n        <!-- time text end -->\n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"23:59:59\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                <option value=\"2018-\" selected>2018</option>\n            </select>\n          </div>\n        <!-- year end -->\n      <!-- from end -->\n    </div>\n    <!-- from to date dropdowns end --> \n  </form>\n  <!-- search form end -->\n\n  <!-- table head offices -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">HO</span> \n                  <span *ngIf=\"pageIndex == 1\">Distributor</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span>  \n                  ID\n                </th>\n                <th>commission</th>\n                <th>deposit</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw</th>\n                <th>withdraw(transfer)</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>user holding money</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">Operating Head office</span> \n                  <span *ngIf=\"pageIndex == 1\">HO office</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span> \n                  profit\n                </th>\n                <!-- can be seen by operating head office only  -->\n                <th *ngIf=\"pageIndex == 2\">head office money</th>\n                <th *ngIf=\"pageIndex == 2\">money of low rank</th>\n                <!-- head office' view  -->\n                <th *ngIf=\"pageIndex == 1\">low rank profit</th>\n\n\n                <th *ngIf=\"pageIndex >= 1\">low rank</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr *ngFor=\"let cm of CalculateManageList;\">\n                <td>{{cm.row_number}}</td>\n                <td>{{cm.UserName}}</td>\n                <td><strong class=\"w3-text-blue\">{{cm.Commission}}%</strong></td>\n                <td>{{cm.deposit | number}}</td>\n                <td>{{cm.depositTransfer | number}}</td>\n                <td>{{cm.withdraw | number}}</td>\n                <td>{{cm.withdrawTransfer | number}}</td>\n                <td>{{cm.bettingAmount | number}}</td>\n                <td>{{cm.rake | number}}</td>\n                <td>{{cm.userHoldingMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2 || pageIndex == 1\">{{cm.parentProfit | number}}&nbsp;(<strong class=\"w3-text-blue\">{{cm.ohoPercent}}%</strong>)</td>\n                <td *ngIf=\"pageIndex == 1 || pageIndex == 0\">{{cm.storesProfit | number}}</td>\n                <td *ngIf=\"pageIndex == 2\">{{cm.hoMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2\" >{{cm.distributorsMoney | number}}</td>\n                \n                <td *ngIf=\"pageIndex >= 1\">\n                  <div style=\"margin: 3px\">\n                    <button type=\"button\" (click)=\"lowrank(cm.UserAccountID)\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">low rank</button>\n                  </div>\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"100%\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table head offices end -->\n\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <!-- <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button> -->\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n\n    <mat-card-title>Calculate Manage      \n      <button mat-flat-button\n              *ngIf=\"maxUpstep != pageIndex\" \n              color=\"accent\"\n              (click)=\"uprank();\"><mat-icon>arrow_back</mat-icon></button>\n    </mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute\" \n            (click)=\"reload()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n\n  <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n    <div >\n      <button *ngIf=\"showBackButton\"\n              mat-flat-button \n              color=\"primary\" \n              (click)=\"reload(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\n              \n      <mat-form-field style=\"width:120px;\">\n        <input matInput \n              [matDatepicker]=\"fromDate\" \n              placeholder=\"From date\" \n              (dateChange)=\"dateValueChanged($event)\"\n              id=\"from\">\n        <mat-datepicker-toggle matSuffix [for]=\"fromDate\"></mat-datepicker-toggle>\n        <mat-datepicker #fromDate></mat-datepicker>\n      </mat-form-field>\n\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n        <mat-select [(value)]=\"startTime\">\n          <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n        </mat-select>\n      </mat-form-field>\n      \n      <mat-form-field style=\"width:120px;\">\n        <input matInput \n              [matDatepicker]=\"toDate\" \n              placeholder=\"To date\"\n              (dateChange)=\"dateValueChanged($event)\"\n              id=\"to\">\n        <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\n        <mat-datepicker #toDate></mat-datepicker>\n      </mat-form-field>\n\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n        <mat-select [(value)]=\"endTime\">\n          <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n        </mat-select>\n      </mat-form-field>\n\n      <button mat-button (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n    </div>\n  </form>\n\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <div style=\"width:1500px;\">\n      <!-- member list table -->\n      <table  mat-table matSort \n              [dataSource]=\"CalculateManageList\" \n              style=\"width:100%\" \n              (matSortChange)=\"sortData($event)\">\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"row_number\">\n          <th mat-header-cell *matHeaderCellDef >No.</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.row_number}} </td>\n        </ng-container>\n\n        <!-- ID -->\n        <ng-container matColumnDef=\"UserName\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"UserName\">ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.UserName}} </td>\n        </ng-container>\n\n        <!-- commission -->\n        <ng-container matColumnDef=\"Commission\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Commission\" >Commission</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Commission | number}}%</td>\n        </ng-container>\n        \n        <!-- deposit -->\n        <ng-container matColumnDef=\"deposit\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"deposit\">Deposit</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.deposit | number}} </td>\n        </ng-container>\n        \n        <!-- deposit transfer -->\n        <ng-container matColumnDef=\"depositTransfer\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"depositTransfer\">Deposit (Transfer)</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.depositTransfer | number}} </td>\n        </ng-container>\n        \n        <!-- withdraw -->\n        <ng-container matColumnDef=\"withdraw\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"withdraw\">Withdraw</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.withdraw | number}} </td>\n        </ng-container>\n        \n        <!-- withdraw transfer -->\n        <ng-container matColumnDef=\"withdrawTransfer\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"withdrawTransfer\">Withdraw (Transfer)</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.withdrawTransfer | number}} </td>\n        </ng-container>\n\n        <!-- betting amount -->\n        <ng-container matColumnDef=\"bettingAmount\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"bettingAmount\">Betting Amount</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.bettingAmount | number}} </td>\n        </ng-container>\n        \n        <!-- rake -->\n        <ng-container matColumnDef=\"rake\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"rake\">Rake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.rake | number}} </td>\n        </ng-container>\n\n        <!-- user holding money -->\n        <ng-container matColumnDef=\"userHoldingMoney\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"userHoldingMoney\">User holding money</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.userHoldingMoney | number}} </td>\n        </ng-container>\n\n        <!-- offices profit -->\n        <ng-container matColumnDef=\"profit\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"parentProfit\">\n                <span *ngIf=\"pageIndex == 2\">Operating Head office</span>\n                <span *ngIf=\"pageIndex == 1\">HO</span>\n                <span *ngIf=\"pageIndex == 0\">store</span>&nbsp;Profit</th>\n          <td mat-cell \n              *matCellDef=\"let element\">\n                <span *ngIf=\"pageIndex == 2 || pageIndex == 1\">{{element.parentProfit | number}}&nbsp;<span *ngIf=\"pageIndex == 2\">(<strong style=\"color: blue\">{{element.ohoPercent}}%</strong>)</span></span>\n                <span *ngIf=\"pageIndex == 0\">{{element.storesProfit | number}}</span> </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"hoMoney\">\n          <th mat-header-cell \n              *matHeaderCellDef \n              mat-sort-header=\"hoMoney\"\n              [ngClass]=\"{'hide': pageIndex < 2}\">Head Office Money</th>\n          <td mat-cell \n              *matCellDef=\"let element\"\n              [ngClass]=\"{'hide': pageIndex < 2}\">{{element.hoMoney | number}} </td>\n        </ng-container>\n        \n        <ng-container matColumnDef=\"distributorsMoney\">\n          <th mat-header-cell \n              *matHeaderCellDef \n              mat-sort-header=\"distributorsMoney\"\n              [ngClass]=\"{'hide': pageIndex < 2}\">Money of low rank</th>\n          <td mat-cell \n              *matCellDef=\"let element\"\n              [ngClass]=\"{'hide': pageIndex < 2}\">{{element.distributorsMoney | number}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"LowrankProfit\">\n          <th mat-header-cell \n              *matHeaderCellDef \n              [ngClass]=\"{'hide': pageIndex != 1}\">Lowrank Profit</th>\n          <td mat-cell \n              *matCellDef=\"let element\"\n              [ngClass]=\"{'hide': pageIndex != 1}\">{{element.storesProfit | number}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"Lowrank\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              [ngClass]=\"{'hide': pageIndex <= 0}\">Lowrank</th>\n          <td mat-cell \n              *matCellDef=\"let element\"\n              [ngClass]=\"{'hide': pageIndex <= 0}\"> \n            <button mat-icon-button \n                    color=\"primary\"\n                    matTooltip=\"lowrank\"\n                    matTooltipPosition=\"right\"\n                    (click)=\"lowrank(element.UserAccountID)\"><mat-icon>subdirectory_arrow_right</mat-icon></button> \n          </td>\n        </ng-container>\n        \n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n    </div>\n\n    <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n    </div>\n  </mat-card-content>\n</mat-card>"
 
 /***/ }),
 
@@ -602,9 +650,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/calculate/lowrank/lowrank.service */ "./src/app/services/calculate/lowrank/lowrank.service.ts");
-/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/calculate/lowrank/lowrank.service */ "./src/app/services/calculate/lowrank/lowrank.service.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -614,6 +663,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
 
 
 
@@ -621,10 +674,12 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var CalculateManageComponent = /** @class */ (function () {
-    function CalculateManageComponent(commonSrvc, lowrankSrvc, userCredentialsSrvc) {
+    function CalculateManageComponent(commonSrvc, lowrankSrvc, userCredentialsSrvc, formsSrvc, locale) {
         this.commonSrvc = commonSrvc;
         this.lowrankSrvc = lowrankSrvc;
         this.userCredentialsSrvc = userCredentialsSrvc;
+        this.formsSrvc = formsSrvc;
+        this.locale = locale;
         //key to html elements
         this.key = [
             false,
@@ -636,22 +691,32 @@ var CalculateManageComponent = /** @class */ (function () {
         this.pageIndex = 1;
         this.CalculateManageList = [];
         this.currentLowRank = 1;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        this.displayedColumns = [
+            'row_number',
+            'UserName',
+            'Commission',
+            'deposit',
+            'depositTransfer',
+            'withdraw',
+            'withdrawTransfer',
+            'bettingAmount',
+            'rake',
+            'userHoldingMoney',
+            'profit',
+            'hoMoney',
+            'distributorsMoney',
+            'LowrankProfit',
+            'Lowrank'
+        ];
+        this.tableSort = { active: 'userHoldingMoney', direction: 'desc' };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
     }
     //lifecycle hooks
     CalculateManageComponent.prototype.ngOnInit = function () {
@@ -659,12 +724,10 @@ var CalculateManageComponent = /** @class */ (function () {
             console.log('requested... ');
             this.getUserCredentials();
         }
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.timeopts = this.formsSrvc.timeOptions;
     };
     CalculateManageComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        console.log('you leave calculate manage');
     };
     //lifecycle hooks end
     // get user credentials for validation
@@ -700,44 +763,11 @@ var CalculateManageComponent = /** @class */ (function () {
                 _this.key[i] = true;
                 console.log('i : ' + i);
             }
+            _this.getListAndPageCount();
             console.log(_this.key);
         });
     };
     // end get user credentials for validation
-    //activate/deactivate
-    CalculateManageComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    CalculateManageComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     CalculateManageComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getLowrankList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
@@ -745,36 +775,29 @@ var CalculateManageComponent = /** @class */ (function () {
             console.log('something went wrong');
         });
     };
-    // getPrivileges(){
-    //   console.log(localStorage.getItem(environment.tokenStorageKey))
-    //     this.lowrankSrvc.getPrivileges()
-    //       .subscribe(
-    //         (res) =>{
-    //           // console.log('privileges ' + JSON.stringify(res))
-    //           console.log(res)
-    //         }
-    //       )
-    // }
+    // pageindex:number, offset:number, limit:number, order:string, direction:string, office:string 
     CalculateManageComponent.prototype.getLowrankList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.lowrankSrvc.getLowrank(_this.offset, _this.currentParentID, _this.pageIndex)
+            _this.lowrankSrvc.getLowrank2(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, //ofset
+            _this.pageEvent.pageSize, // limit
+            _this.tableSort.active, // order by
+            _this.tableSort.direction, // asc / desc
+            _this.currentParentID)
                 .subscribe(function (result) {
-                if (result.length == 0) {
-                    //result = new LowRank
-                    _this.searchResult = true;
-                }
-                else {
+                if (result.length > 0) {
                     //set artificial index
-                    var row_number_new = _this.offset;
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
                     for (var i = 0; i <= result.length - 1; i++) {
                         row_number_new += 1;
                         result[i].row_number = row_number_new;
                     }
                     //set artificial index end
                     _this.CalculateManageList = result;
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    _this.backLoading = false;
+                }
+                else {
+                    //result = new LowRank
                 }
                 resolve();
             }, function (error) {
@@ -787,103 +810,42 @@ var CalculateManageComponent = /** @class */ (function () {
     CalculateManageComponent.prototype.getPageCount = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getPageCount(_this.pageIndex)
+            _this.lowrankSrvc.getPageCount(_this.pageIndex, _this.currentParentID)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    CalculateManageComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
-    };
-    //unused
-    CalculateManageComponent.prototype.searchList = function (event) {
+    CalculateManageComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].ifSearchVariableEmpty;
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.lowrankSrvc.search(this.pageIndex, this.currentParentID, this.startDate + this.startTime, this.endDate + this.endTime)
             .subscribe(function (result) {
-            _this.CalculateManageList = result;
             console.log(result);
             //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.CalculateManageList = result;
                 console.log('results found');
+            }
+            else {
+                console.log('no result found');
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
                 //empty list
                 _this.CalculateManageList = [];
             }
         });
+        this.showBackButton = true;
     };
     CalculateManageComponent.prototype.back = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
     };
-    //pagination functions
-    CalculateManageComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    CalculateManageComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    CalculateManageComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    CalculateManageComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
-    };
-    //pagination functions end
     CalculateManageComponent.prototype.lowrank = function (office) {
         // in case user force altered the pageIndex, the set it to 0 
         console.log('pageindex : ' + this.pageIndex);
@@ -897,17 +859,47 @@ var CalculateManageComponent = /** @class */ (function () {
         else {
             this.pageIndex = 0;
         }
+        this.reload();
     };
     CalculateManageComponent.prototype.uprank = function () {
         // this will keep pageindex to not step up to its limit.
         if (this.maxUpstep != this.pageIndex) {
-            // if(this.pageIndex == ){
-            // }
             this.pageIndex += 1;
             this.currentParentID = this.parentIDHistory.pop();
             this.CalculateManageList = [];
-            this.backLoading = true;
+            this.reload();
         }
+        else {
+            console.log('invalid uprank');
+        }
+    };
+    //we call this function when the user interact with paginator or clicked the refresh button
+    CalculateManageComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
+    };
+    CalculateManageComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
+        }
+    };
+    CalculateManageComponent.prototype.dateValueChanged = function (event) {
+        if (event.targetElement.id == 'from') {
+            this.startDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else if (event.targetElement.id == 'to') {
+            this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else {
+            console.log('invalid target ID');
+        }
+    };
+    CalculateManageComponent.prototype.test = function () {
+        console.log('date start : ' + this.startDate);
+        console.log('time start : ' + this.startTime);
+        console.log('date end : ' + this.endDate);
+        console.log('time end : ' + this.endTime);
     };
     CalculateManageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -915,7 +907,11 @@ var CalculateManageComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./calculate-manage.component.html */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.html"),
             styles: [__webpack_require__(/*! ./calculate-manage.component.css */ "./src/app/components/calculate/calculate-manage/calculate-manage.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"], _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_4__["LowrankService"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_5__["UserCredentialsService"]])
+        __param(4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])),
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _services_calculate_lowrank_lowrank_service__WEBPACK_IMPORTED_MODULE_3__["LowrankService"],
+            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__["UserCredentialsService"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_6__["FormsService"], String])
     ], CalculateManageComponent);
     return CalculateManageComponent;
 }());
@@ -942,7 +938,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">user profit</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- search form -->\n  <form (submit)=\"searchList($event)\">\n    <!-- from to date dropdowns -->  \n    <div class=\"w3-row\">\n      <!-- to -->\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n            <p>시</p>\n        </div>\n        <!-- time text end -->\n      \n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"00:00:00\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                <option value=\"2018-\" >2018</option>\n                <option value=\"2019-\" selected>2019</option>\n            </select>\n          </div>\n        <!-- year end -->\n\n      <!-- to end -->\n      \n      <!-- from -->\n\n        <!-- time text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>시~</p>\n        </div>\n        <!-- time text end -->\n        <!-- time start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                <option value=\"01:00:00\" selected>1</option>\n                <option value=\"02:00:00\" >2</option>\n                <option value=\"03:00:00\" >3</option>\n                <option value=\"04:00:00\" >4</option>\n                <option value=\"05:00:00\" >5</option>\n                <option value=\"06:00:00\" >6</option>\n                <option value=\"07:00:00\" >7</option>\n                <option value=\"08:00:00\" >8</option>\n                <option value=\"09:00:00\" >9</option>\n                <option value=\"10:00:00\" >10</option>\n                <option value=\"11:00:00\" >11</option>\n                <option value=\"12:00:00\" >12</option>\n                <option value=\"13:00:00\" >13</option>\n                <option value=\"14:00:00\" >14</option>\n                <option value=\"15:00:00\" >15</option>\n                <option value=\"16:00:00\" >16</option>\n                <option value=\"17:00:00\" >17</option>\n                <option value=\"18:00:00\" >18</option>\n                <option value=\"19:00:00\" >19</option>\n                <option value=\"20:00:00\" >20</option>\n                <option value=\"21:00:00\" >21</option>\n                <option value=\"22:00:00\" >22</option>\n                <option value=\"23:00:00\" >23</option>\n                <option value=\"23:59:59\" >24</option>\n            </select>\n          </div>\n        <!-- time end -->\n\n        <!-- day text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>일</p>\n        </div>\n        <!-- day text end -->\n\n        <!-- day start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                <option value=\"01 \" selected>1</option>\n                <option value=\"02 \" >2</option>\n                <option value=\"03 \" >3</option>\n                <option value=\"04 \" >4</option>\n                <option value=\"05 \" >5</option>\n                <option value=\"06 \" >6</option>\n                <option value=\"07 \" >7</option>\n                <option value=\"08 \" >8</option>\n                <option value=\"09 \" >9</option>\n                <option value=\"10 \" >10</option>\n                <option value=\"11 \" >11</option>\n                <option value=\"12 \" >12</option>\n                <option value=\"13 \" >13</option>\n                <option value=\"14 \" >14</option>\n                <option value=\"15 \" >15</option>\n                <option value=\"16 \" >16</option>\n                <option value=\"17 \" >17</option>\n                <option value=\"18 \" >18</option>\n                <option value=\"19 \" >19</option>\n                <option value=\"20 \" >20</option>\n                <option value=\"21 \" >21</option>\n                <option value=\"22 \" >22</option>\n                <option value=\"23 \" >23</option>\n                <option value=\"24 \" >24</option>\n                <option value=\"25 \" >25</option>\n                <option value=\"26 \" >26</option>\n                <option value=\"27 \" >27</option>\n                <option value=\"28 \" >28</option>\n                <option value=\"29 \" >29</option>\n                <option value=\"30 \" >30</option>\n                <option value=\"31 \" >31</option>\n\n            </select>\n          </div>\n        <!-- day end -->\n\n        <!-- month text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>월</p>\n        </div>\n        <!-- month text end -->\n\n        <!-- month start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                <option value=\"01-\" selected>1</option>\n                <option value=\"02-\">2</option>\n                <option value=\"03-\">3</option>\n                <option value=\"04-\">4</option>\n                <option value=\"05-\">5</option>\n                <option value=\"06-\">6</option>\n                <option value=\"07-\">7</option>\n                <option value=\"08-\">8</option>\n                <option value=\"09-\">9</option>\n                <option value=\"10-\">10</option>\n                <option value=\"11-\">11</option>\n                <option value=\"12-\">12</option>\n\n            </select>\n          </div>\n        <!-- month end -->\n\n        <!-- year text -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <p>년</p>\n        </div>\n        <!-- year text end -->\n\n        <!-- year start -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                <option value=\"2018-\" selected>2018</option>\n                <option value=\"2019-\" >2019</option>\n            </select>\n          </div>\n        <!-- year end -->\n      <!-- from end -->\n    </div>\n    <!-- from to date dropdowns end --> \n\n    <!-- textbox, checkbox, label, and buttons -->\n    <div class=\"w3-row\">\n        <!-- button -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n        </div>\n        <!-- button end -->\n\n        <!-- real checkbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n          <label for=\"gender\">&nbsp;&nbsp;real</label> \n        </div>\n        <!-- real checkbox end -->\n\n        <!-- all checkbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n          <label for=\"gender\">&nbsp;&nbsp;all</label>\n        </div>\n        <!-- all checkbox end -->\n\n        <!-- textbox -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n        </div>\n        <!-- textbox end-->\n\n        <!-- screen name label -->\n        <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <a class=\"w3-center searchText\">screen name</a>\n        </div>\n        <!-- screen name label end -->\n      </div>\n    <!-- textbox, checkbox, label, and buttons end --> \n    </form>\n<!-- search form end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>deposit amount</th>\n                <th>deposit(transfer)</th>\n                <th>withdraw amount</th>\n                <th>withdraw(transfer)</th>\n                <th>profit</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>holding money</th>\n                <th>profit-rake</th>\n              </tr>\n            </thead>\n            <tbody >\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let up of UserProfitList; let i = index\">\n                <td>{{up.row_number | number}}</td>\n                <td>{{up.HeadOfficeID}}</td>\n                <td>{{up.DistributorID}}</td>\n                <td>{{up.shopID}}</td>\n                <td>{{up.useracct}}</td>\n                <td>{{up.ScreenName }}</td>\n                <td>{{up.deposit | number}}</td>\n                <td>{{up.depositTransfer | number}}</td>\n                <td>{{up.withdraw | number}}</td>\n                <td>{{up.withdrawTransfer | number}}</td>\n                <td>{{up.profit | number}}</td>\n                <td>{{up.BettingAmount | number}}</td>\n                <td>{{up.TotalRake | number}}</td>\n                <td>{{up.money | number}}</td>\n                <td class=\"w3-text-red\">{{up.profitMinusRake | number}}</td>\n              </tr>\n              <tr [hidden]=\"!searchResult\">\n                <td colspan=\"15\">NO RESULTS FOUND\n                  <br>\n                  <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  <br>\n                  \n                  \n                </td>\n              </tr>\n\n              <tr [hidden]=\"!searchBack\">\n                <td colspan=\"15\">RESULT FOUND\n                  <br>\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"15\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n    \n            <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n              <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n            </button>\n            <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n              <fa name=\"angle-left\"  size=\"lg\"></fa>\n            </button>\n\n            <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n\n            <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n            <fa name=\"angle-right\"  size=\"lg\"></fa>\n            </button>\n            <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n            </button >\n\n        </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n    <div *ngIf=\"backLoading\" class=\"loading-shade\">\n      <mat-spinner color=\"accent\"></mat-spinner>\n    </div>\n  \n    <mat-card-header>\n      <mat-card-title>User Profit</mat-card-title>\n      <button mat-icon-button \n              color=\"accent\" \n              style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n              (click)=\"reload()\"\n              matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n  \n    </mat-card-header>\n    \n    <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n      <div style=\"max-width: 1500px;\">\n        <button *ngIf=\"showBackButton\"\n                mat-flat-button \n                color=\"primary\"\n                style=\"margin-right:5px;\" \n                (click)=\"reload(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\n                \n        <mat-form-field style=\"width:120px;\">\n          <input matInput \n                [matDatepicker]=\"fromDate\" \n                placeholder=\"From date\" \n                (dateChange)=\"dateValueChanged($event)\"\n                id=\"from\">\n          <mat-datepicker-toggle matSuffix [for]=\"fromDate\"></mat-datepicker-toggle>\n          <mat-datepicker #fromDate></mat-datepicker>\n        </mat-form-field>\n  \n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <mat-select [(value)]=\"startTime\">\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n          </mat-select>\n        </mat-form-field>\n        \n        <mat-form-field style=\"width:120px;\">\n          <input matInput \n                [matDatepicker]=\"toDate\" \n                placeholder=\"To date\"\n                (dateChange)=\"dateValueChanged($event)\"\n                id=\"to\">\n          <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\n          <mat-datepicker #toDate></mat-datepicker>\n        </mat-form-field>\n  \n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <mat-select [(value)]=\"endTime\">\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n          </mat-select>\n        </mat-form-field>\n\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <input matInput\n                [(ngModel)]=\"searchValue\"\n                [ngModelOptions]=\"{standalone: true}\" \n                placeholder=\"Screen Name\" \n                id=\"from\">\n        </mat-form-field>\n  \n        <button mat-button (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n      </div>\n    </form>\n\n    <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n      <div style=\"width:1500px;\">\n        <!-- member list table -->\n        <table  mat-table matSort \n                [dataSource]=\"UserProfitList\"\n                style=\"width:100%\" \n                (matSortChange)=\"sortData($event)\">\n  \n          <!-- no. -->\n          <ng-container matColumnDef=\"row_number\">\n            <th mat-header-cell *matHeaderCellDef>No.</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.row_number | number}} </td>\n          </ng-container>\n          \n          <!-- PlayerID -->\n          <ng-container matColumnDef=\"PlayerID\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"PlayerID\">User ID</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\n          </ng-container>\n\n          <!-- ShopID -->\n          <ng-container matColumnDef=\"ShopID\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"ShopID\">Store ID</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\n          </ng-container>\n\n          <!-- DistributorID -->\n          <ng-container matColumnDef=\"DistributorID\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"DistributorID\">Distributor ID</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\n          </ng-container>\n\n          <!-- HeadOfficeID -->\n          <ng-container matColumnDef=\"HeadOfficeID\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"HeadOfficeID\">HO ID</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\n          </ng-container>\n\n          <!-- ScreenName -->\n          <ng-container matColumnDef=\"ScreenName\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"ScreenName\">Screen Name</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\n          </ng-container>\n\n          <!-- withdraw -->\n          <ng-container matColumnDef=\"withdraw\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"withdraw\">Withdraw</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.withdraw | number}} </td>\n          </ng-container>\n\n          <!-- withdrawTransfer -->\n          <ng-container matColumnDef=\"withdrawTransfer\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"withdrawTransfer\">Withdraw (Transfer)</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.withdrawTransfer | number}} </td>\n          </ng-container>\n\n          <!-- deposit -->\n          <ng-container matColumnDef=\"deposit\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"deposit\">Deposit</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.deposit | number}} </td>\n          </ng-container>\n\n          <!-- depositTransfer -->\n          <ng-container matColumnDef=\"depositTransfer\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"depositTransfer\">Deposit (transfer)</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.depositTransfer | number}} </td>\n          </ng-container>\n\n          <!-- BettingAmount -->\n          <ng-container matColumnDef=\"BettingAmount\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"BettingAmount\">Betting Amount</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.BettingAmount | number}} </td>\n          </ng-container>\n\n          <!-- TotalRake -->\n          <ng-container matColumnDef=\"TotalRake\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"TotalRake\">Rake</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.TotalRake | number}} </td>\n          </ng-container>\n\n          <!-- money -->\n          <ng-container matColumnDef=\"money\">\n            <th mat-header-cell \n                *matHeaderCellDef\n                mat-sort-header=\"money\">Holding Money</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.money | number}} </td>\n          </ng-container>\n\n          <!-- profit -->\n          <ng-container matColumnDef=\"profit\">\n            <th mat-header-cell \n                *matHeaderCellDef>Profit</th>\n            <td mat-cell *matCellDef=\"let element\">{{element.profit | number}} </td>\n          </ng-container>\n\n          <!-- profitMinusRake -->\n          <ng-container matColumnDef=\"profitMinusRake\">\n            <th mat-header-cell \n                *matHeaderCellDef>profit - rake</th>\n            <td mat-cell *matCellDef=\"let element\" class=\"warning\">{{element.profitMinusRake | number}}</td>\n          </ng-container>\n  \n          <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n          <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n        </table>\n      </div>\n  \n      <div *ngIf=\"pageEvent\">\n        <mat-paginator  [length]=\"pageEvent.length\"\n                        [pageSize]=\"pageEvent.pageSize\"\n                        [pageSizeOptions]=\"pageSizeOptions\"\n                        showFirstLastButtons=\"true\"\n                        (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n      </div>\n    </mat-card-content>\n  </mat-card>"
 
 /***/ }),
 
@@ -959,8 +955,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_calculate_user_profit_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/calculate/user-profit.service */ "./src/app/services/calculate/user-profit.service.ts");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
+/* harmony import */ var src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -970,80 +969,72 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
 
 
 
 
 
 var UserProfitComponent = /** @class */ (function () {
-    function UserProfitComponent(UserProfitSrvc, commonSrvc) {
+    function UserProfitComponent(UserProfitSrvc, bottomsheet, commonSrvc, formSrvc, locale) {
         this.UserProfitSrvc = UserProfitSrvc;
+        this.bottomsheet = bottomsheet;
         this.commonSrvc = commonSrvc;
+        this.formSrvc = formSrvc;
+        this.locale = locale;
         //table variables
         this.UserProfitList = [];
+        this.displayedColumns = [
+            'row_number',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'deposit',
+            'depositTransfer',
+            'withdraw',
+            'withdrawTransfer',
+            'profit',
+            'BettingAmount',
+            'TotalRake',
+            'money',
+            'profitMinusRake' // cannot be table sort because its value is calculated here in the front not in the server
+        ];
+        this.tableSort = { active: 'TotalRake', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //service variables
         this.pageIndex = 7;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
+        //screean name value
+        this.searchValue = 'Player31';
+        // date
+        this.startDate = '2018-12-26';
+        this.endDate = '2019-12-26';
+        // time
+        this.startTime = ' 00:00:00';
+        this.endTime = ' 23:59:59';
     }
     //lifecycle hooks
     UserProfitComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.timeopts = this.formSrvc.timeOptions;
+        this.getListAndPageCount();
     };
     UserProfitComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
         console.log('you leave 1on1 support');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    UserProfitComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    UserProfitComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     UserProfitComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
@@ -1054,16 +1045,16 @@ var UserProfitComponent = /** @class */ (function () {
     UserProfitComponent.prototype.getSupportList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, //ofset
+            _this.pageEvent.pageSize, // limit
+            _this.tableSort.active, // order by
+            _this.tableSort.direction)
                 .subscribe(function (result) {
                 console.log(result);
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
-                }
-                else {
+                if (result.length > 0) {
                     //set artificial index
-                    var row_number_new = _this.offset;
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
                     for (var i = 0; i <= result.length - 1; i++) {
                         row_number_new += 1;
                         result[i].row_number = row_number_new;
@@ -1072,8 +1063,10 @@ var UserProfitComponent = /** @class */ (function () {
                     }
                     //set artificial index end
                     _this.UserProfitList = result;
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    _this.backLoading = false;
+                }
+                else {
+                    console.log('user profit no result');
                 }
                 resolve();
             }, function (error) {
@@ -1088,109 +1081,83 @@ var UserProfitComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    UserProfitComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        console.log(this.offset);
-        this.currentPaginationButton = i;
-    };
-    UserProfitComponent.prototype.searchList = function (event) {
+    UserProfitComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        var timeStart = target.querySelector('#timeStart').value;
-        var dayStart = target.querySelector('#dayStart').value;
-        var monthStart = target.querySelector('#monthStart').value;
-        var yearStart = target.querySelector('#yearStart').value;
-        //concatenate datetime start
-        var datetimeStart = yearStart + monthStart + dayStart + timeStart;
-        var timeEnd = target.querySelector('#timeEnd').value;
-        var dayEnd = target.querySelector('#dayEnd').value;
-        var monthEnd = target.querySelector('#monthEnd').value;
-        var yearEnd = target.querySelector('#yearEnd').value;
-        //concatenate datetime end
-        var datetimeEnd = yearEnd + monthEnd + dayEnd + timeEnd;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : src_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        this.UserProfitSrvc.searchUserProfit(datetimeStart, datetimeEnd, value)
+        this.showBackButton = true;
+        this.UserProfitList = [];
+        this.UserProfitSrvc.searchUserProfit(this.startDate + this.startTime, this.endDate + this.endTime, this.searchValue)
             .subscribe(function (result) {
-            _this.UserProfitList = result;
-            console.log(result);
             //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                console.log(result);
+                result[0].profit = result[0].deposit - result[0].withdraw;
+                result[0].profitMinusRake = result[0].profit - result[0].TotalRake;
+                _this.UserProfitList = result;
+                _this.backLoading = false;
                 console.log('results found');
             }
+            else {
+                console.log('search result not found');
+            }
+            // this.UserProfitList = result
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
+                _this.openSearchNoResultFound();
                 //empty list
                 _this.UserProfitList = [];
             }
         });
     };
-    //pagination functions
-    UserProfitComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    UserProfitComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    UserProfitComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    UserProfitComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
-    };
-    //pagination functions end
-    UserProfitComponent.prototype.back = function () {
+    //we call this function when the user interact with paginator or clicked the refresh button
+    UserProfitComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
+        this.showBackButton = false;
+        this.getListAndPageCount();
+    };
+    UserProfitComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        console.log(this.tableSort.direction);
+        if (this.tableSort.direction) {
+            this.reload();
+        }
+    };
+    UserProfitComponent.prototype.dateValueChanged = function (event) {
+        if (event.targetElement.id == 'from') {
+            this.startDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_7__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else if (event.targetElement.id == 'to') {
+            this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_7__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else {
+            console.log('invalid target ID');
+        }
+    };
+    UserProfitComponent.prototype.openSearchNoResultFound = function () {
+        var _this = this;
+        this.bottomsheet.open(_utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_5__["NoResultBottomSheet2"], {
+            data: { value: this.searchValue,
+                column: '',
+                fromDate: this.startDate,
+                fromTime: this.startTime,
+                toDate: this.endDate,
+                toTime: this.endTime
+            }
+        })
+            .afterDismissed().subscribe(function () {
+            console.log('dismissed');
+            _this.reload();
+            _this.searchValue = null;
+        });
     };
     UserProfitComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1198,7 +1165,11 @@ var UserProfitComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./user-profit.component.html */ "./src/app/components/calculate/user-profit/user-profit.component.html"),
             styles: [__webpack_require__(/*! ./user-profit.component.css */ "./src/app/components/calculate/user-profit/user-profit.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_calculate_user_profit_service__WEBPACK_IMPORTED_MODULE_1__["UserProfitService"], _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"]])
+        __param(4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])),
+        __metadata("design:paramtypes", [_services_calculate_user_profit_service__WEBPACK_IMPORTED_MODULE_1__["UserProfitService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatBottomSheet"],
+            _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__["FormsService"], String])
     ], UserProfitComponent);
     return UserProfitComponent;
 }());
@@ -1214,7 +1185,7 @@ var UserProfitComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".rightbar{\r\n    border-right:6px solid #ccc!important;\r\n}\r\n\r\n\r\n  .center {\r\n    margin: auto;\r\n    width: 50%;\r\n    border: 3px solid green;\r\n    padding: 10px;\r\n  }"
 
 /***/ }),
 
@@ -1225,7 +1196,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- color:#1ecead -->\n<!-- dashboard container start -->\n<div class=\"w3-container\">\n  <!-- top dashboard -->\n  <div class=\"w3-row\" style=\"margin-top:5px;\">\n\n    <!-- total members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n            \n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              total members(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              total members(all)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n              <p>{{totalRegisteredUser | number}}</p>\n          </div>\n\n        </div>\n      </div>\n    </div>\n    <!-- total members end -->\n\n    <!-- today joined members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                today joined members(real)\n              </p>\n              <strong style=\"color:#1ecead\">\n                today joined members(all)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalRegisteredUserToday | number}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!-- today joined members end -->\n\n    <!--  connecting members -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n              <p>\n                <fa name=\"user\"></fa>\n                connecting members(real) \n              </p>\n              <strong style=\"color:#1ecead\">\n                connecting members(real)\n              </strong>\n            </div>\n    \n            <div class=\"w3-quarter\">\n              <div class=\"w3-cell w3-cell-middle\">\n                <p>{{totalConnectingMembers | number}}</p>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n    <!--  connecting members end -->\n\n    <!-- deposit of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              deposit of today(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              deposit of today(real) \n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalDepositToday | number}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- deposit of today end -->\n\n    <!-- withdraw of today -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container w3-rightbar\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              withdraw of today (real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              withdraw of today (real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>{{totalWithdrawToday | number}}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- withdraw of today end -->\n\n    <!-- holding money -->\n    <div class=\"w3-col\" style=\"width: 16.66%\">\n      <div class=\"w3-container\">\n        <div style=\"height: 100px;\">\n          <div class=\"w3-threequarter\">\n            <p>\n              <fa name=\"user\"></fa>\n              holding money(real)\n            </p>\n            <strong style=\"color:#1ecead\">\n              holding money(real)\n            </strong>\n          </div>\n  \n          <div class=\"w3-quarter\">\n            <div class=\"w3-cell w3-cell-middle\">\n              <p>818</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- holding money end -->\n\n  </div>\n  <!-- top dashboard end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n    <!-- betting ranking by head office (daily) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office daily</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!dailyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': daily.Percentage + '%'}\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n    <!-- betting ranking by head office (weekly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office weekly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        \n        <!-- card content -->\n        <div *ngFor=\"let daily of bettingRankingHODaily\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{daily.TotalDailyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\" style=\"height:24px;width:20%\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{daily.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (weekly) -->\n\n    <!-- betting ranking by head office (monthly) -->\n    <div class=\"w3-third w3-container\">\n      <div class=\"w3-card w3-white\">\n        <!-- card header -->\n        <div class=\"w3-container\">\n          <h4 class=\"w3-left\">betting ranking by head office monthly</h4>\n          <div class=\"w3-right\">\n            <div class=\"w3-row\">\n              <h4 class=\"w3-text-sand0\">\n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n              </h4>\n            </div>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <!-- card header end -->\n        <fa [hidden]=\"!monthlyLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n        \n        <!-- card content -->\n        <div *ngFor=\"let monthly of bettingRankingHOMonthly\" class=\"w3-padding\">\n          <div class=\"w3-row\">\n\n            <!-- money -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                  {{monthly.TotalMonthlyBettingByHeadOffice | number}}\n                </div>\n            </div>\n            <!-- money end -->\n\n            <!-- bar -->\n            <div class=\"w3-col\" style=\"width: 70%;\">\n                <div class=\"w3-border\">\n                  <div class=\"holdemGreen\"  style=\"height:24px;\" [ngStyle]=\"{'width': monthly.Percentage + '%'}\"></div>\n                </div>\n            \n            </div>\n            <!-- bar end-->\n\n            <!-- name -->\n            <div class=\"w3-col\" style=\"width: 15%;\">\n              <div class=\"w3-center\">\n                {{monthly.HeadOfficeUserAccountID}}\n              </div>\n            </div>\n            <!-- name end -->\n          </div>\n        </div>\n        <!-- card content end -->\n\n      </div>\n    </div>\n    <!-- betting ranking by head office end (daily) -->\n\n  </div>\n  <!-- progress bars row 1 end -->\n\n  <!-- progress bars row 1 -->\n  <div class=\"w3-row\" style=\"margin-top:20px\">\n\n      <!-- betting ranking by head office (daily) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">deposit ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!depositRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let deposit of depositRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{deposit.Amount | number}}\n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                    <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': deposit.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                  {{deposit.HeadOfficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (daily) -->\n  \n      <!-- betting ranking by head office (weekly) -->\n      <div class=\"w3-third w3-container\">\n        <div class=\"w3-card w3-white\">\n          <!-- card header -->\n          <div class=\"w3-container\">\n            <h4 class=\"w3-left\">withdraw ranking by head office (daily)</h4>\n            <div class=\"w3-right\">\n              <div class=\"w3-row\">\n                <h4 class=\"w3-text-sand0\">\n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                  <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                </h4>\n              </div>\n            </div>\n          </div>\n          <hr class=\"tableTitleHr\">\n          <!-- card header end -->\n          <fa [hidden]=\"!withdrawRankingLoading\" name=\"spinner\" animation=\"spin\" size=\"lg\" style=\"margin:50%\"></fa>\n          <!-- card content -->\n          <div *ngFor=\"let withdraw of withdrawRankingDaily\" class=\"w3-padding\">\n            <div class=\"w3-row\">\n  \n              <!-- money -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.ExitingAmount | number}}\n                    \n                  </div>\n              </div>\n              <!-- money end -->\n  \n              <!-- bar -->\n              <div class=\"w3-col\" style=\"width: 70%;\">\n                  <div class=\"w3-border\">\n                      <div class=\"holdemGreen\" style=\"height:24px;\" [ngStyle]=\"{'width': withdraw.Percentage + '%'}\"></div>\n                  </div>\n              \n              </div>\n              <!-- bar end-->\n  \n              <!-- name -->\n              <div class=\"w3-col\" style=\"width: 15%;\">\n                <div class=\"w3-center\">\n                    {{withdraw.HeadofficeUserAccountID}}\n                </div>\n              </div>\n              <!-- name end -->\n            </div>\n          </div>\n          <!-- card content end -->\n        </div>\n      </div>\n      <!-- betting ranking by head office end (weekly) -->\n  \n      <!-- betting ranking by head office (monthly) -->\n      <div class=\"w3-third w3-container\">\n          <div class=\"w3-card w3-white\">\n            <!-- card header -->\n            <div class=\"w3-container\">\n              <h4 class=\"w3-left\">holding money by head office</h4>\n              <div class=\"w3-right\">\n                <div class=\"w3-row\">\n                  <h4 class=\"w3-text-sand0\">\n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"angle-up\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"wrench\"></fa></a>  \n                    <a href=\"#\" class=\"w3-padding-small\"><fa name=\"times\"></fa></a>  \n                  </h4>\n                </div>\n              </div>\n            </div>\n            <hr class=\"tableTitleHr\">\n            <!-- card header end -->\n            \n            <!-- card content -->\n            <div class=\"w3-padding\">\n              <div style=\"display: block\">\n                <canvas baseChart [data]=\"pieChartData\" [labels]=\"pieChartLabels\" [chartType]=\"pieChartType\"></canvas>\n              </div>\n            </div>\n            <!-- card content end -->\n            \n          </div>\n      </div>\n      <!-- betting ranking by head office end (monthly) -->\n  \n  </div>\n  <!-- progress bars row 1 end -->\n\n</div>\n<!-- dashboard container end  -->"
+module.exports = "<mat-grid-list [cols]=\"topStatisticsColspan\" rowHeight=\"120px\" gutterSize=\"15px\" style=\"margin:10px;\">\n  <mat-grid-tile colspan=\"1\" rowspan=\"1\" *ngFor=\"let s of Stats; let last = last\" [ngClass]=\"{ 'rightbar' : !last }\">\n    <div style=\"height: 100%; width: 100%;\">\n      <mat-list>\n        <mat-list-item>{{s.Title}}</mat-list-item>\n        <mat-list-item>{{s.Title2}}</mat-list-item>\n      </mat-list>\n    </div>\n    <p style=\"margin-right: 2px\">{{s.Value2 | number}}</p>\n  </mat-grid-tile>\n</mat-grid-list>\n\n<mat-grid-list [cols]=\"cardStatisticsColspan\" style=\"margin:10px;\">\n\n  <mat-grid-tile colspan=\"1\" rowspan=\"1\" *ngFor=\"let b of AverageRanking\">\n    <mat-card style=\"width:90%; height: 90%\" >\n      <div *ngIf=\"!b.IsReady\" class=\"loading-shade\">\n        <mat-spinner></mat-spinner>\n      </div>\n      \n      <mat-card-header>\n        <mat-card-title>{{b.Title}}</mat-card-title>\n      </mat-card-header>\n      <mat-divider></mat-divider>\n\n      <div *ngIf=\"b.IsReady\">\n        <mat-card-content >\n          \n          <mat-grid-list cols=\"9\" *ngFor=\"let x of b.Values\" >\n            \n            <mat-grid-tile colspan=\"2\">\n              <p>{{x.Amount | number}}</p>\n            </mat-grid-tile>\n            <mat-grid-tile colspan=\"5\">\n              <mat-progress-bar color=\"primary\" mode=\"determinate\" [value]=\"x.Percentage\" style=\"height: 20px;\"> </mat-progress-bar>\n            </mat-grid-tile>\n            <mat-grid-tile colspan=\"2\">\n              <span>{{x.OfficeID}}</span>\n            </mat-grid-tile>\n  \n          </mat-grid-list>\n        </mat-card-content>\n      </div>\n    \n    </mat-card>\n  </mat-grid-tile>\n</mat-grid-list>\n\n<button (click)=\"getDepositRankingDaily()\">test</button>\n\n"
 
 /***/ }),
 
@@ -1242,8 +1213,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/dashboard/dashboard.service */ "./src/app/services/dashboard/dashboard.service.ts");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1256,12 +1225,25 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
-
 var DashboardComponent = /** @class */ (function () {
     function DashboardComponent(dashboardSrvc, commonSrvc) {
         this.dashboardSrvc = dashboardSrvc;
         this.commonSrvc = commonSrvc;
+        this.Stats = [
+            { Title: 'total members(real)', Title2: 'total members(all)', Value: '0', Value2: '0' },
+            { Title: 'today joined members(real)', Title2: 'today joined members(all)', Value: '0', Value2: '0' },
+            { Title: 'connecting members(real)', Title2: 'connecting members(all)', Value: '0', Value2: '0' },
+            { Title: 'deposit of today(real)', Title2: 'deposit of today(all)', Value: '0', Value2: '0' },
+            { Title: 'withdraw of today (real)', Title2: 'withdraw of today (all)', Value: '0', Value2: '0' },
+            { Title: 'holding money(real)', Title2: 'holding money(all)', Value: '0', Value2: '0' }
+        ];
+        this.AverageRanking = [
+            { Title: 'betting ranking by head office(daily)', Values: [{ Amount: 0, OfficeID: 'unknown', Percentage: 0 }], IsReady: false },
+            { Title: 'betting ranking by head office(weekly)', Values: [{ Amount: 0, OfficeID: 'unknown', Percentage: 0 }], IsReady: false },
+            { Title: 'betting ranking by head office(monthly)', Values: [{ Amount: 0, OfficeID: 'unknown', Percentage: 0 }], IsReady: false },
+            { Title: 'deposit ranking by head office(daily)', Values: [{ Amount: 0, OfficeID: 'unknown', Percentage: 0 }], IsReady: false },
+            { Title: 'withdraw ranking by head office(daily)', Values: [{ Amount: 0, OfficeID: 'unknown', Percentage: 0 }], IsReady: false }
+        ];
         //charts variables
         //betting ranking by head office variables
         this.bettingRankingHODaily = [];
@@ -1272,46 +1254,36 @@ var DashboardComponent = /** @class */ (function () {
         this.depositRankingLoading = true;
         this.withdrawRankingDaily = [];
         this.withdrawRankingLoading = true;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].updateTimeDashboard);
+        //on component variables
+        this.topStatisticsColspan = 6;
+        this.cardStatisticsColspan = 3;
         // pie variables
         this.pieChartLabels = ['JIN05', 'dw88b', 'km87v'];
         this.pieChartData = [300, 500, 100];
         this.pieChartType = 'pie';
     }
-    // events
-    // public chartClicked(e:any):void {
-    //   console.log(e);
-    // }
-    // public chartHovered(e:any):void {
-    //   console.log(e);
-    // }
     DashboardComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        if (window.innerWidth <= 1024) {
+            this.topStatisticsColspan = 3;
+            this.cardStatisticsColspan = 2;
+        }
+        else {
+            this.topStatisticsColspan = 6;
+            this.cardStatisticsColspan = 3;
+        }
+        this.getBettingRankingDaily();
+        this.getBettingRankingWeekly();
+        this.getBettingRankingMonthly();
+        this.getDepositRankingDaily();
+        // this.getWithdrawRankingDaily()
+        this.getWithdrawDepositToday();
+        //observable from master page component to dashboard service
+        this.getEmittedTotalRegisteredUserToday();
+        this.getEmittedTotalRegisteredUser();
+        this.getEmittedConnectingMembers();
     };
     DashboardComponent.prototype.ngOnDestroy = function () {
-        this.getListSubscription.unsubscribe();
-        this.onComponent = false;
         console.log('you leave dashboard');
-    };
-    //activate/deactivate
-    DashboardComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (_this.commonSrvc.userActive) {
-                    //charts
-                    _this.getBettingRankingDaily();
-                    _this.getBettingRankingMonthly();
-                    _this.getDepositRankingDaily();
-                    _this.getWithdrawRankingDaily();
-                    //observable from master page component to dashboard service
-                    _this.getEmittedTotalRegisteredUserToday();
-                    _this.getEmittedTotalRegisteredUser();
-                    _this.getEmittedConnectingMembers();
-                }
-            }
-        });
     };
     //charts
     DashboardComponent.prototype.getBettingRankingDaily = function () {
@@ -1320,28 +1292,61 @@ var DashboardComponent = /** @class */ (function () {
             .subscribe(function (res) {
             if (res.length > 0) {
                 //sort result
-                res.sort(function (a, b) { return b.TotalDailyBettingByHeadOffice - a.TotalDailyBettingByHeadOffice; });
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
                 //getting the percentage variables
-                var max = res[0].TotalDailyBettingByHeadOffice;
+                var max = res[0].Amount;
                 var min = 0;
                 for (var i = 0; i <= res.length - 1; i++) {
-                    res[i].Percentage = ((res[i].TotalDailyBettingByHeadOffice - min) / (max - min)) * 100;
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    _this.AverageRanking[0].Values[i] = res[i];
                 }
-                _this.bettingRankingHODaily = res;
-                _this.dailyLoading = false;
+                _this.AverageRanking[0].IsReady = true;
+                // this.bettingRankingHODaily = res
+                // this.dailyLoading = false
+            }
+            else {
+                _this.AverageRanking[0].IsReady = false;
             }
         }, function (error) {
             if (error['status'] == '403') {
-                _this.getListSubscription.unsubscribe();
                 _this.commonSrvc.logout();
             }
             else {
-                _this.dailyLoading = true;
+                _this.AverageRanking[0].IsReady = true;
             }
             // console.log(' this is error ' + error)
         });
     };
     DashboardComponent.prototype.getBettingRankingWeekly = function () {
+        var _this = this;
+        this.dashboardSrvc.getBettingRankingWeekly()
+            .subscribe(function (res) {
+            if (res.length > 0) {
+                //sort result
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
+                //getting the percentage variables
+                var max = res[0].Amount;
+                var min = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    _this.AverageRanking[1].Values[i] = res[i];
+                }
+                _this.AverageRanking[1].IsReady = true;
+                // this.bettingRankingHODaily = res
+                // this.dailyLoading = false
+            }
+            else {
+                _this.AverageRanking[1].IsReady = false;
+            }
+        }, function (error) {
+            if (error['status'] == '403') {
+                _this.commonSrvc.logout();
+            }
+            else {
+                // this.dailyLoading = true
+            }
+            // console.log(' this is error ' + error)
+        });
     };
     DashboardComponent.prototype.getBettingRankingMonthly = function () {
         var _this = this;
@@ -1349,55 +1354,87 @@ var DashboardComponent = /** @class */ (function () {
             .subscribe(function (res) {
             if (res.length > 0) {
                 //sort result
-                res.sort(function (a, b) { return b.TotalMonthlyBettingByHeadOffice - a.TotalMonthlyBettingByHeadOffice; });
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
                 //getting the percentage variables
-                var max = res[0].TotalMonthlyBettingByHeadOffice;
+                var max = res[0].Amount;
                 var min = 0;
                 for (var i = 0; i <= res.length - 1; i++) {
-                    res[i].Percentage = ((res[i].TotalMonthlyBettingByHeadOffice - min) / (max - min)) * 100;
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    _this.AverageRanking[2].Values[i] = res[i];
                 }
-                _this.bettingRankingHOMonthly = res;
-                _this.monthlyLoading = false;
+                _this.AverageRanking[2].IsReady = true;
+                // this.bettingRankingHOMonthly = res
+                // this.monthlyLoading = false
             }
         }, function (error) {
             // console.log('error' + error)
-            _this.monthlyLoading = true;
+            _this.AverageRanking[2].IsReady = false;
+            // this.monthlyLoading = true
         });
     };
     DashboardComponent.prototype.getDepositRankingDaily = function () {
         var _this = this;
+        console.log('sent');
         this.dashboardSrvc.depositToday
             .subscribe(function (res) {
+            console.log('sent');
             //total withdraw variable
-            var totalDeposit = 0;
-            for (var i = 0; i <= res.length - 1; i++) {
-                totalDeposit += Number(res[i].Amount);
+            console.log(res);
+            if (res.length > 0) {
+                //sort result
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
+                //getting the percentage variables
+                var max = res[0].Amount;
+                var min = 0;
+                var totalDeposit = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    totalDeposit += Number(res[i].Amount);
+                    _this.AverageRanking[3].Values[i] = res[i];
+                }
+                console.log(res);
+                _this.AverageRanking[3].IsReady = true;
+                _this.Stats[3].Value2 = totalDeposit.toString();
             }
             //assign result to depositRankingDaily
+            // this.AverageRanking[3].Values = res
             _this.depositRankingDaily = res;
-            _this.totalDepositToday = totalDeposit;
-            _this.depositRankingLoading = false;
         }, function (error) {
             console.log(error['status']);
-            _this.depositRankingLoading = true;
         });
     };
     DashboardComponent.prototype.getWithdrawRankingDaily = function () {
         var _this = this;
         this.dashboardSrvc.withdrawToday
             .subscribe(function (res) {
-            //total withdraw variable
-            var totalwithdraw = 0;
-            for (var i = 0; i <= res.length - 1; i++) {
-                totalwithdraw += Number(res[i].ExitingAmount);
+            if (res.length > 0) {
+                //total withdraw variable
+                var totalwithdraw = 0;
+                for (var i = 0; i <= res.length - 1; i++) {
+                    totalwithdraw += Number(res[i].Amount);
+                    _this.AverageRanking[4].Values[i] = res[i];
+                }
+                _this.AverageRanking[4].IsReady = true;
+                _this.totalWithdrawToday = totalwithdraw;
             }
             //assign result to withdrawRankingDaily
-            _this.totalWithdrawToday = totalwithdraw;
             _this.withdrawRankingDaily = res;
             _this.withdrawRankingLoading = false;
         }, function (error) {
             console.log('error' + error);
             _this.withdrawRankingLoading = true;
+        });
+    };
+    DashboardComponent.prototype.getWithdrawDepositToday = function () {
+        var _this = this;
+        this.dashboardSrvc.getDepositWithdrawToday()
+            .subscribe(function (res) {
+            if (res.length > 0) {
+                _this.Stats[3].Value2 = res[0]['TotalDepositToday'] ? res[0]['TotalDepositToday'] : 0;
+                _this.Stats[4].Value2 = res[0]['TotalWithdrawToday'] ? res[0]['TotalWithdrawToday'] : 0;
+            }
+        }, function (error) {
+            console.log('error' + error);
         });
     };
     //charts end
@@ -1406,28 +1443,32 @@ var DashboardComponent = /** @class */ (function () {
         var _this = this;
         this.dashboardSrvc.totalMemberObservable
             .subscribe(function (res) {
-            _this.totalRegisteredUser = res;
+            _this.Stats[0].Value2 = res ? res : '0';
+            // this.totalRegisteredUser = res
         }, function (error) { console.log('error' + error); });
     };
     DashboardComponent.prototype.getEmittedTotalRegisteredUserToday = function () {
         var _this = this;
         this.dashboardSrvc.totalRegisteredTodayObservable
             .subscribe(function (res) {
-            _this.totalRegisteredUserToday = res;
+            _this.Stats[1].Value2 = res ? res : '0';
+            // this.totalRegisteredUserToday = res
         }, function (error) { console.log('error' + error); });
     };
     DashboardComponent.prototype.getEmittedConnectingMembers = function () {
         var _this = this;
         this.dashboardSrvc.connectingMembersObservable
             .subscribe(function (res) {
-            _this.totalConnectingMembers = res;
+            // this.totalConnectingMembers = res
+            _this.Stats[2].Value2 = res;
         }, function (error) { console.log('error' + error); });
     };
     DashboardComponent.prototype.getEmittedTotalWithdrawToday = function () {
         var _this = this;
         this.dashboardSrvc.totalWithdrawTodayObservable
             .subscribe(function (res) {
-            _this.totalConnectingMembers = res;
+            // this.totalConnectingMembers = res
+            _this.Stats[4].Value2 = res;
         }, function (error) { console.log('error' + error); });
     };
     DashboardComponent = __decorate([
@@ -1464,7 +1505,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "  <br>\n  <div class=\"w3-container w3-border w3-card w3-white\">\n\n    <!-- table title -->\n      <p class=\"tableTitle\">deposit list</p>\n      <hr class=\"tableTitleHr\">\n\n      <br>\n    <!-- table title end -->\n\n  <!-- search form -->\n    <form (submit)=\"searchList($event)\">\n      <!-- from to date dropdowns -->  \n      <div class=\"w3-row\">\n        <!-- to -->\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin-right:20px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n        \n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeEnd\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"00:00:00\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayEnd\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthEnd\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearEnd\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"timeStart\">\n                  <option value=\"01:00:00\" selected>1</option>\n                  <option value=\"02:00:00\" >2</option>\n                  <option value=\"03:00:00\" >3</option>\n                  <option value=\"04:00:00\" >4</option>\n                  <option value=\"05:00:00\" >5</option>\n                  <option value=\"06:00:00\" >6</option>\n                  <option value=\"07:00:00\" >7</option>\n                  <option value=\"08:00:00\" >8</option>\n                  <option value=\"09:00:00\" >9</option>\n                  <option value=\"10:00:00\" >10</option>\n                  <option value=\"11:00:00\" >11</option>\n                  <option value=\"12:00:00\" >12</option>\n                  <option value=\"13:00:00\" >13</option>\n                  <option value=\"14:00:00\" >14</option>\n                  <option value=\"15:00:00\" >15</option>\n                  <option value=\"16:00:00\" >16</option>\n                  <option value=\"17:00:00\" >17</option>\n                  <option value=\"18:00:00\" >18</option>\n                  <option value=\"19:00:00\" >19</option>\n                  <option value=\"20:00:00\" >20</option>\n                  <option value=\"21:00:00\" >21</option>\n                  <option value=\"22:00:00\" >22</option>\n                  <option value=\"23:00:00\" >23</option>\n                  <option value=\"23:59:59\" >24</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"dayStart\">\n                  <option value=\"01 \" selected>1</option>\n                  <option value=\"02 \" >2</option>\n                  <option value=\"03 \" >3</option>\n                  <option value=\"04 \" >4</option>\n                  <option value=\"05 \" >5</option>\n                  <option value=\"06 \" >6</option>\n                  <option value=\"07 \" >7</option>\n                  <option value=\"08 \" >8</option>\n                  <option value=\"09 \" >9</option>\n                  <option value=\"10 \" >10</option>\n                  <option value=\"11 \" >11</option>\n                  <option value=\"12 \" >12</option>\n                  <option value=\"13 \" >13</option>\n                  <option value=\"14 \" >14</option>\n                  <option value=\"15 \" >15</option>\n                  <option value=\"16 \" >16</option>\n                  <option value=\"17 \" >17</option>\n                  <option value=\"18 \" >18</option>\n                  <option value=\"19 \" >19</option>\n                  <option value=\"20 \" >20</option>\n                  <option value=\"21 \" >21</option>\n                  <option value=\"22 \" >22</option>\n                  <option value=\"23 \" >23</option>\n                  <option value=\"24 \" >24</option>\n                  <option value=\"25 \" >25</option>\n                  <option value=\"26 \" >26</option>\n                  <option value=\"27 \" >27</option>\n                  <option value=\"28 \" >28</option>\n                  <option value=\"29 \" >29</option>\n                  <option value=\"30 \" >30</option>\n                  <option value=\"31 \" >31</option>\n\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"monthStart\">\n                  <option value=\"01-\" selected>1</option>\n                  <option value=\"02-\">2</option>\n                  <option value=\"03-\">3</option>\n                  <option value=\"04-\">4</option>\n                  <option value=\"05-\">5</option>\n                  <option value=\"06-\">6</option>\n                  <option value=\"07-\">7</option>\n                  <option value=\"08-\">8</option>\n                  <option value=\"09-\">9</option>\n                  <option value=\"10-\">10</option>\n                  <option value=\"11-\">11</option>\n                  <option value=\"12-\">12</option>\n\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"yearStart\">\n                  <option value=\"2018-\" selected>2018</option>\n              </select>\n            </div>\n          <!-- year end -->\n        <!-- from end -->\n      </div>\n      <!-- from to date dropdowns end --> \n\n      <!-- textbox, checkbox, label, and buttons -->\n      <div class=\"w3-row\">\n          <!-- button -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input type=\"submit\" class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\" value=\"search\">\n          </div>\n          <!-- button end -->\n\n          <!-- real checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n            <label for=\"gender\">&nbsp;&nbsp;real</label> \n          </div>\n          <!-- real checkbox end -->\n\n          <!-- all checkbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-radio \" type=\"radio\" name=\"gender\" checked>\n            <label for=\"gender\">&nbsp;&nbsp;all</label>\n          </div>\n          <!-- all checkbox end -->\n\n          <!-- textbox -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n          </div>\n          <!-- textbox end-->\n\n          <!-- screen name label -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n            <a class=\"w3-center searchText\">screen name</a>\n          </div>\n          <!-- screen name label end -->\n        </div>\n      <!-- textbox, checkbox, label, and buttons end --> \n      </form>\n  <!-- search form end -->\n            \n            <!-- table -->\n            <div class=\"w3-responsive w3-container\">\n              <table class=\"w3-table w3-striped w3-centered w3-border\">\n                <thead>\n                  <tr class=\"holdemBlue\">\n                    <th>No.</th>\n                    <th>HO ID</th>\n                    <th>Distributor ID</th>\n                    <th>store ID</th>\n                    <th>user ID</th>\n                    <th>screen name</th>\n                    <th>name</th>\n                    <th>contact no.</th>\n                    <th>deposit amount</th>\n                    <th>status</th>\n                    <th class=\"w3-center\">manage</th>\n                    <th>application date</th>\n                    <th>date of approval</th>\n                  </tr>\n                </thead>\n                <!-- <tbody *ngFor=\"let deposit of depositList | slice:0:3 ; let i = index \"> -->\n              <tbody>\n                <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                  <div>\n                    {{dh.UserAccountID}}\n                  </div>\n                </div> -->\n                <tr *ngFor=\"let d of depositList; let i = index\">\n                  <!-- <td>{{i}}</td> -->\n                  <td>{{d.ID}}</td>\n                  <td>{{d.HeadOfficeID}}</td>\n                  <td>{{d.DistributorID}}</td>\n                  <td>{{d.ShopID}}</td>\n                  <td>{{d.UserName}}</td>\n                  <td>{{d.ScreenName}}</td>\n                  <td>{{d.Name}}</td>\n                  <td>{{d.PhoneNumber}}</td>\n                  <td>{{d.Amount}}</td>\n                  <td>{{d.TransactionStatus}}</td>\n                  \n                  <td>\n                    <fa *ngIf=\"i + 1 == currentManageButton && !hideManageButton\" name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    <div *ngIf=\"d.TransactionStatus == 'pending' \">\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\"  class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"approveDeposit(d.UserTransactionID, d.UserAccountID, d.Amount); currentManageButton = i + 1\" style=\"background-color: #efad4d;\">approval</button>\n                        <!-- <button [disabled]=\"!hideManageButton\" *ngIf=\"d.TransactionStatus == 'pending' \" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"approveDeposit(d.UserTransactionID, d.UserAccountID); AcceptDepositWebSocket(d.UserAccountID, d.Amount, d.UserTransactionID); currentManageButton = i + 1;\" style=\"background-color: #efad4d;\">approval</button> -->\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">cancel</button>\n                      </div>\n                      <div style=\"margin: 3px\">\n                        <button [disabled]=\"!hideManageButton\" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"updateDeposit(d.UserTransactionID); currentManageButton = i + 1\" style=\"background-color: #d9544f;\">delete</button>\n                      </div>\n                    </div>\n                  </td>\n\n                  <td>{{d.RequestedDateTime | date : \"short\"}}</td>\n                  <td>{{d.ApprovedDateTime | date : \"short\"}}</td>\n\n                </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                    <td colspan=\"13\">NO RESULTS FOUND\n                      <br>\n                      <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                      <br>\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!searchBack\">\n                    <td colspan=\"13\">RESULT FOUND\n                      <br>\n                      <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    </td>\n                  </tr>\n    \n                  <tr [hidden]=\"!backLoading\">\n                    <td colspan=\"13\">\n                      <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    </td>\n                  </tr>\n\n              </tbody>\n              \n            </table>\n            <br>\n\n      </div>\n    <!-- table end -->\n      <!-- bottom of table pagination and number of entries -->\n      <div class=\"w3-row-padding\">\n        <!-- number of entries -->\n        <div class=\"w3-third\">\n            <i>Showing 1 to 20 of 20 entries</i>\n        </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n        </div>\n        <!-- intended to leave it empty -->\n        <div class=\"w3-third\">\n          <p></p>\n        </div>\n      </div>\n      <!-- bottom of table pagination and number of entries end -->\n      <br>\n\n\n  </div>\n\n\n  <br>\n"
+module.exports = "<mat-card class=\"card\" >\r\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\r\n    <mat-spinner color=\"accent\"></mat-spinner>\r\n  </div>\r\n\r\n  <mat-card-header>\r\n    <mat-card-title>Deposit List</mat-card-title>\r\n    <button mat-icon-button \r\n            color=\"accent\" \r\n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \r\n            (click)=\"reload()\"\r\n            matTooltip=\"sync\"><mat-icon matBadge=\"22\" matBadgePosition=\"above after\" matBadgeSize=\"medium\">sync</mat-icon></button>\r\n\r\n  </mat-card-header>\r\n\r\n  <mat-divider></mat-divider>\r\n  <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\r\n    <div style=\"max-width: 1500px;\">\r\n      <button *ngIf=\"showBackButton\"\r\n              mat-flat-button \r\n              color=\"primary\"\r\n              style=\"margin-right:5px;\" \r\n              (click)=\"reload();\"><mat-icon>arrow_back</mat-icon></button>\r\n              \r\n      <mat-form-field style=\"width:120px;\">\r\n        <input matInput \r\n              [matDatepicker]=\"fromDate\" \r\n              placeholder=\"From date\" \r\n              (dateChange)=\"dateValueChanged($event)\"\r\n              id=\"from\">\r\n        <mat-datepicker-toggle matSuffix [for]=\"fromDate\"></mat-datepicker-toggle>\r\n        <mat-datepicker #fromDate></mat-datepicker>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n        <mat-select [(value)]=\"startTime\">\r\n          <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\r\n        </mat-select>\r\n      </mat-form-field>\r\n      \r\n      <mat-form-field style=\"width:120px;\">\r\n        <input matInput \r\n              [matDatepicker]=\"toDate\" \r\n              placeholder=\"To date\"\r\n              (dateChange)=\"dateValueChanged($event)\"\r\n              id=\"to\">\r\n        <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\r\n        <mat-datepicker #toDate></mat-datepicker>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n        <mat-select [(value)]=\"endTime\">\r\n          <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\r\n        </mat-select>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n        <input matInput\r\n              [(ngModel)]=\"searchValue\"\r\n              [ngModelOptions]=\"{standalone: true}\" \r\n              placeholder=\"Screen Name\" \r\n              id=\"from\">\r\n      </mat-form-field>\r\n\r\n      <button mat-button (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\r\n    </div>\r\n  </form>\r\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\r\n    <div style=\"width:1500px;\">\r\n      <!-- member list table -->\r\n      <table  mat-table matSort \r\n              [dataSource]=\"depositList\"\r\n              style=\"width:100%\" \r\n              (matSortChange)=\"sortData($event)\">\r\n\r\n        <!-- no. -->\r\n        <ng-container matColumnDef=\"ID\">\r\n          <th mat-header-cell *matHeaderCellDef>No.</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ID | number}} </td>\r\n        </ng-container>\r\n\r\n        <!-- HeadOfficeID  -->\r\n        <ng-container matColumnDef=\"HeadOfficeID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HeadOfficeID\">HO ID </th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\r\n        </ng-container>\r\n\r\n        <!-- DistributorID  -->\r\n        <ng-container matColumnDef=\"DistributorID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">DistributorID </th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\r\n        </ng-container>\r\n\r\n        <!-- ShopID -->\r\n        <ng-container matColumnDef=\"ShopID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">ShopID</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\r\n        </ng-container>\r\n\r\n        <!--UserName  -->\r\n        <ng-container matColumnDef=\"UserName\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"UserName\">UserName</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.UserName}} </td>\r\n        </ng-container>\r\n\r\n        <!-- ScreenName  -->\r\n        <ng-container matColumnDef=\"ScreenName\" >\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">ScreenName </th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\r\n        </ng-container>\r\n\r\n        <!-- Name -->\r\n        <ng-container matColumnDef=\"Name\" >\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Name\">Name</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.Name}} </td>\r\n        </ng-container>\r\n\r\n        <!-- PhoneNumber -->\r\n        <ng-container matColumnDef=\"PhoneNumber\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"PhoneNumber\">PhoneNumber</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.PhoneNumber}} </td>\r\n        </ng-container>\r\n\r\n        <!-- Amount -->\r\n        <ng-container matColumnDef=\"Amount\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Amount\">Amount</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.Amount | number}} </td>\r\n        </ng-container>\r\n\r\n        <!-- TransactionStatus  -->\r\n        <ng-container matColumnDef=\"TransactionStatus\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"TransactionStatus\">Status </th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.TransactionStatus }} </td>\r\n        </ng-container>\r\n\r\n        <!-- RequestedDateTime -->\r\n        <ng-container matColumnDef=\"RequestedDateTime\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"RequestedDateTime\">RequestedDateTime</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.RequestedDateTime | date : 'medium'}} </td>\r\n        </ng-container>\r\n\r\n        <!-- ApprovedDateTime  -->\r\n        <ng-container matColumnDef=\"ApprovedDateTime\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ApprovedDateTime\">ApprovedDateTime </th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ApprovedDateTime  | date : 'medium'}} </td>\r\n        </ng-container>\r\n\r\n        <!-- ApprovedDateTime  -->\r\n        <ng-container matColumnDef=\"Management\">\r\n          <th mat-header-cell *matHeaderCellDef >Management </th>\r\n          <td mat-cell *matCellDef=\"let element\" >\r\n            <div [ngClass]=\"{'hide': element.TransactionStatus == 'approved'}\">\r\n              <button mat-flat-button \r\n                      color=\"accent\" \r\n                      style=\"margin:5px\"\r\n                      matTooltip=\"cancel\"\r\n                      matTooltipPosition=\"left\"\r\n                      (click)=\"updateDeposit(element.UserTransactionID)\"><mat-icon>cancel</mat-icon></button>\r\n              <button mat-flat-button \r\n                      color=\"warn\" \r\n                      style=\"margin:5px\"\r\n                      matTooltip=\"delete\"\r\n                      matTooltipPosition=\"above\"><mat-icon>delete_outline</mat-icon></button> \r\n              <button mat-flat-button \r\n                      color=\"primary\" \r\n                      style=\"margin:5px\"\r\n                      matTooltip=\"approved\"\r\n                      (click)=\"approveDeposit(element.UserTransactionID, element.UserAccountID, element.Amount);\"\r\n                      matTooltipPosition=\"right\"><mat-icon>check</mat-icon></button>\r\n            </div> \r\n          </td>\r\n        </ng-container>\r\n\r\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\r\n      </table>\r\n    </div>\r\n\r\n    <div *ngIf=\"pageEvent\">\r\n      <mat-paginator  [length]=\"pageEvent.length\"\r\n                      [pageSize]=\"pageEvent.pageSize\"\r\n                      [pageSizeOptions]=\"pageSizeOptions\"\r\n                      showFirstLastButtons=\"true\"\r\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\r\n    </div>\r\n  </mat-card-content>\r\n</mat-card>\r\n<button (click)=\"sampleexcel()\">test</button>"
 
 /***/ }),
 
@@ -1481,8 +1522,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _services_deposit_deposit_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/deposit/deposit.service */ "./src/app/services/deposit/deposit.service.ts");
+/* harmony import */ var _services_moneytransactions_moneytransactions_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/moneytransactions/moneytransactions.service */ "./src/app/services/moneytransactions/moneytransactions.service.ts");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_excel_excel_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/excel/excel.service */ "./src/app/services/excel/excel.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1492,103 +1535,108 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
 
 
 
 
 
 var DepositManagementComponent = /** @class */ (function () {
-    function DepositManagementComponent(commonSrvc, depositSrvc) {
+    // private ws = new WebSocket("ws://httpsserver-socket-server-socket.4b63.pro-ap-southeast-2.openshiftapps.com/?UserAccountID=1571028c-eec2-47ac-a1bf-0a62086551d2");
+    // private ws = new WebSocket('wss://'+this.userAuthSrvc.server.slice(this.userAuthSrvc.server.search('/') + 2 , this.userAuthSrvc.server.length )+'/?UserAccountID=cdf61833-66e1-4a92-a46c-0782ed77c203')
+    function DepositManagementComponent(commonSrvc, moneyTransactionsSrvc, formSrvc, excel, locale) {
         this.commonSrvc = commonSrvc;
-        this.depositSrvc = depositSrvc;
-        this.ws = new WebSocket('ws://192.168.254.100:8080/?UserAccountID=cdf61833-66e1-4a92-a46c-0782ed77c203');
-        // websocket variables
+        this.moneyTransactionsSrvc = moneyTransactionsSrvc;
+        this.formSrvc = formSrvc;
+        this.excel = excel;
+        this.locale = locale;
+        // remote port is 8080
+        this.ws = new WebSocket("ws://localhost:3000/?UserAccountID=d31a6484-5249-4faa-b7d3-aa6f93419d8c");
         //service variables
         this.pageIndex = 0;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        this.displayedColumns = [
+            'ID',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'UserName',
+            'ScreenName',
+            'Name',
+            'PhoneNumber',
+            'Amount',
+            'TransactionStatus',
+            'Management',
+            'RequestedDateTime',
+            'ApprovedDateTime'
+        ];
+        this.tableSort = { active: 'TransactionStatus', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
+        //screean name value
+        this.searchValue = 'player1';
+        // date
+        this.startDate = '2018-12-26';
+        this.endDate = '2019-12-26';
+        // time
+        this.startTime = ' 00:00:00';
+        this.endTime = ' 23:59:59';
         this.hideManageButton = true;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
-        this.ws.onopen = function (openSocket) {
-            console.log(openSocket.type);
-        };
-        // this.ws.onmessage = function(message){
-        // console.log(message)
-        // var UserAccountID = JSON.parse(message.data)['UserAccountID'];
-        // console.log( JSON.parse(message.data))
-        // }
     }
     //lifecycle hooks
     DepositManagementComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.timeopts = this.formSrvc.timeOptions;
+        // this.ws.on()
+        this.ws.onopen = function (openSocket) {
+            console.log(openSocket.type);
+        };
+        this.ws.onmessage = function (event) {
+            var received_msg = event.data;
+            console.log(JSON.parse(received_msg));
+        };
+        this.getListAndPageCount();
     };
     DepositManagementComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        this.ws.close();
+        console.log('you leave deposit list');
     };
     //lifecycle hooks end
     DepositManagementComponent.prototype.AcceptDepositWebSocket = function (receiver, amount, depositID) {
-        // this.ws.o
         if ("WebSocket" in window) {
+            var MessageReceiver = receiver;
+            var Amount = ""; //for pop up message in game only
+            var DepositUUID = depositID;
             var DepositNotice = "Deposit Approved Amount " + amount;
-            var message = "{\"Type\":\"NotifyPlayerDeposit\",\"MessageReceiver\" :\"" + receiver +
-                "\",\"DepositNotice\":\"" + DepositNotice + "\",\"DepositUUID\":\"" + depositID + "\"}";
+            var message = "{\"Type\":\"NotifyPlayerDeposit\",\"MessageReceiver\" :\"" + MessageReceiver +
+                "\",\"DepositNotice\":\"" + DepositNotice + "\",\"DepositUUID\":\"" + DepositUUID + "\"}";
+            console.log("Notify Player");
             this.ws.send(message);
         }
         else {
-            alert('your web browser doesnt support websocket');
+            alert("WebSocket NOT supported by your Browser!");
         }
+        // this.ws.o
+        // if("WebSocket" in window){
+        //   var DepositNotice = "Deposit Approved Amount "+amount;
+        //   var message = "{\"Type\":\"NotifyPlayerDeposit\",\"MessageReceiver\" :\"" + receiver +
+        //       "\",\"DepositNotice\":\"" + DepositNotice + "\",\"DepositUUID\":\"" + depositID + "\"}";
+        //   this.ws.send(message)
+        // }else{
+        //   alert('your web browser doesnt support websocket')
+        // }
     };
-    //activate/deactivate
-    DepositManagementComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    DepositManagementComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     DepositManagementComponent.prototype.getListAndPageCount = function () {
-        Promise.all([this.getDepositList(), this.getPageCount()]).then(function () {
+        Promise.all([this.getDepositList()]).then(function () {
+            // Promise.all([this.getDepositList(),this.getPageCount()]).then(function() {
             console.log('get list and page count successful');
         }, function () {
             console.log('something went wrong');
@@ -1597,24 +1645,24 @@ var DepositManagementComponent = /** @class */ (function () {
     DepositManagementComponent.prototype.getDepositList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, //ofset
+            _this.pageEvent.pageSize, // limit
+            _this.tableSort.active, // order by
+            _this.tableSort.direction)
                 .subscribe(function (result) {
                 console.log(result);
-                _this.depositList = result;
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
-                    var row_number_new = _this.offset;
-                    for (var i = 0; i <= _this.depositList.length - 1; i++) {
+                    var row_number_new = 0;
+                    for (var i = 0; i <= result.length - 1; i++) {
                         row_number_new += 1;
-                        _this.depositList[i].ID = row_number_new;
+                        result[i].ID = row_number_new;
                     }
-                    //set artificial index end
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    _this.depositList = result;
+                    _this.backLoading = false;
                 }
                 else {
-                    _this.searchResult = true;
                 }
                 resolve();
             }, function (error) {
@@ -1630,95 +1678,48 @@ var DepositManagementComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
                 console.log(error);
-                console.log('page count error');
                 reject();
             });
         });
         return promise;
     };
-    DepositManagementComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
-    };
-    DepositManagementComponent.prototype.searchList = function (event) {
+    DepositManagementComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var timeStart = target.querySelector('#timeStart').value;
-        var dayStart = target.querySelector('#dayStart').value;
-        var monthStart = target.querySelector('#monthStart').value;
-        var yearStart = target.querySelector('#yearStart').value;
-        //concatenate datetime start
-        var datetimeStart = yearStart + monthStart + dayStart + timeStart;
-        var timeEnd = target.querySelector('#timeEnd').value;
-        var dayEnd = target.querySelector('#dayEnd').value;
-        var monthEnd = target.querySelector('#monthEnd').value;
-        var yearEnd = target.querySelector('#yearEnd').value;
-        //concatenate datetime end
-        var datetimeEnd = yearEnd + monthEnd + dayEnd + timeEnd;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].ifSearchVariableEmpty;
-        console.log('start' + datetimeStart);
-        console.log('end' + datetimeEnd);
-        this.depositSrvc.search(datetimeStart, datetimeEnd, value)
+        this.showBackButton = true;
+        this.depositList = [];
+        this.moneyTransactionsSrvc.searchDeposit(this.startDate + this.startTime, this.endDate + this.endTime, this.searchValue)
             .subscribe(function (result) {
-            _this.depositList = result;
             console.log(result);
-            //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.depositList = result;
                 console.log('results found');
+            }
+            else {
+                console.log('no results found');
             }
         }, function (error) {
             console.log('this is the error --> ' + error['status']);
             // console.log()
             if (error['status'] == 404) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
                 //empty list
                 _this.depositList = [];
             }
         });
     };
-    DepositManagementComponent.prototype.back = function () {
+    DepositManagementComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
     DepositManagementComponent.prototype.updateDeposit = function (UserTransactionID) {
         var _this = this;
         this.hideManageButton = false;
         if (UserTransactionID) {
-            this.depositSrvc.archived(UserTransactionID)
+            this.moneyTransactionsSrvc.archivedDeposit(UserTransactionID)
                 .subscribe(function (result) {
                 console.log(result);
                 _this.hideManageButton = true;
@@ -1729,52 +1730,40 @@ var DepositManagementComponent = /** @class */ (function () {
     DepositManagementComponent.prototype.approveDeposit = function (UserTransactionID, UserAccountID, Amount) {
         var _this = this;
         this.hideManageButton = false;
-        this.depositSrvc.approve(UserTransactionID, UserAccountID)
+        this.moneyTransactionsSrvc.approveDeposit(UserTransactionID, UserAccountID)
             .subscribe(function (result) {
-            console.log(result);
+            _this.reload();
             if (result.toString() == 'true') {
                 _this.AcceptDepositWebSocket(UserAccountID, Amount, UserTransactionID);
-                alert('approved successfully');
+                // alert('approved successfully')
             }
             if (result['AlreadyApproved'] == true) {
                 alert('already approved');
                 _this.currentManageButton = 0;
             }
             _this.hideManageButton = true;
-            // if(result['DoesNotExist'] == true){
-            //   alert('already approved')
-            // }
         }, function (error) {
             console.log(error);
             alert('something went wrong');
         });
     };
-    //pagination functions
-    DepositManagementComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    DepositManagementComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
         }
     };
-    DepositManagementComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    DepositManagementComponent.prototype.dateValueChanged = function (event) {
+        if (event.targetElement.id == 'from') {
+            this.startDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else if (event.targetElement.id == 'to') {
+            this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_5__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else {
+            console.log('invalid target ID');
         }
     };
-    DepositManagementComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    DepositManagementComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
-    };
-    //pagination functions end
     DepositManagementComponent.prototype.WebSocketTest = function () {
         if ("WebSocket" in window) {
             // alert("WebSocket is supported by your Browser!");
@@ -1798,13 +1787,20 @@ var DepositManagementComponent = /** @class */ (function () {
             alert("WebSocket NOT supported by your Browser!");
         }
     };
+    DepositManagementComponent.prototype.sampleexcel = function () {
+        this.excel.exportAsExcelFile(this.depositList, 'sample');
+    };
     DepositManagementComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-deposit-management',
             template: __webpack_require__(/*! ./deposit-management.component.html */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.html"),
             styles: [__webpack_require__(/*! ./deposit-management.component.css */ "./src/app/components/deposit_withdraw/deposit-management/deposit-management.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"], _services_deposit_deposit_service__WEBPACK_IMPORTED_MODULE_4__["DepositService"]])
+        __param(4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])),
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _services_moneytransactions_moneytransactions_service__WEBPACK_IMPORTED_MODULE_3__["MoneytransactionsService"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_4__["FormsService"],
+            _services_excel_excel_service__WEBPACK_IMPORTED_MODULE_6__["ExcelService"], String])
     ], DepositManagementComponent);
     return DepositManagementComponent;
 }());
@@ -1831,7 +1827,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">withdraw list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n    <!-- dropdowns -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right\">\n\n        <!-- 'from and to' row -->\n       \n          <!-- from -->\n          <div class=\"w3-half\">\n            <div class=\"w3-row\">\n              <!-- year -->\n              <div class=\"w3-col w3-mobile\" style=\"width:22.5%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width:200px; width: 100%; text-align-last: center\" >\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\">Option 1</option>\n                  <option value=\"2\">Option 2</option>\n                  <option value=\"3\">Option 3</option>\n                </select>\n\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>년</p>\n              </div>\n              \n              <!-- year end -->\n  \n              <!-- month -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\">Option 1</option>\n                  <option value=\"2\">Option 2</option>\n                  <option value=\"3\">Option 3</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>월</p>\n              </div>\n              <!-- month end -->\n  \n              <!-- day -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\"> 2</option>\n                    <option value=\"2\"> 3</option>\n                    <option value=\"3\"> 4</option>\n                    <option value=\"3\"> 5</option>\n                    <option value=\"3\"> 6</option>\n                    <option value=\"3\"> 7</option>\n                    <option value=\"3\"> 8</option>\n                    <option value=\"3\"> 9</option>\n                    <option value=\"3\"> 10</option>\n                    <option value=\"3\"> 11</option>\n                    <option value=\"3\"> 12</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                  <p>일</p>\n              </div>\n              <!-- day end -->\n  \n              <!-- time -->\n              <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\"> 2</option>\n                    <option value=\"2\"> 3</option>\n                    <option value=\"3\"> 4</option>\n                    <option value=\"3\"> 5</option>\n                    <option value=\"3\"> 6</option>\n                    <option value=\"3\"> 7</option>\n                    <option value=\"3\"> 8</option>\n                    <option value=\"3\"> 9</option>\n                    <option value=\"3\"> 10</option>\n                    <option value=\"3\"> 11</option>\n                    <option value=\"3\"> 12</option>\n                </select>\n              </div>\n              <div class=\"w3-col w3-mobile\" style=\"width:11.5%;\">\n                  <p>시 ~</p>\n              </div>\n              <!-- time end -->\n\n            </div>\n          </div>\n          <!-- from end -->\n\n          <!-- to -->\n          <div class=\"w3-half\">\n            <div class=\"w3-row\">\n                <!-- year -->\n                <div class=\"w3-col w3-mobile\" style=\"width:22.5%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width:200px; width: 100%;\" >\n                    <option value=\"\" selected>2018</option>\n                    <option value=\"1\">Option 1</option>\n                    <option value=\"2\">Option 2</option>\n                    <option value=\"3\">Option 3</option>\n                  </select>\n\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>년</p>\n                </div>\n                \n                <!-- year end -->\n    \n                <!-- month -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                    <option value=\"\" selected>1</option>\n                    <option value=\"1\">Option 1</option>\n                    <option value=\"2\">Option 2</option>\n                    <option value=\"3\">Option 3</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>월</p>\n                </div>\n                <!-- month end -->\n    \n                <!-- day -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                      <option value=\"\" selected>1</option>\n                      <option value=\"1\"> 2</option>\n                      <option value=\"2\"> 3</option>\n                      <option value=\"3\"> 4</option>\n                      <option value=\"3\"> 5</option>\n                      <option value=\"3\"> 6</option>\n                      <option value=\"3\"> 7</option>\n                      <option value=\"3\"> 8</option>\n                      <option value=\"3\"> 9</option>\n                      <option value=\"3\"> 10</option>\n                      <option value=\"3\"> 11</option>\n                      <option value=\"3\"> 12</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:10%;\">\n                    <p>일</p>\n                </div>\n                <!-- day end -->\n    \n                <!-- time -->\n                <div class=\"w3-col w3-mobile\" style=\"width:12%;\">\n                  <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" >\n                      <option value=\"\" selected>1</option>\n                      <option value=\"1\"> 2</option>\n                      <option value=\"2\"> 3</option>\n                      <option value=\"3\"> 4</option>\n                      <option value=\"3\"> 5</option>\n                      <option value=\"3\"> 6</option>\n                      <option value=\"3\"> 7</option>\n                      <option value=\"3\"> 8</option>\n                      <option value=\"3\"> 9</option>\n                      <option value=\"3\"> 10</option>\n                      <option value=\"3\"> 11</option>\n                      <option value=\"3\"> 12</option>\n                  </select>\n                </div>\n                <div class=\"w3-col w3-mobile\" style=\"width:11.5%;\">\n                    <p>시</p>\n                </div>\n                <!-- time end -->\n\n            </div>\n          </div>\n          <!-- to end -->\n        \n        <!-- 'from and to' row end-->\n\n\n\n      </div>\n\n    </div>\n    <!-- dropdowns end -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">arrange by amount</button>\n      </div>\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;\">search</button>\n      </div>\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n          <label for=\"gender\">&nbsp;&nbsp;real</label> \n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-radio \" type=\"radio\" name=\"gender\" style=\"margin-left: 5px\" checked>\n        <label for=\"gender\">&nbsp;&nbsp;all</label>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <a class=\"w3-center \" style=\"font-size: 22px; color: #4ca5df\">screen name</a>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>name</th>\n                <th>contact no.</th>\n                <th>existing amount</th>\n                <th>application amount</th>\n                <th>remaining amount</th>\n                <th>status</th>\n                <th class=\"w3-center\">manage</th>\n                <th>application date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let w of withdrawList\">\n                <td>{{w.ID}}</td>\n                <td>{{w.HeadOfficeID}}</td>\n                <td>{{w.DistributorID}}</td>\n                <td>{{w.ShopID}}</td>\n                <td>{{w.UserAccountID}}</td>\n                <td>{{w.ScreenName}}</td>\n                <td>{{w.Name}}</td>\n                <td>{{w.ContactNumber}}</td>\n                <td>{{w.ExistingAmount}}</td>\n                <td>{{w.ApplicationAmount}}</td>\n                <td>{{w.RemainingAmount}}</td>\n                <td>{{w.TransactionStatus}}</td>\n                <td>\n                  <div class=\"w3-row\">\n                      <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">승인</button>\n                      <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">취소</button>\n                      <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">삭제</button>\n                  </div>\n                </td>\n                <td>{{w.RequestedDateTime}}</td>\n              </tr>\n              \n              <tr [hidden]=\"!searchResult\">\n                <td colspan=\"14\">NO RESULTS FOUND\n                  <br>\n                  <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  <br>\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!searchBack\">\n                <td colspan=\"14\">RESULT FOUND\n                  <br>\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"14\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\r\n    <div *ngIf=\"backLoading\" class=\"loading-shade\">\r\n      <mat-spinner color=\"accent\"></mat-spinner>\r\n    </div>\r\n  \r\n    <mat-card-header>\r\n      <mat-card-title>Withdraw List</mat-card-title>\r\n      <button mat-icon-button \r\n              color=\"accent\" \r\n              style=\"right:0; top:0; margin-top:10px; position: absolute;\" \r\n              (click)=\"reload()\"\r\n              matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\r\n  \r\n    </mat-card-header>\r\n  \r\n    <mat-divider></mat-divider>\r\n    <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\r\n      <div style=\"max-width: 1500px;\">\r\n        <button *ngIf=\"showBackButton\"\r\n                mat-flat-button \r\n                color=\"primary\"\r\n                style=\"margin-right:5px;\" \r\n                (click)=\"reload();\"><mat-icon>arrow_back</mat-icon></button>\r\n                \r\n        <mat-form-field style=\"width:120px;\">\r\n          <input matInput \r\n                [matDatepicker]=\"fromDate\" \r\n                placeholder=\"From date\" \r\n                (dateChange)=\"dateValueChanged($event)\"\r\n                id=\"from\">\r\n          <mat-datepicker-toggle matSuffix [for]=\"fromDate\"></mat-datepicker-toggle>\r\n          <mat-datepicker #fromDate></mat-datepicker>\r\n        </mat-form-field>\r\n  \r\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n          <mat-select [(value)]=\"startTime\">\r\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\r\n          </mat-select>\r\n        </mat-form-field>\r\n        \r\n        <mat-form-field style=\"width:120px;\">\r\n          <input matInput \r\n                [matDatepicker]=\"toDate\" \r\n                placeholder=\"To date\"\r\n                (dateChange)=\"dateValueChanged($event)\"\r\n                id=\"to\">\r\n          <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\r\n          <mat-datepicker #toDate></mat-datepicker>\r\n        </mat-form-field>\r\n  \r\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n          <mat-select [(value)]=\"endTime\">\r\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\r\n          </mat-select>\r\n        </mat-form-field>\r\n  \r\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n          <input matInput\r\n                [(ngModel)]=\"searchValue\"\r\n                [ngModelOptions]=\"{standalone: true}\" \r\n                placeholder=\"Screen Name\" \r\n                id=\"from\">\r\n        </mat-form-field>\r\n  \r\n        <button mat-button (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\r\n      </div>\r\n    </form>\r\n    <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\r\n      <div style=\"width:1500px;\">\r\n        <!-- member list table -->\r\n        <table  mat-table matSort \r\n                [dataSource]=\"withdrawList\"\r\n                style=\"width:100%\" \r\n                (matSortChange)=\"sortData($event)\">\r\n  \r\n          <!-- no. -->\r\n          <ng-container matColumnDef=\"ID\">\r\n            <th mat-header-cell *matHeaderCellDef>No.</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ID | number}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- HeadOfficeID  -->\r\n          <ng-container matColumnDef=\"HeadOfficeID\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HeadOfficeID\">HO ID </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- DistributorID  -->\r\n          <ng-container matColumnDef=\"DistributorID\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">DistributorID </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- ShopID -->\r\n          <ng-container matColumnDef=\"ShopID\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">ShopID</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\r\n          </ng-container>\r\n  \r\n          <!--UserName  -->\r\n          <ng-container matColumnDef=\"PlayerID\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"PlayerID\">PlayerID</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- ScreenName  -->\r\n          <ng-container matColumnDef=\"ScreenName\" >\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">ScreenName </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\r\n          </ng-container>\r\n\r\n          <!-- BankName  -->\r\n          <ng-container matColumnDef=\"BankName\" >\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"BankName\">BankName </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.BankName}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- Name -->\r\n          <ng-container matColumnDef=\"AccountNumber\" >\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"AccountNumber\">AccountNumber</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.AccountNumber}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- Name -->\r\n          <ng-container matColumnDef=\"Name\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Name\">Name</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.Name}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- ContactNumber -->\r\n          <ng-container matColumnDef=\"ContactNumber\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ContactNumber\">ContactNumber</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ContactNumber}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- ExistingAmount  -->\r\n          <ng-container matColumnDef=\"ExistingAmount\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ExistingAmount\">ExistingAmount </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ExistingAmount | number }} </td>\r\n          </ng-container>\r\n  \r\n          <!-- RequestedDateTime -->\r\n          <ng-container matColumnDef=\"ApplicationAmount\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ApplicationAmount\">ApplicationAmount</th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.ApplicationAmount | number}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- RemainingAmount  -->\r\n          <ng-container matColumnDef=\"RemainingAmount\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"RemainingAmount\">RemainingAmount </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.RemainingAmount  | number}} </td>\r\n          </ng-container>\r\n          <!-- ApprovedDateTime  -->\r\n          <ng-container matColumnDef=\"TransactionStatus\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"TransactionStatus\">TransactionStatus </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.TransactionStatus}} </td>\r\n          </ng-container>\r\n          <!-- ApprovedDateTime  -->\r\n          <ng-container matColumnDef=\"RequestedDateTime\">\r\n            <th mat-header-cell *matHeaderCellDef mat-sort-header=\"RequestedDateTime\">RequestedDateTime </th>\r\n            <td mat-cell *matCellDef=\"let element\">{{element.RequestedDateTime  | date : 'medium'}} </td>\r\n          </ng-container>\r\n  \r\n          <!-- ApprovedDateTime  -->\r\n          <ng-container matColumnDef=\"Management\">\r\n            <th mat-header-cell *matHeaderCellDef >Management </th>\r\n            <td mat-cell *matCellDef=\"let e\" >\r\n              <div [ngClass]=\"{'hide': e.TransactionStatus == 'approved'}\">\r\n                <button mat-flat-button \r\n                        color=\"accent\" \r\n                        style=\"margin:5px\"\r\n                        matTooltip=\"hold\"\r\n                        matTooltipPosition=\"left\"><mat-icon>cancel</mat-icon></button>\r\n                <button mat-flat-button \r\n                        color=\"warn\" \r\n                        style=\"margin:5px\"\r\n                        matTooltip=\"delete\"\r\n                        matTooltipPosition=\"above\"><mat-icon>delete_outline</mat-icon></button> \r\n                <button mat-flat-button \r\n                        color=\"primary\" \r\n                        style=\"margin:5px\"\r\n                        matTooltip=\"approved\"\r\n                        matTooltipPosition=\"right\"\r\n                        (click)=\"approvedWithdraw(e.UserTransactionID, e.UserAccountID)\"><mat-icon>check</mat-icon></button>\r\n              </div> \r\n            </td>\r\n          </ng-container>\r\n  \r\n          <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n          <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\r\n        </table>\r\n      </div>\r\n  \r\n      <div *ngIf=\"pageEvent\">\r\n        <mat-paginator  [length]=\"pageEvent.length\"\r\n                        [pageSize]=\"pageEvent.pageSize\"\r\n                        [pageSizeOptions]=\"pageSizeOptions\"\r\n                        showFirstLastButtons=\"true\"\r\n                        (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>"
 
 /***/ }),
 
@@ -1848,7 +1844,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_moneytransactions_moneytransactions_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/moneytransactions/moneytransactions.service */ "./src/app/services/moneytransactions/moneytransactions.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1858,76 +1856,70 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
 
 
 
 
 var WithdrawManagementComponent = /** @class */ (function () {
-    function WithdrawManagementComponent(commonSrvc) {
+    function WithdrawManagementComponent(commonSrvc, formSrvc, moneyTransactionsSrvc, locale) {
         this.commonSrvc = commonSrvc;
+        this.formSrvc = formSrvc;
+        this.moneyTransactionsSrvc = moneyTransactionsSrvc;
+        this.locale = locale;
         //service variables
         this.pageIndex = 6;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        this.displayedColumns = [
+            'ID',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'BankName',
+            'AccountNumber',
+            'Name',
+            'ContactNumber',
+            'ExistingAmount',
+            'ApplicationAmount',
+            'RemainingAmount',
+            'TransactionStatus',
+            'Management',
+            'RequestedDateTime'
+        ];
+        this.tableSort = { active: 'TransactionStatus', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
+        this.continuousHTTPRequest = true;
+        //screean name value
+        this.searchValue = 'player1';
+        // date
+        this.startDate = '2018-12-26';
+        this.endDate = '2019-12-26';
+        // time
+        this.startTime = ' 00:00:00';
+        this.endTime = ' 23:59:59';
+        this.hideManageButton = true;
     }
     //lifecycle hooks
     WithdrawManagementComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.timeopts = this.formSrvc.timeOptions;
+        this.getListAndPageCount();
     };
     WithdrawManagementComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        console.log('you leave withdraw list');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    WithdrawManagementComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    WithdrawManagementComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     WithdrawManagementComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
@@ -1938,23 +1930,24 @@ var WithdrawManagementComponent = /** @class */ (function () {
     WithdrawManagementComponent.prototype.getSupportList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, //ofset
+            _this.pageEvent.pageSize, // limit
+            _this.tableSort.active, // order by
+            _this.tableSort.direction)
                 .subscribe(function (result) {
-                _this.withdrawList = result;
-                //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
+                console.log(result);
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = 0;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].ID = row_number_new;
+                    }
+                    _this.withdrawList = result;
+                    _this.backLoading = false;
                 }
                 else {
-                    //set artificial index
-                    var row_number_new = _this.offset;
-                    for (var i = 0; i <= _this.withdrawList.length - 1; i++) {
-                        row_number_new += 1;
-                        _this.withdrawList[i].ID = row_number_new;
-                    }
-                    //set artificial index end
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    console.log('no result');
                 }
                 resolve();
             }, function (error) {
@@ -1969,98 +1962,65 @@ var WithdrawManagementComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    WithdrawManagementComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
-    };
     WithdrawManagementComponent.prototype.searchList = function (event) {
         var _this = this;
         event.preventDefault();
         var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
         var column = target.querySelector('#column').value;
         var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].ifSearchVariableEmpty;
         this.commonSrvc.searchList(this.pageIndex, column, value)
             .subscribe(function (result) {
-            _this.withdrawList = result;
-            console.log(result);
-            //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.withdrawList = result;
                 console.log('results found');
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
                 //empty list
                 _this.withdrawList = [];
             }
         });
     };
-    WithdrawManagementComponent.prototype.back = function () {
+    WithdrawManagementComponent.prototype.approvedWithdraw = function (UserTransactionID, UserAccountID) {
+        var _this = this;
+        this.hideManageButton = false;
+        this.moneyTransactionsSrvc.approveWithdraw(UserTransactionID, UserAccountID)
+            .subscribe(function (res) {
+            console.log(res);
+            _this.hideManageButton = true;
+            _this.reload();
+        });
+    };
+    WithdrawManagementComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
-    //pagination functions
-    WithdrawManagementComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    WithdrawManagementComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
         }
     };
-    WithdrawManagementComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    WithdrawManagementComponent.prototype.dateValueChanged = function (event) {
+        if (event.targetElement.id == 'from') {
+            this.startDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
         }
-    };
-    WithdrawManagementComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    WithdrawManagementComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
+        else if (event.targetElement.id == 'to') {
+            this.endDate = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale).toString();
+        }
+        else {
+            console.log('invalid target ID');
+        }
     };
     WithdrawManagementComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2068,7 +2028,10 @@ var WithdrawManagementComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./withdraw-management.component.html */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.html"),
             styles: [__webpack_require__(/*! ./withdraw-management.component.css */ "./src/app/components/deposit_withdraw/withdraw-management/withdraw-management.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"]])
+        __param(3, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])),
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__["FormsService"],
+            _services_moneytransactions_moneytransactions_service__WEBPACK_IMPORTED_MODULE_5__["MoneytransactionsService"], String])
     ], WithdrawManagementComponent);
     return WithdrawManagementComponent;
 }());
@@ -2095,7 +2058,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white w3-animate-right\" [hidden]=\"handHistoryToggle\" style=\"height: 100%;\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">game log</p>\n    <hr class=\"tableTitleHr\">\n\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n    \n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\">search</button>\n      </div>\n\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"2\" selected>screen name</option>\n          <option value=\"2\">title</option>\n          <option value=\"2\">contents</option>\n        </select>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\" style=\"height:700px\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\" >\n            <thead style=\"table-layout: fixed;\">\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>screen name</th>\n                <th>date and time</th>\n                <th>game</th>\n                <th>strength(rank)</th>\n                <th>before amount</th>\n                <th>won amount</th>\n                <th>after amount</th>\n                <th class=\"w3-center\" style=\"width:22px\">hand history</th>\n                <th>status</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let gl of gameLogList\">\n                <td>{{gl.row_number}}</td>\n                <td>{{gl.ScreenName}}</td>\n                <td>{{gl.DateTime}}</td>\n                <td>{{gl.GameType}}</td>\n                <td>{{gl.Rank}}</td>\n                <td>{{gl.BeforePoints}}</td>\n                <td>{{gl.WinPoints}}</td>\n\n                <td>{{gl.AfterPoints}}</td>\n                <td>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"getHandHistory(gl.SeasonID)\" style=\"background-color: #d9544f; margin:0\">details</button>\n                  </div>\n                </td>\n                <td></td>\n              </tr>\n              \n              <tr [hidden]=\"!searchResult\">\n                  <td colspan=\"10\">NO RESULTS FOUND\n                    <br>\n                    <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    <br>\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!searchBack\">\n                  <td colspan=\"10\">RESULT FOUND\n                    <br>\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!backLoading\">\n                  <td colspan=\"10\">\n                    <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                    \n                  </td>\n                </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n        <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n<br>\n\n<!-- write notice -->\n<div class=\"w3-container w3-border w3-card w3-white w3-animate-right\" [hidden]=\"!handHistoryToggle\">\n\n  <!-- table title -->\n    <p class=\"tableTitle searchText\">hand history</p>\n    <hr class=\"tableTitleHr\">\n\n\n    <!-- game no -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">game no.</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">{{currentGameNo}}</p>\n        </div>\n      </div>\n    <!-- game no end -->\n      <hr style=\"margin: 0\">\n\n    <!-- game no -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-center\">\n          <strong>Hand history</strong>  \n        </div>\n        <div class=\"w3-right\">\n          <div *ngFor=\"let hand of currenHandHistory\">\n            <div>\n              {{hand.HandHistoryID}}&nbsp;{{hand.MoveHand}}&nbsp;{{hand.SeasonID}}&nbsp;{{hand.UserAccountID}}\n            </div>\n          </div>\n        </div>\n      </div>\n    <!-- game no end -->\n      <hr style=\"margin: 0\">\n\n    <!-- buttons -->\n    <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button class=\" w3-btn w3-round w3-text-white\" (click)=\"back()\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n \n    <br>\n\n</div>\n<!-- write notice end-->\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\">\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n    <mat-card-title>Game log</mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n            (click)=\"getListAndPageCount()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n  </mat-card-header>\n  \n  <mat-divider></mat-divider>\n\n  <!-- search form -->\n  <form [formGroup]=\"searchForm\" style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n    <div>\n      <!-- <mat-form-field appearance=\"standard\" style=\"margin-right:5px;\">\n        <mat-select placeholder=\"search in\" formControlName=\"option\" disabled=\"true\">\n          <mat-option value=\"primary\">Primary</mat-option>\n          <mat-option value=\"accent\">Accent</mat-option>\n          <mat-option value=\"warn\">Warn</mat-option>\n        </mat-select>\n      </mat-form-field> -->\n  \n      <mat-form-field appearance=\"standard\">\n        <mat-label><mat-icon>search</mat-icon>Screen Name</mat-label>\n        <input  matInput \n                placeholder=\"ScreenName\" \n                formControlName=\"value\"\n                [(ngModel)]=\"searchValue\">\n        <button *ngIf=\"searchValue\" \n                matSuffix \n                mat-icon-button \n                color=\"accent\"\n                (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n      </mat-form-field>\n    </div>\n  </form>\n\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\" >\n    <!-- game log table -->\n    <table  mat-table \n            matSort\n            [dataSource]=\"gameLogList\" \n            style=\"width : 100%\"\n            (matSortChange)=\"sortData($event)\">\n            \n      <ng-container matColumnDef=\"row_number\">\n        <th mat-header-cell *matHeaderCellDef>No.</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.row_number}} </td>\n      </ng-container>\n    \n      <ng-container matColumnDef=\"ScreenName\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">Screen Name</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.ScreenName}} </td>\n      </ng-container>\n    \n      <ng-container matColumnDef=\"DateTime\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DateTime\">Date &amp; Time</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.DateTime |date : 'medium'}} </td>\n      </ng-container>\n    \n      <ng-container matColumnDef=\"GameType\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"GameType\">Game</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.GameType}} </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Rank\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Rank\">Rank</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.Rank}} </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"BeforePoints\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"BeforePoints\">Before Amount</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.BeforePoints | number}} </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"WinPoints\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"WinPoints\">Won Amount</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.WinPoints | number}} </td>\n      </ng-container>\n      \n      <ng-container matColumnDef=\"AfterPoints\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header=\"AfterPoints\">After Amount</th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.AfterPoints | number}} </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"HandHistory\">\n        <th mat-header-cell *matHeaderCellDef>HandHistory</th>\n        <td mat-cell *matCellDef=\"let element\">\n          <button mat-flat-button color=\"primary\" (click)=\"getHandHistory(element.SeasonID)\">details</button>\n        </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Status\">\n        <th mat-header-cell *matHeaderCellDef>Status</th>\n        <td mat-cell *matCellDef=\"let element\"> 0 </td>\n      </ng-container>\n    \n      <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n      <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n    </table>\n\n    <div *ngIf=\"pageEvent\">\n        <mat-paginator  [length]=\"pageEvent.length\"\n                        [pageSize]=\"pageEvent.pageSize\"\n                        [pageSizeOptions]=\"pageSizeOptions\"\n                        showFirstLastButtons=\"true\"\n                        (page)=\"pageEvent = $event; backLoading = true\"> </mat-paginator>\n    </div>\n  </mat-card-content>\n</mat-card>\n\n"
 
 /***/ }),
 
@@ -2103,17 +2066,20 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white w3-
 /*!***************************************************************!*\
   !*** ./src/app/components/log/game-log/game-log.component.ts ***!
   \***************************************************************/
-/*! exports provided: GameLogComponent */
+/*! exports provided: GameLogComponent, NoResultBottomSheet, HandHistoryDialog */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GameLogComponent", function() { return GameLogComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoResultBottomSheet", function() { return NoResultBottomSheet; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HandHistoryDialog", function() { return HandHistoryDialog; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_log_gameLog_game_log_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/log/gameLog/game-log.service */ "./src/app/services/log/gameLog/game-log.service.ts");
-/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_log_gameLog_game_log_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/log/gameLog/game-log.service */ "./src/app/services/log/gameLog/game-log.service.ts");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2123,107 +2089,78 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
 
 
 
 
 
 var GameLogComponent = /** @class */ (function () {
-    function GameLogComponent(commonSrvc, gameLogSrvc) {
+    function GameLogComponent(commonSrvc, gameLogSrvc, fb, bottomsheet, dialog) {
         this.commonSrvc = commonSrvc;
         this.gameLogSrvc = gameLogSrvc;
+        this.bottomsheet = bottomsheet;
+        this.dialog = dialog;
         //service variables
         this.pageIndex = 2;
-        this.handHistoryToggle = false;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        this.displayedColumns = ['row_number',
+            'ScreenName',
+            'DateTime',
+            'GameType',
+            'Rank',
+            'BeforePoints',
+            'WinPoints',
+            'AfterPoints',
+            'HandHistory',
+            'Status'
+        ];
+        this.tableSort = { active: 'DateTime', direction: 'desc' };
+        // MatPaginator Inputs
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].pageSizeOptions;
+        // MatPaginator Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
         this.backLoading = true;
-        this.hidePagination = true;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
+        this.searchForm = fb.group({
+            value: null
+        });
     }
     //lifecycle hooks
     GameLogComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
     GameLogComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        console.log('you leave game log');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    GameLogComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    GameLogComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     GameLogComponent.prototype.getListAndPageCount = function () {
-        Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
+        Promise.all([this.getGameLogList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
         }, function () {
             console.log('something went wrong');
         });
     };
-    GameLogComponent.prototype.getSupportList = function () {
+    GameLogComponent.prototype.getGameLogList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
                 .subscribe(function (result) {
-                _this.gameLogList = result;
-                // console.log('this is offset : ' + this.offset)
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
-                }
-                else {
+                if (result.length > 0) {
                     //set artificial index
-                    var row_number_new = _this.offset;
-                    for (var i = 0; i <= _this.gameLogList.length - 1; i++) {
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
+                    for (var i = 0; i < result.length; i++) {
                         row_number_new += 1;
-                        _this.gameLogList[i].row_number = row_number_new;
+                        result[i].row_number = row_number_new;
                     }
                     //set artificial index end
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    _this.gameLogList = result;
+                    _this.backLoading = false;
+                }
+                else {
                 }
                 resolve();
             }, function (error) {
@@ -2238,114 +2175,70 @@ var GameLogComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
-                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    GameLogComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
-    };
-    GameLogComponent.prototype.searchList = function (event) {
+    //hand history
+    GameLogComponent.prototype.getHandHistory = function (seasonID) {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.currentGameNo = seasonID;
+        this.gameLogSrvc.getHandHistory(seasonID)
             .subscribe(function (result) {
-            _this.gameLogList = result;
-            console.log(result);
+            var handHistoryDialog = _this.dialog.open(HandHistoryDialog, {
+                width: '50%',
+                data: result
+            });
+            handHistoryDialog.afterClosed().subscribe(function () {
+                console.log('handhistory closed');
+            });
+            _this.currenHandHistory = result;
+        }, function (error) {
+            console.log(error['status']);
+        });
+    };
+    GameLogComponent.prototype.searchList = function () {
+        var _this = this;
+        this.commonSrvc.searchList(this.pageIndex, 'ScreenName', this.searchValue)
+            .subscribe(function (result) {
             //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.gameLogList = result;
                 console.log('results found');
+            }
+            else {
+                console.log('no results found');
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
+                _this.openSearchNoResultFound();
                 //empty list
                 _this.gameLogList = [];
             }
         });
     };
-    GameLogComponent.prototype.back = function () {
-        this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        // this.activateGetListAndPageCount()
-        //hide hand history UI
-        this.handHistoryToggle = false;
-    };
-    //hand history
-    GameLogComponent.prototype.getHandHistory = function (seasonID) {
+    GameLogComponent.prototype.openSearchNoResultFound = function () {
         var _this = this;
-        this.handHistoryToggle = true;
-        this.currentGameNo = seasonID;
-        this.gameLogSrvc.getHandHistory(seasonID)
-            .subscribe(function (result) {
-            _this.currenHandHistory = result;
-            console.log(result);
-        }, function (error) {
-            console.log(error['status']);
+        this.bottomsheet.open(NoResultBottomSheet).afterDismissed().subscribe(function () {
+            _this.reload();
+            _this.searchValue = null;
         });
     };
-    //pagination functions
-    GameLogComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    GameLogComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
+    };
+    GameLogComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
         }
-    };
-    GameLogComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    GameLogComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    GameLogComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
     };
     GameLogComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2353,12 +2246,70 @@ var GameLogComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./game-log.component.html */ "./src/app/components/log/game-log/game-log.component.html"),
             styles: [__webpack_require__(/*! ./game-log.component.css */ "./src/app/components/log/game-log/game-log.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"], _services_log_gameLog_game_log_service__WEBPACK_IMPORTED_MODULE_1__["GameLogService"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_4__["CommonService"],
+            _services_log_gameLog_game_log_service__WEBPACK_IMPORTED_MODULE_3__["GameLogService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBottomSheet"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialog"]])
     ], GameLogComponent);
     return GameLogComponent;
 }());
 
+var NoResultBottomSheet = /** @class */ (function () {
+    function NoResultBottomSheet() {
+    }
+    NoResultBottomSheet = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'no-result-bottom-sheet',
+            template: __webpack_require__(/*! ./no-result-bottom-sheet.html */ "./src/app/components/log/game-log/no-result-bottom-sheet.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], NoResultBottomSheet);
+    return NoResultBottomSheet;
+}());
 
+var HandHistoryDialog = /** @class */ (function () {
+    function HandHistoryDialog(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    HandHistoryDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    HandHistoryDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'hand-history-dialog',
+            template: __webpack_require__(/*! ./hand-history-dialog.html */ "./src/app/components/log/game-log/hand-history-dialog.html"),
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialogRef"], Array])
+    ], HandHistoryDialog);
+    return HandHistoryDialog;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/log/game-log/hand-history-dialog.html":
+/*!******************************************************************!*\
+  !*** ./src/app/components/log/game-log/hand-history-dialog.html ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1 mat-dialog-title>hand history</h1>\r\n<mat-divider></mat-divider>\r\n<div mat-dialog-content>\r\n  <mat-nav-list>\r\n    <mat-list-item *ngFor=\"let d of data\">\r\n      {{d.MoveHand}}\r\n      {{d.HandAmount | number}}\r\n      {{d.HandDateTime | date : 'medium'}}\r\n    </mat-list-item>\r\n  </mat-nav-list>\r\n</div>\r\n<div mat-dialog-actions>\r\n  <button mat-raised-button\r\n          color=\"accent\"\r\n          style=\"width: 100%\"  \r\n          (click)=\"close()\">Ok</button>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/log/game-log/no-result-bottom-sheet.html":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/log/game-log/no-result-bottom-sheet.html ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p style=\"text-align: center;\">\r\n    <mat-icon color=\"warn\">warning</mat-icon>\r\n    <br>\r\n    <br>\r\n    <strong style=\"font-size: 50px;\">no results found</strong>\r\n</p>"
 
 /***/ }),
 
@@ -2443,7 +2394,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">point log</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n    <!-- dropdowns -->\n    <div class=\"w3-row\">\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <button class=\"w3-mobile w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px;\">search</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n         <input type=\"text\" class=\"w3-input w3-border\" >\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"1\" selected> ID</option>\n          <option value=\"2\"> 3</option>\n          <option value=\"3\"> 4</option>\n          <option value=\"3\"> 5</option>\n          <option value=\"3\"> 6</option>\n          <option value=\"3\"> 7</option>\n          <option value=\"3\"> 8</option>\n          <option value=\"3\"> 9</option>\n          <option value=\"3\"> 10</option>\n          <option value=\"3\"> 11</option>\n          <option value=\"3\"> 12</option>\n        </select>\n      </div>\n      <!-- from to date dropdowns -->\n      <!-- to -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- from end -->\n\n     <!-- from to date dropdowns end --> \n    </div>\n    <!-- dropdowns end -->\n\n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>head office</th>\n                <th>distributor</th>\n                <th>store</th>\n                <th>userID</th>\n                <th>amount</th>\n                <th>balance</th>\n                <th>date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<p>pending... waiting for the game...</p>"
 
 /***/ }),
 
@@ -2506,7 +2457,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">transfer log</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n\n  <!-- search option -->\n    <div class=\"w3-row\">\n\n      <!-- button -->\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\">search</button>\n      </div>\n      <!-- button end -->\n\n      <!-- textbox -->\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n      <!-- textbox end-->\n\n      <!-- screen name options -->\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"2\" selected> sent screen name</option>\n          <option value=\"2\">received screen name</option>\n        </select>\n      </div>\n      <!-- screen name options end -->\n\n      <!-- from to date dropdowns -->\n        <!-- to -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- to end -->\n        \n        <!-- from -->\n\n          <!-- time text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>시~</p>\n          </div>\n          <!-- time text end -->\n          <!-- time start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- time end -->\n\n          <!-- day text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>일</p>\n          </div>\n          <!-- day text end -->\n\n          <!-- day start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- day end -->\n\n          <!-- month text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>월</p>\n          </div>\n          <!-- month text end -->\n\n          <!-- month start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>1</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- month end -->\n\n          <!-- year text -->\n          <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <p>년</p>\n          </div>\n          <!-- year text end -->\n\n          <!-- year start -->\n            <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n              <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n                  <option value=\"\" selected>2018</option>\n                  <option value=\"1\"> 2</option>\n                  <option value=\"2\"> 3</option>\n                  <option value=\"3\"> 4</option>\n                  <option value=\"3\"> 5</option>\n                  <option value=\"3\"> 6</option>\n                  <option value=\"3\"> 7</option>\n                  <option value=\"3\"> 8</option>\n                  <option value=\"3\"> 9</option>\n                  <option value=\"3\"> 10</option>\n                  <option value=\"3\"> 11</option>\n                  <option value=\"3\"> 12</option>\n              </select>\n            </div>\n          <!-- year end -->\n\n        <!-- from end -->\n\n     <!-- from to date dropdowns end --> \n    </div>\n  <!-- search option end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>sent screen name</th>\n                <th>received screen name</th>\n                <th>amount</th>\n                <th>balance(after transfer)</th>\n                <th>reason</th>\n                <th>date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n<br>\n\n<!-- write notice -->\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">write notice</p>\n    <hr class=\"tableTitleHr\">\n\n    <!-- user screen name -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">rank&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n              <option value=\"\" selected>head office</option>\n              <option value=\"1\">distributor</option>\n              <option value=\"2\">store</option>\n              <option value=\"2\">user</option>\n          </select>\n        </div>\n      </div>\n    <!-- user screen name end -->\n      <hr style=\"margin: 0\">\n\n    <!-- title -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">title</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">awadr666</p>\n        </div>\n      </div>\n    <!-- title end -->\n      <hr style=\"margin: 0\">\n    \n    <!-- contents -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">contents&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px; \" disabled>\n        </div>\n      </div>\n    <!-- contents end -->\n      <hr style=\"margin: 0\">\n\n    <!-- date -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">date</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">awadr666</p>\n        </div>\n      </div>\n    <!-- date end -->\n      <hr style=\"margin: 0\">\n\n    <!-- answer -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px;\">\n          <p>answer</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <textarea rows=\"4\" cols=\"145\" style=\"resize: vertical\">answer text</textarea>\n        </div>\n      </div>\n      <!-- answer end -->\n        <hr style=\"margin: 0\">\n\n    <!-- answer date -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">answer date</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">awadr666</p>\n        </div>\n      </div>\n    <!-- answer date end -->\n      <hr style=\"margin: 0\">\n\n    <!-- buttons -->\n    <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n \n    <br>\n\n</div>\n<!-- write notice end-->\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n    <div *ngIf=\"backLoading\" class=\"loading-shade\">\n      <mat-spinner color=\"accent\"></mat-spinner>\n    </div>\n  \n    <mat-card-header>\n      <mat-card-title>Transfer log</mat-card-title>\n      <button mat-icon-button \n              color=\"accent\" \n              style=\"right:0; top:0; margin-top:10px; position: absolute\" \n              (click)=\"reload()\"\n              matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n    </mat-card-header>\n  \n    <mat-divider></mat-divider>\n\n    <form [formGroup]=\"searchForm\" style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n      <div >\n        <mat-form-field style=\"width:120px;\">\n          <input matInput \n                [matDatepicker]=\"fromDate\" \n                placeholder=\"From date\" \n                (dateInput)=\"dateValue($event)\" \n                (dateChange)=\"dateValue($event)\"\n                id=\"from\">\n          <mat-datepicker-toggle matSuffix [for]=\"fromDate\"></mat-datepicker-toggle>\n          <mat-datepicker #fromDate></mat-datepicker>\n        </mat-form-field>\n\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <mat-select [(value)]=\"fromTimeValue\">\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n          </mat-select>\n        </mat-form-field>\n        \n        <mat-form-field style=\"width:120px;\">\n          <input matInput \n                [matDatepicker]=\"toDate\" \n                placeholder=\"To date\"\n                (dateInput)=\"dateValue($event)\" \n                (dateChange)=\"dateValue($event)\"\n                id=\"to\">\n          <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\n          <mat-datepicker #toDate></mat-datepicker>\n        </mat-form-field>\n\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <mat-select [(value)]=\"toTimeValue\">\n            <mat-option *ngFor=\"let t of timeopts\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n          </mat-select>\n        </mat-form-field>\n\n        <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n          <mat-select [(value)]=\"columnValue\">\n            <mat-option *ngFor=\"let t of columnOptions\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n          </mat-select>\n        </mat-form-field>\n\n        <mat-form-field>\n          <input matInput placeholder=\"input here...\" \n                 formControlName=\"value\"\n                 [(ngModel)]=\"searchValue\">\n          <button *ngIf=\"searchValue\" \n                  matSuffix \n                  mat-icon-button \n                  color=\"accent\"\n                  (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n        </mat-form-field>\n      </div>\n    </form>\n    <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n\n      <!-- game log table -->\n      <table  mat-table matSort \n              [dataSource]=\"transferHistoryList\" \n              style=\"width : 100%;\"\n              (matSortChange)=\"sortData($event)\" >\n\n        <ng-container matColumnDef=\"row_number\">\n          <th mat-header-cell *matHeaderCellDef >No.</th>\n          <td mat-cell *matCellDef=\"let element\" >{{element.row_number}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"USender\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"USender\">Sender ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.USender}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"Sender\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Sender\">Sender screen name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Sender}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"UReceiver\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"UReceiver\">Receiver ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.UReceiver}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"Receiver\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Receiver\">Receiver screen name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Receiver}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"Amount\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Amount\">Amount</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Amount | number}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"BalanceAfterTransfer\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"BalanceAfterTransfer\">Balance(after transfer)</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.BalanceAfterTransfer | number}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"Reason\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Reason\">Reason</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Reason}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"TransferedDateTime\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"TransferedDateTime\">Date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.TransferedDateTime | date : 'medium'}} </td>\n        </ng-container>\n      \n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n  \n      <div *ngIf=\"pageEvent\">\n          <mat-paginator  [length]=\"pageEvent.length\"\n                          [pageSize]=\"pageEvent.pageSize\"\n                          [pageSizeOptions]=\"pageSizeOptions\"\n                          showFirstLastButtons=\"true\"\n                          (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n      </div>\n    </mat-card-content>\n  </mat-card>\n  \n  "
 
 /***/ }),
 
@@ -2521,6 +2472,13 @@ module.exports = "\n<br>\n<div class=\"w3-container w3-border w3-card w3-white\"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TransferLogComponent", function() { return TransferLogComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2530,11 +2488,175 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
 
 var TransferLogComponent = /** @class */ (function () {
-    function TransferLogComponent() {
+    function TransferLogComponent(commonSrvc, fb, bottomsheet, formSrvc, locale) {
+        this.commonSrvc = commonSrvc;
+        this.bottomsheet = bottomsheet;
+        this.formSrvc = formSrvc;
+        this.locale = locale;
+        //service variables
+        this.pageIndex = 8;
+        this.displayedColumns = [
+            'row_number',
+            'USender',
+            'Sender',
+            'UReceiver',
+            'Receiver',
+            'Amount',
+            'BalanceAfterTransfer',
+            'Reason',
+            'TransferedDateTime'
+        ];
+        this.tableSort = { active: 'TransferedDateTime', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
+        //search variables
+        this.backLoading = true;
+        this.columnOptions = [
+            { value: '0', name: 'Sent UserName' },
+            { value: '1', name: 'Sent ScreenName' },
+            { value: '2', name: 'Received UserName' },
+            { value: '3', name: 'Received Screen Name' } //Receiver
+        ];
+        this.columnValue = '0';
+        this.searchForm = fb.group({
+            value: null
+        });
     }
+    //lifecycle hooks
     TransferLogComponent.prototype.ngOnInit = function () {
+        this.timeopts = this.formSrvc.timeOptions;
+        this.getListAndPageCount();
+    };
+    TransferLogComponent.prototype.ngOnDestroy = function () {
+        console.log('you leave transfer log');
+    };
+    //lifecycle hooks end
+    TransferLogComponent.prototype.getListAndPageCount = function () {
+        Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
+            console.log('get list and page count successful');
+        }, function () {
+            console.log('something went wrong');
+        });
+    };
+    TransferLogComponent.prototype.getSupportList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
+                .subscribe(function (result) {
+                //show No results found if 0 result else dont show
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    //set artificial index end
+                    _this.transferHistoryList = result;
+                    _this.backLoading = false;
+                }
+                else {
+                }
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    TransferLogComponent.prototype.getPageCount = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getPageCount(_this.pageIndex)
+                .subscribe(function (result) {
+                _this.pageEvent.length = result[0]['ID'];
+                resolve();
+            }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    TransferLogComponent.prototype.searchList = function () {
+        var _this = this;
+        this.commonSrvc.searchListWithDate(this.pageIndex, this.columnValue, this.searchValue, this.fromDateValue + this.fromTimeValue, this.toDateValue + this.toTimeValue)
+            .subscribe(function (result) {
+            console.log(result);
+            //if there's result
+            if (result.length > 0) {
+                _this.transferHistoryList = result;
+                console.log('results found');
+            }
+            else {
+                console.log('no results found');
+            }
+        }, function (error) {
+            if (error['statusText'] == 'Not Found') {
+                //empty list
+                _this.transferHistoryList = [];
+                _this.openSearchNoResultFound();
+            }
+        });
+    };
+    // reload() is called after the bottomsheet "no results found" is dismissed
+    TransferLogComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
+    };
+    TransferLogComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
+        }
+    };
+    TransferLogComponent.prototype.dateValue = function (event) {
+        if (event.targetElement.id == 'from') {
+            // console.log(formatDate(event.value,'yyyy-MM-dd', this.locale))
+            this.fromDateValue = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale);
+            console.log('​TransferLogComponent -> dateValue -> fromDateValue', this.fromDateValue);
+        }
+        else if (event.targetElement.id == 'to') {
+            this.toDateValue = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(event.value, 'yyyy-MM-dd', this.locale);
+            console.log('​TransferLogComponent -> dateValue -> toDateValue', this.toDateValue);
+        }
+        else {
+            console.log('invalid target ID');
+        }
+    };
+    TransferLogComponent.prototype.openSearchNoResultFound = function () {
+        var _this = this;
+        this.bottomsheet.open(_utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_7__["NoResultBottomSheet2"], {
+            data: { value: this.searchValue,
+                column: this.columnValue,
+                fromDate: this.fromDateValue,
+                fromTime: this.fromTimeValue,
+                toDate: this.toDateValue,
+                toTime: this.toTimeValue
+            }
+        })
+            .afterDismissed().subscribe(function () {
+            console.log('dismissed');
+            _this.reload();
+            _this.searchValue = null;
+        });
     };
     TransferLogComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -2542,7 +2664,11 @@ var TransferLogComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./transfer-log.component.html */ "./src/app/components/log/transfer-log/transfer-log.component.html"),
             styles: [__webpack_require__(/*! ./transfer-log.component.css */ "./src/app/components/log/transfer-log/transfer-log.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __param(4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])),
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatBottomSheet"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_6__["FormsService"], String])
     ], TransferLogComponent);
     return TransferLogComponent;
 }());
@@ -2558,7 +2684,7 @@ var TransferLogComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".middle{\r\n    position:absolute;\r\n    top:50%;\r\n    left:50%;\r\n    -webkit-transform:translate(-50%,-50%);\r\n            transform:translate(-50%,-50%);\r\n    -ms-transform:translate(-50%,-50%)\r\n}\r\n\r\n.center{\r\n    display:inline-block;\r\n    width:auto;\r\n}\r\n\r\n.logincard{\r\n    background-color: rgba(255, 255, 255, 0.932); \r\n    padding:10px; \r\n    border-radius: 2%; \r\n    width: 390px;\r\n}\r\n\r\nmat-form-field{\r\n    width: 100%\r\n}"
 
 /***/ }),
 
@@ -2569,7 +2695,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"w3-display-middle  w3-container\" style=\"width:40%;\">\n  <div class=\"w3-card\">\n      <h1 class=\"w3-jumbo w3-text-black w3-center\">Holdem admin</h1>\n  <h3 class=\"w3-large w3-center\">MPOTECH </h3>\n  <hr class=\"w3-border-red\" style=\"margin:auto;width:40%\">\n\n          <p  class=\"w3-center\"><strong></strong></p>\n\n          <form class=\"w3-padding-large w3-container\" (submit)=\"login($event)\">\n            <input type=\"text\" class=\"w3-input w3-border w3-center\" placeholder=\"Username\" id=\"username\">\n            <input type=\"password\" class=\"w3-input w3-border w3-center\" placeholder=\"Password\" id=\"password\">\n            <br>\n            <button type=\"submit\" class=\"w3-btn w3-block w3-white w3-border w3-round-large\">\n              Log in\n            </button>\n            <button type=\"button\" (click)=\"printUserToken()\">get token</button>\n            <button type=\"button\" (click)=\"clearToken()\">clear token</button>\n          </form>\n  </div>\n\n\n\n\n  <br>\n  \n</div>"
+module.exports = "<!-- <img src=\"../../../assets//bg_CreateRoom.jpg\" style=\"position: relative;\"> -->\r\n\r\n<div class=\"middle\" style=\"width:40%;\">\r\n  <div style=\"display:flex; justify-content: center\">\r\n    <img src=\"../../../assets//DreamLogo.png\" style=\"padding:10px;\">\r\n  </div>\r\n  <div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"logincard\">\r\n      <p style=\"text-align: center\">\r\n        <strong *ngIf=\"!isCredentialsvalid\" style=\"color:red\">wrong username or password</strong>\r\n      </p>\r\n      <p>\r\n        <mat-form-field appearance=\"outline\">\r\n          <mat-label>username</mat-label>\r\n          <input matInput [(ngModel)]=\"username\">\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"outline\">\r\n          <mat-label>password</mat-label>\r\n          <input  matInput \r\n                  type=\"password\" \r\n                  [(ngModel)]=\"password\"\r\n                  [type]=\"hidePassword ? 'password' : 'text'\">\r\n                  <mat-icon matSuffix (click)=\"hidePassword = !hidePassword\">{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n        </mat-form-field>\r\n      </p>\r\n      <p>\r\n        <button mat-raised-button \r\n                style=\"width: 100%\" \r\n                color=\"primary\"\r\n                (click)=\"login()\">login</button>\r\n      </p>\r\n\r\n      <div *ngIf=\"productionMode\">\r\n        <mat-form-field>\r\n          <mat-label>choose server:</mat-label>\r\n          <mat-select [(ngModel)]=\"server\">\r\n            <mat-option *ngFor=\"let s of serverMode\" [value]=\"s.value\">{{s.name}}</mat-option>\r\n          </mat-select>\r\n        </mat-form-field>\r\n      </div>\r\n      \r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -2587,7 +2713,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2601,12 +2726,30 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var LoginComponent = /** @class */ (function () {
-    function LoginComponent(userAuthSrvc, router, userCredentialSrvc) {
+    function LoginComponent(userAuthSrvc, router) {
         this.userAuthSrvc = userAuthSrvc;
         this.router = router;
-        this.userCredentialSrvc = userCredentialSrvc;
+        this.username = 'user20';
+        this.password = 'user20';
+        this.hidePassword = true;
+        this.isCredentialsvalid = true;
+        this.server = 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com';
+        this.serverMode = [
+            { value: 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com', name: 'remote' },
+            { value: 'http://192.168.254.100:8080', name: 'localhost-100' },
+            { value: 'http://192.168.254.101:8080', name: 'localhost-101' },
+            { value: 'http://192.168.254.102:8080', name: 'localhost-102' },
+            { value: 'http://192.168.254.103:8080', name: 'localhost-103' },
+            { value: 'http://192.168.254.104:8080', name: 'localhost-104' },
+            { value: 'http://192.168.254.105:8080', name: 'localhost-105' },
+            { value: 'http://192.168.254.106:8080', name: 'localhost-106' },
+            { value: 'http://192.168.254.107:8080', name: 'localhost-107' },
+            { value: 'http://192.168.254.108:8080', name: 'localhost-108' },
+            { value: 'http://192.168.254.109:8080', name: 'localhost-109' },
+            { value: 'http://192.168.254.110:8080', name: 'localhost-110' },
+        ];
+        this.productionMode = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].production;
     }
     LoginComponent.prototype.ngOnInit = function () {
         if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].koreanStartUp) {
@@ -2617,19 +2760,17 @@ var LoginComponent = /** @class */ (function () {
         }
         console.log('this should be empty/null : ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
     };
-    LoginComponent.prototype.login = function (event) {
+    LoginComponent.prototype.login = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        var username = target.querySelector('#username').value;
-        var password = target.querySelector('#password').value;
-        this.userAuthSrvc.login(username, password)
+        this.userAuthSrvc.server = this.server;
+        this.userAuthSrvc.login(this.username, this.password)
             .subscribe(function (res) {
             console.log('login return : ' + JSON.stringify(res));
             _this.userAuthSrvc.storeToken(res['token']);
             _this.router.navigate(['/admin']);
         }, function (error) {
             console.log('error' + error);
+            _this.isCredentialsvalid = false;
             _this.userAuthSrvc.setLoggedIn(false);
             localStorage.clear();
         });
@@ -2646,7 +2787,7 @@ var LoginComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./login.component.html */ "./src/app/components/login/login.component.html"),
             styles: [__webpack_require__(/*! ./login.component.css */ "./src/app/components/login/login.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__["UserAuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_4__["UserCredentialsService"]])
+        __metadata("design:paramtypes", [_services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_1__["UserAuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], LoginComponent);
     return LoginComponent;
 }());
@@ -2662,7 +2803,7 @@ var LoginComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\r\n/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */\r\n@media screen and (min-width: 1025px) {\r\n    a.sideNavButtonLinks {\r\n      font-size: 20px;\r\n    }\r\n\r\n    .matside{\r\n        width: 17%;\r\n    }\r\n  }\r\n/* If the screen size is 1023px wide or less, set the font-size of <div> to 30px */\r\n@media screen and (max-width: 1024px) {\r\n    a.sideNavButtonLinks {\r\n        font-size: 23px;\r\n    }\r\n\r\n    .matside{\r\n        width: 23%;\r\n    }\r\n}\r\n.matside{\r\n    height: 100%;\r\n}\r\n.sidepanelButton{\r\n    width:100%;\r\n    text-align : left;\r\n    font-size: 20px;\r\n}\r\n.sideNavButtonLinks{\r\n    text-decoration: none;\r\n    text-align: left;\r\n    width: 100%;\r\n}\r\n.sideNavButtonLinkActive{\r\n    text-decoration: none;\r\n    color:blue;\r\n}\r\n.sideNavBottomStats{\r\n    font-size:15px; \r\n    margin:auto;\r\n}\r\n.sideNavLogo{\r\n    width:55%; \r\n    display: block; \r\n    margin-left: auto; \r\n    margin-right: auto; \r\n    margin-top: 15px;\r\n}\r\n.logout {\r\n    padding: 0 14px;\r\n}\r\n.spacer {\r\n    flex: 1 1 auto;\r\n}\r\n.example-container {\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n}\r\n.expansion-title{\r\n    margin-top: auto; \r\n    margin-bottom: auto\r\n}\r\n.overlay {\r\n    position: fixed;\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 0;\r\n    right: 0;\r\n    left:0;\r\n    bottom: 0;\r\n    /* background-color: rgba(0,0,0,0.5); */\r\n    z-index: 3;\r\n    cursor: pointer;\r\n  }\r\n.overlaycontent{\r\n    position: absolute;\r\n    z-index: 4;\r\n    top: 60px;\r\n    right: 50px;\r\n    font-size: 50px;\r\n    color: white;\r\n    /* transform: translate(-50%,-50%);\r\n    -ms-transform: translate(-50%,-50%); */\r\n  }\r\n"
 
 /***/ }),
 
@@ -2673,7 +2814,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- sidepanel for medium and large screen -->\n<div class=\"w3-sidebar w3-bar-block w3-card-2\" style=\" background-color: #2a3f54; width: 15%\" id=\"mySidebar\">\n  <br>\n  <div class=\"w3-row\">\n      <a href=\"#\" [routerLink]=\"['/admin']\" class=\"w3-text-white\" style=\"text-decoration: none\">\n        <fa class=\"w3-text-white\" name=\"paw\" size=\"3x\"  style=\"margin: 10px\"></fa>\n        Operating HEAD OFFICE\n      </a>\n  </div>\n\n  <div class=\"w3-row\">\n    <div class=\"w3-quarter\">\n      <img src=\"../assets/avatar.png\" class=\"w3-circle w3-border w3-responsive\" alt=\"Alps\" style=\"width:70px; height:70px; margin: 12px\">\n    </div>\n    <div class=\"w3-threequarter w3-padding-large\">\n      <p class=\"w3-text-white\" >head office</p>\n      <p class=\"w3-text-white\" >holding money :</p>\n      <p class=\"w3-text-white\" >589,766,407</p>\n    </div>\n  </div>\n\n  <br>\n\n  <!-- menu dropdowns -->\n  <div >\n    <!-- sales dropdown -->\n    <div>\n      <!-- <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[0]}\" (click)=\"sidepanelMenuToggle(0)\"> -->\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 0}\" (click)=\"sidepanelMenuToggle(0)\">\n        <fa name=\"home\"></fa>&nbsp;\n        <span appTranslate>Sales</span> &nbsp;&nbsp;&nbsp;\n        <!-- <fa *ngIf=\"!sidepanelMenuArray[0]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa> -->\n        <fa *ngIf=\"currentSidePanel != 0\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 0\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 0\" class=\"w3-animate-left\">\n        \n        <button  [routerLink]=\"['/admin/headOfficeList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n          <strong style=\"font-size:16px\" appTranslate>head office list</strong>\n        </button>\n        \n        <button [routerLink]=\"['/admin/memberList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n          &nbsp;&nbsp;\n          <fa name=\"circle-o\" style=\"color: gray\"></fa> &nbsp;\n          <strong style=\"font-size:16px\" appTranslate>member list</strong>\n        </button>\n        \n      </div>\n    </div>\n    <!-- sales dropdown end -->\n  \n    <!-- calculate dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 1}\" (click)=\"sidepanelMenuToggle(1)\">\n        <fa name=\"cc-visa\"></fa>&nbsp;\n        <span appTranslate>Calculate</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 1\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 1\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 1\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/calculateManage']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>calculate manage</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/userProfit']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>user profit</strong>\n            </button>\n  \n        </div>\n    </div>\n    <!-- calculate dropdown end -->\n    \n    <!-- user dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 2}\" (click)=\"sidepanelMenuToggle(2)\">\n        <fa name=\"android\"></fa>&nbsp;\n        <span appTranslate>User</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 2\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 2\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n      <div *ngIf=\"currentSidePanel == 2\" class=\"w3-animate-left\">\n        \n            <button [routerLink]=\"['/admin/connectingUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>connecting user</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/blackList']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>black list</strong> <fa name=\"check\" class=\"w3-text-red\"></fa> \n            </button>\n    \n            \n            <button [routerLink]=\"['/admin/IPinquire']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px\" appTranslate>IP inquire</strong> <fa name=\"check\" class=\"w3-text-red\"></fa>\n              </button>\n          </div>\n    </div>\n    <!-- user dropdown end -->\n  \n    <!-- deposit and withdraw dropdown -->\n    <div>\n      <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 3}\" (click)=\"sidepanelMenuToggle(3)\">\n        <fa name=\"table\"></fa>&nbsp;\n        <span appTranslate>Deposit &amp; Withdraw</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 3\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 3\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 3\" class=\"w3-animate-left\">\n          <button [routerLink]=\"['/admin/depositManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>deposit management</strong>\n          </button>\n  \n          <button [routerLink]=\"['/admin/withdrawManagement']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>withdraw management</strong>\n            </button>\n          \n        </div>\n    </div>\n    <!-- deposit and withdraw end -->\n  \n    <!-- notice dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 4}\" (click)=\"sidepanelMenuToggle(4)\">\n          <fa name=\"bell\"></fa>&nbsp;\n          <span appTranslate>Notice</span>&nbsp;&nbsp;&nbsp;\n          <fa *ngIf=\"currentSidePanel != 4\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n          <fa *ngIf=\"currentSidePanel == 4\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n        </button>\n          <div *ngIf=\"currentSidePanel == 4\" class=\"w3-animate-left\">\n            \n            <button [routerLink]=\"['/admin/lobbyNotice']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp; \n                <strong style=\"font-size:16px\" appTranslate>lobby notice</strong>\n            </button>\n            \n            <button [routerLink]=\"['/admin/inGamingTable']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\" style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px\" appTranslate>in gaming table</strong>\n            </button>\n\n            <button [routerLink]=\"['/admin/1on1support']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n                &nbsp;&nbsp;\n                <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n                <strong style=\"font-size:16px;\" appTranslate>1:1 support</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n            </button>\n\n          </div>\n    </div>\n    <!-- notice dropdown end -->\n  \n    <!-- log dropdown -->\n    <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : currentSidePanel == 5}\" (click)=\"sidepanelMenuToggle(5)\">\n        <fa name=\"clone\"></fa>&nbsp;\n        <span appTranslate>Log</span> &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"currentSidePanel != 5\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"currentSidePanel == 5\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"currentSidePanel == 5\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/gameLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>game log</strong><fa name=\"check\" class=\"w3-text-red\"></fa>\n          </button>\n          \n          <button [routerLink]=\"['/admin/jackpotLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>jackpot log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/transferLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>transfer log</strong>\n          </button>\n\n          <button [routerLink]=\"['/admin/pointLog']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa>&nbsp;\n              <strong style=\"font-size:16px;\" appTranslate>point log</strong>\n          </button>\n  \n        </div>\n    </div>\n    <!-- log dropdown end -->\n\n    <!-- pending dropdown -->\n    <!-- <div>\n        <button class=\"{{lsSidepanelMenuBtn}}\" [ngClass]=\"{'w3-card-2 w3-rightbar w3-border-green' : sidepanelMenuArray[6]}\" (click)=\"sidepanelMenuToggle(6)\">\n        <fa name=\"question\"></fa>\n         &nbsp;&nbsp;&nbsp;\n        <fa *ngIf=\"!sidepanelMenuArray[6]\" name=\"caret-left\" class=\"{{sidepanelCaret}}\"></fa>\n        <fa *ngIf=\"sidepanelMenuArray[6]\" name=\"caret-down\" class=\"{{sidepanelCaret}}\"></fa>\n      </button>\n        <div *ngIf=\"sidepanelMenuArray[6]\" class=\"w3-animate-left\">\n  \n          <button [routerLink]=\"['/admin/addUser']\"  class=\"{{lsSidepanelSubMenuBtn}}\">\n              &nbsp;&nbsp;\n              <fa name=\"circle-o\"  style=\"color: gray\"></fa> \n              <strong style=\"font-size:16px;\">&nbsp;add user</strong>\n          </button>\n          \n        </div>\n    </div> -->\n    <!-- pending dropdown end -->\n    <h6 class=\"w3-center w3-text-white\" style=\"font-size:14px\">date</h6>\n    <div class=\"w3-text-white\" style=\"margin-left:20px;\">\n\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>deposit application</span>&nbsp;:&nbsp;<strong>705</strong>건</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>total member</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUser | number}}</strong>명</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"male\"></fa>&nbsp;<span>today joined members</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUserToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"twitter\"></fa>&nbsp;<span>connecting members</span>&nbsp;:&nbsp;<strong>{{totalConnectingMembers.OnlineStatusCount | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>deposit</span>&nbsp;:&nbsp;<strong>{{totalDepositToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>withdraw</span>&nbsp;:&nbsp;<strong>{{totalWithdrawToday | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>profit and loss</span>&nbsp;:&nbsp;<strong>{{profitAndLoss | number}}</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>members</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n      <h6 style=\"font-size:14px\"><fa name=\"won\"></fa>&nbsp;<span>sales</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</h6>\n    </div>\n\n  </div>\n  <br>\n  <br>\n  <br>\n  <!-- menu dropdowns end -->\n  <div class=\"w3-bottom\" style=\"width:15%\">\n    <div class=\"w3-row\">\n      <button type=\"button\" onclick=\"document.getElementById('id01').style.display='block'\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"cog\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"toggleFullScreen()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"expand\"></fa>\n      </button>\n      <button type=\"button\" (click)=\"playNotif()\" class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"eye-slash\"></fa>\n      </button>\n      <button type=\"button\"  class=\"w3-button w3-text-white\" style=\"background-color:#172d44; width: 25%\">\n       <fa name=\"power-off\"></fa>\n      </button>\n    </div>\n  </div>\n</div>\n<!-- sidepanel for medium and large screen end -->\n\n\n<div id=\"main\" [ngStyle]=\"{'margin-left': margin}\">\n  <!-- topbar -->\n  <div class=\"w3-bar w3-large w3-border w3-light-grey\" >\n\n    <!-- sidepanel toggle -->\n\n      <div id=\"open\">\n        <button class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54;\">\n          <fa name=\"bars\"></fa>\n        </button>\n      </div>\n      <!-- *ngIf=\"!mobileAccordion\" -->\n      <div id=\"close\">\n        <button  class=\"w3-button w3-bar-item w3-left\" (click)=\"sidebarToggler();\" style=\"color: #2a3f54\">\n          <fa name=\"times\"></fa>  \n        </button>\n      </div>\n      <button (click)=\"printUserToken()\" >get token</button>\n      <button (click)=\"clearToken()\" >clear token</button>\n \n    <!-- sidepanel toggle end -->\n\n\n    <button type=\"button\" (click)=\"logout()\" class=\"w3-button w3-bar-item w3-right\">\n      <fa name=\"sign-out\"></fa>\n    </button>\n\n    <a class=\" w3-bar-item w3-right\">{{user?.UserName}}</a>\n\n  </div>\n  <!-- topbar end -->\n\n  <div class=\"w3-container\" id=\"main\">\n    <router-outlet></router-outlet>\n  </div>\n\n</div>\n<!-- settings modal -->\n  <div id=\"id01\" class=\"w3-modal\">\n    <div class=\"w3-modal-content w3-card-2\" style=\"margin-top:70px; height:230px; width: 400px;\">\n      \n      <header class=\"w3-container\" style=\"background-color: #2a3f54;\"> \n        <span onclick=\"document.getElementById('id01').style.display='none'\" \n        class=\"w3-button w3-display-topright w3-xxlarge w3-text-white\"><fa name=\"times\"></fa></span>\n        <h2 class=\"w3-text-white\"><fa name=\"cogs\"></fa>&nbsp;Settings</h2>\n      </header>\n\n      <div class=\"w3-container\">\n        <br>\n        <form class=\"w3-row\">\n          <div class=\"w3-half\">\n            <label class=\"w3-right\" style=\"font-size: 20px; margin-top: 3px; margin-right: 15px\">LANGUAGE: </label>\n            <br>\n            <br>\n            <br>\n            <br>\n            <label class=\"w3-right\" for=\"audio\" style=\"font-size: 20px; margin-right: 15px; user-select: none\">AUDIO: </label>\n            \n          </div>\n          <div class=\"w3-half\">\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"korean\" (click)=\"toKorean()\" [checked]=\"korean\">\n              <label for=\"korean\">&nbsp;KOREAN</label>\n            \n              <br>\n            \n              <input class=\"w3-radio\" type=\"radio\" id=\"english\" (click)=\"toEnglish()\" [checked]=\"english\">\n              <label for=\"english\">&nbsp;ENGLISH</label>\n\n              <br>\n              <br>\n              <input class=\"w3-check\" type=\"checkbox\" id=\"audio\" (change)=\"audioToggle(audioModel)\" [(ngModel)]=\"audioModel\" [ngModelOptions]=\"{standalone: true}\" style=\"margin-top:3px\" checked=\"true\">\n              <!-- <input class=\"w3-check\" type=\"checkbox\"  checked> -->\n          </div>\n\n\n        </form>\n\n      \n      </div>\n\n    </div>\n  </div>\n\n<script>\n</script>"
+module.exports = "<div [ngClass]=\"{'dark-theme': nightMode, 'light-theme' : nightMode}\">\n\n  <mat-sidenav-container class=\"example-container\">\n    <mat-sidenav #sidenav mode=\"side\" opened class=\"matside\">\n      <a routerLink=\"/admin\">\n      <img class=\"sideNavLogo\" src=\"../../../assets//DreamLogo.png\" >\n      </a>\n      <p style=\"text-align: center\">\n      <strong>\n      {{user?.AccountType}}\n      </strong>\n      </p>\n      <!-- dropdowns -->\n      <mat-accordion>\n        <!-- sales -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              <mat-icon>home</mat-icon>&nbsp;<span class=\"expansion-title\">Sales</span>\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let s of SalesLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"s.link\" routerLinkActive=\"accent\">{{s.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- sales end -->\n\n        <!-- Calculate Management -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              <mat-icon>credit_card</mat-icon>&nbsp;<span class=\"expansion-title\">Calculate Management</span> \n            </mat-panel-title>\n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let c of CalculateLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"c.link\" routerLinkActive=\"primary\">{{c.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- Calculate Management end -->\n\n        <!-- User -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              <mat-icon>person</mat-icon>&nbsp;<span class=\"expansion-title\">User</span> \n            </mat-panel-title>\n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let u of UserLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"u.link\" routerLinkActive=\"primary\">{{u.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- User end -->\n\n        <!-- Deposit And Withdraw -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n                <mat-icon>money</mat-icon>&nbsp;<span class=\"expansion-title\">Deposit &amp; Withdraw</span>\n            </mat-panel-title>\n                \n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let dw of DepositWithdrawLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"dw.link\" routerLinkActive=\"primary\">{{dw.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- Deposit And Withdraw end -->\n\n        <!-- Notice -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              <mat-icon>add_alert</mat-icon>&nbsp;<span class=\"expansion-title\">Notice</span>\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let n of NoticeLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"n.link\" routerLinkActive=\"primary\">{{n.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- Notice end -->\n\n        <!-- Log -->\n        <mat-expansion-panel  (opened)=\"panelOpenState = true\"\n                              (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              <mat-icon>history</mat-icon>&nbsp;<span class=\"expansion-title\">Log</span> \n              <!-- <mat-icon matBadge=\"22\" matBadgePosition=\"above after\" matBadgeSize=\"medium\" matBadgeOverlap=\"true\">history</mat-icon>&nbsp;<span class=\"expansion-title\">Log</span>  -->\n            </mat-panel-title>\n\n          </mat-expansion-panel-header>\n\n          <div *ngFor=\"let n of LogLinks\">\n            <a mat-button class=\"sideNavButtonLinks\" [routerLink]=\"n.link\" routerLinkActive=\"primary\">{{n.title}}</a>\n          </div>\n        </mat-expansion-panel>\n        <!-- Log end -->\n\n      </mat-accordion>\n      <!-- dropdowns end -->\n      <br>\n      <mat-card style=\"margin:10px\">\n        <mat-card-content>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>deposit application</span>&nbsp;:&nbsp;<strong>705</strong>건</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>total member</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUser | number}}</strong>명</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>today joined members</span>&nbsp;:&nbsp;<strong>{{totalRegisteredUserToday | number}}</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>connecting members</span>&nbsp;:&nbsp;<strong>{{totalConnectingMembers.OnlineStatusCount | number}}</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>deposit</span>&nbsp;:&nbsp;<strong>{{totalDepositToday | number}}</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>withdraw</span>&nbsp;:&nbsp;<strong>{{totalWithdrawToday | number}}</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>profit and loss</span>&nbsp;:&nbsp;<strong>{{profitAndLoss | number}}</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>members</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</p>\n          <p class=\"sideNavBottomStats\">&nbsp;<span>sales</span>&nbsp;:&nbsp;<strong>705,940,329</strong>원</p>\n        </mat-card-content>\n      </mat-card>\n\n    </mat-sidenav>\n\n    <mat-sidenav-content>\n      <mat-toolbar>\n        <button *ngIf=\"sidenav.opened\" mat-icon-button (click)=\"sidenav.close()\"><mat-icon>close</mat-icon></button>\n        <button *ngIf=\"!sidenav.opened\" mat-icon-button (click)=\"sidenav.open()\"><mat-icon>menu</mat-icon></button>\n        {{server}}\n        <span class=\"spacer\"></span>\n        \n        <button mat-icon-button class=\"icon\" (click)=\"settings();\"><mat-icon>apps</mat-icon></button>\n      </mat-toolbar>\n\n      <router-outlet></router-outlet>\n    </mat-sidenav-content>\n  </mat-sidenav-container>\n</div>"
 
 /***/ }),
 
@@ -2688,14 +2829,17 @@ module.exports = "<!-- sidepanel for medium and large screen -->\n<div class=\"w
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MasterPageComponent", function() { return MasterPageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/settings/settings.service */ "./src/app/services/settings/settings.service.ts");
-/* harmony import */ var _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/dashboard/dashboard.service */ "./src/app/services/dashboard/dashboard.service.ts");
-/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/settings/settings.service */ "./src/app/services/settings/settings.service.ts");
+/* harmony import */ var _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/dashboard/dashboard.service */ "./src/app/services/dashboard/dashboard.service.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
+/* harmony import */ var _utilities_SettingsDialog_SettingsDialog__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../utilities/SettingsDialog/SettingsDialog */ "./src/app/utilities/SettingsDialog/SettingsDialog.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2709,18 +2853,53 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+// services
 
 
+
+
+
+// utilities
 
 
 
 var MasterPageComponent = /** @class */ (function () {
-    function MasterPageComponent(commonSrvc, settingsSrvc, dashboardSrvc, location, router, userCredentialsSrvc) {
+    function MasterPageComponent(commonSrvc, settingsSrvc, dashboardSrvc, location, router, userCredentialsSrvc, userAuthSrvc, dialog) {
         var _this = this;
         this.commonSrvc = commonSrvc;
         this.settingsSrvc = settingsSrvc;
         this.dashboardSrvc = dashboardSrvc;
         this.userCredentialsSrvc = userCredentialsSrvc;
+        this.userAuthSrvc = userAuthSrvc;
+        this.dialog = dialog;
+        this.SalesLinks = [
+            { title: 'office list', link: '/admin/headOfficeList' },
+            { title: 'member list', link: '/admin/memberList' }
+        ];
+        this.CalculateLinks = [
+            { title: 'Calculate Manage', link: '/admin/calculateManage' },
+            { title: 'User Profit', link: '/admin/userProfit' }
+        ];
+        this.UserLinks = [
+            { title: 'Connecting User', link: '/admin/connectingUser' },
+            { title: 'Black List', link: '/admin/blackList' },
+            { title: 'IP Inquire', link: '/admin/IPinquire' }
+        ];
+        this.DepositWithdrawLinks = [
+            { title: 'Deposit Management', link: '/admin/depositManagement' },
+            { title: 'Withdraw Management', link: '/admin/withdrawManagement' }
+        ];
+        this.NoticeLinks = [
+            { title: 'Lobby Notice', link: '/admin/lobbyNotice' },
+            { title: 'In Gaming Table', link: '/admin/inGamingTable' },
+            { title: '1:1 Support', link: '/admin/1on1support' }
+        ];
+        this.LogLinks = [
+            { title: 'Game Log', link: '/admin/gameLog' },
+            { title: 'Jackpot Log', link: '/admin/jackpotLog' },
+            { title: 'Transfer Log', link: '/admin/transferLog' },
+            { title: 'Point Log', link: '/admin/pointLog' }
+        ];
         this.httpUpdate = Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTimeDashboard);
         this.audioModel = true;
         this.totalConnectingMembers = {};
@@ -2728,32 +2907,9 @@ var MasterPageComponent = /** @class */ (function () {
         this.depositRankingLoading = true;
         this.withdrawRankingDaily = [];
         this.withdrawRankingLoading = true;
-        //large screen decorator strings
-        this.lsSidepanelMenuBtn = 'w3-bar-item w3-btn w3-text-white';
-        this.lsSidepanelSubMenuBtn = 'w3-bar-item w3-btn w3-small w3-text-white w3-rightbar w3-border-green';
-        //global decorator strings
-        this.sidepanelCaret = 'w3-right';
-        this.currentSidePanel = 0;
-        // sidepanelMenuArray: boolean[] = [false,false,false,false,false,false,false];
-        /*
-          0 - sales
-          1 - calculate
-          2 - user
-          3 - deposit and withdraw
-          4 - notice
-          5 - log
-          6 - !exist
-        */
-        this.margin = '15%';
-        this.calculateDropdown = false;
-        this.dwDropdown = false;
-        this.logDropdown = false;
-        this.noticeDropdown = false;
-        this.salesDropdown = false;
-        this.userDropdown = false;
-        this.sidepanelToggle = false;
         this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["interval"])(1000);
         this.userIsOnScreen = true;
+        this.server = this.userAuthSrvc.server;
         router.events.subscribe(function (val) {
             if (location.path() != '') {
                 _this.route = location.path();
@@ -2801,19 +2957,14 @@ var MasterPageComponent = /** @class */ (function () {
         //updateSubscription end
     };
     //user start, stop and reset end
-    MasterPageComponent.prototype.sidepanelMenuToggle = function (i) {
-        if (i == this.currentSidePanel) {
-            this.currentSidePanel = 10;
-        }
-        else {
-            this.currentSidePanel = i;
-        }
-        // (this.sidepanelMenuArray[i]) ? this.sidepanelMenuArray[i] = false : this.sidepanelMenuArray[i] = true
-    };
     MasterPageComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.settingsSrvc.isDarkTheme.next(false);
+        this.settingsSrvc.isDarkTheme.subscribe(function (res) { _this.nightMode = res; }, function (err) { console.log(err); });
+        this.printUserToken();
         this.audioToggle(true);
-        this.sidebarIsOn();
-        this.activateSidePanelStats();
+        // this.sidebarIsOn()
+        // this.activateSidePanelStats()
         if (localStorage.getItem('language') == 'korean') {
             this.korean = true;
         }
@@ -2828,53 +2979,6 @@ var MasterPageComponent = /** @class */ (function () {
     MasterPageComponent.prototype.OnDestroy = function () {
         // localStorage.clear()
         this.httpRequestSubscription.unsubscribe();
-    };
-    MasterPageComponent.prototype.sidebarToggler = function () {
-        //if sidepanelToggle is FALSE
-        if (this.sidepanelToggle) {
-            if (window.innerWidth >= 992) {
-                //hide sidebar for large screen
-                document.getElementById("main").style.marginLeft = "15%";
-                document.getElementById("mySidebar").style.width = "15%";
-                document.getElementById("mySidebar").style.display = "block";
-                this.sidepanelToggle = false;
-                this.sidebarIsOn();
-            }
-            else if (window.innerWidth <= 600) {
-                //hide accordion(sidebar) for small screen
-                this.sidepanelToggle = false;
-                this.sidebarIsOn();
-                document.getElementById("sidepanelSmall").style.display = "block";
-            }
-        }
-        else {
-            if (window.innerWidth >= 992) {
-                // hide sidepanel large
-                document.getElementById("main").style.marginLeft = "0%";
-                document.getElementById("mySidebar").style.display = "none";
-                this.sidebarIsOff();
-                this.sidepanelToggle = true;
-            }
-            else if (window.innerWidth <= 600) {
-                document.getElementById("sidepanelSmall").style.display = "none";
-                this.sidebarIsOff();
-                this.sidepanelToggle = true;
-            }
-        }
-        //end if sidepanelToggle is FALSE
-    };
-    //end of sidebarToggler() 
-    MasterPageComponent.prototype.sidebarIsOn = function () {
-        document.getElementById("open").style.display = "none";
-        document.getElementById("close").style.display = "block";
-    };
-    MasterPageComponent.prototype.sidebarIsOff = function () {
-        document.getElementById("open").style.display = "block";
-        document.getElementById("close").style.display = "none";
-    };
-    MasterPageComponent.prototype.logout = function () {
-        this.commonSrvc.logout();
-        this.userCredentialsSrvc.emitUserCredentials(null);
     };
     MasterPageComponent.prototype.toggleFullScreen = function () {
         var elem = document.body;
@@ -2891,9 +2995,6 @@ var MasterPageComponent = /** @class */ (function () {
         }
         if (methodToBeInvoked)
             methodToBeInvoked.call(elem);
-    };
-    MasterPageComponent.prototype.playNotif = function () {
-        this.settingsSrvc.notifAudio();
     };
     MasterPageComponent.prototype.audioToggle = function (value) {
         this.settingsSrvc.toggleMute(value);
@@ -2954,15 +3055,15 @@ var MasterPageComponent = /** @class */ (function () {
             .subscribe(function (res) {
             if (res.length > 0) {
                 //sort values
-                res.sort(function (a, b) { return b.ExitingAmount - a.ExitingAmount; });
+                res.sort(function (a, b) { return b.Amount - a.Amount; });
                 //total withdraw variable
                 var totalwithdraw = 0;
                 //getting the percentage variables
-                var max = res[0].ExitingAmount;
+                var max = res[0].Amount;
                 var min = 0;
                 for (var i = 0; i <= res.length - 1; i++) {
-                    res[i].Percentage = ((res[i].ExitingAmount - min) / (max - min)) * 100;
-                    totalwithdraw += Number(res[i].ExitingAmount);
+                    res[i].Percentage = ((res[i].Amount - min) / (max - min)) * 100;
+                    totalwithdraw += Number(res[i].Amount);
                 }
                 //assign result to WithdrawRankingDaily
                 _this.dashboardSrvc.emitWithrawToday(res);
@@ -3010,13 +3111,27 @@ var MasterPageComponent = /** @class */ (function () {
     MasterPageComponent.prototype.clearToken = function () {
         localStorage.clear();
     };
+    MasterPageComponent.prototype.disableRequests = function () {
+        alert('click ok to enable...');
+    };
     MasterPageComponent.prototype.decryptToken = function () {
         var _this = this;
         this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey))
             .subscribe(function (res) {
             _this.user = res;
-            console.log('user credentials' + JSON.stringify(res));
+            // console.log('user credentials' + JSON.stringify(res))
             _this.userCredentialsSrvc.emitUserCredentials(res);
+        });
+    };
+    MasterPageComponent.prototype.settings = function () {
+        var settingsDialog = this.dialog.open(_utilities_SettingsDialog_SettingsDialog__WEBPACK_IMPORTED_MODULE_9__["SettingsDialog"], {
+            width: '220px',
+            backdropClass: 'background',
+            position: { top: '60px', right: '20px' },
+            data: { blacklistmode: [true, false, false] }
+        });
+        settingsDialog.afterClosed().subscribe(function () {
+            console.log('settings closed');
         });
     };
     __decorate([
@@ -3037,12 +3152,14 @@ var MasterPageComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./master-page.component.html */ "./src/app/components/master-page/master-page.component.html"),
             styles: [__webpack_require__(/*! ./master-page.component.css */ "./src/app/components/master-page/master-page.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
-            _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__["SettingsService"],
-            _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_5__["DashboardService"],
-            _angular_common__WEBPACK_IMPORTED_MODULE_7__["Location"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_8__["Router"],
-            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_6__["UserCredentialsService"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_4__["CommonService"],
+            _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_5__["SettingsService"],
+            _services_dashboard_dashboard_service__WEBPACK_IMPORTED_MODULE_6__["DashboardService"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_10__["Location"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_11__["Router"],
+            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_7__["UserCredentialsService"],
+            _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_8__["UserAuthService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"]])
     ], MasterPageComponent);
     return MasterPageComponent;
 }());
@@ -3069,7 +3186,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<!-- write notice -->\n<div class=\"w3-container w3-border w3-card\">\n\n  <!-- title -->\n    <p class=\"tableTitle\">write notice</p>\n    <hr class=\"tableTitleHr\">\n\n    <!-- title -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 5%\">\n        <div class=\"w3-col\" style=\"width: 120px\">\n          <p class=\"w3-right\">contents (in table)&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n        </div>\n      </div>\n    <!-- title end -->\n      <hr style=\"margin: 0\">\n\n\n    <!-- buttons -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n  \n    <br>\n\n</div>\n<!-- write notice end-->\n\n\n<br>"
+module.exports = "<p>pending... waiting for the game...</p>"
 
 /***/ }),
 
@@ -3084,6 +3201,7 @@ module.exports = "<br>\n<!-- write notice -->\n<div class=\"w3-container w3-bord
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InGamingTableComponent", function() { return InGamingTableComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_notice_notification_notification_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/notice/notification/notification.service */ "./src/app/services/notice/notification/notification.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3094,10 +3212,25 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var InGamingTableComponent = /** @class */ (function () {
-    function InGamingTableComponent() {
+    function InGamingTableComponent(notificationSrvc) {
+        this.notificationSrvc = notificationSrvc;
     }
     InGamingTableComponent.prototype.ngOnInit = function () {
+    };
+    InGamingTableComponent.prototype.notifyRoom = function () {
+        this.notificationSrvc.notifyAllRooms(this.title)
+            .subscribe(function (res) {
+            if (res['status'] == 200) {
+                alert('notice posted');
+            }
+            else {
+                alert('something went wrong');
+            }
+        }, function (err) {
+            alert('something went wrong' + err);
+        });
     };
     InGamingTableComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3105,7 +3238,7 @@ var InGamingTableComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./in-gaming-table.component.html */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.html"),
             styles: [__webpack_require__(/*! ./in-gaming-table.component.css */ "./src/app/components/notice/in-gaming-table/in-gaming-table.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_notice_notification_notification_service__WEBPACK_IMPORTED_MODULE_1__["NotificationService"]])
     ], InGamingTableComponent);
     return InGamingTableComponent;
 }());
@@ -3132,7 +3265,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">notice list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">search</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"1\" selected>title</option>\n          <option value=\"2\">contents</option>\n        </select>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>title</th>\n                <th>status</th>\n                <th class=\"w3-center\">management</th>\n                <th>date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td></td>\n                <td></td>\n                <td>Jill</td>\n\n                <td>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d;\">hold</button>\n                  </div>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f;\">delete</button>\n                  </div>\n                  <div style=\"margin: 3px\">\n                      <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #4ca5df;\">modify</button>\n                  </div>\n                </td>\n                <td>50</td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n<br>\n\n<!-- write notice -->\n<div class=\"w3-container w3-border w3-card\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">write notice</p>\n    <hr class=\"tableTitleHr\">\n\n    <!-- title -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">title&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n        </div>\n      </div>\n    <!-- title end -->\n      <hr style=\"margin: 0\">\n\n    <!-- content -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px;\">\n        <p>contents&nbsp;</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <textarea rows=\"4\" cols=\"145\" style=\"resize: vertical\">content text</textarea>\n      </div>\n    </div>\n    <!-- content end -->\n      <hr style=\"margin: 0\">\n    \n    <!-- status -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px;\">\n        <p>status</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <select class=\"w3-select\" name=\"option\">\n          <option value=\"2\">register</option>\n          <option value=\"3\">hold</option>\n        </select>\n      </div>\n    </div>\n    <!-- status end -->\n      <hr style=\"margin: 0\">\n\n    <!-- buttons -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n     \n    <br>\n\n</div>\n<!-- write notice end-->\n\n\n<br>\n"
+module.exports = "<p>\n  pending... waiting for the game...\n</p>"
 
 /***/ }),
 
@@ -3147,6 +3280,7 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!--
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LobbyNoticeComponent", function() { return LobbyNoticeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3157,8 +3291,26 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var LobbyNoticeComponent = /** @class */ (function () {
     function LobbyNoticeComponent() {
+        //table variables
+        this.displayedColumns = [
+            'row_number',
+            'HOID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'IP',
+            'LoginDateTime'
+        ];
+        this.tableSort = { active: 'LoginDateTime', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
     }
     LobbyNoticeComponent.prototype.ngOnInit = function () {
     };
@@ -3195,7 +3347,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white w3-animate-right\" [hidden]=\"answer\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">1:1 support</p>\n    <hr class=\"tableTitleHr\">\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <form (submit)=\"searchList($event)\" class=\"w3-row\">\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">delete in burk</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button type=\"submit\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;\" >search</button>\n      </div>\n\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" >\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\" id=\"column\">\n          <option value=\"PlayerUserAccountID\" selected>user id</option>\n          <option value=\"ScreenName\">screen name</option>\n          <option value=\"Title\">title</option>\n          <option value=\"Description\">contents</option>\n        </select>\n      </div>\n    </form>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>title</th>\n                <th>status</th>\n                <th class=\"w3-center\">management</th>\n                <th>registration date</th>\n                <th>answering date</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n              <tr *ngFor=\"let s of supportList\">\n                <td>{{s.row_number}}</td>\n                <td>{{s.HeadOfficeID}}</td>\n                <td>{{s.DistributorID}}</td>\n                <td>{{s.ShopID}}</td>\n                <td>{{s.PlayerUserAccountID}}</td>\n                <td>{{s.ScreenName}}</td>\n                <td>{{s.Title}}</td>\n                <td>{{s.Status}}</td>\n\n                <input type=\"hidden\"  value=\"{{s.PlayerUserAccountID}}\" id=\"userID\">\n                <input type=\"hidden\"  value=\"{{s.SupportTicketID}}\" id=\"supportID\">\n\n                <td>\n                  <div style=\"margin: 3px\">\n                      <button type=\"button\" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"getWriteNotice(s.PlayerUserAccountID, s.SupportTicketID ); answer = true; \"  style=\"background-color: #4ca5df;\">answer</button>\n                  </div>\n                  <div style=\"margin: 3px\">\n                    <button class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f;\">delete</button>\n                  </div>\n                </td>\n\n                <td>{{s.RegisteredDateTime | date : \"short\" }}</td>\n                <td>{{s.DateTime | date : \"short\"}}</td>\n              </tr>\n              \n              <tr [hidden]=\"!searchResult\">\n                <td colspan=\"11\">NO RESULTS FOUND\n                  <br>\n                  <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  <br>\n                  \n                  \n                </td>\n              </tr>\n\n              <tr [hidden]=\"!searchBack\">\n                <td colspan=\"11\">RESULT FOUND\n                  <br>\n                  <input type=\"button\" (click)=\"back()\" value=\"back\">\n                </td>\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"11\">\n                  <fa  name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n        <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n          <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n            <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n          </button>\n          <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n            <fa name=\"angle-left\"  size=\"lg\"></fa>\n          </button>\n\n          <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n\n          <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n          <fa name=\"angle-right\"  size=\"lg\"></fa>\n          </button>\n          <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n              last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n          </button >\n\n        </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n<br>\n\n<!-- write notice -->\n<form (submit)=\"answerSupport($event)\" class=\"w3-container w3-border w3-card w3-white w3-animate-right\" [hidden]=\"!answer\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">write notice</p>\n    <hr class=\"tableTitleHr\">\n\n    <input type=\"text\" id=\"supportID\" value=\"{{writeNotice?.SupportTicketID}}\">\n    <input type=\"text\" id=\"userID\" value=\"{{writeNotice?.UserAccountID}}\">\n    <!-- user screen name -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">user screen name</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">{{writeNotice?.ScreenName}}</p>\n        </div>\n      </div>\n    <!-- user screen name end -->\n      <hr style=\"margin: 0\">\n\n    <!-- title -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">title</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">{{writeNotice?.Title}}</p>\n        </div>\n      </div>\n    <!-- title end -->\n      <hr style=\"margin: 0\">\n    \n    <!-- contents -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">contents&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" value=\"{{writeNotice?.Description}}\" disabled>\n        </div>\n      </div>\n    <!-- contents end -->\n      <hr style=\"margin: 0\">\n\n    <!-- date -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">date</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">{{writeNotice?.DateTime}}</p>\n        </div>\n      </div>\n    <!-- date end -->\n      <hr style=\"margin: 0\">\n\n    <!-- answer -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px;\">\n          <p>answer</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <textarea rows=\"4\" cols=\"145\" style=\"resize: vertical\" id=\"answer\">{{writeNotice?.Answer}}</textarea>\n        </div>\n      </div>\n      <!-- answer end -->\n        <hr style=\"margin: 0\">\n\n    <!-- answer date -->\n    <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 10%\">\n          <p class=\"w3-right\">answer date</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <p class=\"w3-center\">{{writeNotice?.AnswerDateTime}}</p>\n        </div>\n      </div>\n    <!-- answer date end -->\n      <hr style=\"margin: 0\">\n\n    <!-- buttons -->\n    <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <button type=\"submit\" class=\" w3-btn w3-round w3-text-white\" style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n        <button type=\"button\" class=\" w3-btn w3-round w3-text-white\" (click)=\"answer = false; back()\" style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n \n    <br>\n\n  </form>\n<!-- write notice end-->\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n    <mat-card-title>1:1 support list</mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n            (click)=\"reload()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n\n  <div  style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n    <div>\n      <button *ngIf=\"showBackButton\"\n              mat-flat-button \n              color=\"primary\" \n              (click)=\"reload(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\n\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n        <mat-select [(ngModel)]=\"optionValue\">\n          <mat-option *ngFor=\"let t of columnOptions\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n        </mat-select>\n      </mat-form-field>\n\n      <mat-form-field>\n        <input matInput [(ngModel)]=\"searchValue\" placeholder=\"input here...\" >\n      </mat-form-field>\n      \n      <button matSuffix \n              mat-icon-button \n              color=\"accent\"\n              (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n    </div>\n  </div>\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <div style=\"width:1500px;\">\n      <!-- member list table -->\n      <table  mat-table matSort \n              [dataSource]=\"supportList\"\n              style=\"width:100%\" \n              (matSortChange)=\"sortData($event)\">\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"row_number\">\n          <th mat-header-cell *matHeaderCellDef>No.</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.row_number | number}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"HeadOfficeID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HeadOfficeID\">HO ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"DistributorID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">Distributor ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"ShopID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">Shop ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"PlayerID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"PlayerID\">User ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"ScreenName\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">Screen Name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"Title\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Title\">Title</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Title}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"Status\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Status\">Status</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Status}} </td>\n        </ng-container>\n\n        <!-- Management -->\n        <ng-container matColumnDef=\"Management\">\n          <th mat-header-cell *matHeaderCellDef >Management</th>\n          <td mat-cell *matCellDef=\"let element\">\n            <button mat-flat-button \n                    color=\"warn\" \n                    style=\"margin:5px\"\n                    matTooltip=\"delete\"\n                    matTooltipPosition=\"above\"><mat-icon>delete_outline</mat-icon></button> \n            <button mat-flat-button \n                    color=\"primary\" \n                    style=\"margin:5px\"\n                    matTooltip=\"approved\"\n                    matTooltipPosition=\"right\"\n                    (click)=\"getWriteNotice(element.PlayerUserAccountID, element.SupportTicketID)\"><mat-icon>create</mat-icon></button>\n          </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"RegisteredDateTime\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"RegisteredDateTime\">Registration Date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.RegisteredDateTime | date : 'medium'}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"AnswerDateTime\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"AnswerDateTime\">Answering Date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.AnswerDateTime | date : 'medium'}} </td>\n        </ng-container>\n\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n    </div>\n\n    <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n    </div>\n  </mat-card-content>\n</mat-card>"
 
 /***/ }),
 
@@ -3213,7 +3365,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_notice_support_support_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/notice/support/support.service */ "./src/app/services/notice/support/support.service.ts");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _utilities_AnswerSupportDialog_AnswerSupportDialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../utilities/AnswerSupportDialog/AnswerSupportDialog */ "./src/app/utilities/AnswerSupportDialog/AnswerSupportDialog.ts");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3228,77 +3382,54 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
 var OneOnOneSupportComponent = /** @class */ (function () {
-    function OneOnOneSupportComponent(supportSrvc, commonSrvc) {
+    function OneOnOneSupportComponent(supportSrvc, commonSrvc, bottomsheet, dialog) {
         this.supportSrvc = supportSrvc;
         this.commonSrvc = commonSrvc;
+        this.bottomsheet = bottomsheet;
+        this.dialog = dialog;
         //service variables
         this.pageIndex = 4;
-        this.writeNotice = {};
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        this.displayedColumns = [
+            'row_number',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'Title',
+            'Status',
+            'Management',
+            'RegisteredDateTime',
+            'AnswerDateTime'
+        ];
+        this.tableSort = { active: 'Status', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
+        this.optionValue = 'PlayerID';
+        this.columnOptions = [
+            { value: 'PlayerID', name: 'User ID' },
+            { value: 'ScreenName', name: 'Screen Name' },
+            { value: 'Title', name: 'Title' },
+            { value: 'Reason', name: 'Contents' }
+        ];
     }
     //lifecycle hooks
     OneOnOneSupportComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
     OneOnOneSupportComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
         console.log('you leave 1on1 support');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    OneOnOneSupportComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-                else {
-                    console.log(_this.searchBack, _this.searchResult);
-                }
-            }
-        });
-    };
-    OneOnOneSupportComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     OneOnOneSupportComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
@@ -3309,27 +3440,27 @@ var OneOnOneSupportComponent = /** @class */ (function () {
     OneOnOneSupportComponent.prototype.getSupportList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
                 .subscribe(function (result) {
-                _this.supportList = result;
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = 0;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    _this.supportList = result;
+                    _this.backLoading = false;
                 }
                 else {
-                    //set artificial index
-                    var row_number_new = _this.offset;
-                    for (var i = 0; i <= _this.supportList.length - 1; i++) {
-                        row_number_new += 1;
-                        _this.supportList[i].row_number = row_number_new;
-                    }
-                    //set artificial index end
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    console.log('result not found');
                 }
                 resolve();
             }, function (error) {
-                console.log(error);
+                if (error['status'] == 403) {
+                    _this.commonSrvc.logout();
+                }
                 reject();
             });
         });
@@ -3340,31 +3471,15 @@ var OneOnOneSupportComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
-    };
-    OneOnOneSupportComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
     };
     // will activate after the answer button in table is clicked
     OneOnOneSupportComponent.prototype.getWriteNotice = function (userID, supportID) {
@@ -3372,105 +3487,87 @@ var OneOnOneSupportComponent = /** @class */ (function () {
         this.supportSrvc.getWriteNotice(userID, supportID)
             .subscribe(function (result) {
             if (result) {
-                _this.writeNotice = result[0];
-                console.log(result);
+                _this.AnswerSupport(result[0]);
             }
         }, function (error) {
             console.log(error);
         });
     };
-    OneOnOneSupportComponent.prototype.searchList = function (event) {
+    OneOnOneSupportComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.commonSrvc.searchList(this.pageIndex, this.optionValue, this.searchValue)
             .subscribe(function (result) {
-            _this.supportList = result;
             console.log(result);
             //if there's result
             if (result.length > 0) {
-                //get list will fall down because searchResult is true so we dont need to unsubscribe
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.supportList = result;
                 console.log('results found');
             }
+            else {
+                console.log('no results found');
+            }
+            _this.showBackButton = true;
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //get list will fall down because searchResult is true so we dont need to unsubscribe
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
+                var icon = '';
+                switch (_this.optionValue) {
+                    case "PlayerID": {
+                        icon = 'credit_card';
+                        break;
+                    }
+                    case "ScreenName": {
+                        icon = 'person';
+                        break;
+                    }
+                    case "Title": {
+                        icon = 'title';
+                        break;
+                    }
+                    default: {
+                        icon = 'code';
+                        break;
+                    }
+                }
                 //empty list
                 _this.supportList = [];
+                _this.openSearchNoResultFound(_this.optionValue, icon);
+            }
+            else {
+                _this.commonSrvc.logout();
             }
         });
     };
-    OneOnOneSupportComponent.prototype.back = function () {
-        //empty writeNotice
-        this.writeNotice = {};
+    //we call this function when the user interact with paginator or clicked the refresh button
+    OneOnOneSupportComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        // this.activateGetListAndPageCount()
+        this.getListAndPageCount();
     };
-    OneOnOneSupportComponent.prototype.answerSupport = function (event) {
+    OneOnOneSupportComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
+        }
+    };
+    OneOnOneSupportComponent.prototype.AnswerSupport = function (writenotice) {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var supportID = (target.querySelector('#supportID').value) ? target.querySelector('#supportID').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        var userID = (target.querySelector('#userID').value) ? target.querySelector('#userID').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        var answer = target.querySelector('#answer').value;
-        if (answer != '') {
-            this.supportSrvc.answerSupport(supportID, userID, answer)
-                .subscribe(function (result) {
-                _this.writeNotice = result[0];
-                alert('answered successful');
-                _this.answer = false;
-                _this.back();
-                console.log(result);
-            }, function (error) {
-                console.log(error);
-            });
-        }
-        else {
-            console.log('answer is empty');
-            alert('answer is empty');
-        }
+        var handHistoryDialog = this.dialog.open(_utilities_AnswerSupportDialog_AnswerSupportDialog__WEBPACK_IMPORTED_MODULE_5__["AnswerSupportDialog"], {
+            width: '30%',
+            data: writenotice
+        });
+        handHistoryDialog.afterClosed().subscribe(function () {
+            _this.getListAndPageCount();
+        });
     };
-    //pagination functions
-    OneOnOneSupportComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    OneOnOneSupportComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    OneOnOneSupportComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    OneOnOneSupportComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    OneOnOneSupportComponent.prototype.openSearchNoResultFound = function (columnName, icon) {
+        var _this = this;
+        this.bottomsheet.open(_utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_6__["NoResultBottomSheet2"], {
+            data: [
+                { value: this.searchValue, column: columnName, icon: icon }
+            ]
+        })
+            .afterDismissed().subscribe(function () {
+            _this.getListAndPageCount();
+        });
     };
     OneOnOneSupportComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3479,97 +3576,11 @@ var OneOnOneSupportComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./one-on-one-support.component.css */ "./src/app/components/notice/one-on-one-support/one-on-one-support.component.css")]
         }),
         __metadata("design:paramtypes", [_services_notice_support_support_service__WEBPACK_IMPORTED_MODULE_1__["SupportService"],
-            _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"]])
+            _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatBottomSheet"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialog"]])
     ], OneOnOneSupportComponent);
     return OneOnOneSupportComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/pending/add-user/add-user.component.css":
-/*!********************************************************************!*\
-  !*** ./src/app/components/pending/add-user/add-user.component.css ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/components/pending/add-user/add-user.component.html":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/pending/add-user/add-user.component.html ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<br>\n<!-- edit member -->\n<div class=\"w3-container w3-border w3-card\" appActiveInactive>\n  <!-- table title -->\n    <p class=\"tableTitle\">edit member</p>\n    <hr class=\"tableTitleHr\">\n  <form (submit)=\"addUser($event)\">  \n    <!-- username -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">username&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input type=\"text\" class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"username\">\n        </div>\n    </div>\n    <!-- username end -->\n  \n    <!-- password -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">password&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"password\">\n        </div>\n    </div>\n    <!-- password end -->\n    \n\n    <!-- confirm password -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">confirm password&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n        </div>\n    </div>\n    <!-- confirm password end -->\n      \n\n    <!--contact no.-->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">contact no.&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"contactno\" appNumberOnly>\n        </div>\n    </div>\n    <!--contact no. end -->\n     \n    <!--email-->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px\">\n        <p class=\"w3-right\">email&nbsp;</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"email\">\n      </div>\n    </div>\n    <!--email end -->\n    <hr style=\"margin: 0\">\n\n    <!--bank-->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">bank&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px; \" id=\"bankName\">\n        </div>\n    </div>\n    <!--bank end -->\n\n    <!--bank account no. -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">bank account no. &nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"accountno\">\n        </div>\n    </div>\n    <!--bank account no. end -->\n\n\n    <!--security code -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-col\" style=\"width: 60px\">\n          <p class=\"w3-right\">security code&nbsp;</p>\n        </div>\n        <div class=\"w3-rest\" style=\"margin-top: 10px\">\n          <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"securitycode\">\n        </div>\n    </div>\n    <!--security code end -->\n\n    <!--Expiration -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px\">\n        <p class=\"w3-right\">Expiration&nbsp;</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"expiration\">\n      </div>\n    </div>\n    <!--Expiration end -->\n\n    <!--Time -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px\">\n        <p class=\"w3-right\">Name&nbsp;</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"name\">\n      </div>\n    </div>\n    <!--Time end -->\n\n    <!--Date -->\n    <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-col\" style=\"width: 60px\">\n        <p class=\"w3-right\">Surname&nbsp;</p>\n      </div>\n      <div class=\"w3-rest\" style=\"margin-top: 10px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px; \" id=\"surname\">\n      </div>\n    </div>\n    <!--Date end -->\n    \n    <!-- buttons -->\n    <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n      <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n        <input type=\"submit\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\" value=\"register\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n      </div>\n    </div>\n    <!-- buttons end -->\n  </form>\n\n \n    <br>\n\n</div>\n<!-- edit member end-->\n<br>"
-
-/***/ }),
-
-/***/ "./src/app/components/pending/add-user/add-user.component.ts":
-/*!*******************************************************************!*\
-  !*** ./src/app/components/pending/add-user/add-user.component.ts ***!
-  \*******************************************************************/
-/*! exports provided: AddUserComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddUserComponent", function() { return AddUserComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_pending_add_user_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/pending/add-user.service */ "./src/app/services/pending/add-user.service.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var AddUserComponent = /** @class */ (function () {
-    function AddUserComponent(addUserService) {
-        this.addUserService = addUserService;
-    }
-    AddUserComponent.prototype.ngOnInit = function () {
-    };
-    AddUserComponent.prototype.addUser = function (event) {
-        event.preventDefault();
-        var target = event.target;
-        this.userRegistration = {
-            UserName: target.querySelector('#username').value,
-            Password: target.querySelector('#password').value,
-            Name: target.querySelector('#name').value,
-            SurName: target.querySelector('#surname').value,
-            Email: target.querySelector('#email').value,
-            PhoneNumber: target.querySelector('#contactno').value,
-            BankName: target.querySelector('#bankName').value,
-            SecurityCode: target.querySelector('#securitycode').value,
-            Expiration: target.querySelector('#expiration').value,
-            AccountNumber: target.querySelector('#accountno').value
-        };
-        this.addUserService.addUser(this.userRegistration)
-            .subscribe(function (result) {
-            console.log(result);
-        }, function (error) {
-            console.log(error['status']);
-        });
-    };
-    AddUserComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-add-user',
-            template: __webpack_require__(/*! ./add-user.component.html */ "./src/app/components/pending/add-user/add-user.component.html"),
-            styles: [__webpack_require__(/*! ./add-user.component.css */ "./src/app/components/pending/add-user/add-user.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_pending_add_user_service__WEBPACK_IMPORTED_MODULE_1__["AddUserService"]])
-    ], AddUserComponent);
-    return AddUserComponent;
 }());
 
 
@@ -3583,7 +3594,7 @@ var AddUserComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* .inputMargin{\r\n    margin-left: 15%; margin-right: 15%;\r\n} */\r\n\r\nhr{\r\n    margin: 0;\r\n    margin-top: 5px;\r\n}\r\n\r\n/* input[type=text],[type=password] {\r\n    height: 35px;\r\n} */\r\n"
+module.exports = "table {\r\n  min-width: 1264px; \r\n  width: 100%\r\n}"
 
 /***/ }),
 
@@ -3594,7 +3605,7 @@ module.exports = "/* .inputMargin{\r\n    margin-left: 15%; margin-right: 15%;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"!enableAllUI\" class=\"w3-overlay\" style=\"display: flex; cursor: wait; align-items: center; justify-content: center; \">\n    <mat-progress-spinner color=\"accent\" mode=\"indeterminate\"></mat-progress-spinner>\n</div>\n\n<br>\n\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 2\">head office list</p>\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 1\">distributor list</p>\n    <p class=\"tableTitle\" *ngIf=\"pageIndex == 0\">shop list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n      <div class=\"w3-left\">\n        <button *ngIf=\"maxUpstep != pageIndex\" class=\"w3-btn w3-round w3-text-gray w3-animate-right\" (click)=\"uprank()\"  style=\"background-color: #7dd2ec;  margin-left: 15px\"><fa name=\"arrow-left\" size=\"lg\"></fa></button>\n      </div>\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec;  margin-right: 11px\">search</button>\n      </div>\n\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n          <option value=\"2\" selected>HO ID</option>\n          <option value=\"2\">title</option>\n          <option value=\"2\">contents</option>\n        </select>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>\n                  <span *ngIf=\"pageIndex == 2\">HO</span> \n                  <span *ngIf=\"pageIndex == 1\">Distributor</span> \n                  <span *ngIf=\"pageIndex == 0\">store</span> \n                  ID\n                </th>\n                <th>PW</th>\n                <th>name</th>\n                <th>registration date</th>\n                <th>contact no.</th>\n                <th>Commission</th>\n                <th>holding money</th>\n                <th>total holding money</th>\n                <th>members money</th>\n                <th>total money</th>\n                <th *ngIf=\"pageIndex == 2\">distributor</th>\n                <th *ngIf=\"pageIndex > 0\">store</th>\n                <th>members</th>\n                <th *ngIf=\"pageIndex > 0\">\n                    <span *ngIf=\"pageIndex == 2\">distributor</span> \n                    <span *ngIf=\"pageIndex == 1\">store</span>&nbsp;list</th>\n                <th>status</th>\n              </tr>\n            </thead>\n            <tbody>\n\n              <tr *ngFor=\"let office of officeList\">\n                <td>{{office.row_number}}</td>\n                <td>{{office.OfficeID}}</td>\n                <td>{{office.Password}}</td>\n                <td>{{office.Name}}</td>\n                <td>{{office.RegisteredDateTime | date : \"shortDate\"}}</td>\n                <td>{{office.PhoneNumber}}</td>\n                <td>{{office.Commission | number}}%</td>\n                <td>{{office.holdingMoney | number}}</td>\n                <td>{{office.TotalHoldingMoney | number}}</td>\n                <td>{{office.MembersMoney | number}}</td>\n                <td>{{office.TotalMoney | number}}</td>\n                <td *ngIf=\"pageIndex == 2\">{{office.distributorsCount | number}}</td>\n                <td *ngIf=\"pageIndex > 0\">{{office.shopsCount | number}}</td>\n                <td>{{office.playersCount | number}}</td>\n\n                <td *ngIf=\"pageIndex > 0\">\n                  <div style=\"margin: 3px\">\n                    <button type=\"button\" (click)=\"lowrank(office.UserAccountID, office.Commission)\" class=\"w3-block w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f;\">details</button>\n                  </div>\n                </td>\n\n                <td>\n                  <div class=\"w3-row\">\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">hold</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">accept</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">delete</button>\n                  </div>\n                </td>\n\n              </tr>\n\n              <tr [hidden]=\"!backLoading\">\n                <td colspan=\"18\">\n                  <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                </td>\n              </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!--pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty for spacing -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!--pagination and number of entries end -->\n\n    <br>\n    <!-- add head office button -->\n    <button *ngIf=\"pageIndex == 2\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add head office</button>\n    <button *ngIf=\"pageIndex == 1\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add distributor</button>\n    <button *ngIf=\"pageIndex == 0\" class=\"w3-button w3-round w3-block w3-text-white\" style=\"background-color: #4ca5df\">add shop</button>\n    <br>\n\n\n</div>\n\n<br>\n\n  <div class=\"w3-whole w3-container\">\n    <div class=\"w3-half\">\n      <!-- add head office -->\n      <form class=\"w3-container w3-border w3-card w3-white \" style=\"width:99%\">\n        <!-- table title -->\n          <p class=\"tableTitle\">\n            <span >\n              add \n              <span *ngIf=\"pageIndex == 2\">head office </span>\n              <span *ngIf=\"pageIndex == 1\">distributor </span>\n              <span *ngIf=\"pageIndex == 0\">shop</span>\n            </span>\n\n            <span class=\"w3-right\"><a href=\"\"><fa name=\"times\"></fa></a></span>\n          </p>\n\n\n          <hr class=\"tableTitleHr\">\n          <br>\n          <!-- HO ID -->\n      \n          <label for=\"officeID\">\n            <span *ngIf=\"pageIndex == 2\">head office </span>\n            <span *ngIf=\"pageIndex == 1\">distributor </span>\n            <span *ngIf=\"pageIndex == 0\">shop</span>\n            ID</label>\n          <div class=\"w3-bar\">\n            <input type=\"text\" [(ngModel)]=\"addOfficeUserName\" [ngModelOptions]=\"{standalone: true}\" id=\"officeID\" class=\"w3-input w3-bar-item w3-border\" style=\"width: 65%\">\n            <button type=\"button\" (click)=\"officeIDCheck()\" class=\"w3-btn w3-round w3-text-white w3-bar-item\"  style=\"background-color: #4ca5df; width: 35%; height: 100%; height: 40px\">inquire</button>\n          </div>\n      \n          <hr>\n      \n          <label for=\"officeName\">Name</label>\n          <input type=\"text\" [(ngModel)]=\"addOfficeName\" [ngModelOptions]=\"{standalone: true}\" id=\"officeName\" class=\"w3-input w3-border\">\n          \n          <hr>\n          \n          <label for=\"contactno\">Contact No.</label>\n          <input type=\"text\" [(ngModel)]=\"addOfficePhoneNumber\" [ngModelOptions]=\"{standalone: true}\" id=\"contactno\" class=\"w3-input w3-border\">\n      \n          <hr>\n      \n          <label for=\"password\">Password</label>\n          <input type=\"password\" [(ngModel)]=\"addOfficePassword\" [ngModelOptions]=\"{standalone: true}\" id=\"password\" class=\"w3-input w3-border\">\n      \n          <label for=\"confirmPassword\">Confrim Password</label>\n          <input type=\"password\" id=\"confirmPassword\" class=\"w3-input w3-border\">\n      \n          <hr>\n      \n          <!-- commission -->\n          <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n              <div class=\"w3-col\" style=\"width: 10%\">\n                <p class=\"w3-right\">commission <strong class=\"w3-center\">{{addOfficeCommisionValue}}%</strong></p>\n              </div>\n              <div class=\"w3-rest\" style=\"margin-top: 10px; margin-bottom: 10px\">\n                <br>\n                <mat-slider [(ngModel)]=\"addOfficeCommisionValue\" [ngModelOptions]=\"{standalone: true}\" style=\"width:98%; padding-right: 10px;\" min=\"0\" [max]=\"currentCommission\" step=\"0.1\" value=\"currentCommission\" thumbLabel=\"true\"></mat-slider>\n              </div>\n            </div>\n          <!-- commission end -->\n            <hr>\n      \n          <!-- buttons -->\n          <div class=\"w3-row inputMargin\" >\n            <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n              <button type=\"button\" *ngIf=\"pageIndex == 2\" (click)=\"addHeadOffice()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register head office</button>\n              <button type=\"button\" *ngIf=\"pageIndex == 1\" (click)=\"addDistributor()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register distributor</button>\n              <button type=\"button\" *ngIf=\"pageIndex == 0\" (click)=\"addShop()\" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register shop</button>\n              <!-- <button type=\"button \" class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button> -->\n            </div>\n          </div>\n          <!-- buttons end -->\n       \n          <br>\n      \n        </form>\n      <!-- add head office end-->\n\n    </div>  \n    <div class=\"w3-half\">\n      <!-- edit head office -->\n      <div class=\"w3-container w3-border w3-card w3-white\">\n      \n          <!-- table title -->\n            <p class=\"tableTitle\">edit head office</p>\n            <hr class=\"tableTitleHr\">\n        \n            <!-- HO ID -->\n        \n            <label for=\"officeID\">HO ID</label>\n            <div class=\"w3-bar\">\n              <input type=\"text\" class=\"w3-input w3-bar-item w3-border\" style=\"width: 65%\">\n              <button class=\"w3-btn w3-round w3-text-white w3-bar-item\"  style=\"background-color: #4ca5df; width: 35%; height: 100%\">inquire</button>\n            </div>\n        \n            <hr>\n        \n            <label for=\"officeName\">Name</label>\n            <input type=\"text\" class=\"w3-input w3-border\">\n            \n            <hr>\n            \n            <label for=\"contactno\">Contact No.</label>\n            <input type=\"text\" class=\"w3-input w3-border\">\n        \n            <hr>\n        \n            <label for=\"password\">Password</label>\n            <input type=\"password\" class=\"w3-input w3-border\">\n        \n            <label for=\"confirmPassword\">Confrim Password</label>\n            <input type=\"password\" class=\"w3-input w3-border\">\n        \n            <hr>\n        \n        \n            <!-- buttons -->\n            <div class=\"w3-row inputMargin\" >\n              <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n                <button class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">register</button>\n                <button class=\"w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n              </div>\n            </div>\n            <!-- buttons end -->\n         \n            <br>\n        \n        </div>\n        <!-- edit head office end-->\n    </div>  \n    \n    <br>\n    <br>\n  </div>\n\n  <br>\n  <br>\n\n\n\n"
+module.exports = "<!-- table's card -->\n<mat-card class=\"card\">\n\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n  <mat-card-header>\n    <mat-card-title>\n      <span *ngIf=\"pageIndex == 2\">Head office list</span>\n      <span *ngIf=\"pageIndex == 1\">Distributor list</span>\n      <span *ngIf=\"pageIndex == 0\">Shop list</span>\n    </mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute\" \n            (click)=\"reload()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n  <button mat-raised-button\n          (click)=\"uprank()\"\n          color=\"primary\"\n          [disabled]=\"pageIndex == maxUpstep\"\n          style=\"margin:10px;\"><mat-icon *ngIf=\"pageIndex != maxUpstep\">subdirectory_arrow_left</mat-icon>&nbsp;{{currentUserName}}</button>\n  <br>\n\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <table mat-table [dataSource]=\"officeList\" >\n\n      <ng-container matColumnDef=\"row_number\" >\n        <th mat-header-cell *matHeaderCellDef> No. </th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.row_number}} </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"OfficeID\" >\n        <th mat-header-cell *matHeaderCellDef> \n          <span *ngIf=\"pageIndex == 2\">HO</span> \n          <span *ngIf=\"pageIndex == 1\">Distributor</span> \n          <span *ngIf=\"pageIndex == 0\">store</span> ID \n        </th>\n        <td mat-cell *matCellDef=\"let element\">{{element.OfficeID}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Name\">\n        <th mat-header-cell *matHeaderCellDef>Name</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.Name}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Commission\">\n        <th mat-header-cell *matHeaderCellDef>Commission</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.Commission | number}}%</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"holdingMoney\">\n        <th mat-header-cell *matHeaderCellDef>Holding Money</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.holdingMoney | number}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"TotalHoldingMoney\">\n        <th mat-header-cell *matHeaderCellDef>Total Holding Money</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.TotalHoldingMoney | number}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"MembersMoney\">\n        <th mat-header-cell *matHeaderCellDef>Members Money</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.MembersMoney | number}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"TotalMoney\">\n        <th mat-header-cell *matHeaderCellDef>Total Money</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.TotalMoney | number}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"distributorsCount\">\n        <th mat-header-cell \n            *matHeaderCellDef\n            [ngClass]=\"{'hide': pageIndex <= 1}\">Distributor</th>\n        <td mat-cell \n            *matCellDef=\"let element\"\n            [ngClass]=\"{'hide': pageIndex <= 1}\">{{element.distributorsCount | number}}</td>\n      </ng-container>\n    \n      <ng-container matColumnDef=\"shopsCount\">\n        <th mat-header-cell \n            *matHeaderCellDef\n            [ngClass]=\"{'hide': pageIndex == 0}\">Store</th>\n        <td mat-cell \n            *matCellDef=\"let element\"\n            [ngClass]=\"{'hide': pageIndex == 0}\">{{element.shopsCount | number}}</td>\n      </ng-container>\n    \n      <ng-container matColumnDef=\"playersCount\">\n        <th mat-header-cell *matHeaderCellDef>Members</th>\n        <td mat-cell *matCellDef=\"let element\">{{element.playersCount | number}}</td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Lowrank\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              [ngClass]=\"{'hide': pageIndex == 0}\">\n            <span *ngIf=\"pageIndex == 2\">distributor</span> \n            <span *ngIf=\"pageIndex == 1\">store</span>&nbsp; \n            list\n          </th>\n          <td mat-cell \n              *matCellDef=\"let element\"\n              [ngClass]=\"{'hide': pageIndex == 0}\"> \n            <button mat-icon-button \n                    color=\"primary\"\n                    matTooltip=\"lowrank\"\n                    matTooltipPosition=\"right\"\n                    (click)=\"lowrank(element.UserAccountID, element.Commission, element.OfficeID)\"><mat-icon>subdirectory_arrow_right</mat-icon></button>  \n          </td>\n      </ng-container>\n\n      <ng-container matColumnDef=\"Management\">\n        <th mat-header-cell *matHeaderCellDef>Management</th>\n        <td mat-cell *matCellDef=\"let element\"> \n          <button mat-flat-button \n                  color=\"accent\" \n                  style=\"margin:5px\"\n                  matTooltip=\"hold\"\n                  matTooltipPosition=\"left\"><mat-icon>pause</mat-icon></button>\n          <button mat-flat-button \n                  color=\"warn\" \n                  style=\"margin:5px\"\n                  matTooltip=\"delete\"\n                  matTooltipPosition=\"above\"><mat-icon>delete_outline</mat-icon></button> \n          <button mat-flat-button \n                  color=\"primary\" \n                  style=\"margin:5px\"\n                  matTooltip=\"accept\"\n                  matTooltipPosition=\"right\"><mat-icon>check</mat-icon></button>\n          <button mat-stroked-button\n                  style=\"margin:5px\"\n                  matTooltip=\"check other infos\"\n                  matTooltipPosition=\"right\"\n                  (click)=\"OpenOfficeOtherInfo( element.Password, \n                                                element.RegisteredDateTime, \n                                                element.PhoneNumber, \n                                                element.Name, \n                                                element.OfficeID)\"><mat-icon>info_outlined</mat-icon></button>\n        </td>\n      </ng-container>\n\n      <tr mat-header-row *matHeaderRowDef=\"OfficeListColumns\"></tr>\n      <tr mat-row\n          class=\"element-row\" \n          *matRowDef=\"let element; columns: OfficeListColumns;\"></tr>\n    </table>\n    <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n    </div>\n  </mat-card-content>\n  <mat-card-actions>\n  </mat-card-actions>\n  \n</mat-card>\n\n<!-- <mat-accordion style=\"margin:5px; position: absolute; right:20px;\"> -->\n<mat-accordion class=\"card\" style=\"display: flex; justify-content: flex-end\">\n  <mat-expansion-panel style=\"width:450px;\">\n    <mat-expansion-panel-header>\n      <mat-panel-title>\n        <mat-icon color=\"accent\">add_box</mat-icon>&nbsp;add&nbsp; \n          <span *ngIf=\"pageIndex == 2\">head office </span>\n          <span *ngIf=\"pageIndex == 1\">distributor </span>\n          <span *ngIf=\"pageIndex == 0\">shop</span>\n      </mat-panel-title>\n      <!-- <mat-panel-description>\n      </mat-panel-description> -->\n    </mat-expansion-panel-header>\n    <form [formGroup]=\"addForm\">\n      <mat-grid-list cols=\"2\" rowHeight=\"80px\">\n        <!-- ID and button -->\n        <mat-grid-tile colspan=\"1\" rowspan=\"1\" >\n          <mat-form-field appearance=\"outline\" style=\"width:95%\">\n            <mat-label>ID/Username</mat-label>\n            <input  matInput \n                    placeholder=\"ID/Username\"\n                    formControlName=\"UserName\"\n                    >\n          </mat-form-field>\n        </mat-grid-tile>\n        <mat-grid-tile colspan=\"1\">\n          <button mat-raised-button \n                  color=\"accent\" \n                  style=\"width:90%; margin-bottom:20px;\"\n                  (click)=\"officeIDCheck()\"><mat-icon>search</mat-icon>inquire</button>\n        </mat-grid-tile>\n        \n        <!-- name -->\n        <mat-grid-tile colspan=\"1\">\n          <mat-form-field appearance=\"outline\" style=\"width:95%\">\n            <mat-label>Name</mat-label>\n            <input  matInput \n                    placeholder=\"Name\"\n                    formControlName=\"Name\"\n                    >\n          </mat-form-field>\n        </mat-grid-tile>\n        \n        <!-- contact no -->\n        <mat-grid-tile colspan=\"1\">\n          <mat-form-field appearance=\"outline\" style=\"width:95%\">\n            <mat-label>Contact No.</mat-label>\n            <input  matInput\n                    type=\"number\"\n                    placeholder=\"Contact No.\"\n                    formControlName=\"PhoneNumber\">\n          </mat-form-field>\n        </mat-grid-tile>\n        \n        <!-- password -->\n        <mat-grid-tile colspan=\"2\">\n          <mat-form-field appearance=\"outline\" style=\"width:95%\">\n            <mat-label>Password</mat-label>\n            <mat-error></mat-error>\n            <input  matInput \n                    type=\"password\" \n                    placeholder=\"Password\"\n                    [type]=\"hidePassword ? 'password' : 'text'\">\n                    <mat-icon matSuffix (click)=\"hidePassword = !hidePassword\">{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>\n          </mat-form-field>\n        </mat-grid-tile>\n        \n        <!-- commission -->\n        <mat-grid-tile colspan=\"2\">\n          <mat-label>Commission&nbsp;<strong class=\"w3-center\">{{addOfficeCommisionValue}}%</strong></mat-label>\n          <mat-slider color=\"primary\" \n                      formControlName=\"Commission\"\n                      style=\"width:98%; \" \n                      min=\"0\" \n                      [max]=\"currentCommission\" \n                      step=\"0.1\" \n                      value=\"currentCommission\" \n                      thumbLabel=\"true\"></mat-slider>\n        </mat-grid-tile>\n  \n        <!-- actions -->\n        <mat-grid-tile colspan=\"2\">\n          <button mat-raised-button \n                  color=\"primary\"\n                  style=\"width:100%\"\n                  (click)=\"addHeadOffice()\">\n            <mat-icon>save_alt</mat-icon>&nbsp;save</button>\n        </mat-grid-tile>\n      </mat-grid-list>\n\n    </form>\n  </mat-expansion-panel>\n</mat-accordion>"
 
 /***/ }),
 
@@ -3602,18 +3613,21 @@ module.exports = "<div *ngIf=\"!enableAllUI\" class=\"w3-overlay\" style=\"displ
 /*!*********************************************************************************!*\
   !*** ./src/app/components/sales/head-office-list/head-office-list.component.ts ***!
   \*********************************************************************************/
-/*! exports provided: HeadOfficeListComponent */
+/*! exports provided: HeadOfficeListComponent, OfficeInfoDialog, UserNameCheckSalesBottomSheet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeadOfficeListComponent", function() { return HeadOfficeListComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OfficeInfoDialog", function() { return OfficeInfoDialog; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserNameCheckSalesBottomSheet", function() { return UserNameCheckSalesBottomSheet; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_sales_office_list_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/sales/office-list.service */ "./src/app/services/sales/office-list.service.ts");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3623,6 +3637,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
 
 
 
@@ -3630,15 +3648,38 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var HeadOfficeListComponent = /** @class */ (function () {
-    function HeadOfficeListComponent(commonSrvc, officeListSrvc, userCredentialsSrvc) {
+    function HeadOfficeListComponent(commonSrvc, officeListSrvc, userCredentialsSrvc, dialog, bottomsheet, fb) {
         this.commonSrvc = commonSrvc;
         this.officeListSrvc = officeListSrvc;
         this.userCredentialsSrvc = userCredentialsSrvc;
+        this.dialog = dialog;
+        this.bottomsheet = bottomsheet;
         //service variables
         // unlike the other components... pageIndex will depend on who the user is operatingheadoffice/headoffice/distributor/shop and it is editable through here
         this.pageIndex = 0;
         //table variables
+        this.hidePassword = true;
         this.officeList = [];
+        this.OfficeListColumns = [
+            'row_number',
+            'OfficeID',
+            'Name',
+            'Commission',
+            'holdingMoney',
+            'TotalHoldingMoney',
+            'MembersMoney',
+            'TotalMoney',
+            'playersCount',
+            'shopsCount',
+            'distributorsCount',
+            'Lowrank',
+            'Management'
+        ];
+        // MatPaginator
+        //Input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions;
+        //Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //key to html elements
         this.key = [
             false,
@@ -3646,25 +3687,18 @@ var HeadOfficeListComponent = /** @class */ (function () {
             false //operating
         ];
         this.parentIDHistory = [];
+        // add office variables
         this.addOfficeCommisionValue = 0;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
         //search variables
-        this.searchResult = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.enableAllUI = true;
-        this.disabeOfficeRegistrationForm = false;
-        this.disabeOfficeEditForm = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
+        this.addForm = fb.group({
+            Name: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required),
+            PhoneNumber: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required),
+            UserName: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required),
+            Password: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required),
+            Commission: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"](this.addOfficeCommisionValue, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required),
+            ParentUserAccountID: ''
+        });
     }
     //lifecycle hooks
     HeadOfficeListComponent.prototype.ngOnInit = function () {
@@ -3672,53 +3706,11 @@ var HeadOfficeListComponent = /** @class */ (function () {
             console.log('requested... ');
             this.getUserCredentials();
         }
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
     };
     HeadOfficeListComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
         console.log('you leave office lists');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    HeadOfficeListComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                        // console.log('user credentials : ' + JSON.stringify(this.userCredentials))
-                        // if(!this.userCredentials){
-                        //   console.log('user credentials requested...')
-                        //   this.getUserCredentials()
-                        // }
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    HeadOfficeListComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     HeadOfficeListComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getOfficeList(), this.getPageCount()]).then(function () {
             // console.log('get list and page count successful');
@@ -3729,12 +3721,13 @@ var HeadOfficeListComponent = /** @class */ (function () {
     HeadOfficeListComponent.prototype.getOfficeList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.officeListSrvc.getList(_this.pageIndex, _this.offset, _this.currentParentID)
+            _this.officeListSrvc.getList(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.currentParentID)
                 .subscribe(function (result) {
+                console.log('​HeadOfficeListComponent -> getOfficeList -> result', result);
                 //show No results found if 0 result else dont show
                 if (result.length > 0) {
                     //set artificial index
-                    var row_number_new = _this.offset;
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
                     for (var i = 0; i <= result.length - 1; i++) {
                         row_number_new += 1;
                         result[i].row_number = row_number_new;
@@ -3742,12 +3735,10 @@ var HeadOfficeListComponent = /** @class */ (function () {
                     }
                     //set artificial index end
                     _this.officeList = result;
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    _this.backLoading = false;
                     resolve();
                 }
                 else {
-                    _this.searchResult = true;
                 }
             }, function (error) {
                 console.log(error);
@@ -3761,111 +3752,26 @@ var HeadOfficeListComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.officeListSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    HeadOfficeListComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        console.log(this.offset);
-        this.currentPaginationButton = i;
-    };
-    // searchList(event){
-    //   event.preventDefault();
-    //   let target = event.target;
-    //   //hide pagination
-    //   this.hidePagination = true
-    //   let column = target.querySelector('#column').value
-    //   let value = (target.querySelector('#value').value) ? target.querySelector('#value').value : environment.ifSearchVariableEmpty
-    //     this.commonSrvc.searchList(this.pageIndex,column,value)
-    //     .subscribe(
-    //       (result:ipListModel[]) => {
-    //         this.ipList = result
-    //         console.log(result)
-    //         //if there's result
-    //         if(result.length > 0){
-    //           //stopping getting list for awhile
-    //           this.getListSubscription.unsubscribe()
-    //           //show results found UI
-    //           this.searchBack = true
-    //           //hide no results found UI
-    //           this.searchResult = false
-    //           console.log('results found')
-    //         }
-    //       },
-    //       error => {
-    //         if(error['statusText'] == 'Not Found'){
-    //           //stopping getting list for awhile
-    //           this.getListSubscription.unsubscribe()
-    //           //show no results found UI
-    //           this.searchResult = true
-    //           //hide results found UI
-    //           this.searchBack = false
-    //           //empty list
-    //           this.ipList = []
-    //         }
-    //       }
-    //     )
-    // }
-    HeadOfficeListComponent.prototype.back = function () {
-        this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
-    };
-    //pagination functions
-    HeadOfficeListComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    HeadOfficeListComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    HeadOfficeListComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    HeadOfficeListComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
-    };
-    //pagination functions end
     HeadOfficeListComponent.prototype.getUserCredentials = function () {
         var _this = this;
-        this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_5__["environment"].tokenStorageKey))
+        this.userCredentialsSrvc.getPrivileges(localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey))
             .subscribe(function (res) {
-            console.log(res);
+            console.log("​HeadOfficeListComponent -> getUserCredentials -> res", res);
+            //  console.log(res)
             _this.userCredentials = res;
             _this.currentCommission = res.Commission;
             _this.currentParentID = res.UserAccountID;
+            _this.currentUserName = res.UserName;
             _this.parentIDHistory.push(res.UserAccountID);
             var level;
             if (res.AccountType == "OperatingHeadOffice") {
@@ -3886,23 +3792,25 @@ var HeadOfficeListComponent = /** @class */ (function () {
             else {
                 // should be logged out because shop or edited account type is not allowed here
             }
+            console.log('pageindex: ' + _this.pageIndex);
             for (var i = 0; i < level; i++) {
                 _this.key[i] = true;
-                console.log('i : ' + i);
             }
             console.log(_this.key);
+            _this.getListAndPageCount();
         });
     };
-    HeadOfficeListComponent.prototype.lowrank = function (office, lowrankCommission) {
+    HeadOfficeListComponent.prototype.lowrank = function (office, lowrankCommission, UserName) {
         // in case user force altered the pageIndex, the set it to 0 
         if (this.pageIndex != 0) {
             this.parentIDHistory.push(this.currentParentID);
             this.pageIndex -= 1;
             this.currentParentID = office;
+            this.currentUserName = UserName;
             this.currentCommission = lowrankCommission;
             this.addOfficeCommisionValue = 0;
             this.officeList = [];
-            this.backLoading = true;
+            this.reload();
         }
         else {
             this.pageIndex = 0;
@@ -3910,22 +3818,26 @@ var HeadOfficeListComponent = /** @class */ (function () {
     };
     HeadOfficeListComponent.prototype.uprank = function () {
         // this will keep pageindex to not step up to its limit.
-        if (this.maxUpstep != this.pageIndex) {
-            // if(this.pageIndex == ){
-            // }
-            this.pageIndex += 1;
-            this.currentParentID = this.parentIDHistory.pop();
-            this.officeList = [];
-            this.backLoading = true;
+        if (this.pageIndex <= 2) {
+            if (this.maxUpstep != this.pageIndex) {
+                this.pageIndex += 1;
+                this.currentParentID = this.parentIDHistory.pop();
+                this.officeList = [];
+                this.reload();
+            }
+        }
+        else {
+            console.log('pagindex overlapped');
         }
     };
     // check to all of user accounts
     HeadOfficeListComponent.prototype.officeIDCheck = function () {
-        console.log(this.addOfficeUserName);
-        this.commonSrvc.checkIfUserNameExist(this.addOfficeUserName)
+        var _this = this;
+        console.log(this.addForm.value.UserName);
+        this.commonSrvc.checkIfUserNameExist(this.addForm.value.UserName)
             .subscribe(function (res) {
-            console.log('check username if exists ' + res);
             if (res) {
+                _this.addForm.controls['UserName'].setErrors({ 'invalid': true });
                 alert('already exist');
             }
             else {
@@ -3933,103 +3845,65 @@ var HeadOfficeListComponent = /** @class */ (function () {
             }
         });
     };
+    HeadOfficeListComponent.prototype.samplecheck = function () {
+        // this.addForm.status
+        console.log('​HeadOfficeListComponent -> samplecheck -> this.addForm.status', this.addForm.status);
+        console.log('this.addOfficeCommisionValue', this.addOfficeCommisionValue);
+        console.log('this.currentParentID', this.currentParentID);
+    };
     HeadOfficeListComponent.prototype.addHeadOffice = function () {
         var _this = this;
-        this.enableAllUI = false;
-        var addOfficeVariables = {
-            Name: this.addOfficeName,
-            PhoneNumber: this.addOfficePhoneNumber,
-            UserName: this.addOfficeUserName,
-            Password: this.addOfficePassword,
-            Commission: this.addOfficeCommisionValue,
-            OperatingHeadOfficeUserAccountID: this.currentParentID
-        };
-        this.officeListSrvc.addHeadOffice(addOfficeVariables)
-            .subscribe(function (res) {
-            console.log('add head office result 2 : ' + res);
-            if (res['status']) {
-                alert('add head office succesful');
-                _this.enableAllUI = true;
-            }
-            else {
-                alert('adding head office fail');
-            }
-        }, function (err) {
-            if (err['status'] == 409) {
-                alert('username already exist');
-                _this.enableAllUI = true;
-            }
-            else if (err['status'] == 400) {
-                alert('please fill up all fields....');
-                _this.enableAllUI = true;
-            }
-            console.log('add head office error : ' + err);
+        this.addForm.value.ParentUserAccountID = this.currentParentID;
+        if (this.addForm.status == 'VALID') {
+            this.officeListSrvc.addOffice(this.addForm.value, this.pageIndex)
+                .subscribe(function (res) {
+                console.log('add office result 2 : ' + res);
+                if (res['status']) {
+                    alert('add office succesful');
+                    _this.reload();
+                }
+                else {
+                    alert('adding office fail');
+                }
+            }, function (err) {
+                if (err['status'] == 409) {
+                    alert('username already exist');
+                }
+                else if (err['status'] == 400) {
+                    alert('please fill up all fields....');
+                }
+                console.log('add office error : ' + err);
+            });
+        }
+        else {
+            console.log('addform status : ' + this.addForm.status);
+            alert('please fill up the boxes correctly...');
+        }
+    };
+    HeadOfficeListComponent.prototype.OpenOfficeOtherInfo = function (password, regDate, phoneNumber, officeName, officeID) {
+        var handHistoryDialog = this.dialog.open(OfficeInfoDialog, {
+            width: '40%',
+            data: { pass: password,
+                registrationDate: regDate,
+                contactno: phoneNumber,
+                name: officeName,
+                id: officeID }
+        });
+        handHistoryDialog.afterClosed().subscribe(function () {
+            console.log('handhistory closed');
         });
     };
-    HeadOfficeListComponent.prototype.addDistributor = function () {
-        var _this = this;
-        this.enableAllUI = false;
-        var addOfficeVariables = {
-            Name: this.addOfficeName,
-            PhoneNumber: this.addOfficePhoneNumber,
-            UserName: this.addOfficeUserName,
-            Password: this.addOfficePassword,
-            Commission: this.addOfficeCommisionValue,
-            HeadOfficeUserAccountID: this.currentParentID
-        };
-        this.officeListSrvc.addDistributor(addOfficeVariables)
-            .subscribe(function (res) {
-            console.log('add distributor result : ' + JSON.stringify(res));
-            if (res['status'] == 200) {
-                alert('add distributor succesful');
-                _this.enableAllUI = true;
-            }
-            else {
-                alert('adding distributor fail');
-            }
-        }, function (err) {
-            if (err['status'] == 409) {
-                alert('username already exist');
-                _this.enableAllUI = true;
-            }
-            else if (err['status'] == 400) {
-                alert('please fill up all fields....');
-                _this.enableAllUI = true;
-            }
-            console.log('add distributor error : ' + err);
-        });
+    //we call this function when the user interact with paginator 
+    // or clicked the refresh button
+    // or uprank and lowrank
+    HeadOfficeListComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
     };
-    HeadOfficeListComponent.prototype.addShop = function () {
-        var _this = this;
-        this.enableAllUI = false;
-        var addOfficeVariables = {
-            Name: this.addOfficeName,
-            PhoneNumber: this.addOfficePhoneNumber,
-            UserName: this.addOfficeUserName,
-            Password: this.addOfficePassword,
-            Commission: this.addOfficeCommisionValue,
-            DistributorUserAccountID: this.currentParentID
-        };
-        this.officeListSrvc.addShop(addOfficeVariables)
-            .subscribe(function (res) {
-            console.log('add shop result : ' + JSON.stringify(res));
-            if (res['status'] == 200) {
-                alert('add shop succesful');
-                _this.enableAllUI = true;
-            }
-            else {
-                alert('adding shop fail');
-            }
-        }, function (err) {
-            if (err['status'] == 409) {
-                alert('username already exist');
-                _this.enableAllUI = true;
-            }
-            else if (err['status'] == 400) {
-                alert('please fill up all fields....');
-                _this.enableAllUI = true;
-            }
-            console.log('add shop error : ' + err);
+    HeadOfficeListComponent.prototype.openSearchNoResultFound = function () {
+        this.bottomsheet.open(UserNameCheckSalesBottomSheet)
+            .afterDismissed().subscribe(function () {
+            console.log('dismissed');
         });
     };
     HeadOfficeListComponent = __decorate([
@@ -4038,12 +3912,82 @@ var HeadOfficeListComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./head-office-list.component.html */ "./src/app/components/sales/head-office-list/head-office-list.component.html"),
             styles: [__webpack_require__(/*! ./head-office-list.component.css */ "./src/app/components/sales/head-office-list/head-office-list.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"], _services_sales_office_list_service__WEBPACK_IMPORTED_MODULE_1__["OfficeListService"], _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__["UserCredentialsService"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"],
+            _services_sales_office_list_service__WEBPACK_IMPORTED_MODULE_1__["OfficeListService"],
+            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__["UserCredentialsService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialog"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatBottomSheet"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormBuilder"]])
     ], HeadOfficeListComponent);
     return HeadOfficeListComponent;
 }());
 
+var OfficeInfoDialog = /** @class */ (function () {
+    function OfficeInfoDialog(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    OfficeInfoDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    OfficeInfoDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'office-info-dialog',
+            template: __webpack_require__(/*! ./office-info-dialog.html */ "./src/app/components/sales/head-office-list/office-info-dialog.html"),
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogRef"], Object])
+    ], OfficeInfoDialog);
+    return OfficeInfoDialog;
+}());
 
+var UserNameCheckSalesBottomSheet = /** @class */ (function () {
+    function UserNameCheckSalesBottomSheet() {
+    }
+    UserNameCheckSalesBottomSheet = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'user-name-check-sales-bottom-sheet',
+            template: __webpack_require__(/*! ./user-name-check-bottom-sheet.html */ "./src/app/components/sales/head-office-list/user-name-check-bottom-sheet.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], UserNameCheckSalesBottomSheet);
+    return UserNameCheckSalesBottomSheet;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/sales/head-office-list/office-info-dialog.html":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/sales/head-office-list/office-info-dialog.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1 mat-dialog-title>{{data.name}}</h1>\r\n<mat-divider></mat-divider>\r\n<div mat-dialog-content>\r\n  <mat-nav-list>\r\n    <mat-list-item><strong>ID :</strong>&nbsp;{{data.id}}</mat-list-item>\r\n    <mat-list-item><strong>Password :</strong>&nbsp;{{data.pass}}</mat-list-item>\r\n    <mat-list-item><strong>Registration Date :</strong>&nbsp;{{data.registrationDate | date : 'medium'}}</mat-list-item>\r\n    <mat-list-item><strong>Contact Number :</strong>&nbsp;{{data.contactno}}</mat-list-item>\r\n  </mat-nav-list>\r\n</div>\r\n<div mat-dialog-actions>\r\n  <button mat-raised-button\r\n          color=\"accent\"\r\n          style=\"width: 100%\"  \r\n          (click)=\"close()\">Ok</button>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/sales/head-office-list/user-name-check-bottom-sheet.html":
+/*!*************************************************************************************!*\
+  !*** ./src/app/components/sales/head-office-list/user-name-check-bottom-sheet.html ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p style=\"text-align: center;\">\r\n    <mat-icon color=\"warn\">warning</mat-icon>\r\n    <br>\r\n    <br>\r\n    <strong style=\"font-size: 50px; color:crimson\">no results found</strong>\r\n    \r\n</p>"
+
+/***/ }),
+
+/***/ "./src/app/components/sales/member-list/member-info-dialog.html":
+/*!**********************************************************************!*\
+  !*** ./src/app/components/sales/member-list/member-info-dialog.html ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1 mat-dialog-title>{{data.screenname}}</h1>\r\n<mat-divider></mat-divider>\r\n<div mat-dialog-content>\r\n  <mat-nav-list>\r\n    <mat-list-item><strong>ID :</strong>&nbsp;{{data.id}}</mat-list-item>\r\n    <mat-list-item><strong>Registration Date :</strong>&nbsp;{{data.registrationDate | date : 'medium'}}</mat-list-item>\r\n    <mat-list-item><strong>Contact Number :</strong>&nbsp;{{data.contactno}}</mat-list-item>\r\n  </mat-nav-list>\r\n</div>\r\n<div mat-dialog-actions>\r\n  <button mat-raised-button\r\n          color=\"accent\"\r\n          style=\"width: 100%\"  \r\n          (click)=\"close()\">Ok</button>\r\n</div>"
 
 /***/ }),
 
@@ -4065,7 +4009,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">member list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n    <!-- screen name, radio btn, and search -->\n    <div class=\"w3-row\">\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\" style=\"margin: 5px\">\n        <button class=\" w3-button w3-round w3-text-white\"  style=\"background-color: #347ab8; margin-right: 11px\">search</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n          <input class=\"w3-radio \" type=\"radio\" name=\"gender\" >\n          <label for=\"gender\">&nbsp;&nbsp;real</label> \n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-radio \" type=\"radio\" name=\"gender\" style=\"margin-left: 5px\" checked>\n        <label for=\"gender\">&nbsp;&nbsp;all</label>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\" w3-button w3-round w3-text-white\"  style=\"background-color: #347ab8;\">store ID</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\" w3-button w3-round w3-text-white\"  style=\"background-color: #347ab8;\">point</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\" w3-button w3-round w3-text-white\"  style=\"background-color: #347ab8;\">registration date</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button class=\" w3-button w3-round w3-text-white\"  style=\"background-color: #347ab8;\">money</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <a class=\"w3-center searchText\" >arrange by</a>\n      </div>\n    </div>\n  <!-- date and time filter -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border w3-hoverable\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>head office</th>\n                <th>distributor</th>\n                <th>store</th>\n                <th>ID</th>\n                <th>screen name</th>\n                <th>money</th>\n                <th>point</th>\n                <th>total</th>\n                <th>status</th>\n                <th>date of recent connection</th>\n                <th>registration date</th>\n                <th style=\"width:18%\">black list</th>\n                <th>contact no.</th>\n                <th style=\"width:18%\">management</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let m of memberList\">\n                <td>{{m.row_number}}</td>\n                <td>{{m.HeadOfficeID}}</td>\n                <td>{{m.DistributorID}}</td>\n                <td>{{m.ShopID}}</td>\n                <td>{{m.PlayerUserAccountID}}</td>\n                <td>{{m.ScreenName}}</td>\n                <td>none</td>\n                <td>{{m.PlayerCurrentPoints}}</td>\n                <td>none</td>\n                <td>{{m.OnlineStatus}}</td>\n                <td>{{m.LoginDateTime | date : 'short'}}</td>\n                <td>{{m.RegisteredDateTime | date : 'short'}}</td>\n                <td>\n                    <div class=\"w3-row\">\n                        <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">승인</button>\n                        <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">취소</button>\n                        <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">삭제</button>\n                    </div>\n                </td>\n                <td>none</td>\n                <td>\n                  <div class=\"w3-row\">\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #efad4d; margin: 4px;\">승인</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #25b999; margin: 4px;\">취소</button>\n                    <button class=\"w3-btn w3-round w3-text-white\" style=\"background-color: #d9544f; margin: 4px;\">삭제</button>\n                  </div>\n                </td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n        <div class=\"w3-row w3-center\">\n            <button *ngFor=\"let n of pages\" class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n        </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n<!-- edit member -->\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n    <!-- table title -->\n      <p class=\"tableTitle\">edit member</p>\n      <hr class=\"tableTitleHr\">\n  \n      <!-- member ID of HO -->\n        <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">member ID</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">sample ID</p>\n          </div>\n        </div>\n      <!-- member ID end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- name -->\n        <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">name</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">sample name</p>\n          </div>\n        </div>\n      <!-- name end -->\n        <hr style=\"margin: 0\">\n\n      <!-- screen name -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">screen name</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">sample screen name</p>\n          </div>\n        </div>\n      <!-- screen name end -->\n        <hr style=\"margin: 0\">\n      \n      <!-- password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- password end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- confirm password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">confirm password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- confirm password end -->\n        <hr style=\"margin: 0\">\n\n      <!-- withdraw password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">withdraw password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- withdraw password end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- confirm withdraw password -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">confirm withdraw password&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input type=\"password\" class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!-- confirm withdraw password end -->\n        <hr style=\"margin: 0\">\n\n      <!--contact no.-->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">contact no.&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!--contact no. end -->\n        <hr style=\"margin: 0\">\n\n      <!--bank-->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">bank&nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!--bank end -->\n        <hr style=\"margin: 0\">\n\n      <!--bank account no. -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">bank account no. &nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!--bank account no. end -->\n        <hr style=\"margin: 0\">\n\n      <!--account holder -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">account holder &nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <input class=\"w3-input w3-border\" style=\"height: 35px; \">\n          </div>\n      </div>\n      <!--account holder end -->\n        <hr style=\"margin: 0\">\n\n      <!--rank -->\n      <div class=\"w3-row\"  style=\"margin-left: 15%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 60px\">\n            <p class=\"w3-right\">rank &nbsp;</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <select class=\"w3-select\" name=\"option\" style=\"height: 37px;\">\n              <option value=\"2\" selected>F</option>\n              <option value=\"2\">A</option>\n              <option value=\"2\">B</option>\n            </select>\n          </div>\n      </div>\n      <!--rank end -->\n        <hr style=\"margin: 0\">\n\n      <!-- money -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">money</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">0</p>\n          </div>\n        </div>\n      <!-- money end -->\n        <hr style=\"margin: 0\">\n        \n      <!-- registration date -->\n      <div class=\"w3-row\" style=\"margin-left: 11%; margin-right: 15%\">\n          <div class=\"w3-col\" style=\"width: 10%\">\n            <p class=\"w3-right\">registration date</p>\n          </div>\n          <div class=\"w3-rest\" style=\"margin-top: 10px\">\n            <p class=\"w3-center\">2018-06-06 3:26:00</p>\n          </div>\n        </div>\n      <!-- registration date end -->\n        <hr style=\"margin: 0\">\n  \n      <!-- buttons -->\n      <div class=\"w3-row\" style=\"margin-left: 15%; margin-right: 15%\">\n        <div class=\"w3-center\" style=\"margin-top: 10px; margin-bottom: 10px\">\n          <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #4ca5df; margin-right: 11px\">confirm</button>\n          <button class=\" w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px\">back</button>\n        </div>\n      </div>\n      <!-- buttons end -->\n   \n      <br>\n  \n  </div>\n  <!-- edit member end-->\n  <br>"
+module.exports = "<mat-card class=\"card\" >\r\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\r\n    <mat-spinner color=\"accent\"></mat-spinner>\r\n    <button mat-button>retry</button>\r\n  </div>\r\n\r\n  <mat-card-header>\r\n    <mat-card-title>Member List</mat-card-title>\r\n    <button mat-icon-button \r\n            color=\"accent\" \r\n            style=\"right:0; top:0; margin-top:10px; position: absolute\" \r\n            (click)=\"reload()\"\r\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\r\n  </mat-card-header>\r\n\r\n  <mat-divider></mat-divider>\r\n  <form [formGroup]=\"searchForm\" style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\r\n    <div>\r\n      <button *ngIf=\"showBackButton\"\r\n              mat-flat-button \r\n              color=\"primary\" \r\n              (click)=\"reload(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\r\n\r\n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\r\n        <mat-select formControlName=\"column\">\r\n          <mat-option *ngFor=\"let t of columnOptions\" value=\"{{t.value}}\">{{t.name}}</mat-option>\r\n        </mat-select>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"input here...\" \r\n                formControlName=\"searchValue\">\r\n      </mat-form-field>\r\n      \r\n      <button *ngIf=\"searchForm.value.searchValue\"\r\n              matSuffix \r\n              mat-icon-button \r\n              color=\"accent\"\r\n              (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\r\n    </div>\r\n  </form>\r\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\r\n    <div style=\"width:1500px;\">\r\n      <!-- member list table -->\r\n      <table mat-table matSort  [dataSource]=\"memberList\" style=\"width:100%\" (matSortChange)=\"sortData($event)\">\r\n    \r\n        <ng-container matColumnDef=\"row_number\">\r\n          <th mat-header-cell *matHeaderCellDef >No.</th>\r\n          <td mat-cell *matCellDef=\"let element\" >{{element.row_number}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"HeadOfficeID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HeadOfficeID\" >HO</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"DistributorID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">Distributor</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"ShopID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">Store</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"PlayerID\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"PlayerID\">ID</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"ScreenName\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">Screen Name</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"Money\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Money\">Money</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.Money | number}} </td>\r\n        </ng-container>\r\n        \r\n        <ng-container matColumnDef=\"CurrentPoints\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"CurrentPoints\">Points</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.CurrentPoints | number}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"TotalPoints\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"TotalPoints\">Total</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.TotalPoints | number}} </td>\r\n        </ng-container>\r\n        \r\n        <ng-container matColumnDef=\"OnlineStatus\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"OnlineStatus\">Status</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.OnlineStatus}} </td>\r\n        </ng-container>\r\n\r\n        <ng-container matColumnDef=\"LastLogin\">\r\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"LastLogin\">Last Login</th>\r\n          <td mat-cell *matCellDef=\"let element\">{{element.LastLogin | date : 'medium'}} </td>\r\n        </ng-container>\r\n        \r\n        <ng-container matColumnDef=\"BlackListStatus\">\r\n          <th mat-header-cell *matHeaderCellDef>Black list</th>\r\n          <td mat-cell *matCellDef=\"let e\">\r\n            <button mat-flat-button\r\n                    *ngIf=\"e.BlackListStatus == 'Blocked'\"\r\n                    color=\"accent\" \r\n                    style=\"margin:2px;\"\r\n                    matTooltip=\"relased\"\r\n                    matTooltipPosition=\"left\"\r\n                    (click)=\"openBlacklist(e.PlayerID)\"><mat-icon>check_circle</mat-icon></button>\r\n            <button mat-flat-button \r\n                    *ngIf=\"e.BlackListStatus != 'Blocked'\"\r\n                    color=\"warn\" \r\n                    style=\"margin:2px;\"\r\n                    matTooltip=\"block\"\r\n                    matTooltipPosition=\"above\"\r\n                    (click)=\"openBlacklist(e.PlayerID)\"><mat-icon>block</mat-icon></button>\r\n            <button mat-flat-button \r\n                    color=\"primary\" \r\n                    style=\"margin:2px;\"\r\n                    matTooltip=\"white\"\r\n                    matTooltipPosition=\"right\"><mat-icon>star</mat-icon></button></td>\r\n          </ng-container>\r\n\r\n          <ng-container matColumnDef=\"Management\">\r\n            <th mat-header-cell *matHeaderCellDef>Management</th>\r\n            <td mat-cell *matCellDef=\"let element\">\r\n              <button mat-flat-button \r\n                      color=\"accent\" \r\n                      style=\"margin:2px\"\r\n                      matTooltip=\"hold\"\r\n                      matTooltipPosition=\"left\"><mat-icon>pause</mat-icon></button>\r\n              <button mat-flat-button \r\n                      color=\"warn\" \r\n                      style=\"margin:2px;\"\r\n                      matTooltip=\"delete\"\r\n                      matTooltipPosition=\"above\"><mat-icon>delete_outline</mat-icon></button> \r\n              <button mat-flat-button \r\n                      color=\"primary\" \r\n                      style=\"margin:2px;\"\r\n                      matTooltip=\"accept\"\r\n                      matTooltipPosition=\"above\"><mat-icon>check</mat-icon></button>\r\n              <button mat-icon-button\r\n                      style=\"margin:2px\"\r\n                      matTooltip=\"check other infos\"\r\n                      matTooltipPosition=\"right\"\r\n                      (click)=\"OpenMemberOtherInfo( element.RegisteredDateTime, \r\n                                                    element.PhoneNumber, \r\n                                                    element.ScreenName, \r\n                                                    element.PlayerID)\"><mat-icon>info_outlined</mat-icon></button>\r\n          </ng-container>\r\n\r\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\r\n      </table>\r\n    </div>\r\n\r\n    <div *ngIf=\"pageEvent\">\r\n      <mat-paginator  [length]=\"pageEvent.length\"\r\n                      [pageSize]=\"pageEvent.pageSize\"\r\n                      [pageSizeOptions]=\"pageSizeOptions\"\r\n                      showFirstLastButtons=\"true\"\r\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\r\n    </div>\r\n  </mat-card-content>\r\n</mat-card>\r\n\r\n  "
 
 /***/ }),
 
@@ -4073,14 +4017,19 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\
 /*!***********************************************************************!*\
   !*** ./src/app/components/sales/member-list/member-list.component.ts ***!
   \***********************************************************************/
-/*! exports provided: MemberListComponent */
+/*! exports provided: MemberListComponent, MemberInfoDialog */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MemberListComponent", function() { return MemberListComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MemberInfoDialog", function() { return MemberInfoDialog; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../utilities/BlackListDialog/BlackListDialog */ "./src/app/utilities/BlackListDialog/BlackListDialog.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4090,78 +4039,165 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
 
 
 var MemberListComponent = /** @class */ (function () {
-    function MemberListComponent(commonSrvc) {
+    function MemberListComponent(commonSrvc, dialog, fb) {
         this.commonSrvc = commonSrvc;
-        //services variables
+        this.dialog = dialog;
+        //service variables
         this.pageIndex = 5;
-        //pagination variables
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
+        this.displayedColumns = [
+            'row_number',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'Money',
+            'CurrentPoints',
+            'TotalPoints',
+            'OnlineStatus',
+            'LastLogin',
+            'BlackListStatus',
+            'Management'
+        ];
+        this.tableSort = { active: 'LastLogin', direction: 'desc' };
+        this.columnOptions = [
+            { value: '0', name: 'User ID' },
+            { value: '1', name: 'Screen Name' },
+            { value: '2', name: 'Store ID' }
+        ];
         //search variables
-        this.searchResult = true;
-    }
-    MemberListComponent.prototype.ngOnInit = function () {
-        this.getIPList(0);
-        this.getPageCount();
-    };
-    MemberListComponent.prototype.getIPList = function (offset) {
-        var _this = this;
-        this.commonSrvc.getList(this.pageIndex, offset)
-            .subscribe(function (result) {
-            _this.memberList = result;
-            if (result.length == 0) {
-                _this.searchResult = false;
-            }
-            else {
-                _this.searchResult = true;
-            }
-        }, function (error) {
-            console.log(error['status']);
+        this.showBackButton = false;
+        this.backLoading = true;
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
+        this.searchForm = fb.group({
+            searchValue: null,
+            column: '0'
         });
+    }
+    //lifecycle hooks
+    MemberListComponent.prototype.ngOnInit = function () {
+        this.getListAndPageCount();
+    };
+    MemberListComponent.prototype.ngOnDestroy = function () {
+        console.log('you leave member list');
+    };
+    //lifecycle hooks end
+    MemberListComponent.prototype.getListAndPageCount = function () {
+        Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
+            console.log('get list and page count successful');
+        }, function () {
+            console.log('something went wrong');
+        });
+    };
+    MemberListComponent.prototype.getSupportList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
+                .subscribe(function (result) {
+                //set artificial index
+                if (result.length > 0) {
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    _this.memberList = result;
+                    _this.backLoading = false;
+                }
+                else {
+                    //show No results found if 0 result else dont show
+                }
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
     };
     MemberListComponent.prototype.getPageCount = function () {
         var _this = this;
-        this.commonSrvc.getPageCount(this.pageIndex)
-            .subscribe(function (result) {
-            //p = pages
-            var p = Math.ceil(result[0]['ID'] / 20);
-            //set number and value of pages
-            var i;
-            var x = 0;
-            for (i = 1; i <= p; i++) {
-                x += 20;
-                _this.pages.push(i);
-                _this.paginationValues.push(x);
-            }
-        }, function (error) { console.log(error); });
+        var promise = new Promise(function (resolve, reject) {
+            _this.commonSrvc.getPageCount(_this.pageIndex)
+                .subscribe(function (result) {
+                _this.pageEvent.length = result[0]['ID'];
+                resolve();
+            }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
     };
-    MemberListComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i] - 20;
-        this.getIPList(this.offset);
-        console.log('offset' + this.offset);
-    };
-    MemberListComponent.prototype.searchList = function (event) {
+    MemberListComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : '(((';
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.commonSrvc.searchList(this.pageIndex, this.searchForm.value.column, this.searchForm.value.searchValue)
             .subscribe(function (result) {
-            _this.memberList = result;
-            if (result.length == 0) {
-                _this.searchResult = false;
+            console.log(result);
+            //if there's result
+            if (result.length > 0) {
+                _this.memberList = result;
+                console.log('results found');
             }
             else {
-                _this.searchResult = true;
+                console.log('member list search no result');
             }
         }, function (error) {
-            console.log(error['status']);
+            if (error['statusText'] == 'Not Found') {
+                //empty list
+                _this.memberList = [];
+            }
         });
+        this.showBackButton = true;
+    };
+    MemberListComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
+    };
+    MemberListComponent.prototype.OpenMemberOtherInfo = function (regDate, phoneNumber, sname, username) {
+        var handHistoryDialog = this.dialog.open(MemberInfoDialog, {
+            width: '40%',
+            data: {
+                registrationDate: regDate,
+                contactno: phoneNumber,
+                screenname: sname,
+                id: username
+            }
+        });
+        handHistoryDialog.afterClosed().subscribe(function () {
+            console.log('handhistory closed');
+        });
+    };
+    MemberListComponent.prototype.openBlacklist = function (value) {
+        var _this = this;
+        var blacklistDialog = this.dialog.open(_utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_5__["BlackListDialog"], {
+            width: '30%',
+            data: { blacklistmode: [false, true, false], value: value }
+        });
+        blacklistDialog.afterClosed().subscribe(function () {
+            _this.reload();
+        });
+    };
+    MemberListComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
+        }
     };
     MemberListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -4169,9 +4205,30 @@ var MemberListComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./member-list.component.html */ "./src/app/components/sales/member-list/member-list.component.html"),
             styles: [__webpack_require__(/*! ./member-list.component.css */ "./src/app/components/sales/member-list/member-list.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDialog"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormBuilder"]])
     ], MemberListComponent);
     return MemberListComponent;
+}());
+
+var MemberInfoDialog = /** @class */ (function () {
+    function MemberInfoDialog(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    MemberInfoDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    MemberInfoDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'member-info-dialog',
+            template: __webpack_require__(/*! ./member-info-dialog.html */ "./src/app/components/sales/member-list/member-info-dialog.html"),
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_3__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDialogRef"], Object])
+    ], MemberInfoDialog);
+    return MemberInfoDialog;
 }());
 
 
@@ -4196,7 +4253,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<!-- black list card white -->\n<div class=\"w3-container w3-border w3-card w3-white\">\n  <!-- table title -->\n    <p class=\"tableTitle\">black list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <form class=\"w3-row\" (submit)=\"searchList($event)\">\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <button type=\"submit\" class=\"w3-mobile w3-btn w3-round w3-text-white\"  style=\"background-color: #7dd2ec; margin-right: 11px;\">search</button>\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" style=\"height: 40px; max-width: 40px;\" id=\"column\">\n          <option value=\"UserAccountID\" selected>ID</option>\n          <option value=\"ScreenName\">screen name</option>\n      </select>\n      </div>\n    </form>\n    <!--  screen name, radio btn, and search end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>registration date</th>\n                <th>release date</th>\n                <th>reason</th>\n                <th>status</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let b of blackList \">\n                <td>{{b.BlackListID}}</td>\n                <td>{{b.HeadOfficeID}}</td>\n                <td>{{b.DistributorID}}</td>\n                <td>{{b.ShopID}}</td>\n                <td>{{b.UserAccountID}}</td>\n                <td>{{b.ScreenName}}</td>\n                <td>{{b.RegisteredDateTime | date : \"short\"}}</td>\n                <td>{{b.ReleaseDate | date : \"short\"}}</td>\n                <td>{{b.Reason}}</td>\n                \n                <td>\n                  <div style=\"margin: 3px\">\n                    <a class=\"w3-text-red\">{{b.Status}}</a>\n                  </div>\n                  <div *ngIf=\"b.Status == 'Blocked' \" style=\"margin: 3px\">\n                      <button type=\"button\" class=\"w3-block w3-btn w3-round w3-text-white\"  (click)=\"releaseUser(b.BlackListID, b.UserAccountID)\" style=\"background-color: #337bb6;\">release</button>\n                  </div>\n                  <div *ngIf=\"b.Status == 'Released' \" style=\"margin: 3px\">\n                      <button type=\"button\" class=\"w3-block w3-btn w3-round w3-text-white\" (click)=\"ID = b.UserAccountID; screenName = b.ScreenName \" style=\"background-color: #26ba9a;\">register</button>\n                    </div>\n                </td>\n              </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                  <td colspan=\"10\">NO RESULTS FOUND\n                    <br>\n                    <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    <br>\n                    \n                    \n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!searchBack\">\n                  <td colspan=\"10\">RESULT FOUND\n                    <br>\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!backLoading\">\n                  <td colspan=\"10\">\n                    <fa  name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                  </td>\n                </tr>\n  \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n        <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n          <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n            <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n          </button>\n          <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n            <fa name=\"angle-left\"  size=\"lg\"></fa>\n          </button>\n\n          <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n\n          <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n           <fa name=\"angle-right\"  size=\"lg\"></fa>\n          </button>\n          <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n              last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n          </button >\n\n        </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n    <!-- search row-->\n    <div class=\"w3-row\">\n\n      <div style=\"margin-left: 10%; margin-right: 10%\">\n        <!-- inputs -->\n        <div class=\"w3-center\">\n          <div style=\"margin-left: 10%; margin-right: 10%\">\n            <label for=\"#ID\" style=\"margin:3px\">ID</label>\n            <input type=\"text\" id=\"ID\" [(ngModel)]=\"ID\" >\n            <label style=\"margin:3px\">screen name:</label>\n            <input type=\"text\" [(ngModel)]=\"screenName\" >\n            <button type=\"button\" (click)=\"userInquire(ID, screenName)\" class=\"w3-button w3-text-white w3-round\" style=\" background-color: #4ca5df; margin:2px\">\n              user inquire\n            </button>\n          </div>\n        </div>\n        \n      </div>\n      <br>\n      <hr class=\"tableTitleHr\">\n      <br>\n\n      \n      <!-- <form (submit)=\"blacklistUser($event)\" name=\"blackListForm\"> -->\n    \n        <!-- <input type=\"hidden\" value=\"{{ID}}\" id=\"blacklistID\"> -->\n        <!-- reason -->\n        <div class=\"w3-container\" style=\"margin-left:20%; margin-right: 20%\">\n          <div class=\"w3-col\" style=\"width:5%;\">\n            <p>&nbsp;</p>\n            <p>reason</p>\n            <p>&nbsp;</p>\n          </div>\n          <div class=\"w3-col\" style=\"width:95%\">\n            <textarea rows=\"6\" cols=\"145\" style=\"resize: vertical\" [(ngModel)]=\"reason\" ></textarea>\n          </div>\n        </div>\n        <hr class=\"tableTitleHr\">\n        <br>\n        <!-- reason end -->\n  \n        <!-- buttons start -->\n        <div class=\"w3-container\" style=\"margin-left:20%; margin-right: 20%\">\n          <div class=\"w3-center\">\n            <input type=\"button\" (click)=\"blacklistUser(ID, reason)\"  class=\"w3-button w3-text-white w3-round\" style=\" background-color: #4ca5df; margin:2px\" value=\"register\">\n            <!-- <button class=\"w3-button w3-text-white w3-round\" style=\" background-color: #4ca5df; margin:2px\">register</button> -->\n            <button type=\"button\" class=\"w3-button w3-text-white w3-round\" (click)=\" screenName = ''; ID = ''; \" style=\" background-color: #347ab8; margin:2px\">back</button>\n          </div>\n        </div>\n        <br>\n        <!-- buttons end -->\n     \n\n    </div>\n    <!-- search row end -->\n\n</div>\n<!-- black list end -->\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n    <mat-card-title>Black list</mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n            (click)=\"getListAndPageCount()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n\n  <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n    <div>\n      <button *ngIf=\"showBackButton\"\n              mat-flat-button \n              color=\"primary\"\n              style=\"margin-right:5px;\" \n              (click)=\"getListAndPageCount(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\n\n      <mat-form-field>\n        <mat-select placeholder=\"search option\" [(value)]=\"optionValue\">\n          <mat-option *ngFor=\"let p of playeropts\" [value]=\"p.value\">{{p.name}}</mat-option>\n        </mat-select>\n      </mat-form-field>\n\n      <mat-form-field style=\"margin: 5px 5px 0;\">\n        <input matInput\n              [(ngModel)]=\"searchValue\"\n              [ngModelOptions]=\"{standalone: true}\" \n              placeholder=\"\" \n              id=\"from\">\n      </mat-form-field>\n\n      <button mat-button (click)=\"searchList()\"><mat-icon>search</mat-icon></button>\n    </div>\n  </form>\n\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <div style=\"width:1500px; margin:10px;\">\n      <!-- member list table -->\n      <table  mat-table \n              matSort\n              multiTemplateDataRows=\"true\" \n              [dataSource]=\"blackList\"\n              style=\"width:100%\" \n              (matSortChange)=\"sortData($event)\">\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"row_number\">\n          <th mat-header-cell *matHeaderCellDef >No.</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.row_number | number}} </td>\n        </ng-container>\n\n        <!-- HeadOfficeID -->\n        <ng-container matColumnDef=\"HeadOfficeID\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HeadOfficeID\">HO ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\n        </ng-container>\n\n        <!-- DistributorID -->\n        <ng-container matColumnDef=\"DistributorID\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">Distributor ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\n        </ng-container>\n\n        <!-- ShopID -->\n        <ng-container matColumnDef=\"ShopID\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">Shop ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\n        </ng-container>\n\n        <!-- user ID -->\n        <ng-container matColumnDef=\"UserAccountID\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"UserAccountID\">user ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.UserAccountID}} </td>\n        </ng-container>\n\n        <!-- ScreenName -->\n        <ng-container matColumnDef=\"ScreenName\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">Screen Name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\n        </ng-container>\n\n        <!--RegisteredDateTime -->\n        <ng-container matColumnDef=\"RegisteredDateTime\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"RegisteredDateTime\">Registration Date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.RegisteredDateTime | date : 'medium'}} </td>\n        </ng-container>\n\n        <!-- ReleaseDate -->\n        <ng-container matColumnDef=\"ReleaseDate\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ReleaseDate\">Release Date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ReleaseDate | date : 'medium'}} </td>\n        </ng-container>\n\n        <!-- Reason -->\n        <ng-container matColumnDef=\"Reason\" >\n          <th mat-header-cell  mat-sort-header=\"Reason\" style=\"max-width:100px;\" *matHeaderCellDef>Reason</th>\n          <td mat-cell style=\"max-width:100px;\" *matCellDef=\"let element\">{{element.Reason}} </td>\n        </ng-container>\n\n        <!-- Status -->\n        <ng-container matColumnDef=\"Status\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"Status\">Status</th>\n          <td mat-cell *matCellDef=\"let e\">\n            <!-- {{e.Status}}  -->\n            <!-- <br> -->\n            <button mat-flat-button\n                    *ngIf=\"e.Status == 'Blocked'\"\n                    color=\"accent\" \n                    style=\"margin:2px;\"\n                    matTooltip=\"relased\"\n                    matTooltipPosition=\"left\"\n                    (click)=\"openBlacklist(e.UserAccountID)\"><mat-icon>check_circle</mat-icon></button>\n            <button mat-flat-button \n                    *ngIf=\"e.Status != 'Blocked'\"\n                    color=\"warn\" \n                    style=\"margin:2px;\"\n                    matTooltip=\"block\"\n                    matTooltipPosition=\"above\"\n                    (click)=\"openBlacklist(e.UserAccountID)\"><mat-icon>block</mat-icon></button>\n          </td>\n        </ng-container>\n\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n    </div>\n\n  </mat-card-content>\n    <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; getListAndPageCount()\"> </mat-paginator>\n    </div>\n\n  <mat-card-actions style=\"display: flex; justify-content:flex-end\">\n    <button mat-flat-button\n            color=\"primary\"\n            (click)=\"blacklistPlayer()\"><mat-icon>add_box</mat-icon>&nbsp;black list</button>\n  </mat-card-actions>\n</mat-card>"
 
 /***/ }),
 
@@ -4213,8 +4270,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _services_user_blackList_black_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/user/blackList/black-list.service */ "./src/app/services/user/blackList/black-list.service.ts");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/utilities/forms.service */ "./src/app/services/utilities/forms.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
+/* harmony import */ var _utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../utilities/BlackListDialog/BlackListDialog */ "./src/app/utilities/BlackListDialog/BlackListDialog.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4229,76 +4289,56 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
+
 var BlackListComponent = /** @class */ (function () {
-    function BlackListComponent(commonSrvc, blackListSrvc) {
+    /* blacklist functions are not here it's in the dialog */
+    function BlackListComponent(commonSrvc, blackListSrvc, bottomsheet, formSrvc, dialog) {
         this.commonSrvc = commonSrvc;
         this.blackListSrvc = blackListSrvc;
+        this.bottomsheet = bottomsheet;
+        this.formSrvc = formSrvc;
+        this.dialog = dialog;
         //service variables
         this.pageIndex = 1;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
-        //pagination variables end
+        //table variables
+        this.blackList = [];
+        this.displayedColumns = [
+            'row_number',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'UserAccountID',
+            'ScreenName',
+            'RegisteredDateTime',
+            'ReleaseDate',
+            'Reason',
+            'Status'
+        ];
+        this.tableSort = { active: 'Status', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["interval"])(1000);
     }
     //lifecycle hooks
     BlackListComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.playeropts = this.formSrvc.playerOnlySearchOptions;
+        this.getListAndPageCount();
     };
     BlackListComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        console.log('you leave blacklist');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    BlackListComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    BlackListComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     BlackListComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
+            // this.backLoading = false
         }, function () {
             console.log('something went wrong');
         });
@@ -4306,17 +4346,22 @@ var BlackListComponent = /** @class */ (function () {
     BlackListComponent.prototype.getSupportList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
                 .subscribe(function (result) {
-                // console.log(result)
-                _this.blackList = result;
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    //set artificial index end
+                    _this.blackList = result;
+                    _this.backLoading = false;
                 }
                 else {
-                    _this.searchResult = false;
-                    _this.searchBack = false;
+                    // this.searchResult = true
                 }
                 resolve();
             }, function (error) {
@@ -4331,113 +4376,48 @@ var BlackListComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_4__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    BlackListComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        this.currentPaginationButton = i;
-    };
-    BlackListComponent.prototype.searchList = function (event) {
+    BlackListComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.commonSrvc.searchList(this.pageIndex, this.optionValue, this.searchValue)
             .subscribe(function (result) {
-            _this.blackList = result;
-            console.log(result);
             //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
-                console.log('results found');
+                _this.blackList = result;
+                _this.showBackButton = true;
+            }
+            else {
+                console.log('no results found');
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
                 //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
+                var column = (_this.optionValue == 'UserName') ? 'ID' : 'ScreenName';
+                _this.openSearchNoResultFound(column);
                 //empty list
                 _this.blackList = [];
             }
         });
     };
-    BlackListComponent.prototype.back = function () {
+    BlackListComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
-    BlackListComponent.prototype.userInquire = function (ID, screenName) {
-        this.blackListSrvc.userInquire(ID, screenName)
+    BlackListComponent.prototype.releaseUser = function (UserAccountID) {
+        var _this = this;
+        this.blackListSrvc.releaseUser(UserAccountID)
             .subscribe(function (result) {
-            if (result) {
-                alert('registered user!');
-            }
-            else {
-                alert('not registered user or already in black list');
-            }
-        }, function (error) {
-            console.log(error['status']);
-            alert('something went wrong');
-        });
-    };
-    BlackListComponent.prototype.blacklistUser = function (blacklistID, reason) {
-        if (confirm('r u going to register to black list?')) {
-            // event.preventDefault();
-            // let target = event.target;
-            // let blacklistID = (target.querySelector('#blacklistID').value) ? target.querySelector('#blacklistID').value : environment.ifSearchVariableEmpty
-            // let reason = (target.querySelector('#reason').value) ? target.querySelector('#reason').value : environment.ifSearchVariableEmpty
-            this.blackListSrvc.blacklistUser(blacklistID, reason)
-                .subscribe(function (result) {
-                if (result) {
-                    alert('user registered to black list');
-                }
-            }, function (error) {
-                console.log(error['status']);
-                if (error['status'] == '404') {
-                    alert('not registered user or already in black list ');
-                }
-            });
-        }
-        else {
-            // Do nothing!
-        }
-    };
-    BlackListComponent.prototype.releaseUser = function (BlackListID, UserAccountID) {
-        this.blackListSrvc.releaseUser(BlackListID, UserAccountID)
-            .subscribe(function (result) {
+            _this.getListAndPageCount();
+            console.log(result);
             if (result) {
                 alert('user released');
             }
@@ -4447,30 +4427,43 @@ var BlackListComponent = /** @class */ (function () {
             }
         });
     };
-    //pagination functions
-    BlackListComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    //we call this function when the user interact with paginator or clicked the refresh button
+    BlackListComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
         }
     };
-    BlackListComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
+    BlackListComponent.prototype.blacklistPlayer = function () {
+        var _this = this;
+        var handHistoryDialog = this.dialog.open(_utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_6__["BlackListDialog"], {
+            width: '30%',
+            data: { blacklistmode: [true, false, false] }
+        });
+        handHistoryDialog.afterClosed().subscribe(function () {
+            _this.reload();
+        });
     };
-    BlackListComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
+    BlackListComponent.prototype.openBlacklist = function (value) {
+        var _this = this;
+        var blacklistDialog = this.dialog.open(_utilities_BlackListDialog_BlackListDialog__WEBPACK_IMPORTED_MODULE_6__["BlackListDialog"], {
+            width: '30%',
+            data: { blacklistmode: [false, true, false], value: value }
+        });
+        blacklistDialog.afterClosed().subscribe(function () {
+            _this.reload();
+        });
     };
-    BlackListComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    BlackListComponent.prototype.openSearchNoResultFound = function (columnName) {
+        var _this = this;
+        this.bottomsheet.open(_utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_5__["NoResultBottomSheet2"], {
+            data: [
+                { value: this.searchValue, column: columnName, icon: 'person' }
+            ]
+        })
+            .afterDismissed().subscribe(function () {
+            _this.getListAndPageCount();
+        });
     };
     BlackListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -4479,7 +4472,10 @@ var BlackListComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./black-list.component.css */ "./src/app/components/user/black-list/black-list.component.css")]
         }),
         __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
-            _services_user_blackList_black_list_service__WEBPACK_IMPORTED_MODULE_2__["BlackListService"]])
+            _services_user_blackList_black_list_service__WEBPACK_IMPORTED_MODULE_2__["BlackListService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatBottomSheet"],
+            _services_utilities_forms_service__WEBPACK_IMPORTED_MODULE_3__["FormsService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatDialog"]])
     ], BlackListComponent);
     return BlackListComponent;
 }());
@@ -4506,7 +4502,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">connecting user</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>game</th>\n                <th>location</th>\n                <th>blind</th>\n                <th>HO ID</th>\n                <th>distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>rank</th>\n                <th>deposit</th>\n                <th>withdraw</th>\n                <th>money</th>\n                <th>point</th>\n                <th>total user point</th>\n                <th>betting amount</th>\n                <th>rake</th>\n                <th>Operating HO</th>\n                <th>Head Office</th>\n                <th>Distributor</th>\n                <th>Store</th>\n                <th>black status</th>\n                <th>connection holding time</th>\n                <th>user ID</th>\n                <th>connecting time</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div *ngFor=\"let dh of deposit.DepositHistory\">\n                <div>\n                  {{dh.UserAccountID}}\n                </div>\n              </div> -->\n              <tr>\n                <td>sample</td>\n                <td>sample</td>\n                <td>6000</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>sample</td>\n                <td>2018-06-07 1:03:39</td>\n              </tr>\n              \n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\">\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">1</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">2</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">3</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">4</button>\n              <button class=\"w3-button w3-round w3-text-white\" style=\"background-color: #4ca5df\">5</button>\n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n    <mat-card-title>Connecting User</mat-card-title>\n    <mat-card-subtitle>connecting user: {{connectingUserList?.length | number}}</mat-card-subtitle>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n            (click)=\"reload()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n  <br>\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <div style=\"width:1800px;\">\n      <!-- member list table -->\n      <table  mat-table matSort \n              [dataSource]=\"connectingUserList\"\n              style=\"width:100%\" \n              (matSortChange)=\"sortData($event)\">\n\n\n        <!-- game -->\n        <ng-container matColumnDef=\"game\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"game\">game</th>\n          <td mat-cell *matCellDef=\"let element\">pending</td>\n        </ng-container>\n\n        <!-- location -->\n        <ng-container matColumnDef=\"location\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"location\">location</th>\n          <td mat-cell *matCellDef=\"let element\">pending</td>\n        </ng-container>\n\n        <!-- blind -->\n        <ng-container matColumnDef=\"blind\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"blind\">blind</th>\n          <td mat-cell *matCellDef=\"let element\">pending</td>\n        </ng-container>\n\n        <!-- HeadOfficeID -->\n        <ng-container matColumnDef=\"HeadOfficeID\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"HeadOfficeID\">HO ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.HeadOfficeID}} </td>\n        </ng-container>\n\n        <!-- DistributorID -->\n        <ng-container matColumnDef=\"DistributorID\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"DistributorID\">Distributor ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\n        </ng-container>\n\n        <!-- Shop ID -->\n        <ng-container matColumnDef=\"ShopID\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"ShopID\">Shop ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\n        </ng-container>\n\n        <!-- player ID -->\n        <ng-container matColumnDef=\"PlayerID\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"PlayerID\">user ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\n        </ng-container>\n\n        <!-- screen name-->\n        <ng-container matColumnDef=\"ScreenName\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"ScreenName\">Screen Name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\n        </ng-container>\n\n        <!-- deposit -->\n        <ng-container matColumnDef=\"Deposit\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"Deposit\">Deposit</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Deposit | number}} </td>\n        </ng-container>\n\n        <!-- withdraw -->\n        <ng-container matColumnDef=\"Withdraw\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"Withdraw\">Withdraw</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Withdraw | number}} </td>\n        </ng-container>\n        \n        <!-- money -->\n        <ng-container matColumnDef=\"Money\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"Money\">Money</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Money | number}} </td>\n        </ng-container>\n        \n        <!-- points -->\n        <ng-container matColumnDef=\"Points\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"Points\">Points</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Points | number}} </td>\n        </ng-container>\n        \n        <!-- TotalMoney -->\n        <ng-container matColumnDef=\"TotalMoney\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"TotalMoney\">Total</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.TotalMoney | number}} </td>\n        </ng-container>\n\n        <!-- UserProfit -->\n        <ng-container matColumnDef=\"UserProfit\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"UserProfit\">User Profit</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.UserProfit | number}} </td>\n        </ng-container>\n\n        <!-- BettingAmount -->\n        <ng-container matColumnDef=\"BettingAmount\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"BettingAmount\">Betting Amount</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.BettingAmount | number}} </td>\n        </ng-container>\n\n        <!-- Rake -->\n        <ng-container matColumnDef=\"Rake\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"Rake\">Rake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.Rake | number}} </td>\n        </ng-container>\n\n        <!-- OHORake -->\n        <ng-container matColumnDef=\"OHORake\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"OHORake\">OHORake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.OHORake | number}} </td>\n        </ng-container>\n\n        <!-- HORake -->\n        <ng-container matColumnDef=\"HORake\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"HORake\">HORake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.HORake | number}} </td>\n        </ng-container>\n\n        <!-- DRake -->\n        <ng-container matColumnDef=\"DRake\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"DRake\">DRake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.DRake | number}} </td>\n        </ng-container>\n\n        <!-- SRake -->\n        <ng-container matColumnDef=\"SRake\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"SRake\">SRake</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.SRake | number}} </td>\n        </ng-container>\n\n        <!-- BlackListStatus -->\n        <ng-container matColumnDef=\"BlackListStatus\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"BlackListStatus\">BlackListStatus</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.BlackListStatus}} </td>\n        </ng-container>\n\n        <!-- IP -->\n        <ng-container matColumnDef=\"IP\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"IP\">IP</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.IP}} </td>\n        </ng-container>\n\n        <!-- ConnectingTime -->\n        <ng-container matColumnDef=\"ConnectingTime\">\n          <th mat-header-cell \n              *matHeaderCellDef\n              mat-sort-header=\"ConnectingTime\">ConnectingTime</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ConnectingTime | date : 'medium'}} </td>\n        </ng-container>\n\n\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n    </div>\n\n    <!-- <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n    </div> -->\n  </mat-card-content>\n</mat-card>"
 
 /***/ }),
 
@@ -4521,6 +4517,9 @@ module.exports = "<br>\n<div class=\"w3-container w3-border w3-card\">\n\n  <!--
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConnectingUserComponent", function() { return ConnectingUserComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _services_user_connectingUser_connecting_user_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/user/connectingUser/connecting-user.service */ "./src/app/services/user/connectingUser/connecting-user.service.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4531,10 +4530,136 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+
 var ConnectingUserComponent = /** @class */ (function () {
-    function ConnectingUserComponent() {
+    function ConnectingUserComponent(commonSrvc, connectingUserSrvc) {
+        this.commonSrvc = commonSrvc;
+        this.connectingUserSrvc = connectingUserSrvc;
+        //service variables
+        this.pageIndex = 3;
+        this.displayedColumns = [
+            'game',
+            'location',
+            'blind',
+            'HeadOfficeID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'Deposit',
+            'Withdraw',
+            'Money',
+            'Points',
+            'TotalMoney',
+            'UserProfit',
+            'BettingAmount',
+            'Rake',
+            'OHORake',
+            'HORake',
+            'DRake',
+            'SRake',
+            'BlackListStatus',
+            'IP',
+            'ConnectingTime'
+        ];
+        this.tableSort = { active: 'TotalRake', direction: 'desc' };
+        //search variables
+        this.backLoading = true;
     }
+    // MatPaginator
+    // input
+    // pageSizeOptions: number[] = environment.pageSizeOptions;
+    // Output
+    // pageEvent: PageEvent = { pageIndex : 0, pageSize : environment.pageSizeOptions[0], previousPageIndex : 0, length: 0};
+    //lifecycle hooks
     ConnectingUserComponent.prototype.ngOnInit = function () {
+        this.getListAndPageCount();
+    };
+    ConnectingUserComponent.prototype.ngOnDestroy = function () {
+        console.log('you leave connecting user');
+    };
+    //lifecycle hooks end
+    ConnectingUserComponent.prototype.getListAndPageCount = function () {
+        // Promise.all([this.getSupportList(),this.getPageCount()]).then(function() {
+        Promise.all([this.getSupportList()]).then(function () {
+            console.log('get list and page count successful');
+        }, function () {
+            console.log('something went wrong');
+        });
+    };
+    ConnectingUserComponent.prototype.getSupportList = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            _this.connectingUserSrvc.getConnectingUsers()
+                .subscribe(function (result) {
+                console.log(result);
+                if (result.length > 0) {
+                    //set artificial index
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        result[i].TotalMoney = result[i].Money + result[i].Points;
+                        result[i].UserProfit = result[i].Deposit - result[i].Money;
+                    }
+                    //set artificial index end
+                    _this.connectingUserList = result;
+                    _this.backLoading = false;
+                }
+                else {
+                }
+                resolve();
+            }, function (error) {
+                console.log(error);
+                reject();
+            });
+        });
+        return promise;
+    };
+    // getPageCount(){
+    //   let promise = new Promise ((resolve,reject) => {
+    //     this.commonSrvc.getPageCount(this.pageIndex)
+    //     .subscribe(
+    //       (result) => {
+    //         this.pageEvent.length = result[0]['ID']
+    //         resolve()
+    //       },
+    //         error => {
+    //           console.log('key ' + localStorage.getItem(environment.tokenStorageKey));
+    //           console.log(error);
+    //           reject()
+    //         }
+    //     )
+    //   })
+    //   return promise;
+    // }
+    ConnectingUserComponent.prototype.searchList = function (event) {
+        var _this = this;
+        event.preventDefault();
+        var target = event.target;
+        var column = target.querySelector('#column').value;
+        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].ifSearchVariableEmpty;
+        this.commonSrvc.searchList(this.pageIndex, column, value)
+            .subscribe(function (result) {
+            console.log(result);
+            //if there's result
+            if (result.length > 0) {
+                _this.connectingUserList = result;
+                console.log('results found');
+            }
+        }, function (error) {
+            if (error['statusText'] == 'Not Found') {
+                //empty list
+                _this.connectingUserList = [];
+            }
+        });
+    };
+    ConnectingUserComponent.prototype.reload = function () {
+        this.backLoading = true;
+        this.getListAndPageCount();
+    };
+    ConnectingUserComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        this.reload();
     };
     ConnectingUserComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -4542,7 +4667,7 @@ var ConnectingUserComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./connecting-user.component.html */ "./src/app/components/user/connecting-user/connecting-user.component.html"),
             styles: [__webpack_require__(/*! ./connecting-user.component.css */ "./src/app/components/user/connecting-user/connecting-user.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"], _services_user_connectingUser_connecting_user_service__WEBPACK_IMPORTED_MODULE_2__["ConnectingUserService"]])
     ], ConnectingUserComponent);
     return ConnectingUserComponent;
 }());
@@ -4569,7 +4694,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"w3-container w3-border w3-card w3-white\">\n\n  <!-- table title -->\n    <p class=\"tableTitle\">IP list</p>\n    <hr class=\"tableTitleHr\">\n\n    <br>\n  <!-- table title end -->\n\n  <!-- date and time filter -->\n\n    <!-- screen name, radio btn, and search -->\n    <form (submit)=\"searchList($event)\" class=\"w3-row\">\n      \n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input type=\"submit\" class=\"w3-mobile w3-btn w3-round w3-text-white\" style=\"background-color: #7dd2ec; margin-right: 11px;\" value=\"search\" >\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <input class=\"w3-input w3-border\" style=\"height: 35px;\" id=\"value\">\n      </div>\n\n      <div class=\"w3-right w3-mobile\" style=\"margin: 5px\">\n        <select class=\"w3-select\" style=\"height: 40px; max-width: 100px;\" id=\"column\">\n          <option value=\"PlayerUserAccountID\" selected>user ID</option>\n          <option value=\"ScreenName\">screen name</option>\n          <option value=\"IP\">IP</option>\n      </select>\n      </div>\n\n    </form>\n    <!--  screen name, radio btn, and search end -->\n    \n  <!-- table -->\n    <div class=\"w3-responsive w3-container\">\n        <table class=\"w3-table w3-striped w3-centered w3-border\">\n            <thead>\n              <tr class=\"w3-text-white\" style=\"background-color: #4ca5df;\">\n                <th>No.</th>\n                <th>HO ID</th>\n                <th>Distributor ID</th>\n                <th>store ID</th>\n                <th>user ID</th>\n                <th>screen name</th>\n                <th>IP</th>\n                <th>connected date</th>\n              </tr>\n            </thead>\n            <tbody>\n              <!-- <div  *ngFor=\"let ip of ipList\">\n                <div>\n                  {{ip.PlayerUserAccountID}}\n                </div>\n              </div> -->\n              <tr *ngFor=\"let ip of ipList\">\n                <td>{{ip.row_number}}</td>\n                <td>{{ip.HeadOfficeID}}</td>\n                <td>{{ip.DistributorID}}</td>\n                <td>{{ip.ShopID}}</td>\n                <td>{{ip.PlayerUserAccountID}}</td>\n                <td>{{ip.ScreenName}}</td>\n                <td>{{ip.IP}}</td>\n                <td>{{ip.RegisteredDateTime | date:'yyyy-MM-dd HH:mm:ss'}}</td>\n              </tr>\n\n                <tr [hidden]=\"!searchResult\">\n                  <td colspan=\"8\">NO RESULTS FOUND\n                    <br>\n                    <!-- <input type=\"button\" (click)=\"back()\" value=\"back\"> -->\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                    <br>\n                    \n                    \n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!searchBack\">\n                  <td colspan=\"8\">RESULT FOUND\n                    <br>\n                    <input type=\"button\" (click)=\"back()\" value=\"back\">\n                  </td>\n                </tr>\n  \n                <tr [hidden]=\"!backLoading\">\n                  <td colspan=\"8\">\n                    <fa name=\"spinner\" animation=\"spin\" size=\"lg\"></fa>\n                  </td>\n                </tr>\n\n            </tbody>\n            \n          </table>\n          <br>\n\n    </div>\n  <!-- table end -->\n    <!-- bottom of table pagination and number of entries -->\n    <div class=\"w3-row-padding\">\n      <!-- number of entries -->\n      <div class=\"w3-third\">\n          <i>Showing 1 to 20 of 20 entries</i>\n      </div>\n      <!-- pagination -->\n      <div class=\"w3-third\">\n          <div class=\"w3-row w3-center\" [hidden]=\"hidePagination\">\n  \n              <button (click)=\"first()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-double-left\" size=\"lg\"></fa>&nbsp;first\n              </button>\n              <button (click)=\"previous()\" class=\"w3-button w3-round w3-text-white w3-animate-left\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPage > 0\">\n                <fa name=\"angle-left\"  size=\"lg\"></fa>\n              </button>\n  \n              <button type=\"button\" *ngFor=\"let n of pages | slice : currentPage : currentPage + 5;\" [ngClass]=\" {'w3-light-blue' : n == currentPaginationButton}\" (click)=\"paginate(n); \" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\">{{n}}</button>\n  \n              <button type=\"button\" (click)=\"next()\" class=\"w3-button w3-round w3-text-white w3-animate-right\" style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage && pages.length > 5\">\n               <fa name=\"angle-right\"  size=\"lg\"></fa>\n              </button>\n              <button (click)=\"last()\" class=\"w3-button w3-round w3-text-white w3-animate-right\"   style=\"background-color: #4ca5df; margin:2px\" *ngIf=\"currentPaginationButton != lastPage  && pages.length > 8\" >\n                  last&nbsp;<fa name=\"angle-double-right\" size=\"lg\"></fa>\n              </button >\n  \n          </div>\n      </div>\n      <!-- intended to leave it empty -->\n      <div class=\"w3-third\">\n        <p></p>\n      </div>\n    </div>\n    <!-- bottom of table pagination and number of entries end -->\n    <br>\n\n\n</div>\n\n\n<br>\n"
+module.exports = "<mat-card class=\"card\" >\n  <div *ngIf=\"backLoading\" class=\"loading-shade\">\n    <mat-spinner color=\"accent\"></mat-spinner>\n  </div>\n\n  <mat-card-header>\n    <mat-card-title>IP List</mat-card-title>\n    <button mat-icon-button \n            color=\"accent\" \n            style=\"right:0; top:0; margin-top:10px; position: absolute;\" \n            (click)=\"reload()\"\n            matTooltip=\"sync\"><mat-icon>sync</mat-icon></button>\n\n  </mat-card-header>\n\n  <mat-divider></mat-divider>\n\n  <form style=\"display: flex; justify-content: flex-end; margin-top: 10px;\">\n    <div >\n      <button *ngIf=\"showBackButton\"\n              mat-flat-button \n              color=\"primary\"\n              style=\"margin-right:5px;\" \n              (click)=\"reload(); showBackButton = false;\"><mat-icon>arrow_back</mat-icon></button>\n              \n      <mat-form-field style=\"width:90px; margin: 5px 5px 0;\">\n        <mat-select [(value)]=\"optionValue\">\n          <mat-option *ngFor=\"let t of columnOptions\" value=\"{{t.value}}\">{{t.name}}</mat-option>\n        </mat-select>\n      </mat-form-field>\n\n      <mat-form-field style=\"margin: 5px 5px 0;\">\n        <input matInput\n              [(ngModel)]=\"searchValue\"\n              [ngModelOptions]=\"{standalone: true}\" \n              placeholder=\"input here...\" \n              id=\"from\">\n      </mat-form-field>\n\n      <button mat-button \n              (click)=\"searchList()\"\n              *ngIf=\"searchValue\"><mat-icon>search</mat-icon></button>\n    </div>\n  </form>\n\n  <mat-card-content style=\"overflow:auto;\" class=\"mat-elevation-z6\">\n    <div style=\"width:1500px;\">\n      <!-- member list table -->\n      <table  mat-table matSort \n              [dataSource]=\"ipList\"\n              style=\"width:100%\" \n              (matSortChange)=\"sortData($event)\">\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"row_number\">\n          <th mat-header-cell *matHeaderCellDef>No.</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.row_number | number}} </td>\n        </ng-container>\n\n        <!-- no. -->\n        <ng-container matColumnDef=\"HOID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"HOID\">HO ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.HOID}} </td>\n        </ng-container>\n\n        <!-- DistributorID -->\n        <ng-container matColumnDef=\"DistributorID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"DistributorID\">Distributor ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.DistributorID}} </td>\n        </ng-container>\n\n        <!-- ShopID -->\n        <ng-container matColumnDef=\"ShopID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ShopID\">Store ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ShopID}} </td>\n        </ng-container>\n\n        <!-- PlayerID -->\n        <ng-container matColumnDef=\"PlayerID\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"PlayerID\">user ID</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.PlayerID}} </td>\n        </ng-container>\n\n        <!-- ScreenName -->\n        <ng-container matColumnDef=\"ScreenName\">\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"ScreenName\">Screen name</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.ScreenName}} </td>\n        </ng-container>\n\n        <!-- IP -->\n        <ng-container matColumnDef=\"IP\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"IP\">IP</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.IP}} </td>\n        </ng-container>\n\n        <!-- LoginDateTime -->\n        <ng-container matColumnDef=\"LoginDateTime\" >\n          <th mat-header-cell *matHeaderCellDef mat-sort-header=\"LoginDateTime\">Connected date</th>\n          <td mat-cell *matCellDef=\"let element\">{{element.LoginDateTime | date : 'medium'}} </td>\n        </ng-container>\n\n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n      </table>\n    </div>\n\n    <div *ngIf=\"pageEvent\">\n      <mat-paginator  [length]=\"pageEvent.length\"\n                      [pageSize]=\"pageEvent.pageSize\"\n                      [pageSizeOptions]=\"pageSizeOptions\"\n                      showFirstLastButtons=\"true\"\n                      (page)=\"pageEvent = $event; reload()\"> </mat-paginator>\n    </div>\n  </mat-card-content>\n</mat-card>"
 
 /***/ }),
 
@@ -4586,7 +4711,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/common/common.service */ "./src/app/services/common/common.service.ts");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../utilities/NoResultBottomSheet/NoResultBottomSheet2 */ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4600,71 +4726,48 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var IPinquireComponent = /** @class */ (function () {
-    function IPinquireComponent(commonSrvc) {
+    function IPinquireComponent(commonSrvc, bottomsheet) {
         this.commonSrvc = commonSrvc;
+        this.bottomsheet = bottomsheet;
         //service variables
         this.pageIndex = 3;
-        //pagination variables
-        this.currentPage = 0;
-        //this involved in paginate function
-        this.currentPaginationButton = 1;
-        this.pages = [];
-        this.paginationValues = [];
-        this.offset = 0;
+        this.displayedColumns = [
+            'row_number',
+            'HOID',
+            'DistributorID',
+            'ShopID',
+            'PlayerID',
+            'ScreenName',
+            'IP',
+            'LoginDateTime'
+        ];
+        this.tableSort = { active: 'LoginDateTime', direction: 'desc' };
+        // MatPaginator
+        // input
+        this.pageSizeOptions = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions;
+        // Output
+        this.pageEvent = { pageIndex: 0, pageSize: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].pageSizeOptions[0], previousPageIndex: 0, length: 0 };
         //search variables
-        this.searchResult = false;
+        this.showBackButton = false;
         this.backLoading = true;
-        this.hidePagination = false;
-        //answer variables
-        this.answer = false;
-        this.update = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].updateTime);
-        this.checkIfActive = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000);
+        this.searchValue = '';
+        this.optionValue = '0';
+        this.columnOptions = [
+            { value: '0', name: 'User ID' },
+            { value: '1', name: 'Screen Name' },
+            { value: '2', name: 'IP' }
+        ];
     }
     //lifecycle hooks
     IPinquireComponent.prototype.ngOnInit = function () {
-        this.onComponent = true;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
     IPinquireComponent.prototype.ngOnDestroy = function () {
-        this.onComponent = false;
-        console.log('you leave 1on1 support');
+        console.log('you leave ip inquire');
     };
     //lifecycle hooks end
-    //activate/deactivate
-    IPinquireComponent.prototype.activateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription = this.update.subscribe(function () {
-            if (_this.onComponent) {
-                if (!_this.searchBack && !_this.searchResult) {
-                    if (_this.commonSrvc.userActive) {
-                        _this.getListAndPageCount();
-                        //hide back loading UI
-                        _this.backLoading = false;
-                        //show pagination again
-                        _this.hidePagination = false;
-                    }
-                    else {
-                        _this.deactivateGetListAndPageCount();
-                    }
-                }
-            }
-        });
-    };
-    IPinquireComponent.prototype.deactivateGetListAndPageCount = function () {
-        var _this = this;
-        this.getListSubscription.unsubscribe();
-        console.log('deactivated');
-        //start listening if user is active again while deactivated
-        this.checkIfActiveSubscription = this.checkIfActive.subscribe(function () {
-            if (_this.commonSrvc.userActive) {
-                _this.activateGetListAndPageCount();
-                //stop listening if user is active again
-                _this.checkIfActiveSubscription.unsubscribe();
-            }
-        });
-    };
-    //activate/deactivate end
     IPinquireComponent.prototype.getListAndPageCount = function () {
         Promise.all([this.getSupportList(), this.getPageCount()]).then(function () {
             console.log('get list and page count successful');
@@ -4675,23 +4778,21 @@ var IPinquireComponent = /** @class */ (function () {
     IPinquireComponent.prototype.getSupportList = function () {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.commonSrvc.getList(_this.pageIndex, _this.offset)
+            _this.commonSrvc.getList3(_this.pageIndex, _this.pageEvent.pageIndex * _this.pageEvent.pageSize, _this.pageEvent.pageSize, _this.tableSort.active, _this.tableSort.direction)
                 .subscribe(function (result) {
-                _this.ipList = result;
+                console.log(result);
                 //show No results found if 0 result else dont show
-                if (result.length == 0) {
-                    _this.searchResult = true;
+                if (result.length > 0) {
+                    //set artificial index
+                    var row_number_new = _this.pageEvent.pageIndex * _this.pageEvent.pageSize;
+                    for (var i = 0; i <= result.length - 1; i++) {
+                        row_number_new += 1;
+                        result[i].row_number = row_number_new;
+                    }
+                    _this.ipList = result;
+                    _this.backLoading = false;
                 }
                 else {
-                    //set artificial index
-                    var row_number_new = _this.offset;
-                    for (var i = 0; i <= _this.ipList.length - 1; i++) {
-                        row_number_new += 1;
-                        _this.ipList[i].row_number = row_number_new;
-                    }
-                    //set artificial index end
-                    _this.searchResult = false;
-                    _this.searchBack = false;
                 }
                 resolve();
             }, function (error) {
@@ -4706,99 +4807,58 @@ var IPinquireComponent = /** @class */ (function () {
         var promise = new Promise(function (resolve, reject) {
             _this.commonSrvc.getPageCount(_this.pageIndex)
                 .subscribe(function (result) {
-                //clear values first
-                _this.pages = [];
-                _this.paginationValues = [];
-                //p = pages
-                var p = Math.ceil(result[0]['ID'] / 20);
-                //set number and value of pages
-                var i;
-                var x = 0;
-                for (i = 1; i <= p; i++) {
-                    _this.pages.push(i);
-                    _this.paginationValues.push(x);
-                    x += 20;
-                }
-                _this.lastPage = _this.pages[_this.pages.length - 1];
+                _this.pageEvent.length = result[0]['ID'];
                 resolve();
             }, function (error) {
+                console.log('key ' + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey));
                 console.log(error);
                 reject();
             });
         });
         return promise;
     };
-    IPinquireComponent.prototype.paginate = function (i) {
-        this.offset = this.paginationValues[i - 1];
-        console.log(this.offset);
-        this.currentPaginationButton = i;
-    };
-    IPinquireComponent.prototype.searchList = function (event) {
+    IPinquireComponent.prototype.searchList = function () {
         var _this = this;
-        event.preventDefault();
-        var target = event.target;
-        //hide pagination
-        this.hidePagination = true;
-        var column = target.querySelector('#column').value;
-        var value = (target.querySelector('#value').value) ? target.querySelector('#value').value : _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].ifSearchVariableEmpty;
-        this.commonSrvc.searchList(this.pageIndex, column, value)
+        this.commonSrvc.searchList(this.pageIndex, this.optionValue, this.searchValue)
             .subscribe(function (result) {
-            _this.ipList = result;
             console.log(result);
-            //if there's result
             if (result.length > 0) {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show results found UI
-                _this.searchBack = true;
-                //hide no results found UI
-                _this.searchResult = false;
+                _this.ipList = result;
                 console.log('results found');
+            }
+            else {
+                console.log('ip search no result');
             }
         }, function (error) {
             if (error['statusText'] == 'Not Found') {
-                //stopping getting list for awhile
-                _this.getListSubscription.unsubscribe();
-                //show no results found UI
-                _this.searchResult = true;
-                //hide results found UI
-                _this.searchBack = false;
+                var column = (_this.optionValue == '0') ? 'ID' : (_this.optionValue == '1') ? 'Screen Name' : 'IP';
+                _this.openSearchNoResultFound(column);
                 //empty list
                 _this.ipList = [];
             }
         });
     };
-    IPinquireComponent.prototype.back = function () {
+    //we call this function when the user interact with paginator or clicked the refresh button
+    IPinquireComponent.prototype.reload = function () {
         this.backLoading = true;
-        //hide back UIs
-        this.searchBack = false;
-        this.searchResult = false;
-        this.activateGetListAndPageCount();
+        this.getListAndPageCount();
     };
-    //pagination functions
-    IPinquireComponent.prototype.next = function () {
-        this.currentPaginationButton += 1;
-        if ((this.pages.length - 5) > this.currentPage) {
-            this.currentPage += 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
+    IPinquireComponent.prototype.sortData = function (sort) {
+        this.tableSort = { active: sort.active, direction: sort.direction };
+        if (this.tableSort.direction) {
+            this.reload();
         }
     };
-    IPinquireComponent.prototype.previous = function () {
-        this.currentPaginationButton -= 1;
-        if (this.currentPage >= 1) {
-            this.currentPage -= 1;
-            this.offset = this.paginationValues[this.currentPaginationButton - 1];
-        }
-    };
-    IPinquireComponent.prototype.first = function () {
-        this.currentPage = 0;
-        this.offset = 0;
-        this.currentPaginationButton = 1;
-    };
-    IPinquireComponent.prototype.last = function () {
-        this.currentPage = this.pages.length - 5;
-        this.currentPaginationButton = this.pages[this.pages.length - 1];
-        this.offset = this.paginationValues[this.paginationValues.length - 1];
+    IPinquireComponent.prototype.openSearchNoResultFound = function (columnName) {
+        var _this = this;
+        this.bottomsheet.open(_utilities_NoResultBottomSheet_NoResultBottomSheet2__WEBPACK_IMPORTED_MODULE_4__["NoResultBottomSheet2"], {
+            data: [
+                { value: this.searchValue, column: columnName, icon: 'person' }
+            ]
+        })
+            .afterDismissed().subscribe(function () {
+            _this.reload();
+        });
     };
     IPinquireComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -4806,7 +4866,8 @@ var IPinquireComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./ipinquire.component.html */ "./src/app/components/user/ipinquire/ipinquire.component.html"),
             styles: [__webpack_require__(/*! ./ipinquire.component.css */ "./src/app/components/user/ipinquire/ipinquire.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"]])
+        __metadata("design:paramtypes", [_services_common_common_service__WEBPACK_IMPORTED_MODULE_1__["CommonService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatBottomSheet"]])
     ], IPinquireComponent);
     return IPinquireComponent;
 }());
@@ -4927,8 +4988,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserAuthGuard", function() { return UserAuthGuard; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4941,15 +5001,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var UserAuthGuard = /** @class */ (function () {
-    function UserAuthGuard(router, userAuthSrvc) {
+    function UserAuthGuard(router) {
         this.router = router;
-        this.userAuthSrvc = userAuthSrvc;
     }
     UserAuthGuard.prototype.canActivate = function (next, state) {
-        if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].enableLogin) {
-            if (!localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)) {
+        if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].enableLogin) {
+            if (!localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey)) {
                 this.router.navigate(['login']);
                 return false;
             }
@@ -4965,7 +5023,7 @@ var UserAuthGuard = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__["UserAuthService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], UserAuthGuard);
     return UserAuthGuard;
 }());
@@ -5005,18 +5063,13 @@ var UserAuthService = /** @class */ (function () {
     function UserAuthService(http) {
         this.http = http;
         this.authenticated = false;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + this.getToken
-            })
-        };
+        this.server = 'http://192.168.254.109:8080';
+        // environment.production 
+        //   ? this.server = 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com' 
+        //   : this.server = 'http://192.168.254.101:8080';
     }
     Object.defineProperty(UserAuthService.prototype, "isAuthenticated", {
         get: function () {
-            // if(localStorage.getItem(environment.tokenStorageKey)){
-            //   this.router.navigate(['/admin'])
-            // }
             return this.authenticated;
         },
         enumerable: true,
@@ -5032,7 +5085,7 @@ var UserAuthService = /** @class */ (function () {
     UserAuthService.prototype.login = function (UserName, Password) {
         //post these details to API return token if correct credentials
         console.log('sent');
-        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Admin/Login', {
+        return this.http.post(this.server + '/Api/v1/Admin/Login', {
             UserName: UserName,
             Password: Password
         })
@@ -5040,9 +5093,15 @@ var UserAuthService = /** @class */ (function () {
             return res.json();
         }));
     };
-    Object.defineProperty(UserAuthService.prototype, "getToken", {
+    Object.defineProperty(UserAuthService.prototype, "httpOption", {
         get: function () {
-            return localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey);
+            this.httpOptions = {
+                headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
+                    'Content-Type': 'application/json',
+                    'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
+                })
+            };
+            return this.httpOptions;
         },
         enumerable: true,
         configurable: true
@@ -5074,6 +5133,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5087,15 +5147,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var LowrankService = /** @class */ (function () {
-    function LowrankService(http) {
+    function LowrankService(http, userAuthSrvc) {
         this.http = http;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + this.getToken
-            })
-        };
+        this.userAuthSrvc = userAuthSrvc;
         //http request variables
         this.page = [
             '3',
@@ -5104,13 +5160,26 @@ var LowrankService = /** @class */ (function () {
         ];
     }
     LowrankService.prototype.getLowrank = function (offset, office, pageindex) {
-        try {
-            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/CalculateManage/LowRank/' + this.page[pageindex] + '/Office/' + office + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.httpOptions)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
-        }
-        catch (error) {
-            console.log('http' + error);
-        }
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/CalculateManage/LowRank/' + this.page[pageindex]
+            + '/Office/' + office + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    // pageIndex:number, offset:number, limit:number, orderBy:string, direction:string
+    LowrankService.prototype.getLowrank2 = function (pageindex, offset, limit, order, direction, office) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/CalculateManage/LowRank/' + this.page[pageindex]
+            + '/Office/' + office + '/Limit/' + limit + '/Offset/' + offset
+            + '/Order/' + order + '/Direction/' + direction, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    LowrankService.prototype.getPageCount = function (pageindex, office) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/CalculateManage/Pagination/' + this.page[pageindex] + '/Office/' + office, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    LowrankService.prototype.search = function (pageindex, office, startDateTime, endDateTime) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/CalculateManage/Search/LowRank/' + this.page[pageindex]
+            + '/Office/' + office + '/StartDateTime/' + startDateTime
+            + '/EndDateTime/' + endDateTime, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     Object.defineProperty(LowrankService.prototype, "getToken", {
         get: function () {
@@ -5123,7 +5192,7 @@ var LowrankService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_4__["UserAuthService"]])
     ], LowrankService);
     return LowrankService;
 }());
@@ -5170,7 +5239,7 @@ var UserProfitService = /** @class */ (function () {
         };
     }
     UserProfitService.prototype.searchUserProfit = function (datetimeStart, datetimeEnd, value) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserProfit/Search/UserAccountID/' + value + '/StartDate/' + datetimeStart + '/EndDate/' + datetimeEnd)
+        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserProfit/Search/ScreenName/' + value + '/StartDate/' + datetimeStart + '/EndDate/' + datetimeEnd)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     UserProfitService = __decorate([
@@ -5223,12 +5292,6 @@ var CommonService = /** @class */ (function () {
         this.http = http;
         this.router = router;
         this.userAuthSrvc = userAuthSrvc;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
-            })
-        };
         //user active/inactive variables
         this.userIsActive = true;
         //http request variables
@@ -5240,7 +5303,8 @@ var CommonService = /** @class */ (function () {
             'OneOnOne',
             'MembersList',
             'WithdrawHistoryList',
-            'UserProfit' //7
+            'UserProfit',
+            'TransferHistoryList' //8
         ];
     }
     CommonService.prototype.logout = function () {
@@ -5260,25 +5324,37 @@ var CommonService = /** @class */ (function () {
         configurable: true
     });
     CommonService.prototype.getList = function (pageIndex, offset) {
-        try {
-            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.httpOptions)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
-        }
-        catch (error) {
-            console.log('http' + error);
-        }
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    CommonService.prototype.getList2 = function (pageIndex, offset, limit) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + limit + '/Offset/' + offset + '/', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    CommonService.prototype.getList3 = function (pageIndex, offset, limit, orderBy, direction) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + limit + '/Offset/' + offset + '/Order/' + orderBy + '/Direction/' + direction, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    CommonService.prototype.getList4 = function (pageIndex, offset, token) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset + '/', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     CommonService.prototype.getPageCount = function (pageIndex) {
         console.log('page count request...');
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Pagination/' + pageIndex, this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Pagination/' + pageIndex, this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     CommonService.prototype.searchList = function (pageIndex, column, value) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/' + this.page[pageIndex] + '/Search/Column/' + column + '/Value/' + value, this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Search/Column/' + column + '/Value/' + value, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    CommonService.prototype.searchListWithDate = function (pageIndex, column, value, startDate, endDate) {
+        return this.http.get(this.userAuthSrvc.server +
+            '/Api/v1/' + this.page[pageIndex] + '/Search/Column/' + column + '/Value/' + value + '/StartDate/' + startDate + '/EndDate/' + endDate, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     CommonService.prototype.checkIfUserNameExist = function (username) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserNameCheck/' + username)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/UserNameCheck/' + username)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     CommonService = __decorate([
@@ -5306,7 +5382,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardService", function() { return DashboardService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /* harmony import */ var rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/Rx */ "./node_modules/rxjs-compat/_esm5/Rx.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -5324,8 +5400,9 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var DashboardService = /** @class */ (function () {
-    function DashboardService(http) {
+    function DashboardService(http, userAuthSrvc) {
         this.http = http;
+        this.userAuthSrvc = userAuthSrvc;
         //observables
         this.withdrawToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
         this.depositToday = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
@@ -5334,12 +5411,6 @@ var DashboardService = /** @class */ (function () {
         this.connectingMembersObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
         this.totalWithdrawTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
         this.totalDepositTodayObservable = new rxjs_Rx__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].tokenStorageKey)
-            })
-        };
     }
     DashboardService.prototype.emitTotalMember = function (val) {
         this.totalMemberObservable.next(val);
@@ -5357,45 +5428,49 @@ var DashboardService = /** @class */ (function () {
         this.depositToday.next(val);
     };
     DashboardService.prototype.getTotalRegisteredUser = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalRegisteredUser', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/TotalRegisteredUser', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getTotalRegisteredUserToday = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalRegisteredUsersToday', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/TotalRegisteredUsersToday', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getDepositWithdrawToday = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/TotalTransactionRecent/', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/TotalTransactionRecent/', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getConnectingMembers = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/OnlineStatuses/', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/OnlineStatuses/', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     //charts
     DashboardService.prototype.getBettingRankingDaily = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Betting/Daily', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/HeadOffice/Betting/Daily', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    DashboardService.prototype.getBettingRankingWeekly = function () {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/HeadOffice/Betting/Weekly', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getBettingRankingMonthly = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Betting/Monthly', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/HeadOffice/Betting/Monthly', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService.prototype.getDepositRankingDaily = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Deposit/Daily/', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/HeadOffice/Deposit/Daily/', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
             return res.arrayBuffer().byteLength > 0 ? res.json() : {};
         }));
     };
     DashboardService.prototype.getWithdrawRankingDaily = function () {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + '/Api/v1/Dashboard/HeadOffice/Withdraw/Daily/', this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Dashboard/HeadOffice/Withdraw/Daily/', this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     DashboardService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__["UserAuthService"]])
     ], DashboardService);
     return DashboardService;
 }());
@@ -5404,21 +5479,21 @@ var DashboardService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/deposit/deposit.service.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/services/deposit/deposit.service.ts ***!
-  \*****************************************************/
-/*! exports provided: DepositService */
+/***/ "./src/app/services/excel/excel.service.ts":
+/*!*************************************************!*\
+  !*** ./src/app/services/excel/excel.service.ts ***!
+  \*************************************************/
+/*! exports provided: ExcelService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DepositService", function() { return DepositService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExcelService", function() { return ExcelService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var file_saver__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! file-saver */ "./node_modules/file-saver/dist/FileSaver.min.js");
+/* harmony import */ var file_saver__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(file_saver__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var xlsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! xlsx */ "./node_modules/xlsx/xlsx.js");
+/* harmony import */ var xlsx__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(xlsx__WEBPACK_IMPORTED_MODULE_2__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5431,48 +5506,28 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
-
-var DepositService = /** @class */ (function () {
-    function DepositService(http) {
-        this.http = http;
-        this.updateType = [
-            'Approved',
-            'Archived'
-        ];
+var EXCEL_TYPE = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8';
+var EXCEL_EXTENSION = '.xlsx';
+var ExcelService = /** @class */ (function () {
+    function ExcelService() {
     }
-    DepositService.prototype.approve = function (UserTransactionID, UserAccountID) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/DepositHistory/Approved/UserTransactionID/' + UserTransactionID + '/UserAccountID/' + UserAccountID)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    ExcelService.prototype.exportAsExcelFile = function (json, excelFileName) {
+        var worksheet = xlsx__WEBPACK_IMPORTED_MODULE_2__["utils"].json_to_sheet(json);
+        var workbook = { Sheets: { 'data': worksheet }, SheetNames: ['data'] };
+        var excelBuffer = xlsx__WEBPACK_IMPORTED_MODULE_2__["write"](workbook, { bookType: 'xlsx', type: 'array' });
+        this.saveAsExcelFile(excelBuffer, excelFileName);
     };
-    DepositService.prototype.archived = function (UserTransactionID) {
-        try {
-            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/DepositHistory/Archived/UserTransactionID/' + UserTransactionID)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
-                console.error('error loading lists', error);
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["of"])();
-            }));
-        }
-        catch (error) {
-            console.log('error');
-        }
+    ExcelService.prototype.saveAsExcelFile = function (buffer, fileName) {
+        var data = new Blob([buffer], { type: EXCEL_TYPE });
+        file_saver__WEBPACK_IMPORTED_MODULE_1__["saveAs"](data, fileName + '_export_' + new Date().getTime() + EXCEL_EXTENSION);
     };
-    DepositService.prototype.search = function (startDatetime, endDatetime, value) {
-        try {
-            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/DepositList/Search/Column/UserAccountID/Value/' + value + '/StartDate/' + startDatetime + '/EndDate/' + endDatetime)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
-        }
-        catch (error) {
-            console.log('error');
-        }
-    };
-    DepositService = __decorate([
+    ExcelService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
-    ], DepositService);
-    return DepositService;
+        __metadata("design:paramtypes", [])
+    ], ExcelService);
+    return ExcelService;
 }());
 
 
@@ -5492,7 +5547,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5507,26 +5562,131 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var GameLogService = /** @class */ (function () {
-    function GameLogService(http) {
+    function GameLogService(http, userAuthSrvc) {
         this.http = http;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
-            })
-        };
+        this.userAuthSrvc = userAuthSrvc;
     }
     GameLogService.prototype.getHandHistory = function (seasonID) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/HandHistory/SeasonID/' + seasonID, this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/HandHistory/SeasonID/' + seasonID, this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     GameLogService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
     ], GameLogService);
     return GameLogService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/moneytransactions/moneytransactions.service.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/services/moneytransactions/moneytransactions.service.ts ***!
+  \*************************************************************************/
+/*! exports provided: MoneytransactionsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MoneytransactionsService", function() { return MoneytransactionsService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MoneytransactionsService = /** @class */ (function () {
+    function MoneytransactionsService(http, userAuthSrvc) {
+        this.http = http;
+        this.userAuthSrvc = userAuthSrvc;
+    }
+    // deposit
+    MoneytransactionsService.prototype.approveDeposit = function (UserTransactionID, UserAccountID) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/DepositHistory/Approved/UserTransactionID/' + UserTransactionID + '/UserAccountID/' + UserAccountID)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    };
+    MoneytransactionsService.prototype.archivedDeposit = function (UserTransactionID) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/DepositHistory/Archived/UserTransactionID/' + UserTransactionID)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    };
+    MoneytransactionsService.prototype.searchDeposit = function (startDatetime, endDatetime, value) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/DepositList/Search/Column/ScreenName/Value/' + value + '/StartDate/' + startDatetime + '/EndDate/' + endDatetime, this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    };
+    // withdraw
+    MoneytransactionsService.prototype.approveWithdraw = function (UserTransactionID, UserAccountID) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/WithdrawHistory/Update/Status/Approved/WithdrawHistoryID/' + UserTransactionID + '/UserAccountID/' + UserAccountID)
+            .pipe();
+    };
+    MoneytransactionsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
+    ], MoneytransactionsService);
+    return MoneytransactionsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/notice/notification/notification.service.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/services/notice/notification/notification.service.ts ***!
+  \**********************************************************************/
+/*! exports provided: NotificationService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotificationService", function() { return NotificationService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var NotificationService = /** @class */ (function () {
+    function NotificationService(http, userAuthSrvc) {
+        this.http = http;
+        this.userAuthSrvc = userAuthSrvc;
+    }
+    NotificationService.prototype.notifyAllRooms = function (title) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Notification/Update/NotificationType/Header/Location/AllRooms/Title/' + title)
+            .pipe();
+    };
+    NotificationService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_2__["UserAuthService"]])
+    ], NotificationService);
+    return NotificationService;
 }());
 
 
@@ -5546,7 +5706,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5561,78 +5721,25 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var SupportService = /** @class */ (function () {
-    function SupportService(http) {
+    function SupportService(http, userAuthSrvc) {
         this.http = http;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
-            })
-        };
+        this.userAuthSrvc = userAuthSrvc;
     }
     SupportService.prototype.getWriteNotice = function (userID, supportID) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/OneOnOne/UserAccountID/' + userID + '/SupportTicketID/' + supportID)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/OneOnOne/UserAccountID/' + userID + '/SupportTicketID/' + supportID)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     SupportService.prototype.answerSupport = function (SupportTicketID, UserAccountID, Answer) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/OneOnOne/SupportTicketID/' + SupportTicketID + '/UserAccountID/' + UserAccountID + '/Answer/' + Answer, this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/OneOnOne/SupportTicketID/' + SupportTicketID + '/UserAccountID/' + UserAccountID + '/Answer/' + Answer, this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     SupportService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
     ], SupportService);
     return SupportService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/pending/add-user.service.ts":
-/*!******************************************************!*\
-  !*** ./src/app/services/pending/add-user.service.ts ***!
-  \******************************************************/
-/*! exports provided: AddUserService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddUserService", function() { return AddUserService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var AddUserService = /** @class */ (function () {
-    function AddUserService(http) {
-        this.http = http;
-    }
-    AddUserService.prototype.addUser = function (userValue) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Register/Add/UserName/' + userValue.UserName + '/Password/' + userValue.Password + '/Name/' + userValue.Name + '/SurName/' + userValue.SurName + '/Email/' + userValue.Password + '/PhoneNumber/' + userValue.PhoneNumber + '/BankName/' + userValue.BankName + '/SecurityCode/' + userValue.SecurityCode + '/Valid/false/Expiration/' + userValue.Expiration + '/AccountNumber/' + userValue.AccountNumber)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return console.log(res); }));
-    };
-    AddUserService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
-            providedIn: 'root'
-        }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
-    ], AddUserService);
-    return AddUserService;
 }());
 
 
@@ -5652,7 +5759,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5667,53 +5774,42 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var OfficeListService = /** @class */ (function () {
-    function OfficeListService(http) {
+    function OfficeListService(http, userAuthSrvc) {
         this.http = http;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
-            })
-        };
+        this.userAuthSrvc = userAuthSrvc;
         //http request variables
         this.page = [
-            'ShopList',
-            'DistributorList',
-            'HeadOfficeList' //2
+            'Shop',
+            'Distributor',
+            'HeadOffice' //2
         ];
     }
-    OfficeListService.prototype.getList = function (pageIndex, offset, ParentID) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Sales/' + this.page[pageIndex] + '/ParentID/' + ParentID + '/Limit/' + _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].resultLimit + '/Offset/' + offset)
+    OfficeListService.prototype.getList = function (pageIndex, offset, limit, ParentID) {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Sales/' + this.page[pageIndex] + 'List' + '/ParentID/' + ParentID + '/Limit/' + limit + '/Offset/' + offset)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     OfficeListService.prototype.getPageCount = function (pageIndex) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Sales/Pagination/Page/' + pageIndex, this.httpOptions)
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/Sales/Pagination/Page/' + pageIndex, this.userAuthSrvc.httpOption)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     // check to all of user accounts
     OfficeListService.prototype.checkIfHeadOfficeExist = function (username) {
         try {
-            return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/UserNameCheck/' + username)
+            return this.http.get(this.userAuthSrvc.server + '/Api/v1/UserNameCheck/' + username)
                 .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
         }
         catch (error) {
             console.log('http' + error);
         }
     };
-    OfficeListService.prototype.addHeadOffice = function (addHeadOfficeVariables) {
-        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/HeadOffice/Add/', addHeadOfficeVariables);
-    };
-    OfficeListService.prototype.addDistributor = function (addHeadOfficeVariables) {
-        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Distributor/Add', addHeadOfficeVariables);
-    };
-    OfficeListService.prototype.addShop = function (addHeadOfficeVariables) {
-        return this.http.post(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/Shop/Add/', addHeadOfficeVariables);
+    OfficeListService.prototype.addOffice = function (addHeadOfficeVariables, pageIndex) {
+        return this.http.post(this.userAuthSrvc.server + '/Api/v1/' + this.page[pageIndex] + '/Add/', addHeadOfficeVariables);
     };
     OfficeListService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
     ], OfficeListService);
     return OfficeListService;
 }());
@@ -5733,6 +5829,7 @@ var OfficeListService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SettingsService", function() { return SettingsService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5743,14 +5840,21 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var SettingsService = /** @class */ (function () {
     function SettingsService() {
+        var _this = this;
+        this.isDarkTheme = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        this.mastervolume = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
         //notification sfx
         this.notificationAudio = new Audio();
+        this.volume = 1;
+        this.mastervolume.subscribe(function (res) { _this.volume = res / 100; }, function (err) { return console.log(err); });
     }
     SettingsService.prototype.notifAudio = function () {
         this.notificationAudio.src = '../../../assets/notification.mp3';
         this.notificationAudio.load();
+        this.notificationAudio.volume = this.volume;
         this.notificationAudio.play();
     };
     SettingsService.prototype.toggleMute = function (toggle) {
@@ -5860,7 +5964,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5875,40 +5979,570 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var BlackListService = /** @class */ (function () {
-    function BlackListService(http) {
+    function BlackListService(http, userAuthService) {
         this.http = http;
-        this.httpOptions = {
-            headers: new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({
-                'Content-Type': 'application/json',
-                'Authorization': "Bearer " + localStorage.getItem(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].tokenStorageKey)
-            })
-        };
+        this.userAuthService = userAuthService;
     }
     //check
-    BlackListService.prototype.userInquire = function (UserAccountID, UserName) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/BlackList/Check/Blocked/UserAccountID/' + UserAccountID + '/UserName/' + UserName, this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    BlackListService.prototype.userInquire = function (UserName, ScreenName) {
+        return this.http.get(this.userAuthService.server + '/Api/v1/BlackList/Check/Blocked/UserName/' + UserName + '/ScreenName/' + ScreenName, this.userAuthService.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    BlackListService.prototype.userInquire2 = function (Column, Value) {
+        return this.http.get(this.userAuthService.server + '/Api/v1/BlackList/Check/Blocked/1/Column/' + Column + '/Value/' + Value, this.userAuthService.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     //blacklist user
-    BlackListService.prototype.blacklistUser = function (UserAccountID, Reason) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/BlackList/Add/UserAccountID/' + UserAccountID + '/Reason/' + Reason)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    BlackListService.prototype.blacklistUser = function (UserName, Reason) {
+        return this.http.get(this.userAuthService.server + '/Api/v1/BlackList/Add/UserName/' + UserName + '/Reason/' + Reason)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     //blacklist user
-    BlackListService.prototype.releaseUser = function (BlackListID, UserAccountID) {
-        return this.http.get(_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + '/Api/v1/BlackList/Update/BlackListID/' + BlackListID + '/UserAccountID/' + UserAccountID, this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
+    BlackListService.prototype.releaseUser = function (UserName) {
+        return this.http.get(this.userAuthService.server + '/Api/v1/BlackList/Release/UserName/' + UserName, this.userAuthService.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
     };
     BlackListService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"],
+            _services_UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
     ], BlackListService);
     return BlackListService;
 }());
 
 
+
+/***/ }),
+
+/***/ "./src/app/services/user/connectingUser/connecting-user.service.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/services/user/connectingUser/connecting-user.service.ts ***!
+  \*************************************************************************/
+/*! exports provided: ConnectingUserService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConnectingUserService", function() { return ConnectingUserService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../UserAuth/user-auth.service */ "./src/app/services/UserAuth/user-auth.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ConnectingUserService = /** @class */ (function () {
+    function ConnectingUserService(http, userAuthSrvc) {
+        this.http = http;
+        this.userAuthSrvc = userAuthSrvc;
+    }
+    ConnectingUserService.prototype.getConnectingUsers = function () {
+        return this.http.get(this.userAuthSrvc.server + '/Api/v1/ConnectingUsers', this.userAuthSrvc.httpOption)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.arrayBuffer().byteLength > 0 ? res.json() : {}; }));
+    };
+    ConnectingUserService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"], _UserAuth_user_auth_service__WEBPACK_IMPORTED_MODULE_3__["UserAuthService"]])
+    ], ConnectingUserService);
+    return ConnectingUserService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/utilities/forms.service.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/services/utilities/forms.service.ts ***!
+  \*****************************************************/
+/*! exports provided: FormsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormsService", function() { return FormsService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var FormsService = /** @class */ (function () {
+    function FormsService() {
+        this.timeOptions = [
+            { value: ' 00:00:00', name: '12:00 AM' },
+            { value: ' 01:00:00', name: '01:00 AM' },
+            { value: ' 02:00:00', name: '02:00 AM' },
+            { value: ' 03:00:00', name: '03:00 AM' },
+            { value: ' 04:00:00', name: '04:00 AM' },
+            { value: ' 05:00:00', name: '05:00 AM' },
+            { value: ' 06:00:00', name: '06:00 AM' },
+            { value: ' 07:00:00', name: '07:00 AM' },
+            { value: ' 08:00:00', name: '08:00 AM' },
+            { value: ' 09:00:00', name: '09:00 AM' },
+            { value: ' 10:00:00', name: '10:00 AM' },
+            { value: ' 11:00:00', name: '11:00 AM' },
+            { value: ' 12:00:00', name: '12:00 AM' },
+            { value: ' 13:00:00', name: '01:00 PM' },
+            { value: ' 14:00:00', name: '02:00 PM' },
+            { value: ' 15:00:00', name: '03:00 PM' },
+            { value: ' 16:00:00', name: '04:00 PM' },
+            { value: ' 17:00:00', name: '05:00 PM' },
+            { value: ' 18:00:00', name: '06:00 PM' },
+            { value: ' 19:00:00', name: '07:00 PM' },
+            { value: ' 20:00:00', name: '08:00 PM' },
+            { value: ' 21:00:00', name: '09:00 PM' },
+            { value: ' 22:00:00', name: '10:00 PM' },
+            { value: ' 23:00:00', name: '11:00 PM' },
+            { value: ' 23:59:59', name: '11:59 PM' }
+        ];
+        this.playerOnlySearchOptions = [
+            { value: 'UserName', name: 'ID' },
+            { value: 'ScreenName', name: 'Screen Name' }
+        ];
+    }
+    FormsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [])
+    ], FormsService);
+    return FormsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/AnswerSupportDialog/AnswerSupportDialog.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/utilities/AnswerSupportDialog/AnswerSupportDialog.ts ***!
+  \**********************************************************************/
+/*! exports provided: AnswerSupportDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnswerSupportDialog", function() { return AnswerSupportDialog; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_notice_support_support_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/notice/support/support.service */ "./src/app/services/notice/support/support.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+var AnswerSupportDialog = /** @class */ (function () {
+    function AnswerSupportDialog(supportSrvc, dialogRef, data) {
+        this.supportSrvc = supportSrvc;
+        this.dialogRef = dialogRef;
+        this.data = data;
+        this.answer = data.Answer;
+    }
+    AnswerSupportDialog.prototype.answerSupport = function () {
+        this.supportSrvc.answerSupport(this.data.SupportTicketID, this.data.UserAccountID, this.answer)
+            .subscribe(function (result) {
+            alert('answered successful');
+            // console.log(result)
+        }, function (error) {
+            console.log(error);
+        });
+    };
+    AnswerSupportDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    AnswerSupportDialog.prototype.cancel = function () {
+        this.dialogRef.close();
+        this.dialogRef.afterClosed().subscribe(function () {
+            console.log('cancelled');
+        });
+    };
+    AnswerSupportDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./answer-support-dialog.html */ "./src/app/utilities/AnswerSupportDialog/answer-support-dialog.html"),
+            styles: [__webpack_require__(/*! ./answer-support.css */ "./src/app/utilities/AnswerSupportDialog/answer-support.css")]
+        }),
+        __param(2, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_services_notice_support_support_service__WEBPACK_IMPORTED_MODULE_2__["SupportService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"], Object])
+    ], AnswerSupportDialog);
+    return AnswerSupportDialog;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/AnswerSupportDialog/answer-support-dialog.html":
+/*!**************************************************************************!*\
+  !*** ./src/app/utilities/AnswerSupportDialog/answer-support-dialog.html ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1 mat-dialog-title>write&nbsp;1:1&nbsp;support</h1>\r\n<mat-divider></mat-divider>\r\n\r\n<div mat-dialog-content>\r\n    <mat-chip-list style=\"margin:10px;\">\r\n        <mat-chip disableRipple=\"true\" selectable=\"false\"><mat-icon>person</mat-icon>Screen Name&nbsp;:&nbsp;<strong>{{data.ScreenName}}</strong></mat-chip>\r\n        <mat-chip disableRipple=\"true\" selectable=\"false\"><mat-icon>title</mat-icon>Title&nbsp;:&nbsp;<strong>{{data.Title}}</strong></mat-chip>\r\n        <mat-chip disableRipple=\"true\" selectable=\"false\"><mat-icon>calendar_today</mat-icon>DateTime&nbsp;:&nbsp;<strong>{{data.DateTime | date : 'medium'}}</strong></mat-chip>\r\n    </mat-chip-list>\r\n    \r\n    <mat-card>\r\n        <mat-card-subtitle>Contents:</mat-card-subtitle>\r\n        <mat-card-content>{{data.Reason}}</mat-card-content>\r\n    </mat-card>\r\n    <br>\r\n\r\n    <mat-form-field appearance=\"fill\">\r\n        <mat-label>answer</mat-label>\r\n        <textarea matInput maxRows=\"5\" [(ngModel)]=\"answer\" [value]=\"answer\"></textarea>\r\n    </mat-form-field>\r\n    \r\n    <p>\r\n        <strong>answer date:</strong><mat-label>&nbsp;{{data.AnswerDateTime | date : 'medium'}}</mat-label>\r\n    </p>\r\n    \r\n</div>\r\n\r\n<div mat-dialog-actions style=\"display: flex; justify-content:flex-end\">\r\n    <button mat-flat-button\r\n            color=\"primary\"\r\n            style=\"margin-right: 5px;\"\r\n            (click)=\"answerSupport()\"><mat-icon>send</mat-icon></button>\r\n    <button mat-flat-button\r\n            color=\"accent\"\r\n            (click)=\"cancel()\">cancel</button>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/utilities/AnswerSupportDialog/answer-support.css":
+/*!******************************************************************!*\
+  !*** ./src/app/utilities/AnswerSupportDialog/answer-support.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "mat-form-field,mat-chip{\r\n    width: 100%\r\n}"
+
+/***/ }),
+
+/***/ "./src/app/utilities/BlackListDialog/BlackListDialog.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/utilities/BlackListDialog/BlackListDialog.ts ***!
+  \**************************************************************/
+/*! exports provided: BlackListDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlackListDialog", function() { return BlackListDialog; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_user_blackList_black_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/user/blackList/black-list.service */ "./src/app/services/user/blackList/black-list.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+var BlackListDialog = /** @class */ (function () {
+    function BlackListDialog(dialogRef, blacklist, data) {
+        this.dialogRef = dialogRef;
+        this.blacklist = blacklist;
+        this.data = data;
+        // inquire variables
+        this.playeropts = [
+            { value: '0', name: 'ID' },
+            { value: '1', name: 'Screen Name' }
+        ];
+        this.optionValue = '1';
+        this.searchValue = 'player31';
+        this.playerDoesNotExist = false;
+        this.reason = '';
+        //block player variables
+        this.isAlreadyBlocked = false;
+        //dialog variables
+        this.blacklistmode = [false, false, false];
+        this.isLoading = false;
+        this.blacklistmode = this.data.blacklistmode;
+        if (this.blacklistmode) {
+            if (this.blacklistmode[1]) {
+                this.optionValue = '0';
+                this.searchValue = this.data.value;
+                this.userInquire();
+            }
+            else {
+                console.log('blacklistmode is empty');
+            }
+        }
+        else {
+            console.log('blacklistmode is empty');
+        }
+    }
+    BlackListDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    BlackListDialog.prototype.blacklistUser = function () {
+        var _this = this;
+        if (this.inquireResult[0].UserName, this.reason) {
+            this.blacklist.blacklistUser(this.inquireResult[0].UserName, this.reason)
+                .subscribe(function (result) {
+                if (result) {
+                    _this.blacklistmode = [false, false, true];
+                    _this.inquireResult[0].newStatus = 'Blocked';
+                }
+            }, function (error) {
+                console.log(error['status']);
+                if (error['status'] == '404') {
+                    _this.isAlreadyBlocked = true;
+                    alert('not registered user or already in black list ');
+                }
+            });
+        }
+        else {
+            console.log('invalid credentials');
+        }
+    };
+    BlackListDialog.prototype.userInquire = function () {
+        var _this = this;
+        this.isLoading = true;
+        this.blacklist.userInquire2(this.optionValue, this.searchValue)
+            .subscribe(function (result) {
+            _this.isLoading = false;
+            if (result != undefined && result != false) {
+                _this.inquireResult = result;
+                _this.blacklistmode = [false, true, false];
+            }
+            else {
+                _this.playerDoesNotExist = true;
+                console.log(result);
+            }
+        }, function (error) {
+            console.log(error['status']);
+            console.log(error);
+            alert('something went wrong');
+        });
+    };
+    BlackListDialog.prototype.releaseUser = function () {
+        var _this = this;
+        this.blacklist.releaseUser(this.inquireResult[0].UserName)
+            .subscribe(function (result) {
+            console.log(result);
+            if (result) {
+                _this.blacklistmode = [false, false, true];
+                _this.inquireResult[0].newStatus = 'Released';
+            }
+        }, function (error) {
+            if (error['status'] == '404') {
+                alert('something went wrong');
+            }
+        });
+    };
+    BlackListDialog.prototype.back = function () {
+        this.searchValue = '';
+        this.inquireResult = null;
+        this.reason = '';
+        this.blacklistmode = [true, false, false];
+    };
+    BlackListDialog.prototype.cancel = function () {
+        var _this = this;
+        this.dialogRef.close();
+        this.dialogRef.afterClosed().subscribe(function () {
+            _this.searchValue = '';
+            _this.inquireResult = null;
+            _this.reason = '';
+            _this.blacklistmode = [false, false, false];
+            _this.isLoading = false;
+        });
+    };
+    BlackListDialog.prototype.test = function () {
+        console.log(this.reason);
+    };
+    BlackListDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./black-list-dialog.html */ "./src/app/utilities/BlackListDialog/black-list-dialog.html"),
+        }),
+        __param(2, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"],
+            _services_user_blackList_black_list_service__WEBPACK_IMPORTED_MODULE_2__["BlackListService"], Object])
+    ], BlackListDialog);
+    return BlackListDialog;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/BlackListDialog/black-list-dialog.html":
+/*!******************************************************************!*\
+  !*** ./src/app/utilities/BlackListDialog/black-list-dialog.html ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\r\n<h1 mat-dialog-title>\r\n    blacklist&nbsp;player&nbsp;\r\n    <span *ngIf=\"blacklistmode[0]\">-&nbsp;inquire</span>\r\n    <span *ngIf=\"blacklistmode[1]\">-&nbsp;register</span>\r\n</h1>\r\n<mat-divider></mat-divider>\r\n<div mat-dialog-content>\r\n    <div *ngIf=\"isLoading\" style=\"display: flex; justify-content:center\">\r\n        <mat-spinner color=\"accent\"></mat-spinner>\r\n    </div>\r\n    <!-- user inquire -->\r\n    <div *ngIf=\"blacklistmode[0] && !isLoading\">\r\n    \r\n        <mat-grid-list cols=\"9\" rowHeight=\"70px\">\r\n            <!-- select -->\r\n            <mat-grid-tile colspan=\"3\" rowspan=\"1\">\r\n                <mat-form-field style=\"width:100%; margin:5px;\">\r\n                    <mat-select [(value)]=\"optionValue\">\r\n                        <mat-option *ngFor=\"let p of playeropts\" [value]=\"p.value\">{{p.name}}</mat-option>\r\n                    </mat-select>\r\n                </mat-form-field>\r\n            </mat-grid-tile>\r\n            <!-- text -->\r\n            <mat-grid-tile colspan=\"4\" rowspan=\"1\">\r\n                <mat-form-field style=\"width:100%; margin:5px;\">\r\n                    <input matInput [(ngModel)]=\"searchValue\">\r\n                </mat-form-field>\r\n            </mat-grid-tile>\r\n            <!-- button -->\r\n            <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n                <button mat-mini-fab\r\n                        color=\"primary\" \r\n                        style=\"margin:5px;\"\r\n                        (click)=\"userInquire()\"><mat-icon>search</mat-icon></button>\r\n            </mat-grid-tile>\r\n        </mat-grid-list>\r\n        \r\n        <h3 *ngIf=\"playerDoesNotExist\" style=\"color:red; text-align: center;\">player does not exist or already blocked</h3>\r\n\r\n    </div>\r\n\r\n    <!-- user info and reason -->\r\n    <div *ngIf=\"blacklistmode[1] && !isLoading\">\r\n        <mat-chip-list style=\"margin:10px;\">\r\n            <mat-chip disableRipple=\"true\"><mat-icon>credit_card</mat-icon>ID : <strong>{{inquireResult[0]?.UserName}}</strong></mat-chip>\r\n            <mat-chip disableRipple=\"true\"><mat-icon>person</mat-icon>ID : <strong>{{inquireResult[0]?.ScreenName}}</strong></mat-chip>\r\n            <mat-chip disableRipple=\"true\"><mat-icon>info</mat-icon>Status : <strong>{{inquireResult[0]?.newStatus}}</strong></mat-chip>\r\n        </mat-chip-list>\r\n        <h3 *ngIf=\"isAlreadyBlocked\" style=\"color:red; text-align: center;\">already in black list</h3>\r\n        <div *ngIf=\"inquireResult[0]?.newStatus != 'Blocked'\">\r\n            <mat-form-field style=\"width:100%;\" >\r\n                <textarea   matInput\r\n                            maxRows=\"4\"\r\n                            enabled=\"false\" \r\n                            placeholder=\"reason\"\r\n                            style=\"height:50px\"\r\n                            [(ngModel)]=\"reason\"></textarea>\r\n            </mat-form-field>\r\n            <button mat-raised-button\r\n                    color=\"warn\"\r\n                    style=\"width:100%\"\r\n                    (click)=\"blacklistUser()\">blacklist player <mat-icon>lock</mat-icon></button>\r\n        </div>\r\n        <button *ngIf=\"inquireResult[0]?.newStatus == 'Blocked'\"\r\n                mat-raised-button\r\n                color=\"primary\"\r\n                style=\"width:100%\"\r\n                (click)=\"releaseUser()\">release player <mat-icon>lock_open</mat-icon></button>\r\n    </div>\r\n\r\n    <!-- response message -->\r\n    <div *ngIf=\"blacklistmode[2] && !isLoading\">\r\n        <mat-chip-list style=\"margin:10px;\">\r\n            <mat-chip disableRipple=\"true\"><mat-icon>credit_card</mat-icon>ID : <strong>{{inquireResult[0]?.UserName}}</strong></mat-chip>\r\n            <mat-chip disableRipple=\"true\"><mat-icon>person</mat-icon>ID : <strong>{{inquireResult[0]?.ScreenName}}</strong></mat-chip>\r\n            <mat-chip disableRipple=\"true\"><mat-icon>info</mat-icon>Status : <strong>{{inquireResult[0]?.newStatus}}</strong></mat-chip>\r\n        </mat-chip-list>\r\n\r\n        <mat-divider></mat-divider>\r\n        <p style=\"text-align: center\" >\r\n            <mat-icon>done</mat-icon>\r\n            <br>\r\n            <strong style=\"font-size: 30px; color:red;\">SUCCESSFUL</strong>\r\n        </p>\r\n    </div>\r\n</div>\r\n\r\n<div mat-dialog-actions style=\"display: flex; justify-content:flex-end\">\r\n    <button mat-flat-button\r\n            *ngIf=\"blacklistmode[1] && !isLoading\"\r\n            color=\"accent\"\r\n            style=\"margin-right: 5px;\"\r\n            (click)=\"back()\">back</button>\r\n    <button mat-flat-button\r\n            color=\"accent\"\r\n            (click)=\"cancel()\">\r\n            <span *ngIf=\"blacklistmode[2]\">ok</span>\r\n            <span *ngIf=\"!blacklistmode[2]\">cancel</span></button>\r\n</div>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/utilities/NoResultBottomSheet/NoResultBottomSheet2.ts ***!
+  \***********************************************************************/
+/*! exports provided: NoResultBottomSheet2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoResultBottomSheet2", function() { return NoResultBottomSheet2; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+var NoResultBottomSheet2 = /** @class */ (function () {
+    function NoResultBottomSheet2(data) {
+        this.data = data;
+    }
+    NoResultBottomSheet2 = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./no-result-bottom-sheet2.html */ "./src/app/utilities/NoResultBottomSheet/no-result-bottom-sheet2.html")
+        }),
+        __param(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
+        __metadata("design:paramtypes", [Object])
+    ], NoResultBottomSheet2);
+    return NoResultBottomSheet2;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/NoResultBottomSheet/no-result-bottom-sheet2.html":
+/*!****************************************************************************!*\
+  !*** ./src/app/utilities/NoResultBottomSheet/no-result-bottom-sheet2.html ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p style=\"text-align: center;\">\r\n    <mat-icon color=\"warn\">warning</mat-icon>\r\n    <br>\r\n    <br>\r\n    <strong style=\"font-size: 50px; color:crimson\">no results found</strong>\r\n</p>\r\n<mat-list>\r\n    <mat-list-item *ngFor=\"let d of data\">\r\n        <mat-icon matListIcon>{{d.icon}}</mat-icon>\r\n        <h3 matLine><strong>{{d.column}} : </strong>{{d.value}}</h3>\r\n        <h3 *ngIf=\"!d.value\" matLine><mat-error>empty</mat-error></h3></mat-list-item>\r\n</mat-list>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/utilities/SettingsDialog/SettingsDialog.ts":
+/*!************************************************************!*\
+  !*** ./src/app/utilities/SettingsDialog/SettingsDialog.ts ***!
+  \************************************************************/
+/*! exports provided: SettingsDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SettingsDialog", function() { return SettingsDialog; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/common/common.service */ "./src/app/services/common/common.service.ts");
+/* harmony import */ var _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/user-credentials.service */ "./src/app/services/user-credentials.service.ts");
+/* harmony import */ var _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/settings/settings.service */ "./src/app/services/settings/settings.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+// services
+
+
+
+var SettingsDialog = /** @class */ (function () {
+    function SettingsDialog(dialogRef, data, 
+    // services
+    commonSrvc, userCredentialsSrvc, settingsSrvc) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+        this.commonSrvc = commonSrvc;
+        this.userCredentialsSrvc = userCredentialsSrvc;
+        this.settingsSrvc = settingsSrvc;
+        this.nightMode = false;
+        this.volume = 100;
+        this.settingsSrvc.isDarkTheme.next(this.nightMode);
+    }
+    SettingsDialog.prototype.close = function () {
+        this.dialogRef.close();
+    };
+    SettingsDialog.prototype.logout = function () {
+        this.close();
+        this.userCredentialsSrvc.emitUserCredentials(null);
+        this.commonSrvc.logout();
+    };
+    SettingsDialog.prototype.themeChanged = function () {
+        this.settingsSrvc.isDarkTheme.next(this.nightMode);
+    };
+    SettingsDialog.prototype.volumeChanged = function () {
+        this.settingsSrvc.mastervolume.next(this.volume);
+        this.settingsSrvc.notifAudio();
+    };
+    SettingsDialog = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./settings-dialog.html */ "./src/app/utilities/SettingsDialog/settings-dialog.html"),
+            styles: [__webpack_require__(/*! ./settings-dialog.css */ "./src/app/utilities/SettingsDialog/settings-dialog.css")]
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"], Object, _services_common_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"],
+            _services_user_credentials_service__WEBPACK_IMPORTED_MODULE_3__["UserCredentialsService"],
+            _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_4__["SettingsService"]])
+    ], SettingsDialog);
+    return SettingsDialog;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/SettingsDialog/settings-dialog.css":
+/*!**************************************************************!*\
+  !*** ./src/app/utilities/SettingsDialog/settings-dialog.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".background{\r\n    background-color: rgba(255, 255, 255, 0);\r\n}\r\n\r\n.toggle{\r\n    font-size: 15px;\r\n}\r\n\r\n.grid-tile{\r\n    position: absolute;\r\n    left:10px;\r\n}"
+
+/***/ }),
+
+/***/ "./src/app/utilities/SettingsDialog/settings-dialog.html":
+/*!***************************************************************!*\
+  !*** ./src/app/utilities/SettingsDialog/settings-dialog.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<mat-grid-list cols=\"2\" rowHeight=\"40px\">\r\n    <!-- nightmode toggle -->\r\n    <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n        <mat-slide-toggle   class=\"grid-tile\" \r\n                            color=\"accent\"\r\n                            [(ngModel)]=\"nightMode\" \r\n                            [checked]=\"nightMode\"\r\n                            (change)=\"themeChanged()\"><span class=\"toggle\">Dark theme</span></mat-slide-toggle>\r\n    </mat-grid-tile>\r\n\r\n    <!-- bet sound toggle -->\r\n    <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n        <mat-slide-toggle class=\"grid-tile\" color=\"accent\"><span class=\"toggle\">Bet sound</span></mat-slide-toggle>\r\n    </mat-grid-tile>\r\n\r\n    <!-- deposit sound toggle -->\r\n    <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n        <mat-slide-toggle class=\"grid-tile\" color=\"accent\"><span class=\"toggle\">Deposit sound</span></mat-slide-toggle>\r\n    </mat-grid-tile>\r\n\r\n    <!-- volume slider -->\r\n    <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n        <mat-slider matTooltip=\"volume\" \r\n                    matTooltipPosition=\"left\" \r\n                    style=\"width:100%\"\r\n                    step=\"1\" \r\n                    [value]=\"volume\"\r\n                    [(ngModel)]=\"volume\"\r\n                    (change)=\"volumeChanged()\" \r\n                    color=\"primary\">volume</mat-slider>\r\n    </mat-grid-tile>\r\n\r\n   <!-- logout button  -->\r\n    <mat-grid-tile colspan=\"2\" rowspan=\"1\">\r\n        <button mat-button \r\n                style=\"width:100%; text-align: left\"\r\n                (click)=\"logout()\" ><mat-icon>exit_to_app</mat-icon>&nbsp;Sign out</button>\r\n    </mat-grid-tile>        \r\n</mat-grid-list>"
 
 /***/ }),
 
@@ -5923,9 +6557,9 @@ var BlackListService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 var environment = {
-    production: true,
-    // apiUrl : 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com',
-    apiUrl: 'http://192.168.254.100:8080',
+    production: false,
+    apiUrl: 'https://tester-holdem-server.4b63.pro-ap-southeast-2.openshiftapps.com',
+    // apiUrl : 'http://192.168.254.101:8080',
     resultLimit: 20,
     updateTime: 3000,
     updateTimeDashboard: 3000,
@@ -5934,7 +6568,8 @@ var environment = {
     ifSearchVariableEmpty: '(((',
     tokenStorageKey: '1sh422133123kms123j122336668354b88548',
     enableLogin: true,
-    koreanStartUp: false
+    koreanStartUp: false,
+    pageSizeOptions: [25, 50, 100]
 };
 
 
@@ -6003,8 +6638,41 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\Users\Mpotech-Echo\Desktop\Projects\holdem\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Mpotech-Echo\Desktop\admin\src\main.ts */"./src/main.ts");
 
+
+/***/ }),
+
+/***/ 1:
+/*!********************!*\
+  !*** fs (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 2:
+/*!************************!*\
+  !*** crypto (ignored) ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 3:
+/*!************************!*\
+  !*** stream (ignored) ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ })
 
